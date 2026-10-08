@@ -1,6 +1,8 @@
 = Programación didáctica · Taller de Relaciones Digitales Responsables
 :description: Programación didáctica de Taller de Relaciones Digitales Responsables (1.º ESO). IES Font de Sant Lluís. Curso 2026-2027.
 :lang: es
+:plantilla: eso
+:nivel: 1.º ESO
 :orden: 3
 :titulo-corto: Taller de Relaciones Digitales Responsables
 :etapa: ESO · 1.º
@@ -27,16 +29,6 @@
 :grupo-propio: grupo desdoblado de 18 alumnos y alumnas
 // Quita la línea «:borrador:» cuando la programación esté terminada.
 
-[.portada]
-****
-{departamento} +
-*1.º ESO*
-
-Programación didáctica de +
-*{modulo}*
-
-Curso {curso} · Docente: {docente}
-****
 
 == Introducción
 
@@ -70,7 +62,7 @@ ____
 _*Objetivos:* logros que se espera que el alumnado haya conseguido al finalizar la etapa y cuya consecución está vinculada a la adquisición de las competencias clave._
 ____
 
-[width="100%",cols="100%",]
+[role="t-obj",width="100%",cols="100%",]
 |===
 |*OBJETIVOS ETAPA SECUNDARIA*
 |*Obj.1.* Asumir responsablemente sus *deberes,* conocer y ejercer sus *derechos* en el respeto a los otros, practicar la tolerancia, la cooperación y la solidaridad entre las personas y grupos, ejercitarse en el diálogo afianzando los derechos humanos como valores comunes de una sociedad plural y prepararse para el ejercicio de la ciudadanía democrática.
@@ -95,7 +87,7 @@ ____
 _*Competencias clave*: desempeños que se consideran imprescindibles para que el alumnado pueda progresar con garantías de éxito en su itinerario formativo, y afrontar los principales retos y desafíos globales y locales._
 ____
 
-[width="100%",cols="100%",]
+[role="t-cc",width="100%",cols="100%",]
 |===
 a|
 ____
@@ -114,7 +106,7 @@ ____
 
 *[.underline]#Porcentajes de las competencias clave por nivel educativo#*
 
-[width="100%",cols="16%,12%,12%,12%,12%,12%,12%,12%",options="header",]
+[role="t-pct",width="100%",cols="16%,12%,12%,12%,12%,12%,12%,12%",options="header",]
 |===
 |*DEPARTAMENTO: INFORMÁTICA* | | | | | | |
 |*NIVEL: 1ESO* | | | | | | |
@@ -130,7 +122,7 @@ _*Perfil de salida*: fija las competencias clave que el alumnado tiene que haber
 Trabajaremos las competencias clave en cada situación de aprendizaje con el pensamiento crítico, la resolución de problemas, el trabajo en equipo, las capacidades de comunicación y negociación, las capacidades analíticas, la creatividad y las capacidades interculturales, para aproximarse a situaciones, cuestiones y problemas de la vida cotidianas.
 ____
 
-[width="100%",cols="21%,79%",]
+[role="t-desc",width="100%",cols="21%,79%",]
 |===
 |*COMPETENCIA CLAVE* |*DESCRIPTORES*
 |*CCL* Competencia en comunicación lingüística. a|
@@ -219,7 +211,7 @@ ____
 _*Competencias específicas:* desempeños que el alumnado debe poder desplegar en actividades o en situaciones cuyo abordaje requiere de los saberes básicos de cada materia o ámbito. Su desarrollo se tiene que producir mediante las situaciones de aprendizaje contextualizadas en las que cada alumno o alumna tendrá que resolver._
 ____
 
-[width="100%",cols="100%",]
+[role="t-ce",width="100%",cols="100%",]
 |===
 a|
 *COMPETENCIAS ESPECÍCAS 1.º ESO*
@@ -234,7 +226,7 @@ a|
 
 *Relación entre las competencias clave y las competencias específicas por nivel.*
 
-[width="100%",cols="12%,11%,11%,11%,11%,11%,11%,11%,11%",options="header",]
+[role="t-rel",width="100%",cols="12%,11%,11%,11%,11%,11%,11%,11%,11%",options="header",]
 |===
 |*1.º ESO* |CCL |CP |CMCT |CD |CPSAA |CC |CE |CCEC
 |CE1 | | |X |X | | | |
@@ -249,7 +241,7 @@ ____
 _*Criterios de evaluación:* referentes que indican los niveles de desempeño esperados en el alumnado en las situaciones o actividades de aprendizaje que requieren el despliegue de las competencias específicas de cada materia o ámbito en un momento determinado de su proceso de aprendizaje._
 ____
 
-[width="100%",cols="22%,78%",]
+[role="t-crit",width="100%",cols="22%,78%",]
 |===
 |COMPETENCIAS ESPECÍFICAS a|
 *CRITERIOS DE EVALUACIÓN 1.º ESO*
@@ -306,7 +298,7 @@ ____
 _Saberes básicos: conocimientos, destrezas y actitudes que constituyen los *contenidos* propios de una materia o un ámbito cuyo aprendizaje es necesario para adquirir las competencias específicas._
 ____
 
-[width="100%",cols="100%",]
+[role="t-sab",width="100%",cols="100%",]
 |===
 |*1.º ESO SABERES BÁSICOS-CONTENIDOS*
 a|
@@ -522,7 +514,7 @@ La autoevaluación de la práctica docente es un proceso continuo y reflexivo. E
 
 *1.º ESO*
 
-[width="100%",cols="100%",options="header",]
+[role="t-aula",width="100%",cols="100%",options="header",]
 |===
 a|
 *Programación de aula de la asignatura*
@@ -558,7 +550,7 @@ El taller es eminentemente práctico: el objetivo es que el alumnado *sepa hacer
 
 Se trabaja con situaciones ficticias siempre que se tratan datos personales, identidad digital o convivencia en la red. *Nunca se introducen contraseñas reales* en las actividades y *no se investigan perfiles reales* de compañeros o compañeras.
 
-Hay dos sesiones semanales. La distribución de las unidades a lo largo del curso figura en la tabla de temporización del apartado de unidades didácticas.
+Hay dos sesiones semanales. La distribución de las unidades por evaluaciones figura en el apartado de unidades didácticas.
 
 === Evaluación y criterios de calificación
 
@@ -626,7 +618,7 @@ No se califica individualmente cada ejercicio. Todo el trabajo realizado durante
 |Apartado |Qué se observa |Puntos
 |*Completa* |Está al día durante todo el trimestre y recoge todas las actividades, siguiendo rigurosamente las indicaciones dadas en clase. |4
 |*Correcta y demuestra comprensión* |Las actividades están bien resueltas y muestran que se han entendido los conceptos. |3
-|*Organizada y clara* |Está aseada, ordenada y es legible. |1
+|*Organizada y clara* |Está organizada y es clara. |1
 |*Revisa y mejora* |Incorpora las correcciones y mejora el trabajo a partir de las indicaciones. |1
 |===
 
@@ -672,7 +664,7 @@ Se realiza una media de evaluaciones, por lo que para la nota final se evaluará
 
 |===
 
-La relación de cada unidad con su evaluación, sus sesiones y sus competencias específicas figura en la tabla de temporización de las unidades didácticas.
+La relación de cada unidad con su evaluación y sus competencias específicas figura en la tabla de organización de las unidades didácticas.
 
 === Medidas de respuesta educativa para la inclusión
 
@@ -707,29 +699,29 @@ ____
 
 El curso se organiza en once unidades didácticas y una actividad especial de programación vinculada a la visita a la UPV. Cada unidad parte de situaciones cercanas al alumnado y termina con su registro en la libreta OneNote, que se convierte en la evidencia de todo el trimestre.
 
-==== Temporización
+==== Organización por evaluaciones
 
-[cols="2,4,2,1,2",options="header"]
+[cols="2,4,2",options="header"]
 |===
-|Evaluación |Unidad |Periodo |Sesiones |Competencias específicas
+|Evaluación |Unidad |Competencias específicas
 
 .5+|Primera
-|UD1 · Mi ordenador y mis archivos |Final de septiembre – octubre |4-5 |CE1, CE2
-|UD2 · Internet y la Web |Octubre |5 |CE1
-|UD3 · Seguridad digital |Noviembre |6 |CE1, CE3, CE4
-|UD4 · Buscar información |Final de noviembre – diciembre |4 |CE2
-|Especial · Programación y visita a la UPV |Diciembre |2 + visita |CE2
+|UD1 · Mi ordenador y mis archivos |CE1, CE2
+|UD2 · Internet y la Web |CE1
+|UD3 · Seguridad digital |CE1, CE3, CE4
+|UD4 · Buscar información |CE2
+|Especial · Programación y visita a la UPV |CE2
 
 .3+|Segunda: _Aprendo a manejar la información digital_
-|UD5 · Buscar bien en Internet |Enero |5-6 |CE2
-|UD6 · ¿Verdad o mentira? |Final de enero – febrero |6-7 |CE2
-|UD7 · Crear contenidos digitales |Febrero – marzo |6 |CE2
+|UD5 · Buscar bien en Internet |CE2
+|UD6 · ¿Verdad o mentira? |CE2
+|UD7 · Crear contenidos digitales |CE2
 
 .4+|Tercera: _Yo y los demás en Internet_
-|UD8 · Mi identidad y mi huella digital |Abril |5-6 |CE3
-|UD9 · Redes sociales y convivencia digital |Final de abril – mayo |6-7 |CE4
-|UD10 · Bienestar digital |Mayo |4 |CE1, CE4
-|UD11 · Mi vida digital |Junio |4 |CE1, CE2, CE3, CE4
+|UD8 · Mi identidad y mi huella digital |CE3
+|UD9 · Redes sociales y convivencia digital |CE4
+|UD10 · Bienestar digital |CE1, CE4
+|UD11 · Mi vida digital |CE1, CE2, CE3, CE4
 |===
 
 ==== Primera evaluación
@@ -738,7 +730,6 @@ El curso se organiza en once unidades didácticas y una actividad especial de pr
 
 [cols="1h,4"]
 |===
-|Temporización |Final de septiembre – octubre · 4-5 sesiones
 |Criterios de evaluación |1.1 · 2.5
 |Saberes básicos |Bloque 1: dispositivos, sistemas operativos y aplicaciones. Bloque 2: organización de la información; operaciones básicas con archivos y carpetas.
 |Conceptos esenciales |Hardware, software, periféricos, sistema operativo, archivo, carpeta, extensión, almacenamiento local y en la nube.
@@ -751,7 +742,6 @@ El curso se organiza en once unidades didácticas y una actividad especial de pr
 
 [cols="1h,4"]
 |===
-|Temporización |Octubre · 5 sesiones
 |Criterios de evaluación |1.1 · 1.2 · 1.3
 |Saberes básicos |Bloque 1: redes de dispositivos; fundamentos y modos de acceso a Internet; la brecha digital.
 |Conceptos esenciales |Red, Internet, wifi, router, web, navegador, buscador, URL, enlace, nube.
@@ -763,7 +753,6 @@ El curso se organiza en once unidades didácticas y una actividad especial de pr
 
 [cols="1h,4"]
 |===
-|Temporización |Noviembre · 6 sesiones
 |Criterios de evaluación |1.5 · 3.3 · 3.4 · 4.4
 |Saberes básicos |Bloque 1: hábitos básicos de seguridad para proteger los dispositivos. Bloque 3: privacidad y protección de los datos personales. Bloque 4: riesgos y amenazas, fraudes.
 |Conceptos esenciales |Contraseña y contraseña segura, verificación en dos pasos, malware, virus, phishing, actualizaciones, copia de seguridad, datos personales.
@@ -776,7 +765,6 @@ El curso se organiza en once unidades didácticas y una actividad especial de pr
 
 [cols="1h,4"]
 |===
-|Temporización |Final de noviembre – diciembre · 4 sesiones
 |Criterios de evaluación |2.1
 |Saberes básicos |Bloque 2: tipos de buscadores y herramientas de filtrado; selección de información; propiedad intelectual.
 |Conceptos esenciales |Buscador, palabras clave, fuente, resultado patrocinado, información fiable.
@@ -788,12 +776,11 @@ El curso se organiza en once unidades didácticas y una actividad especial de pr
 
 [cols="1h,4"]
 |===
-|Temporización |Diciembre · 2 sesiones y la visita
 |Criterios de evaluación |2.6
 |Saberes básicos |Bloque 2: creación básica de contenidos con herramientas digitales.
 |Conceptos mínimos |Programa, programar, algoritmo, instrucción, Scratch, programación mediante bloques.
-|Sesión 1 · ¿Qué es programar? |Actividad «Programa a tu profesora»: el alumnado escribe instrucciones para que la docente realice una acción sencilla. La docente las interpreta literalmente, de modo que el grupo descubre la necesidad de dar instrucciones precisas.
-|Sesión 2 · Primer contacto con Scratch |Objetivo mínimo: personaje → bloques → movimiento → mensaje.
+|¿Qué es programar? |Actividad «Programa a tu profesora»: el alumnado escribe instrucciones para que la docente realice una acción sencilla. La docente las interpreta literalmente, de modo que el grupo descubre la necesidad de dar instrucciones precisas.
+|Primer contacto con Scratch |Objetivo mínimo: personaje → bloques → movimiento → mensaje.
 |Visita a la UPV |Taller de iniciación a Scratch.
 |Producto |Página de OneNote «Mi visita a la UPV»: qué hicimos, qué aprendí, qué me resultó sencillo o difícil y qué me gustaría programar.
 |Orientaciones |No es una unidad curricular extensa. Antes de la salida no se imparte programación formal.
@@ -805,7 +792,6 @@ El curso se organiza en once unidades didácticas y una actividad especial de pr
 
 [cols="1h,4"]
 |===
-|Temporización |Enero · 5-6 sesiones
 |Criterios de evaluación |2.1 · 2.4
 |Saberes básicos |Bloque 2: selección de información contrastando su veracidad; lectura e interpretación de información de medios digitales.
 |Conceptos esenciales |Estrategia de búsqueda, palabras clave, fuente primaria y secundaria (a nivel muy básico), autor, fecha, contrastar información.
@@ -817,7 +803,6 @@ El curso se organiza en once unidades didácticas y una actividad especial de pr
 
 [cols="1h,4"]
 |===
-|Temporización |Final de enero – febrero · 6-7 sesiones
 |Criterios de evaluación |2.1 · 2.2 · 2.3 · 2.4
 |Saberes básicos |Bloque 2: detección de noticias falsas, bulos y discursos de odio; implicaciones sociales.
 |Conceptos esenciales |Desinformación, bulo, fake news, clickbait, manipulación, fuente, verificación.
@@ -830,7 +815,6 @@ El curso se organiza en once unidades didácticas y una actividad especial de pr
 
 [cols="1h,4"]
 |===
-|Temporización |Febrero – marzo · 6 sesiones
 |Criterios de evaluación |2.5 · 2.6
 |Saberes básicos |Bloque 2: propiedad intelectual y derechos de autoría; creación básica de contenidos; estética y lenguaje audiovisual.
 |Conceptos |Documento digital, formato, imagen, presentación, derechos de autor, licencia, autoría, plagio.
@@ -845,7 +829,6 @@ El curso se organiza en once unidades didácticas y una actividad especial de pr
 
 [cols="1h,4"]
 |===
-|Temporización |Abril · 5-6 sesiones
 |Criterios de evaluación |3.1 · 3.2 · 3.3 · 3.4
 |Saberes básicos |Bloque 3: identidad personal en Internet, huella digital, conductas para cuidar la identidad digital, privacidad y protección de datos.
 |Conceptos esenciales |Identidad digital, huella digital, datos personales, privacidad, reputación digital.
@@ -858,7 +841,6 @@ El curso se organiza en once unidades didácticas y una actividad especial de pr
 
 [cols="1h,4"]
 |===
-|Temporización |Final de abril – mayo · 6-7 sesiones
 |Criterios de evaluación |4.1 · 4.2 · 4.3 · 4.4 · 4.6
 |Saberes básicos |Bloque 4: entornos digitales de intercambio social, ciberconvivencia y etiqueta digital, ventajas de las interacciones en red, riesgos (ciberacoso y fraudes).
 |Conceptos |Red social, perfil, privacidad, algoritmo de recomendación (de forma muy básica), netiqueta, ciberacoso, bloqueo, denuncia.
@@ -870,7 +852,6 @@ El curso se organiza en once unidades didácticas y una actividad especial de pr
 
 [cols="1h,4"]
 |===
-|Temporización |Mayo · 4 sesiones
 |Criterios de evaluación |1.4 · 4.5
 |Saberes básicos |Bloque 1: implicaciones del uso de los dispositivos para la salud. Bloque 4: adicciones (tecnoadicción, nomofobia).
 |Conceptos esenciales |Tiempo de pantalla, ergonomía, descanso, notificaciones, uso equilibrado, hábitos digitales.
@@ -883,7 +864,6 @@ El curso se organiza en once unidades didácticas y una actividad especial de pr
 
 [cols="1h,4"]
 |===
-|Temporización |Junio · 4 sesiones
 |Criterios de evaluación |Integra criterios de CE1, CE2, CE3 y CE4.
 |Finalidad |Cierre de la libreta. Prácticamente no se introduce teoría nueva. El alumnado repasa el recorrido del curso: Teams y OneNote → ordenador → Internet → seguridad → información → contenidos → identidad → convivencia → bienestar.
 |Situación integradora |«Un día en la vida digital de Alex»: durante un día, Alex descarga un archivo, recibe un mensaje sospechoso, busca información para un trabajo, publica una foto, recibe un comentario desagradable… El alumnado detecta los problemas y toma decisiones.

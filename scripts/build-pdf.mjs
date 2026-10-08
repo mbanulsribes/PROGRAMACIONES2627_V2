@@ -21,17 +21,13 @@ try {
     await page.goto(pathToFileURL(path.join(dist, slug, 'index.html')).href, {waitUntil: 'load'});
     await page.emulateMedia({media: 'print'});
     await page.evaluate(() => document.fonts.ready);
-    const titulo = await page.evaluate(() => document.querySelector('#header h1')?.textContent ?? '');
+    // Tamaño, márgenes, cabecera y pie salen del CSS (@page), como en la plantilla.
     await page.pdf({
       path: path.join(dist, slug, `${slug}.pdf`),
-      format: 'A4',
-      margin: {top: '16mm', right: '15mm', bottom: '18mm', left: '15mm'},
+      preferCSSPageSize: true,
       printBackground: true,
       tagged: true,
-      outline: true,
-      displayHeaderFooter: true,
-      headerTemplate: '<span></span>',
-      footerTemplate: `<div style="width:100%;margin:0 15mm;font-family:Arial,sans-serif;font-size:8px;color:#57687d;display:flex;justify-content:space-between"><span>${titulo.replace(/[<>&]/g, '')}</span><span><span class="pageNumber"></span> / <span class="totalPages"></span></span></div>`
+      outline: true
     });
     console.log(`PDF: ${slug}/${slug}.pdf`);
   }

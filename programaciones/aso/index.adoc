@@ -1,6 +1,10 @@
 = Programación didáctica · 0374 Administración de Sistemas Operativos
 :description: Programación del módulo 0374 Administración de Sistemas Operativos (ASO), 2.º ASIR, IES Font de Sant Lluís. Curso 2026-2027.
 :lang: es
+:plantilla: fp
+:ciclo-tipo: Ciclo Formativo de Grado Superior
+:ciclo-nombre: Administración de Sistemas Informáticos en Red
+:cabecera: 2.º ASIR: Administración de Sistemas Operativos
 :orden: 1
 :titulo-corto: Administración de Sistemas Operativos (ASO)
 :etapa: FP · 2.º ASIR
@@ -31,16 +35,6 @@
 // Para enlazar cada UP con el manual del alumnado, descomenta y ajusta la línea siguiente:
 // :web-aso: https://USUARIO.github.io/ASO/
 
-[.portada]
-****
-{departamento} +
-*{ciclo}*
-
-Programación didáctica del módulo +
-*{modulo}*
-
-Curso {curso} · 2.º curso · Docente: {docente} · Versión {version}
-****
 
 == Propuestas de mejora y modificaciones respecto a la versión anterior
 

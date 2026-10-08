@@ -1,6 +1,10 @@
 = Programación didáctica · 0228 Aplicaciones Ofimáticas
 :description: Programación didáctica de 0228 Aplicaciones Ofimáticas (CFGM Sistemas Microinformáticos y Redes (SMR) · 1.º curso). IES Font de Sant Lluís. Curso 2026-2027.
 :lang: es
+:plantilla: fp
+:ciclo-tipo: Ciclo Formativo de Grado Medio
+:ciclo-nombre: Sistemas Microinformáticos y Redes
+:cabecera: 1.º SMR: Aplicaciones Ofimáticas
 :orden: 2
 :titulo-corto: Aplicaciones Ofimáticas (AOF)
 :etapa: FP · 1.º SMR
@@ -26,16 +30,6 @@
 :docente: María Bañuls Ribes
 // Quita la línea «:borrador:» cuando la programación esté terminada.
 
-[.portada]
-****
-{departamento} +
-*CFGM Sistemas Microinformáticos y Redes (SMR) · 1.º curso*
-
-Programación didáctica de +
-*{modulo}*
-
-Curso {curso} · Docente: {docente}
-****
 
 == Propuestas de mejora y modificaciones respecto a la versión anterior
 

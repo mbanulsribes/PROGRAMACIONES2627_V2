@@ -33,10 +33,41 @@ for (const slug of slugs) {
   });
   const pdf = `${slug}.pdf`;
   const borrador = doc.hasAttribute('borrador');
+  const plantilla = doc.getAttribute('plantilla') === 'eso' ? 'eso' : 'fp';
+  const a = k => esc(doc.getAttribute(k) || '');
+  const curso = doc.getAttribute('curso') || '2026-2027';
+  const cursoBarra = curso.replace('-', '/');
+
+  // Portada según la plantilla del departamento
+  const portada = plantilla === 'fp'
+    ? `<section class="portada-doc fp">
+<div class="logos"><img src="../assets/img/gva-cultura.png" alt="Generalitat Valenciana"><div class="instituto"><img src="../assets/img/ies-font-f.png" alt=""><span>INSTITUT D’EDUCACIÓ SECUNDÀRIA<b>IES FONT DE SANT LLUÍS</b></span></div><img src="../assets/img/ue-fse.png" alt="Unión Europea · Fondo Social Europeo"></div>
+<p class="dep">${a('departamento') || 'Departamento de Informática'}</p>
+<p class="ciclo-tipo">${a('ciclo-tipo')}:</p>
+<p class="ciclo-nombre">${a('ciclo-nombre')}</p>
+<div class="caja"><p>Programación Didáctica del Módulo:</p><p class="modulo">${a('modulo')}</p><p class="curso">(Curso ${esc(curso)})</p></div>
+<p class="profesor">Profesora: ${a('docente')}</p>
+</section>`
+    : `<section class="portada-doc eso">
+<div class="logos"><img src="../assets/img/gva-ocupacio.png" alt="Generalitat Valenciana"><img src="../assets/img/ies-font.png" alt="IES Font de Sant Lluís"></div>
+<p class="dep">${a('departamento') || 'Departamento de Informática'}</p>
+<div class="caja"><p>PROGRAMACIÓN DIDÁCTICA</p><p>${a('nivel')}</p><p class="materia">${a('modulo').toUpperCase()}</p><p class="curso">(Curso ${esc(curso)})</p></div>
+<p class="profesor">Profesora: ${a('docente')}</p>
+</section>`;
+
+  // Cabecera de página de la plantilla (impresión y PDF)
+  const cabecera = plantilla === 'fp'
+    ? `@top-left{content:"${(doc.getAttribute('cabecera') || '').replace(/"/g, '')}";font:10pt Arial,sans-serif;color:#EE0000}
+       @top-right{content:"Curso: ${cursoBarra}";font:10pt Arial,sans-serif;color:#000}`
+    : `@top-left{content:"Propuesta didáctica departamento Informática";font:italic 10pt Arial,sans-serif;color:#000}
+       @top-right{content:"Curso: ${cursoBarra}";font:italic 10pt Arial,sans-serif;color:#000}`;
+  const estilo = `<style>@page{${cabecera}}@page:first{@top-left{content:none}@top-right{content:none}}</style>`;
+
   const barra = `<nav class="barra"><a href="../index.html">← Todas las programaciones</a>${borrador ? '<span class="sello">En preparación</span>' : ''}<span class="hueco"></span><a href="${pdf}" download>Descargar PDF</a><button type="button" onclick="window.print()">Imprimir</button></nav>`;
-  const pie = `<footer class="pie"><span>${esc(doc.getAttribute('modulo') || doc.getDocumentTitle())} · Curso ${esc(doc.getAttribute('curso'))}</span><a href="index.adoc" download>Fuente AsciiDoc</a></footer>`;
+  const pie = `<footer class="pie"><span>${esc(doc.getAttribute('modulo') || doc.getDocumentTitle())} · Curso ${esc(curso)}</span><a href="index.adoc" download>Fuente AsciiDoc</a></footer>`;
   const html = doc.convert()
-    .replace(/<body([^>]*)>/, `<body$1>\n${barra}`)
+    .replace('</head>', `${estilo}\n</head>`)
+    .replace(/<body class="([^"]*)">/, (m, c) => `<body class="${c} ${plantilla}">\n${barra}\n${portada}`)
     .replace('</body>', `${pie}\n</body>`);
   const target = path.join(out, slug);
   fs.mkdirSync(target, {recursive: true});

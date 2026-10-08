@@ -1,6 +1,8 @@
 = Programación didáctica · Programación, Inteligencia Artificial y Robótica II
 :description: Programación didáctica de Programación, Inteligencia Artificial y Robótica II (3.º ESO). IES Font de Sant Lluís. Curso 2026-2027.
 :lang: es
+:plantilla: eso
+:nivel: 3.º ESO
 :orden: 5
 :titulo-corto: Programación, Inteligencia Artificial y Robótica II
 :etapa: ESO · 3.º
@@ -27,16 +29,6 @@
 :grupo-propio: grupo desdoblado de 18 alumnos y alumnas
 // Quita la línea «:borrador:» cuando la programación esté terminada.
 
-[.portada]
-****
-{departamento} +
-*3.º ESO*
-
-Programación didáctica de +
-*{modulo}*
-
-Curso {curso} · Docente: {docente}
-****
 
 == Introducción
 
@@ -70,7 +62,7 @@ ____
 _*Objetivos:* logros que se espera que el alumnado haya conseguido al finalizar la etapa y cuya consecución está vinculada a la adquisición de las competencias clave._
 ____
 
-[width="100%",cols="100%",]
+[role="t-obj",width="100%",cols="100%",]
 |===
 |*OBJETIVOS ETAPA SECUNDARIA*
 |*Obj.1.* Asumir responsablemente sus *deberes,* conocer y ejercer sus *derechos* en el respeto a los otros, practicar la tolerancia, la cooperación y la solidaridad entre las personas y grupos, ejercitarse en el diálogo afianzando los derechos humanos como valores comunes de una sociedad plural y prepararse para el ejercicio de la ciudadanía democrática.
@@ -95,7 +87,7 @@ ____
 _*Competencias clave*: desempeños que se consideran imprescindibles para que el alumnado pueda progresar con garantías de éxito en su itinerario formativo, y afrontar los principales retos y desafíos globales y locales._
 ____
 
-[width="100%",cols="100%",]
+[role="t-cc",width="100%",cols="100%",]
 |===
 a|
 ____
@@ -114,7 +106,7 @@ ____
 
 *[.underline]#Porcentajes de las competencias clave por nivel educativo#*
 
-[width="100%",cols="16%,12%,12%,12%,12%,12%,12%,12%",options="header",]
+[role="t-pct",width="100%",cols="16%,12%,12%,12%,12%,12%,12%,12%",options="header",]
 |===
 |*DEPARTAMENTO: INFORMÁTICA* | | | | | | |
 |*NIVEL: 3ESO* | | | | | | |
@@ -130,7 +122,7 @@ _*Perfil de salida*: fija las competencias clave que el alumnado tiene que haber
 Trabajaremos las competencias clave en cada situación de aprendizaje con el pensamiento crítico, la resolución de problemas, el trabajo en equipo, las capacidades de comunicación y negociación, las capacidades analíticas, la creatividad y las capacidades interculturales, para aproximarse a situaciones, cuestiones y problemas de la vida cotidianas.
 ____
 
-[width="100%",cols="21%,79%",]
+[role="t-desc",width="100%",cols="21%,79%",]
 |===
 |*COMPETENCIA CLAVE* |*DESCRIPTORES*
 |*CCL* Competencia en comunicación lingüística. a|
@@ -219,7 +211,7 @@ ____
 _*Competencias específicas:* desempeños que el alumnado debe poder desplegar en actividades o en situaciones cuyo abordaje requiere de los saberes básicos de cada materia o ámbito. Su desarrollo se tiene que producir mediante las situaciones de aprendizaje contextualizadas en las que cada alumno o alumna tendrá que resolver._
 ____
 
-[width="100%",cols="100%",]
+[role="t-ce",width="100%",cols="100%",]
 |===
 a|
 ____
@@ -236,7 +228,7 @@ ____
 
 *Relación entre las competencias clave y las competencias específicas por nivel.*
 
-[width="100%",cols="12%,11%,11%,11%,11%,11%,11%,11%,11%",options="header",]
+[role="t-rel",width="100%",cols="12%,11%,11%,11%,11%,11%,11%,11%,11%",options="header",]
 |===
 |*2.ºY 3.º ESO* |CCL |CP |CMCT |CD |CPSAA |CC |CE |CCEC
 |CE1 |X |X |X |X |X | | |
@@ -251,7 +243,7 @@ ____
 _*Criterios de evaluación:* referentes que indican los niveles de desempeño esperados en el alumnado en las situaciones o actividades de aprendizaje que requieren el despliegue de las competencias específicas de cada materia o ámbito en un momento determinado de su proceso de aprendizaje._
 ____
 
-[width="100%",cols="22%,78%",]
+[role="t-crit",width="100%",cols="22%,78%",]
 |===
 |COMPETENCIAS ESPECÍFICAS a|
 ____
@@ -314,7 +306,7 @@ ____
 _Saberes básicos: conocimientos, destrezas y actitudes que constituyen los *contenidos* propios de una materia o un ámbito cuyo aprendizaje es necesario para adquirir las competencias específicas._
 ____
 
-[width="100%",cols="100%",]
+[role="t-sab",width="100%",cols="100%",]
 |===
 a|
 ____
@@ -526,7 +518,7 @@ La autoevaluación de la práctica docente es un proceso continuo y reflexivo. E
 
 *3.º ESO*
 
-[width="100%",cols="100%",options="header",]
+[role="t-aula",width="100%",cols="100%",options="header",]
 |===
 a|
 *Programación de aula de la asignatura*
@@ -623,19 +615,30 @@ ____
 
 === Instrumentos de evaluación
 
-[width="100%",cols="18%,64%,18%",options="header",]
+La nota de cada evaluación se obtiene de:
+
+[cols="3,1,1",options="header"]
 |===
-| |*INSTRUMENTOS DE EVALUACIÓN* |*CRITERIOS DE CALIFICACIÓN*
-|1ª Evaluación |Prueba de conocimientos teóricos y prácticos. |50%
-| |Trabajos realizados en clase y en casa. |40%
-| |Participación, responsabilidad y colaboración en actividades individuales y grupales |10%
-|2ª Evaluación |Prueba de conocimientos teóricos y prácticos. |50%
-| |Trabajos realizados en clase y en casa. |40%
-| |Participación, responsabilidad y colaboración en actividades individuales y grupales |10%
-|3ª Evaluación |Prueba de conocimientos teóricos y prácticos. |50%
-| |Trabajos realizados en clase y en casa. |40%
-| |Participación, responsabilidad y colaboración en actividades individuales y grupales |10%
+|Instrumento |Peso |Puntos
+|*Ejercicios evaluables.* Proyectos y tareas evaluables, siempre individuales. |90 % |hasta 9
+|*Hábitos de trabajo y responsabilidad* |10 % |hasta 1
 |===
+
+.¿Cómo se valora el punto de hábitos de trabajo y responsabilidad?
+[cols="2,4,1",options="header"]
+|===
+|Apartado |Qué se observa |Puntos
+|*Cuida el material* |Utiliza correctamente el equipo, respeta los archivos ajenos y deja el puesto recogido. |hasta 0,25
+|*Respeta a las personas* |Se dirige con respeto, escucha y permite trabajar sin interrupciones ni burlas. |hasta 0,25
+|*Trabaja durante la clase* |Comienza la actividad, dedica el tiempo a las tareas y solicita ayuda cuando la necesita. |hasta 0,25
+|*Revisa y mejora* |Comprueba sus resultados, atiende las indicaciones e intenta corregir sus errores. |hasta 0,25
+|===
+
+Cada apartado se valora con *0,25 puntos* si se demuestra habitualmente, *0,125 puntos* si se demuestra de forma irregular y necesita recordatorios, o *0 puntos* si todavía no se demuestra pese a las oportunidades y apoyos.
+
+Se tiene en cuenta el seguimiento durante toda la evaluación. Pedir ayuda, trabajar a un ritmo diferente o necesitar adaptaciones no reduce la puntuación.
+
+*Los ejercicios evaluables son individuales.*
 
 === Criterios de calificación
 
@@ -661,7 +664,7 @@ NOTA POR EVALUACIÓN
 a|
 Cada actividad se evaluará con su *rúbrica* específica atendiendo a los *criterios de calificación consensuados para las rúbricas*
 
-Cada evaluación tendrá una nota, resultado de aplicar los porcentajes establecidos en los instrumentos de evaluación. La nota será una proyección del esfuerzo y consecución del trabajo de esa evaluación.
+Cada evaluación tendrá una nota, resultado de aplicar los porcentajes establecidos en los instrumentos de evaluación: ejercicios evaluables (90 %) y hábitos de trabajo y responsabilidad (10 %). La nota será una proyección del esfuerzo y consecución del trabajo de esa evaluación.
 
 a|
 NOTA FINAL
@@ -683,7 +686,7 @@ La evaluación de
 las actividades se realizará de la siguiente manera:
 ____
 
-[width="100%",cols="24%,6%,22%,13%,15%,11%,9%",options="header",]
+[role="t-sa",width="100%",cols="24%,6%,22%,13%,15%,11%,9%",options="header",]
 |===
 |*SITUACIONES DE APRENDIZAJE POR EVALUACIÓN* | | | | | |
 |*Situaciones de aprendizaje* |*Eval.* |*Instrumentos de evaluación* |*Competencias clave* |*Competencias específicas* |*Porcentaje* |*Nº Sesion.*
@@ -807,7 +810,7 @@ Uno de los objetivos de las situaciones de aprendizaje es conseguir que el alumn
 Las actividades desarrolladas en la presente programación cumplen con las situaciones de aprendizaje propuestas en este curso.
 ____
 
-[width="100%",cols="22%,39%,8%,1%,6%,4%,4%,6%,2%,8%",options="header",]
+[role="t-sa",width="100%",cols="22%,39%,8%,1%,6%,4%,4%,6%,2%,8%",options="header",]
 |===
 |Curso académico: 2026-2027 |Materia: PROGRAMACIÓN, INTELIGENCIA ARTIFICIAL Y ROBÓTICA II |Nivel: 3.º ESO | | | |Grupo: desdoble de 18 | | |
 a|
@@ -973,7 +976,7 @@ Referidas en el apartado 10 de la presente programación.
 | | | | | | | |
 |===
 
-[width="100%",cols="22%,39%,8%,1%,6%,4%,4%,6%,2%,8%",options="header",]
+[role="t-sa",width="100%",cols="22%,39%,8%,1%,6%,4%,4%,6%,2%,8%",options="header",]
 |===
 |Curso académico: 2026-2027 |Materia: PROGRAMACIÓN, INTELIGENCIA ARTIFICIAL Y ROBÓTICA II |Nivel: 3.º ESO | | | |Grupo: desdoble de 18 | | |
 a|
@@ -1147,7 +1150,7 @@ Referidas en el apartado 10 de la presente programación.
 | | | | | | | |
 |===
 
-[width="100%",cols="22%,39%,8%,1%,6%,4%,4%,6%,2%,8%",options="header",]
+[role="t-sa",width="100%",cols="22%,39%,8%,1%,6%,4%,4%,6%,2%,8%",options="header",]
 |===
 |Curso académico: 2026-2027 |Materia: PROGRAMACIÓN, INTELIGENCIA ARTIFICIAL Y ROBÓTICA II |Nivel: 3.º ESO | | | |Grupo: desdoble de 18 | | |
 a|

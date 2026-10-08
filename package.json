@@ -1,0 +1,15 @@
+{
+  "name": "programaciones-2026-2027",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "pdf": "node scripts/build-pdf.mjs"
+  },
+  "dependencies": {
+    "@asciidoctor/core": "3.0.4"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

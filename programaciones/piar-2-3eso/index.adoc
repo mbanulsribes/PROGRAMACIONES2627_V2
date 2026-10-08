@@ -1,0 +1,1308 @@
+= Programación didáctica · Programación, Inteligencia Artificial y Robótica II
+:description: Programación didáctica de Programación, Inteligencia Artificial y Robótica II (3.º ESO). IES Font de Sant Lluís. Curso 2026-2027.
+:lang: es
+:orden: 5
+:titulo-corto: Programación, Inteligencia Artificial y Robótica II
+:etapa: ESO · 3.º
+:resumen: Materia de 3.º de ESO.
+:borrador:
+:toc: left
+:toc-title: Sumario
+:toclevels: 2
+:sectnums:
+:sectnumlevels: 2
+:sectanchors:
+:idprefix:
+:idseparator: -
+:note-caption: Nota
+:important-caption: Importante
+:tip-caption: Consejo
+:warning-caption: Atención
+:caution-caption: Precaución
+:centro: IES Font de Sant Lluís (València)
+:departamento: Departamento de Informática
+:modulo: Programación, Inteligencia Artificial y Robótica II
+:curso: 2026-2027
+:docente: María Bañuls Ribes
+:grupo-propio: grupo desdoblado de 18 alumnos y alumnas
+// Quita la línea «:borrador:» cuando la programación esté terminada.
+
+[.portada]
+****
+{departamento} +
+*3.º ESO*
+
+Programación didáctica de +
+*{modulo}*
+
+Curso {curso} · Docente: {docente}
+****
+
+== Introducción
+
+____
+El Instituto de Educación Secundaria Fuente de San Luis situado en la calle Hermanos Maristas n.º 25, fue creado en 1978 y renovado e inaugurado oficialmente el 18 de julio de 2005, siendo uno de los centros más modernos de la Comunidad Valenciana. Se encuentra entre dos zonas significativamente diferenciadas. La zona colindante por el este es una de las zonas más modernas y de mayor desarrollo urbano y de servicios de la ciudad de Valencia cercana a la Ciudad de las Artes y las Ciencias. El resto de las zonas que abarca el IES son muy heterogéneas, donde conviven familias de diferentes etnias y clases sociales muy diversas.
+
+Debido a la cercanía de los *conservatorios de música municipal y superior y de la ciudad deportiva* de la Font de Sant Lluís, se llevan a cabo convenios de colaboración con dichas entidades para recibir alumnado deportista de élite y alumnado de conservatorio, aplicándose una *coordinación horaria* para facilitar el desarrollo de sus actividades.
+
+Esto da lugar a un alumnado heterogéneo, lo cual es muy enriquecedor para todo el centro, que se ve envuelto en un *ambiente cultural rico* y donde la cultura del esfuerzo es parte de su día a día.
+
+Desde el centro se trabaja por el proceso de *adaptación y aprendizaje de todos* los alumnos. Para ello se aplican recursos para garantizar la respuesta a las distintas necesidades educativas con personal especializado en Pedagogía Terapéutica.
+
+Además, se emplean técnicas de aprendizaje basado en *proyectos y ámbitos.*
+
+Además de la ESO y Bachillerato, en el IES Font de Sant Lluís se imparten también enseñanzas de Formación Profesional. Concretamente, las familias de informática e imagen y sonido. Intentamos mejorar día a día la calidad de la formación que impartimos, contando con profesores especialistas y cursos adicionales de especialización en la rama de informática, como, por ejemplo, Linux Essentials, Cisco Networking o Amazon Web Services.
+____
+
+== Justificación de la programación didáctica
+
+____
+El departamento de informática aboga por una programación didáctica diversa y flexible donde se proponen metodologías y situaciones de aprendizaje con las que poder trabajar las competencias clave y específicas, que marcarán el perfil de salida del alumnado y lo preparan para ejercer una ciudadanía responsable, de una forma inclusiva y comprometida con el entorno social y medioambiental.
+
+Todas las programaciones del departamento de informática se ajustan a los currículos oficiales.
+
+Desde todos los organismos se aboga por una formación que prepare al alumno para la vida y su futuro laboral, es por ello por lo que desde el departamento se da un enfoque a las situaciones de aprendizaje que despierten su pensamiento, con el objetivo que adquieran las competencias digitales necesarias para desenvolverse a nivel educativo y a nivel social.
+____
+
+== Objetivos de la etapa de Secundaria
+
+____
+_*Objetivos:* logros que se espera que el alumnado haya conseguido al finalizar la etapa y cuya consecución está vinculada a la adquisición de las competencias clave._
+____
+
+[width="100%",cols="100%",]
+|===
+|*OBJETIVOS ETAPA SECUNDARIA*
+|*Obj.1.* Asumir responsablemente sus *deberes,* conocer y ejercer sus *derechos* en el respeto a los otros, practicar la tolerancia, la cooperación y la solidaridad entre las personas y grupos, ejercitarse en el diálogo afianzando los derechos humanos como valores comunes de una sociedad plural y prepararse para el ejercicio de la ciudadanía democrática.
+|*Obj.2. Desarrollar* y consolidar *hábitos de disciplina, estudio y trabajo individual y en equipo* como condición necesaria para una realización eficaz de las tareas del aprendizaje y como medio de desarrollo personal.
+|*Obj.3.* Valorar y respetar las diferencias de géneros y *la igualdad* de derechos y oportunidades entre ellos. Rechazar los estereotipos que suponen discriminación entre hombres y mujeres.
+|*Obj.4.* Fortalecer sus capacidades afectivas en todos los ámbitos de la personalidad y en sus relaciones con los otros, así como rechazar la violencia, los prejuicios de cualquier tipo, los comportamientos sexistas y resolver pacíficamente los conflictos.
+|*Obj.5*. Desarrollar destrezas básicas en la utilización de las fuentes de información para, con sentido crítico, adquirir nuevos conocimientos. Desarrollar las *competencias tecnológicas* básicas y avanzar en una reflexión ética sobre su funcionamiento y utilización.
+|*Obj.6.* Concebir el *conocimiento científico* como un saber integrado, que se estructura en diferentes disciplinas, así como conocer y aplicar los métodos para identificar los problemas en los diversos campos del conocimiento y de la experiencia.
+|*Obj.7.* Desarrollar el espíritu emprendedor y la confianza en sí mismo, la participación, el sentido crítico, la iniciativa personal y la *capacidad para aprender a aprender, planificar, tomar decisiones y asumir responsabilidades.*
+|*Obj.8.* *Comprender y expresar* con corrección, oralmente y por escrito, en las *lenguas* oficiales, el valenciano como lengua propia y el castellano como lengua cooficial, textos y mensajes complejos, e iniciarse en el conocimiento, *la lectura* y el estudio de la literatura.
+|*Obj.9*. Comprender y expresarse en una o más l**enguas extranjeras** de manera apropiada.
+|*Obj.10.* Conocer, valorar y respetar los aspectos básicos de la cultura y la historia propias y de los demás, incluyendo las lenguas familiares, así como el patrimonio artístico y cultural, como muestra del multilingüismo y de la *multiculturalidad* del mundo, que también se tiene que valorar y respetar.
+|*Obj.11*. Conocer y aceptar el funcionamiento del propio cuerpo y el de los demás, respetar las diferencias, afianzar los hábitos de atención y *salud* corporales e incorporar la *educación física y la práctica del deporte* para favorecer el desarrollo personal y social. Conocer y valorar la dimensión humana de la sexualidad en toda su diversidad.
+|*Obj.12*. Valorar críticamente los *hábitos sociales* relacionados con la salud, el *consumo, el cuidado, la empatía y el respeto* hacia los seres vivos, especialmente *los animales, y el medio ambiente*, y contribuir así a su conservación y mejora.
+|*Obj.13.* Apreciar la *creación artística* y comprender el lenguaje de las diferentes manifestaciones artísticas, utilizando varios medios de expresión y representación.
+|*Obj.14.* Tomar conciencia de las *problemáticas* que tiene planteadas la humanidad y que se concretan en los *Objetivos de Desarrollo Sostenible*.
+|===
+
+== Competencias clave de la etapa
+
+____
+_*Competencias clave*: desempeños que se consideran imprescindibles para que el alumnado pueda progresar con garantías de éxito en su itinerario formativo, y afrontar los principales retos y desafíos globales y locales._
+____
+
+[width="100%",cols="100%",]
+|===
+a|
+____
+*COMPETENCIAS CLAVES*
+____
+
+|*CCL* Competencia en comunicación lingüística.
+|*CP* Competencia plurilingüe.
+|*CMCT* Competencia matemática y competencia en ciencia, tecnología e ingeniería.
+|*CD* Competencia digital.
+|*CPSAA* Competencia personal, social y de aprender a aprender.
+|*CC* Competencia ciudadana.
+|*CE* Competencia emprendedora.
+|*CCE* Competencia en conciencia y expresión culturales
+|===
+
+*[.underline]#Porcentajes de las competencias clave por nivel educativo#*
+
+[width="100%",cols="16%,12%,12%,12%,12%,12%,12%,12%",options="header",]
+|===
+|*DEPARTAMENTO: INFORMÁTICA* | | | | | | |
+|*NIVEL: 3ESO* | | | | | | |
+|*CCL* |*CP* |*CMCT* |*CD* |*CPSAA* |*CC* |*CE* |*CCE*
+|5 % |5 % |20 % |45 % |15 % |5 % |5 % |0 %
+|===
+
+== Descriptores operativos de las competencias clave. Perfil de salida
+
+____
+_*Perfil de salida*: fija las competencias clave que el alumnado tiene que haber logrado y desarrollado al finalizar la educación básica._
+
+Trabajaremos las competencias clave en cada situación de aprendizaje con el pensamiento crítico, la resolución de problemas, el trabajo en equipo, las capacidades de comunicación y negociación, las capacidades analíticas, la creatividad y las capacidades interculturales, para aproximarse a situaciones, cuestiones y problemas de la vida cotidianas.
+____
+
+[width="100%",cols="21%,79%",]
+|===
+|*COMPETENCIA CLAVE* |*DESCRIPTORES*
+|*CCL* Competencia en comunicación lingüística. a|
+*CCL1*. Se expresa de forma oral, escrita, signada o multimodal con coherencia, corrección y adecuación a los diferentes contextos sociales, y participa en interacciones comunicativas con actitud cooperativa y respetuosa tanto para intercambiar información, crear conocimiento y transmitir opiniones, como para construir vínculos personales.
+
+*CCL2*. Comprende, interpreta y valora con actitud crítica textos orales, escritos, signados o multimodales de los ámbitos personal, social, educativo y profesional para participar en diferentes contextos de manera activa e informada y para construir conocimiento
+
+*CCL3*. Localiza, selecciona y contrasta de manera progresivamente autónoma información procedente de diferentes fuentes, evaluando su fiabilidad y pertinencia en función de los objetivos de lectura y evitando los riesgos de manipulación y desinformación, y la integra y transforma en conocimiento para comunicarla adoptando un punto de vista creativo, crítico y personal a la par que respetuoso con la propiedad intelectual.
+
+*CCL4*. Lee con autonomía obras diversas adecuadas a su edad, seleccionando las que mejor se ajustan a sus gustos e intereses; aprecia el patrimonio literario como cauce privilegiado de la experiencia individual y colectiva; y moviliza su propia experiencia biográfica y sus conocimientos literarios y culturales para construir y compartir su interpretación de las obras y para crear textos de intención literaria de progresiva complejidad.
+
+*CCL5*. Pone sus prácticas comunicativas al servicio de la convivencia democrática, la resolución dialogada de los conflictos y la igualdad de derechos de todas las personas, evitando los usos discriminatorios, así como los abusos de poder, para favorecer la utilización no solo eficaz sino también ética de los diferentes sistemas de comunicación.
+
+|*CP* Competencia plurilingüe. a|
+*CP1*. Usa eficazmente una o más lenguas, además de la lengua o lenguas familiares, para responder a sus necesidades comunicativas, de manera apropiada y adecuada tanto a su desarrollo e intereses como a diferentes situaciones y contextos de los ámbitos personal, social, educativo y profesional.
+
+*CP2*. A partir de sus experiencias, realiza transferencias entre distintas lenguas como estrategia para comunicarse y ampliar su repertorio lingüístico individual.
+
+*CP3*. Conoce, valora y respeta la diversidad lingüística y cultural presente en la sociedad, integrándola en su desarrollo personal como actor de diálogo, para fomentar la cohesión social.
+
+|*CMCT* Competencia matemática y competencia en ciencia, tecnología e ingeniería. a|
+*STEM1*. Utiliza métodos inductivos y deductivos propios del razonamiento matemático en situaciones conocidas, y selecciona y emplea diferentes estrategias para resolver problemas analizando críticamente las soluciones y reformulando el procedimiento, si fuera necesario.
+
+*STEM2*. Utiliza el pensamiento científico para entender y explicar los fenómenos que ocurren a su alrededor, confiando en el conocimiento como motor de desarrollo, planteándose preguntas y comprobando hipótesis mediante la experimentación y la indagación, utilizando herramientas e instrumentos adecuados, apreciando la importancia de la precisión y la veracidad y mostrando una actitud crítica acerca del alcance y las limitaciones de la ciencia.
+
+*STEM3*. Plantea y desarrolla proyectos diseñando, fabricando y evaluando diferentes prototipos o modelos para generar o utilizar
+
+productos que den solución a una necesidad o problema de forma creativa y en equipo, procurando la participación de todo el grupo, resolviendo pacíficamente los conflictos que puedan surgir, adaptándose ante la incertidumbre y valorando la importancia de la sostenibilidad.
+
+*STEM4*. Interpreta y transmite los elementos más relevantes de procesos, razonamientos, demostraciones, métodos y resultados científicos, matemáticos y tecnológicos de forma clara y precisa y en diferentes formatos (gráficos, tablas, diagramas, fórmulas, esquemas, símbolos...), aprovechando de forma crítica la cultura digital e incluyendo el lenguaje matemático formal con ética y responsabilidad, para compartir y construir nuevos conocimientos.
+
+*STEM5*. Emprende acciones fundamentadas científicamente para promover la salud física, mental y social, y preservar el medio ambiente y los seres vivos; y aplica principios de ética y seguridad en la realización de proyectos para transformar su entorno próximo de forma sostenible, valorando su impacto global y practicando el consumo responsable.
+
+|*CD* Competencia digital. a|
+*CD1*. Realiza búsquedas en internet atendiendo a criterios de validez dez, calidad, actualidad y fiabilidad, seleccionando los resultados de manera crítica y archivándolos, para recuperarlos, referenciarlos y reutilizarlos, respetando la propiedad intelectual
+
+*CD2*. Gestiona y utiliza su entorno personal digital de aprendizaje para construir conocimiento y crear contenidos digitales, mediante estrategias de tratamiento de la información y el uso de diferentes herramientas digitales, seleccionando y configurando la más adecuada en función de la tarea y de sus necesidades de aprendizaje permanente.
+
+*CD3*. Se comunica, participa, colabora e interactúa compartiendo contenidos, datos e información mediante herramientas o plataformas virtuales, y gestiona de manera responsable sus acciones, presencia y visibilidad en la red, para ejercer una ciudadanía digital activa, cívica y reflexiva.
+
+*CD4*. Identifica riesgos y adopta medidas preventivas al usar las tecnologías digitales para proteger los dispositivos, los datos personales, la salud y el medioambiente, y para tomar conciencia de la importancia y necesidad de hacer un uso crítico, legal, seguro, saludable y sostenible de dichas tecnologías.
+
+*CD5*. Desarrolla aplicaciones informáticas sencillas y soluciones tecnológicas creativas y sostenibles para resolver problemas concretos o responder a retos propuestos, mostrando interés y curiosidad por la evolución de las tecnologías digitales y por su desarrollo sostenible y uso ético.
+
+|*CPSAA* Competencia personal, social y de aprender a aprender. a|
+*CPSAA1*. Regula y expresa sus emociones, fortaleciendo el optimismo, la resiliencia, la autoeficacia y la búsqueda de propósito y motivación hacia el aprendizaje, para gestionar los retos y cambios y armonizarlos con sus propios objetivos.
+
+*CPSAA2*. Comprende los riesgos para la salud relacionados con factores sociales, consolida estilos de vida saludable a nivel físico y mental, reconoce conductas contrarias a la convivencia y aplica estrategias para abordarlas.
+
+*CPSAA3*. Comprende proactivamente las perspectivas y las experiencias de las demás personas y las incorpora a su aprendizaje, para participar en el trabajo en grupo, distribuyendo y aceptando tareas y responsabilidades de manera equitativa y empleando estrategias cooperativas
+
+*CPSAA4*. Realiza autoevaluaciones sobre su proceso de aprendizaje, buscando fuentes fiables para validar, sustentar y contrastar la información y para obtener conclusiones relevantes
+
+*CPSAA5*. Planea objetivos a medio plazo y desarrolla procesos metacognitivos de retroalimentación para aprender de sus errores en el proceso de
+
+|*CC* Competencia ciudadana. a|
+*CC1*. Analiza y comprende ideas relativas a la dimensión social y ciudadana de su propia identidad, así como a los hechos culturales, históricos y normativos que la determinan, demostrando respeto por las normas, empatía, equidad y espíritu constructivo en la interacción con los demás en cualquier contexto.
+
+*CC2*. Analiza y asume fundadamente los principios y valores que emanan del proceso de integración europea, la Constitución española y los derechos humanos y de la infancia, participando en actividades comunitarias, como la toma de decisiones o la resolución de conflictos, con actitud democrática, respeto por la diversidad, y compromiso con la igualdad de género, la cohesión social, el desarrollo sostenible y el logro de la ciudadanía mundial.
+
+*CC3*. Comprende y analiza problemas éticos fundamentales y de actualidad, considerando críticamente los valores propios y ajenos, y desarrollando juicios propios para afrontar la controversia moral con actitud dialogante, argumentativa, respetuosa y opuesta a cualquier tipo de discriminación o violencia.
+
+*CC4*. Comprende las relaciones sistémicas de interdependencia, eco dependencia e interconexión entre actuaciones locales y globales, y adopta, de forma consciente y motivada, un estilo de vida sostenible y eco socialmente responsable.
+
+|*CE* Competencia emprendedora. a|
+*CE1*. Analiza necesidades y oportunidades y afronta retos con sentido crítico, haciendo balance de su sostenibilidad, valorando el impacto que puedan suponer en el entorno, para presentar ideas y soluciones innovadoras, éticas y sostenibles, dirigidas a crear valor en el ámbito personal, social, educativo y profesional.
+
+*CE2*. Evalúa las fortalezas y debilidades propias, haciendo uso de estrategias de autoconocimiento y autoeficacia, y comprende los elementos fundamentales de la economía y las finanzas, aplicando conocimientos económicos y financieros a actividades y situaciones concretas, utilizando destrezas que favorezcan el trabajo colaborativo y en equipo, para reunir y optimizar los recursos necesarios que lleven a la acción una experiencia emprendedora que genere valor.
+
+*CE3*. Desarrolla el proceso de creación de ideas y soluciones valiosas y toma decisiones, de manera razonada, utilizando estrategias ágiles de planificación y gestión, y reflexiona sobre el proceso realizado y el resultado obtenido, para llevar a término el proceso de creación de prototipos innovadores y de valor, considerando la experiencia como una oportunidad para aprender.
+
+|*CCE* Competencia en conciencia y expresión culturales a|
+*CCEC1*. Conoce, aprecia críticamente y respeta el patrimonio cultural y artístico, implicándose en su conservación y valorando el enriquecimiento inherente a la diversidad cultural y artística
+
+*CCEC2*. Disfruta, reconoce y analiza con autonomía las especificidades e intencionalidades de las manifestaciones artísticas y culturales más destacadas del patrimonio, distinguiendo los medios y soportes, así como los lenguajes y elementos técnicos que las caracterizan.
+
+*CCEC3*. Expresa ideas, opiniones, sentimientos y emociones por medio de producciones culturales y artísticas, integrando su propio cuerpo y desarrollando la autoestima, la creatividad y el sentido del lugar que ocupa en la sociedad, con una actitud empática, abierta y colaborativa.
+
+*CCEC4*. Conoce, selecciona y utiliza con creatividad diversos medios y soportes, así como técnicas plásticas, visuales, audiovisuales, sonoras o corporales, para la creación de productos artísticos y culturales, tanto de forma individual como colaborativa, identificando oportunidades de desarrollo personal, social y laboral, así como de emprendimiento.
+
+|===
+
+== Competencias específicas
+
+____
+_*Competencias específicas:* desempeños que el alumnado debe poder desplegar en actividades o en situaciones cuyo abordaje requiere de los saberes básicos de cada materia o ámbito. Su desarrollo se tiene que producir mediante las situaciones de aprendizaje contextualizadas en las que cada alumno o alumna tendrá que resolver._
+____
+
+[width="100%",cols="100%",]
+|===
+a|
+____
+*COMPETENCIAS ESPECÍFICAS 3.º ESO*
+
+*PROGRAMACIÓN, INTELIGENCIA ARTIFICIAL Y ROBÓTICA II*
+____
+
+|*CE1-Competencia específica 1:* Identificar, investigar y emplear técnicas de inteligencia artificial y virtualización de la realidad en el abordaje y la búsqueda de soluciones a problemas básicos de la sociedad valorando los principios éticos e inclusivos aplicados.
+|*CE2-Competencia específica 2:* Aplicar el pensamiento computacional en el análisis y resolución de problemas básicos significativos para el alumnado mediante el desarrollo de software.
+|*CE3-Competencia específica 3*: Montar sistemas robóticos sencillos, analizando las respuestas que proporcionan en su interacción con el entorno y valorando la eficacia de estas frente a los retos planteados.
+|*CE4-Competencia específica 4:* Afrontar retos tecnológicos sencillos y proponer soluciones mediante la programación, la Inteligencia Artificial y la robótica, analizando las posibilidades y valorando críticamente las implicaciones éticas y eco sociales.
+|===
+
+*Relación entre las competencias clave y las competencias específicas por nivel.*
+
+[width="100%",cols="12%,11%,11%,11%,11%,11%,11%,11%,11%",options="header",]
+|===
+|*2.ºY 3.º ESO* |CCL |CP |CMCT |CD |CPSAA |CC |CE |CCEC
+|CE1 |X |X |X |X |X | | |
+|CE2 |X | |X |X |X | | |
+|CE3 | | |X |X |X | | |
+|CE4 | | |X |X |X |X |X |
+|===
+
+== Criterios de evaluación por competencia específica
+
+____
+_*Criterios de evaluación:* referentes que indican los niveles de desempeño esperados en el alumnado en las situaciones o actividades de aprendizaje que requieren el despliegue de las competencias específicas de cada materia o ámbito en un momento determinado de su proceso de aprendizaje._
+____
+
+[width="100%",cols="22%,78%",]
+|===
+|COMPETENCIAS ESPECÍFICAS a|
+____
+*3.º ESO CRITERIOS DE EVALUACIÓN*
+
+*Programación, inteligencia artificial y robótica II*
+____
+
+|*CE1* a|
+1.1. Identificar el funcionamiento de técnicas de IA.
+
+1.2. Investigar situaciones donde se aplican técnicas de IA.
+
+1.3. Valorar criterios éticos aplicados a las funciones de IA.
+
+1.4. Emplear funciones de IA en aplicaciones sencillas siguiendo criterios éticos e inclusivos para buscar soluciones a problemas básicos.
+
+1.5 Emplear técnicas sencillas de virtualización de la realidad.
+
+|*CE2* a|
+2.1. Analizar problemas básicos significativos para el alumnado, mediante el uso de las estructuras de control más adecuadas.
+
+2.2. Evaluar y mantener las aplicaciones informáticas desarrolladas por el propio alumnado.
+
+2.3. Planificar de forma autónoma la solución de problemas básicos, utilizando los algoritmos y las estructuras de datos más adecuados.
+
+2.4. Programar aplicaciones sencillas multiplataforma de manera autónoma para resolver problemas básicos.
+
+2.5. Aplicar y respetar los derechos de autoría, licencias de derechos y explotación durante la creación de software.
+
+|*CE3* a|
+3.1. Montar robots de mayor complejidad empleando sensores, actuadores y otros operadores.
+
+3.2. Conectar, transferir y validar la ejecución del programa de control seleccionado al robot.
+
+3.3. Seleccionar los módulos de entrada y salida para montar robots sencillos, que sean capaces de realizar tareas de forma autónoma.
+
+3.4. Analizar y evaluar la eficacia de la interacción del robot con el entorno.
+
+3.5. Programar instrucciones sencillas multiplataforma de manera autónoma para controlar un robot programable.
+
+3.6. Controlar el robot por parte del usuario en tiempo real y de forma remota.
+
+|*CE4* a|
+4.1. Planificar tareas sencillas, crear estructuras de equipos de trabajo, distribuir funciones y responsabilidades de las personas integrantes y colaborar proactivamente en el desarrollo de soluciones digitales y tecnológicas.
+
+4.2. Valorar la importancia de la Inteligencia Artificial, la programación y la robótica como elementos disruptores de la transformación social, cultural y científica actuales
+
+4.3. Diseñar soluciones utilizando la programación, la Inteligencia artificial y la robótica eligiendo la opción que mejor se adapte a los retos planteados.
+
+4.4. Gestionar situaciones de incertidumbre en entornos digitales y tecnológicos con una actitud positiva, y afrontarlas utilizando el conocimiento adquirido y sintiéndose competente.
+
+4.5. Aplicar la sostenibilidad e inclusión como requisitos del diseño de soluciones tecnológicas.
+
+|===
+
+== Saberes básicos. Contenidos
+
+____
+_Saberes básicos: conocimientos, destrezas y actitudes que constituyen los *contenidos* propios de una materia o un ámbito cuyo aprendizaje es necesario para adquirir las competencias específicas._
+____
+
+[width="100%",cols="100%",]
+|===
+a|
+____
+*3.º ESO SABERES BÁSICOS-CONTENIDOS*
+
+*Programación, inteligencia artificial y robótica II*
+____
+
+a|
+*Bloque 1: Inteligencia Artificial*
+
+* Sensores, tipología y aplicaciones.
+* Técnicas iniciales de IA: sistemas expertos, redes neuronales y aprendizaje automático.
+* Procesado automático de la información.
+* Equidad e inclusión en sistemas de IA. Sesgos en IA.
+* Implicaciones sociales y éticas de la inteligencia artificial.
+* Técnicas de virtualización de la realidad.
+
+a|
+*Bloque 2: Programación*
+
+* Interpretación de la realidad mediante modelado de problemas.
+* Abstracción, secuenciación, algorítmica y su representación con lenguaje natural y diagramas de flujo.
+* Detección y reutilización de patrones. Generalización.
+* Sostenibilidad e inclusión como requisitos del diseño del software.
+* Estructuras de control del flujo del programa.
+* Variables, constantes, condiciones y operadores.
+* Introducción a la programación en lenguajes de alto nivel. Tipos de lenguajes. Sintaxis y semántica.
+* Programación de aplicaciones para dispositivos móviles.
+* Evaluación y mantenimiento de software.
+* Licencias de software. El software libre y el software propietario.
+* Simuladores de tarjetas controladoras.
+* Iniciativa, autoconfianza y metacognición en el proceso de aprendizaje del desarrollo de software.
+
+a|
+*Bloque 3: Robótica*
+
+* Montaje de robots.
+* Control de sistemas robotizados.
+* Sensores, actuadores y controladores.
+* Carga y ejecución de los algoritmos en robots.
+* Sistemas robotizados en la experimentación con prototipos diseñados.
+
+|===
+
+== Evaluación y criterios de evaluación
+
+[.regla]
+.Evaluación mediante proyectos y tareas evaluables
+****
+* La evaluación se realiza a través de *proyectos y tareas evaluables*.
+* Cada tarea evaluable se realiza *una sola vez*. Su calificación hace media con la del resto de tareas, según los porcentajes establecidos.
+* *Excepción:* si suspende más del 75 % del grupo, la tarea podrá repetirse. En la repetición, la calificación máxima será un 5.
+****
+
+____
+Se evaluarán tanto los aprendizajes del alumnado como los procesos de enseñanza y su propia práctica docente, para lo que establecerán los indicadores de logro en las programaciones docentes.
+
+Se describe cómo se va a llevar a cabo la evaluación del alumnado atendiendo a los criterios de evaluación, que permiten medir el grado de desarrollo de las competencias específicas y de las competencias clave, teniendo en cuenta los acuerdos sobre la evaluación y calificación de las áreas/materias/ámbitos. Además, se explicitarán qué sistemas de evaluación alternativa se van a utilizar para el alumnado al que no se le puede aplicar la evaluación continua. De forma general se indican, de forma genérica, los instrumentos de evaluación que evidenciarán la adquisición de los aprendizajes.
+
+La evaluación del proceso de enseñanza y la propia práctica docente se realizará mediante las memorias de final de curso y las encuestas realizadas al alumnado, según los indicadores de logro establecidos.
+
+Son referentes que indican los niveles de desempeño esperados en el alumnado en las situaciones o actividades de aprendizaje que requieren el despliegue de las competencias específicas de cada materia o ámbito en un momento determinado de su proceso de aprendizaje.
+
+En cada programación de aula se puede variar levemente los criterios de calificación. Ver programaciones de aula.
+
+Los instrumentos de evaluación son fundamentales para evaluar el aprendizaje del alumnado. Debido al *carácter teórico-práctico* de la materia de informática, los instrumentos de evaluación son muy variados según la unidad y el nivel.
+
+Las unidades más prácticas requieren en su mayoría de la elaboración de una tarea o proyecto final en ordenador y para ello se requieren instrumentos de evaluación como la *rúbrica*. Las *pruebas objetivas* se recomiendan cuando se pretendan evaluar procesos de bajo nivel como la identificación, la descripción, etc. o, en general, en aquellos casos donde se quiera diversificar las estrategias de evaluación; las *escalas de observación-valoración* en los criterios de evaluación del bloque transversal; las *listas de control* para aquellas actividades que supongan ejecuciones sencillas; y los criterios que no estén redactados en términos de procesos cognitivos (como por ejemplo adoptar o participar) pueden ser evaluados mediante el empleo de *escalas de actitudes*.
+____
+
+*_[.underline]#AULES# COMO INSTRUMENTO DE EVALUACIÓN_*
+
+Muchos de estos instrumentos los encontramos en la plataforma educativa Aules que permite realizar actividades con rúbrica, cuestiones con escalas de valoración y también nos proporciona actividades grupales donde se valoran entre ellos. Realmente Aules es un instrumento rico para la evaluación.
+
+[width="100%",cols="51%,49%",]
+|===
+|*Instrumentos Para La Evaluación Del Proceso De Aprendizaje* |
+|*INSTRUMENTOS* |*Capacidades*
+a|
+. *Evaluación cero:* realizada a principio de curso, se emplea como un indicador de los conocimientos iniciales del alumno en la evaluación inicial
+
+|
+a|
+. *Las escalas de valoración*[.underline]#.# Contienen un listado de rasgos en los que se gradúa el nivel de consecución del aspecto observado a través de una serie de valoraciones progresivas (de nunca siempre; de poco a mucho de nada a todo; etc.)
+. *Las listas de control.* es un instrumento que permite registrar el desempeño del alumnado, evaluado a través de la observación. Combina la evaluación de procesos y la evaluación de productos finales. (se elabora una lista de habilidades al realizar la tarea y los productos que deben obtenerse y se validará con un “Sí” / “No” según lo ha realizado.
+
+|-Actitud ante el trabajo
+a|
+. *Rúbrica -Matriz de Valoración:* es una herramienta de evaluación que permite establecer parámetros graduales de desempeño, y que favorece la autoevaluación en los alumnos. Como instrumento, facilita la valoración del desempeño del alumno en materias y temas complejos; asimismo, permite observar cómo va aprendiendo el alumnado (y esto favorece al autoanálisis de su propio aprendizaje y el de sus compañeros). Si el profesor emplea de manera frecuente este instrumento, facilita la coevaluación y retroalimentación en el grupo
+
+|Todas las capacidades
+a|
+. *Cuaderno diario de alumno-profesor:* para la recogida de información muy útil para la evaluación continua, pues refleja el trabajo diario que realiza el alumno.
+
+|-Todas las capacidades (Comprensión, expresión, razonamiento y actitud).
+a|
+. *Exámenes tradicionales, en todas sus variantes, tanto orales como escritos o informáticos.*
+
+* Pruebas de ensayo y composición
+* Preguntas de respuesta corta
+* Preguntas de texto incompleto
+* Preguntas de correspondencia o emparejamiento.
+* Preguntas de opción múltiple
+* Preguntas de verdadero – falso(justificadas)
+* Preguntas de analogías/diferencias
+* Preguntas de interpretación y/ de gráficos, mapas, estadísticas, etc**.**
+
+|-Comprensión, expresión y razonamiento, +
+además de la actitud para las pruebas orales
+a|
+. *Cuestionarios*
+
+|– Todas las capacidades
+a|
+. *Mapa conceptual*
+
+|– Comprensión y razonamiento
+a|
+. *Resolución de problemas* explicitando los pasos seguidos para verificar que el alumno ha comprendido y razonado la situación problemática y su solución. Resaltar, que la importancia de este instrumento reside en la justificación de los pasos seguidos para la obtención de un resultado.
+
+|-Comprensión y razonamiento
+a|
+. *Trabajos monográficos, pequeñas investigaciones, etc.* +
+Este tipo de tareas tiene como finalidad profundizar en algún conocimiento específico, favorecer la adquisición de determinados procedimientos y desarrollar actitudes relacionadas con el rigor, el gusto por el orden y la presentación correcta, tanto del resultado, como del proceso de elaboración del trabajo.
+
+|– Todas las capacidades
+|===
+
+== Medidas de respuesta educativa para la inclusión
+
+____
+Las programaciones de aula tendrán en cuenta lo que se dispone en el Decreto 104/2018 y en la Orden 20/2019, en relación con la adecuación personalizada de estas programaciones, con el fin de que todo el alumnado pueda participar en las actividades de su grupo clase y lograr los objetivos y las competencias clave de la etapa, de forma que se dé respuesta a los diferentes ritmos, estilos y capacidades de aprendizaje.
+
+Dependiendo del grupo, se tomarán las medidas consensuadas con el departamento de orientación.
+
+De forma general se tomarán las siguientes medidas:
+____
+
+*Realizar una evaluación inicial de los mismos.*
+
+[loweralpha]
+. Buscar sus capacidades más desarrolladas para llegar a otra.
+. Hacer más flexible la selección y secuenciación de los contenidos.
+. Alternar actividades individuales con el trabajo en grupos flexibles en realización.
+. Proponer actividades de refuerzo más flexibles.
+
+____
+*Alumnos/as con dificultades con altas capacidades de aprendizaje*
+____
+
+[loweralpha]
+. Proponer nuevas prácticas y trabajos que estimulen su creatividad y su necesidad de aprender.
+. Aumentar los contenidos de cada unidad o tratar de profundizar o dar mayor complejidad a los mismos.
+. Proponer trabajos en equipo con otros compañeros de nivel similar o de ayuda a otros compañeros de menor nivel.
+
+____
+*Alumnos/as repetidores o con evaluación baja en el módulo anterior*
+____
+
+[loweralpha]
+. Hacer pruebas para determinar las capacidades mínimas que adquirió
+. Proponer actividades de refuerzo
+. Tratar de dividir los bloqueos de aprendizaje, si los hubiera, explicando los conocimientos base para alcanzar las capacidades terminales.
+. Durante la exposición de una unidad, hacer especial hincapié en aquellos conocimientos que no adquirieron en el curso anterior
+. Proponer actividades que permitan asentar los conocimientos básicos
+
+____
+*Medida de respuesta nivel III: Medida de aprendizaje:*
+____
+
+[loweralpha]
+. Metodología: adecuación personalizada de las programaciones didácticas con ajustes metodológicos para una evaluación del aprendizaje.
+. Adecuación personalizada de las unidades didácticas de la programación común.
+. Adaptación de la programación didáctica a los principios DUA.
+. Aumento del tiempo en los exámenes proporcional a un cuarto del normal.
+. Asegurarse que ha entendido el que se le ha explicado con preguntas orales.
+. Darle pocos ejercicios para hacer y después de verificarlos, darle más.
+. Adecuar la evaluación, en su forma y forma de presentarla.
+
+== Estrategias para el refuerzo y planes de recuperación
+
+En este apartado se describirán los mecanismos para la recuperación de los aprendizajes no adquiridos y se especificarán las medidas de apoyo y orientación pertinentes que han de aplicarse al alumnado que haya presentado dificultades en el aprendizaje.
+
+Para aquellos alumnos que no hayan adquirido los aprendizajes básicos por motivos de dificultades de aprendizaje se les reforzará con actividades más básicas sin modificar los contenidos propuestos.
+
+Los planes de recuperación consistirán en temporalizar las actividades para que tengan más tiempo para la entrega.
+
+Para los alumnos que por sus capacidades realizan más rápido del que se espera las tareas asignadas o que demuestren altas capacidades, se les propondrán actividades de investigación relacionadas con los contenidos del proyecto en curso. Del mismo modo, a aquellos alumnos que manifiestan carencias en la adquisición de contenidos tratados se los propondrá actividades encaminadas a comprender, aprender y saber hacer las actividades del proyecto.
+
+== Autoevaluación de la práctica docente
+
+La autoevaluación de la práctica docente es un proceso continuo y reflexivo. Es importante adaptar las estrategias y enfoques a las necesidades específicas de cada contexto. Para realizarla contaremos con formularios de control para realizar dicha reflexión e identificaremos metas y áreas de mejora.
+
+[width="99%",cols="63%,13%,10%,14%",options="header",]
+|===
+|*Criterios* |*Conseguido* |*En Proceso* |*NO Conseguido*
+|Antes de presentar una unidad, expongo y propongo un plan de trabajo, explicando su finalidad. | | |
+|Mantengo el interés del alumnado partiendo de sus experiencias, con un lenguaje claro y adaptado | | |
+|Informo de los progresos conseguidos, así como de las dificultades encontradas | | |
+|Distribuyo el tiempo adecuadamente: tiempo de exposición y el resto de este para las actividades que el alumnado realiza en la clase | | |
+|Utilizo recursos didácticos variados tanto para la presentación de los contenidos como para la práctica del alumnado, favoreciendo el uso autónomo por parte de los mismos | | |
+|Compruebo, que el alumnado ha comprendido la tarea que tienen que realizar: haciendo preguntas, haciendo que verbalicen el proceso... | | |
+|Facilito estrategias de aprendizaje: cómo solicitar ayuda, buscar fuentes de información. | | |
+|Me aseguro la participación de todos | | |
+|===
+
+== Programación de aula · 3.º ESO
+
+*3.º ESO*
+
+[width="100%",cols="100%",options="header",]
+|===
+a|
+*Programación de aula de la asignatura*
+
+*PROGRAMACIÓN, INTELIGENCIA +
+ARTIFICIAL Y ROBÓTICA II*
+
+|*Departamento de informática.*
+|*Curso 2026-2027*
+|===
+
+*Profesora:* {docente}
+
+=== Contextualización del grupo
+
+En 3.º ESO los grupos se desdoblan. Esta programación corresponde al grupo que imparte {docente}: un {grupo-propio}. La temporización, las situaciones de aprendizaje y los instrumentos de evaluación se coordinan con el otro grupo desdoblado del nivel.
+
+[cols="1,1,2",options="header"]
+|===
+|Grupo |Alumnado |Características
+|3.º ESO · desdoble |18 |Alumnado heterogéneo. Se concretará tras la evaluación inicial.
+|===
+
+=== Metodología de aula
+
+La metodología en el aula se basará básicamente en el desarrollo de la práctica mediante actividades y consiste en los siguientes pasos:
+
+* Una breve introducción sobre las actividades a tratar ese día.
+* Explicación más extensa de la actividad colgada en la plataforma Aules.
+* Localización en Aules de los videos y apuntes necesarios para realizar la actividad.
+* Realización por parte del alumno de la actividad.
+* Supervisión por parte del profesor.
+* En caso de actividades que se precise material como AppInventor o robótica (Mbots) se realizará una introducción sobre el uso del material.
+
+____
+*Temporalización de las Sesiones- metodología:*
+
+Durante las dos sesiones semanales se intentará seguir la metodología arriba explicada.
+____
+
+[width="100%",cols="10%,14%,57%,19%",]
+|===
+| |*X (x2)* |*Distribución temporal de las sesiones* a|
+____
+*Evaluac.*
+____
+
+|*Sept* |*10* |*Presentación* |*1ª*
+| |*17* |Situación de Aprendizaje 1 |
+| |*24* |Situación de Aprendizaje 1 |
+|*Oct* |*1* |Situación de Aprendizaje 1 |
+| |*8* |Situación de Aprendizaje 1 |
+| |*15* |Situación de Aprendizaje 1 |
+| |*22* |Situación de Aprendizaje 1 |
+| |*29* |Situación de Aprendizaje 1 |
+|*Nov* |*5* |Situación de Aprendizaje 1 |
+| |*12* |Situación de Aprendizaje 1 |
+| |*19* |Situación de Aprendizaje 1 |
+| |*26* |Situación de Aprendizaje 1 |
+|*Dic* |*3* |Situación de Aprendizaje 1 |
+| |*10* |Situación de Aprendizaje 1 |
+| |*17* |Situación de Aprendizaje 2 |*2 ª*
+| |*24* | |
+|*Ene* |*31* | |
+| |*7* |Situación de Aprendizaje 2 |
+| |*14* |Situación de Aprendizaje 2 |
+| |*21* |Situación de Aprendizaje 2 |
+| |*28* |Situación de Aprendizaje 2 |
+|*Feb* |*4* |Situación de Aprendizaje 2 |
+| |*11* |Situación de Aprendizaje 2 |
+| |*18* |Situación de Aprendizaje 2 |
+| |*25* |Situación de Aprendizaje 2 |
+|*Mar* |*4* |Situación de Aprendizaje 2 |
+| |*11* |Situación de Aprendizaje 2 |
+| |*18* | |
+| |*25* |Situación de Aprendizaje 3 a|
+____
+*3 ª*
+____
+
+|*Abr* |*1* |Situación de Aprendizaje 3 |
+| |*8* | |
+| |*15* |Situación de Aprendizaje 3 |
+| |*22* |Situación de Aprendizaje 3 |
+| |*29* |Situación de Aprendizaje 3 |
+|*May* |*6* |Situación de Aprendizaje 3 |
+| |*13* |Situación de Aprendizaje 3 |
+| |*20* |Situación de Aprendizaje 3 |
+| |*27* |Situación de Aprendizaje 3 |
+|*Jun* |*3* |Situación de Aprendizaje 3 |
+| |*10* |Situación de Aprendizaje 3 |
+| |*17* |Situación de Aprendizaje 3 |
+|===
+
+=== Instrumentos de evaluación
+
+[width="100%",cols="18%,64%,18%",options="header",]
+|===
+| |*INSTRUMENTOS DE EVALUACIÓN* |*CRITERIOS DE CALIFICACIÓN*
+|1ª Evaluación |Prueba de conocimientos teóricos y prácticos. |50%
+| |Trabajos realizados en clase y en casa. |40%
+| |Participación, responsabilidad y colaboración en actividades individuales y grupales |10%
+|2ª Evaluación |Prueba de conocimientos teóricos y prácticos. |50%
+| |Trabajos realizados en clase y en casa. |40%
+| |Participación, responsabilidad y colaboración en actividades individuales y grupales |10%
+|3ª Evaluación |Prueba de conocimientos teóricos y prácticos. |50%
+| |Trabajos realizados en clase y en casa. |40%
+| |Participación, responsabilidad y colaboración en actividades individuales y grupales |10%
+|===
+
+=== Criterios de calificación
+
+[.regla]
+.Evaluación mediante proyectos y tareas evaluables
+****
+* La evaluación se realiza a través de *proyectos y tareas evaluables*.
+* Cada tarea evaluable se realiza *una sola vez*. Su calificación hace media con la del resto de tareas, según los porcentajes establecidos.
+* *Excepción:* si suspende más del 75 % del grupo, la tarea podrá repetirse. En la repetición, la calificación máxima será un 5.
+****
+
+____
+La evaluación de las actividades se realizará de la siguiente manera:
+____
+
+[width="100%",cols="17%,83%",]
+|===
+a|
+NOTA POR EVALUACIÓN
+
+(numérica)
+
+a|
+Cada actividad se evaluará con su *rúbrica* específica atendiendo a los *criterios de calificación consensuados para las rúbricas*
+
+Cada evaluación tendrá una nota, resultado de aplicar los porcentajes establecidos en los instrumentos de evaluación. La nota será una proyección del esfuerzo y consecución del trabajo de esa evaluación.
+
+a|
+NOTA FINAL
+
+(numérica)
+
+a|
+Se realiza una media de evaluaciones, por lo que para la nota final se evaluarán las evaluaciones realizadas comprobando si ha adquirido las competencias clave y específicas.
+
+*NOTA FINAL= MEDIA ARITMÉTICA (1ª EV + 2ª EV + 3ª EV)*
+
+|===
+
+=== Evaluación y criterios de calificación
+
+____
+La evaluación de
+
+las actividades se realizará de la siguiente manera:
+____
+
+[width="100%",cols="24%,6%,22%,13%,15%,11%,9%",options="header",]
+|===
+|*SITUACIONES DE APRENDIZAJE POR EVALUACIÓN* | | | | | |
+|*Situaciones de aprendizaje* |*Eval.* |*Instrumentos de evaluación* |*Competencias clave* |*Competencias específicas* |*Porcentaje* |*Nº Sesion.*
+a|
+____
+SA N.º 1 INTELIGENCIA ARTIFICIAL
+____
+
+a|
+____
+1
+____
+
+a|
+____
+Rúbricas de Aules
+
+Observación
+____
+
+a|
+____
+CCL, CPCMCT, CD
+
+CPSAA, CC, CE
+____
+
+a|
+____
+CE1, CE2, CE4
+____
+
+|33 % |26
+a|
+____
+SA N.º 2 PROGRAMACIÓN
+____
+
+a|
+____
+2
+____
+
+a|
+____
+Rúbricas de Aules
+
+Observación
+____
+
+a|
+____
+CCL,
+
+CMCT,CD
+
+CPSAA
+____
+
+a|
+____
+CE2, CE3
+____
+
+|33 % |22
+a|
+____
+SA N.º 3 ROBÓTICA
+____
+
+a|
+____
+3
+____
+
+a|
+____
+Rúbricas de Aules
+
+Observación
+____
+
+a|
+____
+CCL,
+
+CMCT,CD
+
+CPSAA,CCCE
+____
+
+a|
+____
+CE2, CE3
+
+CE4
+____
+
+|33 % |24
+|===
+
+=== Medidas de respuesta educativa para la inclusión
+
+____
+En principio no se han detectado alumnos con necesidades especiales.
+
+Se aplicarán las medidas oportunas que se acuerden con el departamento de orientación.
+____
+
+=== Estrategias para el refuerzo y planes de recuperación
+
+____
+Se atenderá al plan de refuerzo desarrollado para cada alumno al finalizar el curso anterior.
+____
+
+=== Situaciones de aprendizaje
+
+____
+Uno de los objetivos de las situaciones de aprendizaje es conseguir que el alumnado pueda aprender, articular y movilizar los saberes que requieren la adquisición y desarrollo de las competencias específicas, para lo cual deben sustentarse en retos presentes o cercanos a su entorno cotidiano. Con este planteamiento, los desafíos globales deben partir de situaciones locales que permitan comprender mejor cuál es la problemática en el entorno más próximo para que de esta forma el alumnado sea capaz de aportar su solución y generalizarla. Las temáticas que se proponen deben fundamentarse en la práctica y en retos que la materia de *Programación, inteligencia artificial y robótica II* pueda resolver. Las problemáticas versarán sobre desafíos de la sociedad del siglo XXI tales como la sostenibilidad, la sociedad digital crítica e inclusiva o la sociedad del bienestar personal y global. Las situaciones de aprendizaje deben dar lugar a experiencias auténticas y motivadoras que ayuden a conectar las competencias y los saberes básicos, favoreciendo la realización de nuevos aprendizajes y planteando nuevas perspectivas. Estas temáticas se pueden implementar mediante la interconexión de todos los bloques de saberes o incluso con proyectos multidisciplinares. En las situaciones de aprendizaje el alumnado tiene que ser capaz de gestionar la incertidumbre que genera cualquier actividad o trabajo, y lo debe hacer respetando las opiniones de los demás componentes del grupo, reconociendo que las diferencias pueden ser una oportunidad y desde la crítica, el razonamiento, la igualdad y el diálogo. Al igual que en el resto de las materias de la Educación Secundaria Obligatoria, se aplican los principios del Diseño Universal de Aprendizaje en las situaciones de aprendizaje, teniendo en cuenta la presencia, participación y aprendizaje de todo el alumnado. Asimismo, debe fomentarse la ruptura de estereotipos e ideas preconcebidas sobre las materias científico-tecnológicas asociadas a cuestiones individuales, como por ejemplo las de género, con una actitud de resiliencia y proactividad ante nuevos retos tecnológicos. El papel del alumnado es muy importante en todo el proceso de enseñanza y aprendizaje, por lo que se ha de utilizar metodologías activas, pudiendo trabajar los contenidos individualmente o en equipos de trabajo. Siempre que la organización escogida sea por grupos, se tienen que respetar los roles asignados y fomentar la empatía y el consenso a la hora de conseguir acuerdos entre sus miembros. El profesorado asume la responsabilidad de diseñar los retos con los que se movilizan los saberes, especificando detalladamente los objetivos y las tareas que debe realizar el alumnado, así como los pasos. En un primer momento, el profesorado adoptará el papel de guía y progresivamente irá asumiendo el papel de observador, que en ocasiones puntuales y justificadas podrá revertir para hacer aportaciones que sirvan para mejorar o reconducir el trabajo del alumnado o del equipo. Esta retroalimentación tiene como finalidad corregir errores, mejorar el desempeño del alumnado y afianzar los procedimientos y sus respuestas correctas para que este conozca su rendimiento, identifique cómo puede mejorarlo y aprenda a autorregularse en la ejecución de las tareas de aprendizaje. Es conveniente incluir en la práctica docente actividades de naturaleza metacognitiva, facilitando así que el alumnado reflexione sobre qué ha aprendido y cómo lo ha hecho, y promoviendo la adquisición de las estrategias, procedimientos, recursos o técnicas que le ayudarán a saber qué ha hecho bien y porqué, así como qué debe mejorar y de qué manera. También se deben promover diversos modos de expresarse y representar el conocimiento, con el fin de que el alumnado valore y reconozca lo que aprende fuera del aula y del centro escolar
+
+Las actividades desarrolladas en la presente programación cumplen con las situaciones de aprendizaje propuestas en este curso.
+____
+
+[width="100%",cols="22%,39%,8%,1%,6%,4%,4%,6%,2%,8%",options="header",]
+|===
+|Curso académico: 2026-2027 |Materia: PROGRAMACIÓN, INTELIGENCIA ARTIFICIAL Y ROBÓTICA II |Nivel: 3.º ESO | | | |Grupo: desdoble de 18 | | |
+a|
+*Situación de aprendizaje*
+
+*N.º 1*
+
+|_[.underline]#Título:#_ Inteligencia Artificial |_[.underline]#Contexto:#_ a|
+Personal
+
+☐
+
+| a|
+Educativo
+
+☑
+
+| a|
+Social
+
+☐
+
+| a|
+Profesional
+
+☐
+
+| a|
+En esta situación de aprendizaje, el alumnado aprenderá a Identificar, investigar y emplear técnicas de inteligencia artificial y virtualización de la realidad en el abordaje y la búsqueda de soluciones a problemas básicos de la sociedad valorando los principios éticos e inclusivos aplicados. 
+
+Se utilizarán las plataformas Machine Learning For Kids y Scratch. 
+
+*Objetivos:*
+
+* *
+
+- Identificar los fundamentos y el funcionamiento de las técnicas básicas de IA. 
+
+- Investigar situaciones donde se aplican técnicas básicas de IA. 
+
+- Valorar las implicaciones éticas y sociales de las técnicas básicas de IA. 
+
+- Emplear funciones de IA en aplicaciones sencillas de forma guiada para 
+
+- Participar activamente en equipos de trabajo para desarrollar soluciones digitales y tecnológicas demostrando empatía y respetando los roles asignados y las aportaciones del resto de personas integrantes. 
+
+- Analizar críticamente las implicaciones que la programación y las tecnologías tienen en la transformación de la sociedad valorando las repercusiones éticas y ecosociales. 
+
+- Describir y valorar la adecuación de las tecnologías, entornos de desarrollo, dispositivos y componentes para resolver los retos planteados, analizando sus características y especificaciones. 
+
+- Resolver problemas técnicos sencillos surgidos en el análisis, desarrollo y uso de software, módulos de inteligencia artificial y robótica reformulando el procedimiento utilizado en caso necesario. 
+
+a|
+_[.underline]#Relación con los retos del s. XXI y los ODS:#_
+
+Los principales retos del s. XXI vinculados a la situación de aprendizaje, a través de los Objetivos de Desarrollo Sostenible, son: 
+
+* {blank}
++
+____
+ODS 4: Educación de calidad. Desarrolla pensamiento crítico y habilidades para una ciudadanía digital responsable. 
+____
+* {blank}
++
+____
+ODS 9: Industria, innovación e infraestructura. Introduce la base tecnológica para el desarrollo e innovación digital.
+____
+
+____
+ 
+____
+
+* {blank}
++
+____
+ODS 10: Reducción de las desigualdades. Favorece el acceso equitativo al conocimiento tecnológico. 
+____
+* {blank}
++
+____
+ODS 11: Ciudades y comunidades sostenibles. Promueve la diversidad cultural y el acceso digital a contenidos creativos. 
+____
+
+| | | | | | |
+|*Competencias específicas y criterios de evaluación vinculados* |_[.underline]#Competencias específicas:#_ CE1 y CE4  a|
+_[.underline]#Competencias clave:#_
+
+- Competencia en Comunicación Lingüística (CCL1 – CCL3). 
+
+- Competencia Plurilíngüe (CP2). 
+
+- Competencia Matemática, científica y tecnológica (CMCT1 – CMCT2 – CMCT3 – CMCT5). 
+
+- Competencia digital (CD1 - CD2 - CD3- CD4- CD5). 
+
+- Competencia Personal, Social y de Aprender a Aprender (CPSAA3 – CPSAA4 – CPSAA5). 
+
+| | | | | | |
+| |_[.underline]#Criterios de evaluación vinculados:#_ 1.1, 1.2, 1.3, 1.4, 4.1, 4.2, 4.3, 4.4  | | | | | | | |
+|*Saberes básicos* a|
+- El aprendizaje en sistemas biológicos. Decisiones y libre albedrío. 
+
+- Fundamentos de la IA. Árboles de decisión. Big data, redes neuronales. 
+
+- Técnicas iniciales de IA: sistemas expertos, redes neuronales y aprendizaje automático. 
+
+- Procesamiento automático de la información. 
+
+- Equidad e inclusión en sistemas de IA. Sesgos en IA. 
+
+- Implicaciones sociales y éticas de la inteligencia artificial. 
+
+| | | | | | | |
+|*Organización* a|
+El profesor introduce los saber básicos a trabajar en la actividad mediante una explicación al inicio de la actividad con el apoyo de material (presentación, vídeo, etc.).
+
+Posteriormente se realiza un breve debate oral para comprobar que los contenidos han sido entendidos y asimilados.
+
+Después explica al alumnado el trabajo a realizar.
+
+Los alumnos realizan la tarea mientras el profesor supervisa y atiende a las dudas que pudieran surgir.
+
+Actividad final en el que se trabajarán todos los saberes básicos de la situación de aprendizaje.
+
+a|
+_[.underline]#Organización de los espacios:#_
+
+Aula con recursos TIC.
+
+| a|
+_[.underline]#Distribución del tiempo:#_
+
+26 SESIONES
+
+| a|
+_[.underline]#Recursos y materiales:#_
+
+-Proyector.
+
+-Equipos en LAN.
+
+-MS Office 365.
+
+-LMS Aules.
+
+-Recursos en línea y apps.
+
+| a|
+_[.underline]#Medidas de respuesta educativa para la inclusión:#_
+
+Referidas en el apartado 10 de la presente programación.
+
+|
+|*Instrumentos de recogida de información para la valoración del progreso del alumnado* a|
+- Cuestionarios.
+
+- Rúbricas de evaluación y autoevaluación para las actividades prácticas y pruebas objetivas y de coevaluación para las actividades en pareja o en grupo.
+
+- Registro de actitud.
+
+- Observación directa.
+
+| | | | | | | |
+|===
+
+[width="100%",cols="22%,39%,8%,1%,6%,4%,4%,6%,2%,8%",options="header",]
+|===
+|Curso académico: 2026-2027 |Materia: PROGRAMACIÓN, INTELIGENCIA ARTIFICIAL Y ROBÓTICA II |Nivel: 3.º ESO | | | |Grupo: desdoble de 18 | | |
+a|
+*Situación de aprendizaje*
+
+*N.º 2*
+
+|_[.underline]#Título:#_ Programación |_[.underline]#Contexto:#_ a|
+Personal
+
+☐
+
+| a|
+Educativo
+
+☑
+
+| a|
+Social
+
+☐
+
+| a|
+Profesional
+
+☐
+
+| a|
+En esta situación de aprendizaje, el alumnado aprenderá a aplicar el pensamiento computacional en el análisis y resolución de problemas básicos significativos mediante el desarrollo de software.
+
+También afrontará retos tecnológicos sencillos y propondrá soluciones mediante la programación analizando las posibilidades y valorando críticamente las implicaciones éticas y ecosociales.
+
+Se utilizará la plataforma IDE.MBLOCK.CC 
+
+*Objetivos: *
+
+- Analizar problemas elementales significativos para el alumnado, mediante la abstracción y modelización de la realidad. 
+
+- Analizar y validar aplicaciones informáticas existentes. 
+
+- Resolver de forma guiada problemas elementales utilizando los algoritmos y las estructuras de datos necesarias. 
+
+- Programar aplicaciones sencillas de forma guiada para resolver problemas elementales. 
+
+- Describir y valorar los derechos de autoría y licencias de derechos y explotación. 
+
+- Participar activamente en equipos de trabajo para desarrollar soluciones digitales y tecnológicas demostrando empatía y respetando los roles asignados y las aportaciones del resto de personas integrantes. 
+
+- Analizar críticamente las implicaciones que la programación y las tecnologías tienen en la transformación de la sociedad valorando las repercusiones éticas y ecosociales. 
+
+- Describir y valorar la adecuación de las tecnologías, entornos de desarrollo, dispositivos y componentes para resolver los retos planteados, analizando sus características y especificaciones. 
+
+- Resolver problemas técnicos sencillos surgidos en el análisis, desarrollo y uso de software, módulos de inteligencia artificial y robótica reformulando el procedimiento utilizado en caso necesario. 
+
+a|
+_[.underline]#Relación con los retos del s. XXI y los ODS:#_
+
+Los principales retos del s. XXI vinculados a la situación de aprendizaje, a través de los Objetivos de Desarrollo Sostenible, son: 
+
+* {blank}
++
+____
+ODS 4: Educación de calidad. Desarrolla pensamiento crítico y habilidades para una ciudadanía digital responsable. 
+____
+* {blank}
++
+____
+ODS 9: Industria, innovación e infraestructura. Introduce la base tecnológica para el desarrollo e innovación digital.
+____
+
+____
+ 
+____
+
+* {blank}
++
+____
+ODS 10: Reducción de las desigualdades. Favorece el acceso equitativo al conocimiento tecnológico. 
+____
+* {blank}
++
+____
+ODS 11: Ciudades y comunidades sostenibles. Promueve la diversidad cultural y el acceso digital a contenidos creativos. 
+____
+
+| | | | | | |
+|*Competencias específicas y criterios de evaluación vinculados* |_[.underline]#Competencias específicas:#_ CE2 y CE4  a|
+_[.underline]#Competencias clave:#_
+
+- Competencia en Comunicación Lingüística (CCL1). 
+
+- Competencia Matemática, científica y tecnológica (CMCT1 – CMCT2 – CMCT3 – CMCT5). 
+
+- Competencia digital (CD2 - CD3- CD4- CD5). 
+
+- Competencia Personal, Social y de Aprender a Aprender (CPSAA1 – CPSAA4 – CPSAA5). 
+
+- Competencia en Conciencia y Expresión Culturales (CCEC4). 
+
+| | | | | | |
+| |_[.underline]#Criterios de evaluación vinculados:#_ 2.1, 2.2, 2.3, 2.4, 2.5, 4.1, 4.2, 4.3, 4.4  | | | | | | | |
+|*Saberes básicos* a|
+- Habilidades del pensamiento computacional. 
+
+- Interpretación de la realidad mediante modelado de problemas. 
+
+- Abstracción, secuenciación, algorítmica y su representación con lenguaje natural y diagramas de flujo. 
+
+- Estructures de control del flujo del programa. 
+
+- Variables, constantes, condiciones y operadores. 
+
+- Programación por bloques: composición de las estructuras básicas y encaje de bloques.  
+
+- Análisis y validación de software. 
+
+- Licencias de software. El software libre y el software propietario. 
+
+- Iniciativa, autoconfianza y metacognición en el proceso de aprendizaje del desarrollo de software. 
+
+| | | | | | | |
+|*Organización* a|
+El profesor introduce los saber básicos a trabajar en la actividad mediante una explicación al inicio de la actividad con el apoyo de material (presentación, vídeo, etc.).
+
+Posteriormente se realiza un breve debate oral para comprobar que los contenidos han sido entendidos y asimilados.
+
+Después explica al alumnado el trabajo a realizar.
+
+Los alumnos realizan la tarea mientras el profesor supervisa y atiende a las dudas que pudieran surgir.
+
+Actividad final en el que se trabajarán todos los saberes básicos de la situación de aprendizaje.
+
+a|
+_[.underline]#Organización de los espacios:#_
+
+Aula con recursos TIC.
+
+| a|
+_[.underline]#Distribución del tiempo:#_
+
+22 SESIONES
+
+| a|
+_[.underline]#Recursos y materiales:#_
+
+-Proyector.
+
+-Equipos en LAN.
+
+-MS Office 365.
+
+-LMS Aules.
+
+-Recursos en línea y apps.
+
+| a|
+_[.underline]#Medidas de respuesta educativa para la inclusión:#_
+
+Referidas en el apartado 10 de la presente programación.
+
+|
+|*Instrumentos de recogida de información para la valoración del progreso del alumnado* a|
+- Cuestionarios.
+
+- Rúbricas de evaluación y autoevaluación para las actividades prácticas y pruebas objetivas y de coevaluación para las actividades en pareja o en grupo.
+
+- Registro de actitud.
+
+- Observación directa.
+
+| | | | | | | |
+|===
+
+[width="100%",cols="22%,39%,8%,1%,6%,4%,4%,6%,2%,8%",options="header",]
+|===
+|Curso académico: 2026-2027 |Materia: PROGRAMACIÓN, INTELIGENCIA ARTIFICIAL Y ROBÓTICA II |Nivel: 3.º ESO | | | |Grupo: desdoble de 18 | | |
+a|
+*Situación de aprendizaje*
+
+*N.º 3*
+
+|_[.underline]#Título:#_ Robótica |_[.underline]#Contexto:#_ a|
+Personal
+
+☐
+
+| a|
+Educativo
+
+☑
+
+| a|
+Social
+
+☐
+
+| a|
+Profesional
+
+☐
+
+| a|
+En esta situación de aprendizaje, el alumnado aprenderá a montar sistemas robóticos sencillos, analizando las respuestas que proporcionan en su interacción con el entorno y valorando la eficacia de estas frente a los retos planteados. 
+
+Se utilizará la plataforma IDE.MBLOCK.CC 
+
+*Objetivos:*
+
+* *
+
+- Montar robots sencillos siguiendo una guía, empleando los sensores, actuadores y otros operadores que se indiquen. 
+
+- Conectar, transferir y ejecutar el programa de control seleccionado al robot. 
+
+- Resolver desafíos modificando un robot disponible. 
+
+- Analizar y validar el programa de control del robot que permite que interactúe con el entorno. 
+
+- Programar instrucciones sencillas de forma guiada para controlar un robot programable. 
+
+- Participar activamente en equipos de trabajo para desarrollar soluciones digitales y tecnológicas demostrando empatía y respetando los roles asignados y las aportaciones del resto de personas integrantes. 
+
+- Analizar críticamente las implicaciones que la programación y las tecnologías tienen en la transformación de la sociedad valorando las repercusiones éticas y ecosociales. 
+
+- Describir y valorar la adecuación de las tecnologías, entornos de desarrollo, dispositivos y componentes para resolver los retos planteados, analizando sus características y especificaciones. 
+
+- Resolver problemas técnicos sencillos surgidos en el análisis, desarrollo y uso de software, módulos de inteligencia artificial y robótica reformulando el procedimiento utilizado en caso necesario. 
+
+a|
+_[.underline]#Relación con los retos del s. XXI y los ODS:#_
+
+Los principales retos del s. XXI vinculados a la situación de aprendizaje, a través de los Objetivos de Desarrollo Sostenible, son: 
+
+* {blank}
++
+____
+ODS 4: Educación de calidad. Desarrolla pensamiento crítico y habilidades para una ciudadanía digital responsable. 
+____
+* {blank}
++
+____
+ODS 9: Industria, innovación e infraestructura. Introduce la base tecnológica para el desarrollo e innovación digital.
+____
+
+____
+ 
+____
+
+* {blank}
++
+____
+ODS 10: Reducción de las desigualdades. Favorece el acceso equitativo al conocimiento tecnológico. 
+____
+* {blank}
++
+____
+ODS 11: Ciudades y comunidades sostenibles. Promueve la diversidad cultural y el acceso digital a contenidos creativos. 
+____
+
+| | | | | | |
+|*Competencias específicas y criterios de evaluación vinculados* |_[.underline]#Competencias específicas:#_ CE3 y CE4  a|
+_[.underline]#Competencias clave:#_
+
+- Competencia Matemática, científica y tecnológica (CMCT1 – CMCT2 – CMCT3 – CMCT5). 
+
+- Competencia digital (CD1 - CD2 - CD3- CD4- CD5). 
+
+- Competencia Personal, Social y de Aprender a Aprender (CPSAA1 – CPSAA2 - CPSAA3 – CPSAA4 – 
+
+CPSAA5). 
+
+| | | | | | |
+| |_[.underline]#Criterios de evaluación vinculados:#_ 3.1, 3.2, 3.3, 3.4, 3.5, 4.1, 4.2, 4.3, 4.4  | | | | | | | |
+|*Saberes básicos* a|
+* Conocer tipos, grados de libertad y características técnicas básicas de los robots 
+* Realizar el montaje de los robots 
+* Conocer los sensores, actuadores y controladores 
+* Conocer la carga y ejecución de los algoritmos de los robots. 
+
+| | | | | | | |
+|*Organización* a|
+El profesor introduce los saber básicos a trabajar en la actividad mediante una explicación al inicio de la actividad con el apoyo de material (presentación, vídeo, etc.).
+
+Posteriormente se realiza un breve debate oral para comprobar que los contenidos han sido entendidos y asimilados.
+
+Después explica al alumnado el trabajo a realizar.
+
+Los alumnos realizan la tarea mientras el profesor supervisa y atiende a las dudas que pudieran surgir.
+
+Actividad final en el que se trabajarán todos los saberes básicos de la situación de aprendizaje.
+
+a|
+_[.underline]#Organización de los espacios:#_
+
+Aula con recursos TIC.
+
+| a|
+_[.underline]#Distribución del tiempo:#_
+
+24 SESIONES
+
+| a|
+_[.underline]#Recursos y materiales:#_
+
+-Proyector.
+
+-Equipos en LAN.
+
+-MS Office 365.
+
+-LMS Aules.
+
+-Recursos en línea y apps.
+
+| a|
+_[.underline]#Medidas de respuesta educativa para la inclusión:#_
+
+Referidas en el apartado 10 de la presente programación.
+
+|
+|*Instrumentos de recogida de información para la valoración del progreso del alumnado* a|
+- Cuestionarios.
+
+- Rúbricas de evaluación y autoevaluación para las actividades prácticas y pruebas objetivas y de coevaluación para las actividades en pareja o en grupo.
+
+- Registro de actitud.
+
+- Observación directa.
+
+| | | | | | | |
+|===
+

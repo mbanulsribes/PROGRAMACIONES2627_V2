@@ -1,0 +1,54 @@
+name: Publicar programaciones
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Generar web y PDF desde AsciiDoc
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener el repositorio
+        uses: actions/checkout@v4
+      - name: Preparar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Instalar dependencias
+        run: npm install --no-audit --no-fund
+      - name: Generar la web
+        run: npm run build
+      - name: Preparar el navegador para los PDF
+        run: npx playwright install --with-deps chromium
+      - name: Generar los PDF
+        run: npm run pdf
+      - name: Preparar GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Subir la web generada
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    name: Publicar en Pages
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publicar
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,99 @@
+= Programación didáctica · 0228 Aplicaciones Ofimáticas
+:description: Programación didáctica de 0228 Aplicaciones Ofimáticas (CFGM Sistemas Microinformáticos y Redes (SMR) · 1.º curso). IES Font de Sant Lluís. Curso 2026-2027.
+:lang: es
+:orden: 2
+:titulo-corto: Aplicaciones Ofimáticas (AOF)
+:etapa: FP · 1.º SMR
+:resumen: Módulo 0228 del ciclo de grado medio de Sistemas Microinformáticos y Redes.
+:borrador:
+:toc: left
+:toc-title: Sumario
+:toclevels: 2
+:sectnums:
+:sectnumlevels: 2
+:sectanchors:
+:idprefix:
+:idseparator: -
+:note-caption: Nota
+:important-caption: Importante
+:tip-caption: Consejo
+:warning-caption: Atención
+:caution-caption: Precaución
+:centro: IES Font de Sant Lluís (València)
+:departamento: Departamento de Informática
+:modulo: 0228 Aplicaciones Ofimáticas (AOF)
+:curso: 2026-2027
+:docente: María Bañuls Ribes
+// Quita la línea «:borrador:» cuando la programación esté terminada.
+
+[.portada]
+****
+{departamento} +
+*CFGM Sistemas Microinformáticos y Redes (SMR) · 1.º curso*
+
+Programación didáctica de +
+*{modulo}*
+
+Curso {curso} · Docente: {docente}
+****
+
+== Propuestas de mejora y modificaciones respecto a la versión anterior
+
+_Pendiente de redactar._
+
+== Datos identificativos, marco normativo y contextualización del módulo
+
+_Pendiente de redactar._
+
+== Relación entre los estándares de competencia y los módulos del ciclo formativo
+
+_Pendiente de redactar._
+
+== Contribución de los RA a las competencias generales
+
+_Pendiente de redactar._
+
+== Esquema general y secuenciación de las unidades de programación
+
+_Pendiente de redactar._
+
+== Metodología del proceso de enseñanza-aprendizaje
+
+_Pendiente de redactar._
+
+== Recursos
+
+_Pendiente de redactar._
+
+== Uso de espacios y equipamientos
+
+_Pendiente de redactar._
+
+== Medidas de atención a la diversidad
+
+_Pendiente de redactar._
+
+== Evaluación del aprendizaje
+
+[.regla]
+.Evaluación mediante proyectos y tareas evaluables
+****
+* La evaluación se realiza a través de *proyectos y tareas evaluables*.
+* Cada tarea evaluable se realiza *una sola vez*. Su calificación hace media con la del resto de tareas, según los porcentajes establecidos.
+* *Excepción:* si suspende más del 75 % del grupo, la tarea podrá repetirse. En la repetición, la calificación máxima será un 5.
+****
+
+_Resto del apartado pendiente de redactar._
+
+== Actividades complementarias y extraescolares
+
+_Pendiente de redactar._
+
+== Criterios y procedimientos para la evaluación del desarrollo de la programación y de la práctica docente, así como los criterios de calificación
+
+_Pendiente de redactar._
+
+== Cualquier otro apartado considerado relevante por el equipo educativo en el PCCF
+
+_Pendiente de redactar._
+

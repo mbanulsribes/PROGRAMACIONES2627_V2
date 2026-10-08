@@ -1,0 +1,56 @@
+= Programaciones didácticas 2026-2027
+
+Web publicada: https://mbanulsribes.github.io/PROGRAMACIONES2627_V2/
+
+Programaciones de María Bañuls Ribes (IES Font de Sant Lluís) en AsciiDoc. Se publican en GitHub Pages con una portada común. Cada programación puede consultarse en la web, descargarse en PDF o imprimirse.
+
+== Estructura
+
+----
+programaciones/
+  aso/index.adoc          ← Administración de Sistemas Operativos (2.º ASIR)
+  aof/index.adoc          ← Aplicaciones Ofimáticas (1.º SMR)
+  trds-1eso/index.adoc    ← Taller de Relaciones Digitales Responsables (1.º ESO)
+  piar-1-2eso/index.adoc  ← Programación, Inteligencia Artificial y Robótica I (2.º ESO)
+  piar-2-3eso/index.adoc  ← Programación, Inteligencia Artificial y Robótica II (3.º ESO)
+plantilla/index.adoc      ← punto de partida para una programación nueva
+assets/programacion.css   ← diseño de la web y de la impresión
+scripts/build.mjs         ← genera la web (dist/)
+scripts/build-pdf.mjs     ← genera un PDF por programación
+pages.yml                 ← flujo de GitHub Actions (ver abajo)
+----
+
+== Añadir una programación
+
+. Copia `plantilla/` dentro de `programaciones/` con un nombre corto sin espacios ni tildes, por ejemplo `programaciones/tec-1eso/`.
+. Rellena en la cabecera `:orden:` (posición en la portada), `:titulo-corto:`, `:etapa:` y `:resumen:`.
+. Sube el cambio. La portada la incluye automáticamente.
+
+Mientras la cabecera tenga la línea `:borrador:`, la programación aparece marcada como «En preparación». Bórrala cuando esté terminada.
+
+Si una programación lleva imágenes, guárdalas en su misma carpeta y enlázalas con `image::nombre.png[]`.
+
+== Publicar en GitHub Pages
+
+. Mueve `pages.yml` a la carpeta `.github/workflows/`, que ya existe en el repositorio.
+. Ve a *Settings → Pages → Build and deployment* y elige *Source: GitHub Actions*.
+. Haz commit y push a `main`. Cada vez que subas un cambio, se regeneran la web y los PDF.
+
+== PDF
+
+* Cada programación tiene un botón *Descargar PDF*. El archivo se genera automáticamente en A4, con marcadores por apartado y numeración de páginas.
+* El botón *Imprimir* usa la misma hoja de estilo de impresión, así que también puedes usar *Guardar como PDF* del navegador.
+
+== Generar en local (opcional)
+
+Con Node.js 20 o posterior:
+
+[source,shell]
+----
+npm install
+npm run build
+npx playwright install chromium
+npm run pdf
+----
+
+En Windows también puedes generar los PDF con Edge: `npm run pdf -- --channel msedge`. El resultado queda en `dist/`.

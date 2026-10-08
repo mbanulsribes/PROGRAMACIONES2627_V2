@@ -1,0 +1,779 @@
+= Programación didáctica · 0374 Administración de Sistemas Operativos
+:description: Programación del módulo 0374 Administración de Sistemas Operativos (ASO), 2.º ASIR, IES Font de Sant Lluís. Curso 2026-2027.
+:lang: es
+:orden: 1
+:titulo-corto: Administración de Sistemas Operativos (ASO)
+:etapa: FP · 2.º ASIR
+:resumen: Módulo 0374 del ciclo de grado superior de Administración de Sistemas Informáticos en Red.
+:toc: left
+:toclevels: 2
+:sectnums:
+:sectnumlevels: 2
+:sectanchors:
+:idprefix:
+:idseparator: -
+:note-caption: Nota
+:important-caption: Importante
+:tip-caption: Consejo
+:warning-caption: Atención
+:caution-caption: Precaución
+:toc-title: Sumario
+:table-caption: Tabla
+:centro: IES Font de Sant Lluís (València)
+:departamento: Departamento de Informática
+:ciclo: CFGS Administración de Sistemas Informáticos en Red (ASIR)
+:modulo: 0374 Administración de Sistemas Operativos (ASO)
+:curso: 2026-2027
+:docente: María Bañuls Ribes
+:horas-curriculo: 133
+:horas-semana: 4
+:version: 1.0 · 08/10/2026
+// Para enlazar cada UP con el manual del alumnado, descomenta y ajusta la línea siguiente:
+// :web-aso: https://USUARIO.github.io/ASO/
+
+[.portada]
+****
+{departamento} +
+*{ciclo}*
+
+Programación didáctica del módulo +
+*{modulo}*
+
+Curso {curso} · 2.º curso · Docente: {docente} · Versión {version}
+****
+
+== Propuestas de mejora y modificaciones respecto a la versión anterior
+
+Se recogen los cambios respecto a la programación del curso 2025-2026 y la fecha de cada revisión.
+
+[cols="1,5",options="header"]
+|===
+|Fecha |Modificación
+
+|01/10/2024
+|Adaptación de contenidos al horario en inglés (CV004 Inglés técnico II-S).
+
+|01/10/2025
+|Cambio de unidades didácticas a unidades de programación organizadas por resultado de aprendizaje.
+
+|08/10/2026
+|Adaptación al *Decreto 114/2025*, que deroga la Orden 36/2012, y a la *Orden 8/2025* de evaluación, modificada por la Orden 5/2026. El documento sigue la plantilla de departamento del curso 2026-2027.
+
+|08/10/2026
+|Duración del módulo: *{horas-curriculo} horas* según el currículo vigente, impartidas en {horas-semana} horas semanales. Se retiran los RA8-RA12 de inglés: la competencia lingüística corresponde ahora al módulo transversal de Inglés profesional y al módulo optativo de Inglés oral. También se elimina la subida de nota por trabajar en inglés.
+
+|08/10/2026
+|Nueva secuencia en diez unidades de programación. Primero se trabajan Linux, procesos y scripting. Después llegan los contenedores, con los hitos del 21 de diciembre y el 22 de enero. Tras el 22 de enero se completan directorio, administración remota, impresión e integración.
+
+|08/10/2026
+|La calificación pasa a ser numérica y ponderada por RA y criterios de evaluación (apartado 10). Sustituye al modelo «apto / no apto más proyecto final Docker/Kubernetes». Kubernetes, Kafka, GitLab CI/CD, la monitorización con Prometheus y Grafana y Azure pasan a actividades de ampliación.
+
+|08/10/2026
+|Evaluación mediante proyectos y tareas evaluables que se realizan una sola vez y hacen media. Solo se repiten si suspende más del 75 % del grupo, con una calificación máxima de 5.
+
+|08/10/2026
+|Cada práctica incluye un *Plan B*, que puede resolverse sin acceso al servidor del departamento. Los materiales del alumnado se publican como web generada desde AsciiDoc.
+|===
+
+== Datos identificativos, marco normativo y contextualización del módulo
+
+=== Datos identificativos
+
+[cols="1,3"]
+|===
+|Centro |{centro}
+|Departamento |{departamento}
+|Ciclo formativo |{ciclo}. Ciclo formativo de grado superior, grado D del sistema de Formación Profesional.
+|Módulo profesional |{modulo}
+|Curso |Segundo curso. Curso académico {curso}.
+|Duración |{horas-curriculo} horas (Decreto 114/2025, anexo del ciclo ASIR)
+|Horario del grupo |{horas-semana} horas semanales: lunes y martes, dos horas cada día
+|Régimen |Presencial
+|Docente |{docente}
+|===
+
+=== Marco normativo
+
+El marco común del ciclo se recoge en el PCCF. Aquí se relacionan las normas que afectan directamente al módulo.
+
+[cols="1,3",options="header"]
+|===
+|Ámbito |Norma
+
+|Ley de FP
+|Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional.
+
+|Ordenación estatal
+|Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional.
+
+|Título
+|Real Decreto 1629/2009, de 30 de octubre, por el que se establece el título de Técnico Superior en Administración de Sistemas Informáticos en Red. Modificado por el Real Decreto 500/2024, de 21 de mayo.
+
+|Currículo en la Comunitat Valenciana
+|Decreto 114/2025, de 29 de julio, del Consell, por el que se establecen los currículos de los ciclos formativos de grado medio y de grado superior de Formación Profesional (DOGV de 4 de agosto de 2025). Deroga la Orden 36/2012.
+
+|Evaluación
+|Orden 8/2025, de 22 de abril, de evaluación del proceso de enseñanza-aprendizaje en ciclos formativos y cursos de especialización, modificada por la Orden 5/2026, de 1 de abril.
+
+|Instrucciones de inicio de curso
+|Resolución de 16 de julio de 2026, de la Secretaría Autonómica de Educación, por la que se dictan instrucciones para los centros que imparten los grados D y E de Formación Profesional durante el curso 2026-2027 (DOGV núm. 10408, de 20 de julio de 2026).
+
+|Calendario escolar
+|Resolución de 15 de junio de 2026, de la Dirección General de Centros Docentes, por la que se fija el calendario escolar del curso 2026-2027.
+
+|Inclusión y convivencia
+|Decreto 104/2018, de 27 de julio, de equidad e inclusión en el sistema educativo valenciano. Orden 20/2019, de 30 de abril, que regula la organización de la respuesta educativa para la inclusión. Decreto 195/2022, de 11 de noviembre, de igualdad y convivencia en el sistema educativo valenciano.
+|===
+
+=== Contextualización del módulo
+
+La contextualización del centro, del entorno productivo y del alumnado figura en el PCCF. En el módulo se tienen en cuenta estas condiciones:
+
+* El grupo procede principalmente de SMR, de otros ciclos de la familia y de Bachillerato; algunas personas tienen estudios universitarios. La evaluación inicial de septiembre y la primera unidad permiten ajustar el punto de partida.
+* El trabajo se realiza en el aula de informática, con equipos LliureX que actúan como clientes. Las máquinas virtuales de prácticas se alojan en el servidor del departamento. En los equipos del aula no se instala software de prácticas.
+* El acceso al servidor puede fallar por cortes de red o mantenimiento. Por eso cada práctica dispone de un Plan B equivalente en comprensión y diseño (apartado 6).
+* En segundo curso, la formación en empresa puede desarrollarse a lo largo de los tres trimestres (Resolución de 16 de julio de 2026). La temporización del apartado 5 deberá ajustarse al plan de formación en empresa que apruebe el equipo educativo.
+* El módulo se conecta con el *proyecto intermodular* mediante tres hitos: el 8 de octubre (instalar un sistema), el 21 de diciembre (desplegar un servicio) y el 22 de enero (gestionar contenedores).
+
+== Relación entre los estándares de competencia y los módulos del ciclo formativo
+
+=== Contribución del módulo a los objetivos generales (OG)
+
+Según el Real Decreto 1629/2009 (anexo I, módulo 0374), la formación del módulo contribuye a los siguientes objetivos generales del ciclo.
+
+[cols="1,4,2",options="header"]
+|===
+|OG |Objetivo general |RA del módulo que lo trabajan
+
+|a)
+|Analizar la estructura del software de base, comparando las características y prestaciones de sistemas libres y propietarios, para administrar sistemas operativos de servidor.
+|RA1, RA2, RA6, RA7
+
+|b)
+|Instalar y configurar el software de base, siguiendo documentación técnica y especificaciones dadas, para administrar sistemas operativos de servidor.
+|RA1, RA4, RA5, RA6
+
+|n)
+|Asignar los accesos y recursos del sistema, aplicando las especificaciones de la explotación, para administrar usuarios.
+|RA1, RA3, RA6
+
+|ñ)
+|Aplicar técnicas de monitorización interpretando los resultados y relacionándolos con las medidas correctoras para diagnosticar y corregir las disfunciones.
+|RA2, RA4
+
+|o)
+|Establecer la planificación de tareas, analizando actividades y cargas de trabajo del sistema para gestionar el mantenimiento.
+|RA3, RA7
+
+|q)
+|Identificar formas de intervención en situaciones colectivas, analizando el proceso de toma de decisiones y efectuando consultas para liderar las mismas.
+|RA6
+|===
+
+=== Estándares de competencia relacionados
+
+El título incluye las cualificaciones IFC152_3 _Gestión de sistemas informáticos_, IFC156_3 _Administración de servicios de Internet_ e IFC079_3 _Administración de bases de datos_, y la cualificación incompleta IFC154_3. El módulo se relaciona sobre todo con estos estándares de competencia:
+
+[cols="1,3,2",options="header"]
+|===
+|Estándar |Denominación |Relación con el módulo
+|UC0485_3 |Instalar, configurar y administrar el software de base y de aplicación del sistema. |RA1, RA2, RA3, RA5, RA6, RA7
+|UC0490_3 |Gestionar servicios en el sistema informático. |RA2, RA3, RA4, RA5
+|===
+
+NOTE: La tabla de correspondencias del anexo V A del Real Decreto 1629/2009 es la referencia oficial para convalidaciones y acreditación. Esta tabla indica la relación didáctica entre estándares y RA.
+
+== Contribución de los RA a las competencias generales
+
+=== Competencia general (CG) y resultados de aprendizaje (RA)
+
+La competencia general del título consiste en *configurar, administrar y mantener sistemas informáticos, garantizando la funcionalidad, la integridad de los recursos y servicios del sistema, con la calidad exigida y cumpliendo la reglamentación vigente*.
+
+El módulo contribuye a ella con siete resultados de aprendizaje. Los criterios de evaluación de cada RA y su peso figuran en el apartado 10.3.
+
+[cols="1,6",options="header"]
+|===
+|RA |Resultado de aprendizaje
+|RA1 |Administra el servicio de directorio interpretando especificaciones e integrándolo en una red.
+|RA2 |Administra procesos del sistema describiéndolos y aplicando criterios de seguridad y eficiencia.
+|RA3 |Gestiona la automatización de tareas del sistema, aplicando criterios de eficiencia y utilizando comandos y herramientas gráficas.
+|RA4 |Administra de forma remota el sistema operativo en red valorando su importancia y aplicando criterios de seguridad.
+|RA5 |Administra servidores de impresión describiendo sus funciones e integrándolos en una red.
+|RA6 |Integra sistemas operativos libres y propietarios, justificando y garantizando su interoperabilidad.
+|RA7 |Utiliza lenguajes de guiones en sistemas operativos, describiendo su aplicación y administrando servicios del sistema operativo.
+|===
+
+=== Competencias profesionales y para la empleabilidad (CPPE)
+
+Según el Real Decreto 1629/2009 (anexo I, módulo 0374), el módulo contribuye a las siguientes competencias del título.
+
+[cols="1,4,2",options="header"]
+|===
+|CPPE |Competencia |RA
+
+|a)
+|Administrar sistemas operativos de servidor, instalando y configurando el software, en condiciones de calidad para asegurar el funcionamiento del sistema.
+|RA1-RA7
+
+|l)
+|Administrar usuarios de acuerdo a las especificaciones de explotación para garantizar los accesos y la disponibilidad de los recursos del sistema.
+|RA1, RA3, RA5, RA6
+
+|m)
+|Diagnosticar las disfunciones del sistema y adoptar las medidas correctivas para restablecer su funcionalidad.
+|RA2, RA4, RA5
+
+|n)
+|Gestionar y/o realizar el mantenimiento de los recursos de su área (programando y verificando su cumplimiento), en función de las cargas de trabajo y el plan de mantenimiento.
+|RA3, RA7
+
+|ñ)
+|Efectuar consultas, dirigiéndose a la persona adecuada y saber respetar la autonomía de los subordinados, informando cuando sea conveniente.
+|RA6
+
+|o)
+|Mantener el espíritu de innovación y actualización en el ámbito de su trabajo para adaptarse a los cambios tecnológicos y organizativos de su entorno profesional.
+|RA2, RA7
+
+|q)
+|Resolver problemas y tomar decisiones individuales, siguiendo las normas y procedimientos establecidos, definidos dentro del ámbito de su competencia.
+|RA2, RA4, RA6
+
+|r)
+|Gestionar su carrera profesional, analizando las oportunidades de empleo, autoempleo y de aprendizaje.
+|Transversal
+
+|s)
+|Participar de forma activa en la vida económica, social y cultural con actitud crítica y responsable.
+|Transversal
+|===
+
+=== Competencias transversales (CT)
+
+Las competencias transversales en sentido estricto se adquieren mediante los RA de los módulos transversales del ciclo: Inglés profesional, Digitalización aplicada, Sostenibilidad aplicada e Itinerario personal para la empleabilidad. ASO no las califica, pero las refuerza en su práctica habitual:
+
+* *Comunicación técnica.* Documentar procedimientos y explicar resultados con evidencias.
+* *Inglés técnico.* Consultar documentación oficial y mensajes de error en inglés.
+* *Digitalización y seguridad.* Proteger credenciales y no publicar secretos. Usar la IA generativa con criterio (apartado 13).
+* *Sostenibilidad.* Dimensionar recursos de las máquinas virtuales y apagar lo que no se utiliza.
+* *Trabajo en equipo.* Pruebas cruzadas entre sistemas en RA6.
+
+== Esquema general y secuenciación de las unidades de programación
+
+=== Contenidos básicos
+
+Los contenidos básicos del currículo son el punto de partida de las unidades de programación (UP).
+
+. *Administración de servicios de directorio.* Servicio de directorio: definición, elementos y nomenclatura. LDAP. Esquema y estructura física y lógica. Funciones del dominio. Instalación, configuración y personalización. Integración con otros servicios. Filtros de búsqueda. Creación de dominios. Objetos del dominio: usuarios globales, grupos y equipos, entre otros. Relaciones de confianza. Herramientas gráficas de administración. Directivas de seguridad, derechos de usuario, directivas de grupo y plantillas administrativas. Distribución y seguridad de aplicaciones remotas. Unidades organizativas: diseño, administración, estrategias de organización y delegación. Asignación de directivas. Documentación del servicio.
+. *Administración de procesos del sistema.* Procesos: tipos, estados, transiciones y estructura. Hilos de ejecución. Prioridades, interrupciones y excepciones. Identificación de procesos y dependencias. Gestión de procesos desde la línea de órdenes y con herramientas gráficas. Secuencia de arranque, demonios y servicios. Niveles de ejecución y su cambio. Documentación de procesos.
+. *Información del sistema y automatización de tareas.* Estructura de directorios. Búsqueda de información del sistema con órdenes y herramientas gráficas. Sistema de archivos virtual. Software instalado. Rendimiento y estadísticas. Automatización y planificación de tareas, también con herramientas gráficas y en el servicio de directorio. Documentación de las tareas programadas.
+. *Servicios de acceso y administración remota.* Terminales en modo texto y escritorio remoto. Protocolos y puertos. Servicios de acceso remoto del propio sistema operativo y herramientas gráficas externas. Acceso remoto seguro en redes homogéneas y heterogéneas. Actualización remota y comprobación de la seguridad del sistema.
+. *Administración de servidores de impresión.* Puertos y protocolos de impresión. Impresoras para trabajo en red. Sistemas de impresión. Órdenes para gestionar impresoras y trabajos. Administración de impresoras y servidores de impresión.
+. *Integración de sistemas operativos en red libres y propietarios.* Escenarios heterogéneos. Servicios de red para compartir recursos. Mapas de red. Recursos compartidos y sistemas de archivos en red. Seguridad de los recursos compartidos. Protocolos para redes heterogéneas.
+. *Lenguajes de guiones en sistemas operativos libres y propietarios.* La shell como lenguaje de guiones. Estructuras del lenguaje. Guiones orientados a objetos. Creación, depuración e interpretación de guiones del sistema. Extensiones de comandos. Acceso al registro. Programación para la gestión del directorio activo. Guiones de administración de cuentas, procesos y servicios. Documentación de los guiones.
+
+=== Secuenciación y temporización
+
+El calendario escolar fija las clases entre el 9 de septiembre de 2026 y el 18 de junio de 2027. Excluye los festivos del 9 y el 12 de octubre, el 8 de diciembre y el 19 de marzo, y las vacaciones del 22 de diciembre al 6 de enero y del 25 de marzo al 5 de abril.
+
+Con el horario del grupo (lunes y martes) resultan *70 sesiones de dos horas, 140 horas lectivas*. El currículo asigna {horas-curriculo}. Las siete horas de diferencia absorben los días no lectivos locales y los imprevistos.
+
+[cols="1,4,3,1,1,2",options="header"]
+|===
+|UP |Unidad de programación |Fechas |Sesiones |Horas |RA principal
+
+|1 |Instalación y virtualización |14/09 – 06/10/2026 |8 |16 |Preparación (RA2)
+|2 |Linux |13/10 – 27/10/2026 |5 |10 |RA2 (base para RA3 y RA7)
+|3 |Procesos y servicios |02/11 – 10/11/2026 |4 |8 |RA2
+|4 |Scripting y automatización |16/11 – 30/11/2026 |5 |10 |RA7, RA3
+|5 |Docker y despliegue |01/12 – 21/12/2026 |5 |10 |RA2, RA4
+|6 |Gestión de contenedores |11/01 – 19/01/2027 |4 |8 |RA2, RA3, RA7
+|7 |Servicios de directorio |25/01 – 09/03/2027 |14 |28 |RA1 (y RA3, RA7)
+|8 |Administración remota |15/03 – 12/04/2027 |6 |12 |RA4 (y RA3)
+|9 |Servidores de impresión |13/04 – 26/04/2027 |4 |8 |RA5
+|10 |Redes heterogéneas |27/04 – 17/05/2027 |6 |12 |RA6
+|— |Integración final y pruebas |18/05 – 01/06/2027 |5 |10 |Todos
+|— |Recuperación y cierre |07/06 – 15/06/2027 |4 |8 |RA pendientes
+3+|*Total* |*70* |*140* |
+|===
+
+.Evaluaciones e hitos
+* *Evaluación inicial:* antes del 9 de noviembre, sin calificación.
+* *Hito 1 del proyecto intermodular (8 de octubre):* sistema instalado y documentado.
+* *Primera evaluación parcial:* final del primer trimestre (UP1-UP5). *Hito 2 (21 de diciembre):* servicio desplegado.
+* *Hito 3 (22 de enero):* servicio administrado y recuperable (UP6).
+* *Segunda evaluación parcial:* final del segundo trimestre (UP6-UP7 y parte de UP8).
+* *Evaluación ordinaria:* al finalizar el tercer trimestre. La extraordinaria, en las fechas que fije jefatura de estudios.
+
+IMPORTANT: Si el plan de formación en empresa sitúa estancias en horario de ASO, se reordenarán las UP 8-10 manteniendo el peso de cada RA. Los cambios se anotarán en el apartado 1.
+
+=== Unidades de programación
+
+Cada UP sigue la misma estructura que el manual del alumnado: *teoría inicial*, *Práctica A* en el entorno asignado, *Plan B* sin acceso al servidor y preguntas *Comprueba lo que sabes*. Los pesos de los criterios de evaluación (CE) se detallan en el apartado 10.3.
+
+==== UP1 · Instalación y virtualización
+
+[cols="1h,4"]
+|===
+|Temporización |16 h · 8 sesiones · 14/09 – 06/10/2026 · Hito 1 del proyecto intermodular (8 de octubre)
+|RA y CE |Preparación del laboratorio. Aporta evidencias a RA2.f (secuencia de arranque) y sirve como evaluación inicial.
+|CPPE · OG |a), q) · a), b)
+|Objetivos didácticos |Distinguir equipo físico, hipervisor, máquina virtual y sistema operativo. Asignar recursos dentro de una cuota. Instalar un servidor de forma reproducible y documentar su configuración inicial.
+|Contenidos |Laboratorio con máquinas virtuales: CPU, memoria, disco, red e ISO. Fases de la instalación. Comprobaciones posteriores (`hostname`, `ip address`, `df -h`, `free -h`). Instantáneas frente a copias de seguridad.
+|Actividades |Práctica A: _Tu primer servidor_ (ficha de recursos, instalación, comprobaciones, reinicio y documentación de una incidencia). Plan B: _Diseñar y revisar una instalación_. Cuestionario de evaluación inicial.
+|Recursos |Servidor del departamento, ISO de Linux y de Windows Server (evaluación). Vídeos de instalación del material CEED.
+ifdef::web-aso[]
+link:{web-aso}01-instalacion.html[Unidad 01 del manual]
+endif::[]
+|Evaluación |Ficha de instalación y lista de cotejo. Esta UP no se califica: sus evidencias sirven de evaluación inicial y como hito del proyecto intermodular.
+|===
+
+==== UP2 · Linux
+
+[cols="1h,4"]
+|===
+|Temporización |10 h · 5 sesiones · 13/10 – 27/10/2026
+|RA y CE |RA2.d, RA2.e (inicio). Base para RA3 y RA7.
+|CPPE · OG |a), l) · a), n)
+|Objetivos didácticos |Trabajar en la terminal identificando equipo y usuario. Interpretar el árbol de directorios y los permisos. Combinar órdenes con tuberías y redirecciones. Consultar recursos y software instalado.
+|Contenidos |Intérprete de órdenes. Rutas absolutas y relativas. Jerarquía de directorios (`/etc`, `/var`, `/usr`, `/proc`, `/sys`). Permisos de propietario, grupo y otros, y ACL. Tuberías y redirección. Espacio en disco, memoria y paquetes instalados.
+|Actividades |Práctica A: _Un espacio de trabajo ordenado_. Plan B: _Leer un sistema sin conectarse_ (tabla de accesos y diagnóstico de un disco casi lleno).
+|Recursos |VM Linux asignada.
+ifdef::web-aso[]
+link:{web-aso}02-linux.html[Unidad 02 del manual]
+endif::[]
+|Evaluación |Práctica A con rúbrica (PR). Preguntas de comprobación.
+|===
+
+==== UP3 · Procesos y servicios
+
+[cols="1h,4"]
+|===
+|Temporización |8 h · 4 sesiones · 02/11 – 10/11/2026
+|RA y CE |RA2.a, RA2.b, RA2.c, RA2.d, RA2.e, RA2.f, RA2.g, RA2.h
+|CPPE · OG |a), m), q) · a), ñ)
+|Objetivos didácticos |Explicar qué es un proceso, sus estados, sus hilos y su jerarquía. Observar procesos antes de intervenir. Diferenciar servicio activo y servicio habilitado. Diagnosticar un fallo de servicio a partir de evidencias.
+|Contenidos |Proceso, hilo y trabajo. Estados, PID y PPID. Planificación, prioridades, interrupciones y excepciones. `ps`, `top`, señales. Administrador de tareas y `Get-Process` en Windows. systemd: unidades, estado, habilitación y registros. Secuencia de arranque. Procesos no identificados.
+|Actividades |Práctica A: _Seguir un proceso propio_ (`sleep`, PID, señal) y diagnóstico de un servicio de prueba. Plan B: _Diagnosticar un servicio_ que falla por permisos.
+|Recursos |VM Linux, Windows Server. Teoría y práctica CEED «UD2-CT1 Teoría de gestión de procesos» y «Administración de procesos».
+ifdef::web-aso[]
+link:{web-aso}03-procesos.html[Unidad 03 del manual]
+endif::[]
+|Evaluación |PR, Plan B (PB) y prueba individual (PO) de la primera evaluación.
+|===
+
+==== UP4 · Scripting y automatización
+
+[cols="1h,4"]
+|===
+|Temporización |10 h · 5 sesiones · 16/11 – 30/11/2026
+|RA y CE |RA7.a, RA7.b, RA7.c, RA7.d, RA7.f, RA7.h, RA7.i · RA3.a, RA3.b, RA3.c, RA3.d, RA3.h
+|CPPE · OG |a), n), o) · a), o)
+|Objetivos didácticos |Escribir guiones Bash con argumentos, condiciones, bucles y funciones. Depurar con casos de prueba. Manejar objetos en PowerShell. Programar tareas con cron y con el Programador de tareas, y verificar su ejecución.
+|Contenidos |Variables, comillas, argumentos, estructuras de control y funciones. Códigos de salida y depuración (`bash -x`). Guiones del sistema: interpretación y adaptación. PowerShell: cmdlets, canalización de objetos y módulos. cron y crontab: sintaxis, entorno y registros. Programador de tareas de Windows. Restricciones de seguridad.
+|Actividades |Práctica A: _Generar y revisar un informe_ (guion, tres casos de prueba y tarea programada). Plan B: _Revisar antes de ejecutar_ (trazas y calendario). Ejercicios de las hojas CEED de shell scripting.
+|Recursos |Material CEED «Bash scripting» y actividades W1/W2. _Learn PowerShell in a Month of Lunches_ y _PowerShell for Sysadmins_.
+ifdef::web-aso[]
+link:{web-aso}04-scripting.html[Unidad 04 del manual]
+endif::[]
+|Evaluación |PR con código comentado y tabla de pruebas. PO de guiones en la primera evaluación.
+|===
+
+==== UP5 · Docker y despliegue
+
+[cols="1h,4"]
+|===
+|Temporización |10 h · 5 sesiones · 01/12 – 21/12/2026 · Hito 2 del proyecto intermodular (21 de diciembre)
+|RA y CE |RA2.c, RA2.e · RA4.a, RA4.e
+|CPPE · OG |a), m), o) · a), b), ñ)
+|Objetivos didácticos |Diferenciar imagen y contenedor. Seguir el recorrido de una petición desde el cliente hasta la aplicación. Publicar un servicio con un puerto asignado y decidir qué datos necesitan persistencia.
+|Contenidos |Imágenes, etiquetas, registros y contenedores. Aislamiento de procesos. Publicación de puertos. Variables de entorno y secretos. Volúmenes. Dockerfile: construir frente a ejecutar. Registros del contenedor.
+|Actividades |Práctica A: _Publicar un servicio web_ en el puerto asignado. Plan B: _Seguir la petición web_.
+|Recursos |Docker en el entorno del departamento. Documentación oficial de Docker.
+ifdef::web-aso[]
+link:{web-aso}05-docker.html[Unidad 05 del manual]
+endif::[]
+|Evaluación |PR con ficha de despliegue y comprobación desde el cliente. Evidencia del hito 2.
+|===
+
+==== UP6 · Gestión de contenedores
+
+[cols="1h,4"]
+|===
+|Temporización |8 h · 4 sesiones · 11/01 – 19/01/2027 · Hito 3 del proyecto intermodular (22 de enero)
+|RA y CE |RA2.e, RA2.g · RA3.d, RA3.h · RA7.e
+|CPPE · OG |a), m), n) · ñ), o)
+|Objetivos didácticos |Mantener un servicio después del despliegue. Describirlo con Compose. Diagnosticar de forma ordenada. Preparar, restaurar y verificar una copia de datos.
+|Contenidos |Parar, iniciar, reiniciar y recrear. Docker Compose: servicios, redes y volúmenes. Diagnóstico: estado, registros, configuración, hipótesis y prueba. Copias de seguridad, actualización y vuelta atrás. Guion de copia programado.
+|Actividades |Práctica A: _Mantener un despliegue_ (cambio de configuración, recreación y restauración). Plan B: _Resolver tres incidencias_.
+|Recursos |Docker Compose.
+ifdef::web-aso[]
+link:{web-aso}06-contenedores.html[Unidad 06 del manual]
+endif::[]
+|Evaluación |PR con evidencia de recuperación. Evidencia del hito 3.
+|===
+
+==== UP7 · Servicios de directorio
+
+[cols="1h,4"]
+|===
+|Temporización |28 h · 14 sesiones · 25/01 – 09/03/2027
+|RA y CE |RA1.a – RA1.j · RA3.e · RA7.g
+|CPPE · OG |a), l), m) · a), b), n)
+|Objetivos didácticos |Explicar la función y la estructura de un servicio de directorio. Diseñar unidades organizativas y grupos. Instalar y administrar Active Directory y OpenLDAP. Integrar clientes y verificar autenticación y autorización. Automatizar altas de cuentas con guiones.
+|Contenidos |LDAP, DN, esquema y LDIF. Active Directory: dominio, bosque, controlador de dominio, unidades organizativas, grupos, equipos, GPO, delegación y relaciones de confianza. OpenLDAP: instalación, objetos, filtros de búsqueda y herramientas gráficas (LAM, Apache Directory Studio). Integración de clientes Windows y Linux. Guiones PowerShell y Bash para cuentas. Documentación del servicio.
+|Actividades |Práctica A: _Un directorio para el aula_ (diseño, objetos, consultas, cliente integrado y prueba de restricción), en AD y en OpenLDAP. Plan B: _Diseñar y consultar un directorio_. Práctica CEED «Servicios de directorio» y «OpenLDAP».
+|Recursos |Windows Server, VM Linux con OpenLDAP y clientes de prueba. Temas, presentaciones y prácticas CEED de la UD «Servicios de directorio».
+ifdef::web-aso[]
+link:{web-aso}07-directorio.html[Unidad 07 del manual]
+endif::[]
+|Evaluación |PR (AD y OpenLDAP), guion de altas (PR), PO de la segunda evaluación y documentación (DT).
+|===
+
+==== UP8 · Administración remota
+
+[cols="1h,4"]
+|===
+|Temporización |12 h · 6 sesiones · 15/03 – 12/04/2027
+|RA y CE |RA4.a – RA4.i · RA3.f, RA3.g
+|CPPE · OG |a), m), q) · b), ñ)
+|Objetivos didácticos |Elegir un método de acceso remoto según la tarea. Separar conectividad, servicio, autenticación y autorización al diagnosticar. Proteger credenciales y verificar el cifrado. Elaborar un informe de monitorización y automatizar su recogida.
+|Contenidos |Servicios orientados y no orientados a sesión. SSH (claves, `known_hosts`, túneles), RDP y PowerShell Remoting. Herramientas gráficas externas (por ejemplo, Guacamole). Cuentas para acceso remoto. Actualización remota y comprobación de seguridad. Monitorización y tareas programadas con herramientas gráficas.
+|Actividades |Práctica A: _Acceso y diagnóstico_. Plan B: _Localizar el punto del fallo_ e informe de un disco que crece. Práctica CEED «Información del sistema» (informe) y «Administración remota».
+|Recursos |SSH, RDP y WinRM en el laboratorio.
+ifdef::web-aso[]
+link:{web-aso}08-remota.html[Unidad 08 del manual]
+endif::[]
+|Evaluación |PR con ficha de conexión e informe. Observación y defensa del diagnóstico (OD).
+|===
+
+==== UP9 · Servidores de impresión
+
+[cols="1h,4"]
+|===
+|Temporización |8 h · 4 sesiones · 13/04 – 26/04/2027
+|RA y CE |RA5.a – RA5.h
+|CPPE · OG |a), l), m) · b)
+|Objetivos didácticos |Describir el recorrido de un trabajo de impresión. Crear impresoras lógicas y grupos de impresión. Administrar colas con órdenes y con herramientas gráficas. Compartir una impresora entre sistemas distintos.
+|Contenidos |Puertos y protocolos (IPP, LPD, SMB, puerto 9100). Impresoras lógicas y físicas. Administración de impresión en Windows Server y despliegue por GPO. CUPS: interfaz web, `lpadmin`, `lpstat`, `cancel`. Permisos de impresión frente a permisos de administración.
+|Actividades |Práctica A: _Compartir una impresora virtual_. Plan B: _Una cola detenida_. Prácticas CEED de impresión en Windows Server y Ubuntu Server.
+|Recursos |Impresora virtual PDF.
+ifdef::web-aso[]
+link:{web-aso}09-impresion.html[Unidad 09 del manual]
+endif::[]
+|Evaluación |PR con seguimiento de un trabajo y prueba final. Preguntas de la PO de cierre.
+|===
+
+==== UP10 · Redes heterogéneas
+
+[cols="1h,4"]
+|===
+|Temporización |12 h · 6 sesiones · 27/04 – 17/05/2027
+|RA y CE |RA6.a – RA6.h
+|CPPE · OG |a), l), ñ), q) · a), b), n), q)
+|Objetivos didácticos |Justificar la necesidad de compartir recursos entre sistemas. Diseñar una matriz de acceso y convertirla en permisos. Configurar Samba y NFS. Probar el acceso desde clientes Windows y Linux, también con cuentas no autorizadas.
+|Contenidos |Escenarios heterogéneos y mapas de red. SMB/CIFS con Samba. NFS. Permisos del recurso compartido y del sistema de archivos. Identidades en sistemas distintos. Pruebas positivas y negativas.
+|Actividades |Práctica A: _Un recurso compartido_, en parejas, con pruebas cruzadas. Plan B: _Revisar una compartición_.
+|Recursos |Samba, NFS, clientes Windows y Linux.
+ifdef::web-aso[]
+link:{web-aso}10-integracion.html[Unidad 10 del manual]
+endif::[]
+|Evaluación |PR con mapa, matriz y pruebas. OD del trabajo en equipo.
+|===
+
+==== Integración final, pruebas y recuperación
+
+[cols="1h,4"]
+|===
+|Temporización |10 h (18/05 – 01/06/2027) y 8 h (07/06 – 15/06/2027)
+|Finalidad |Integrar directorio, recursos compartidos, impresión y acceso remoto en un escenario único. Realizar las pruebas individuales pendientes. Recuperar los RA no superados (apartado 10.5).
+|===
+
+== Metodología del proceso de enseñanza-aprendizaje
+
+=== Enfoque metodológico
+
+El módulo tiene un enfoque procedimental: se aprende administrando sistemas reales en un entorno controlado. Cada unidad sigue el ciclo *aprender, comprobar, explicar*. Una práctica no se considera terminada cuando la orden se ejecuta, sino cuando el alumno o la alumna puede demostrar el resultado y explicar por qué es correcto.
+
+=== Principios metodológicos
+
+* *Aprendizaje basado en evidencias.* Toda entrega incluye objetivo, entorno, procedimiento, comprobación e incidencias. Una captura necesita explicación. Una salida copiada del enunciado no se presenta como resultado propio.
+* *Observar antes de intervenir.* Se diagnostica con hechos, hipótesis y una sola modificación cada vez.
+* *Seguridad desde el principio.* No se publican contraseñas ni claves privadas. Solo se actúa sobre los recursos asignados y se respeta el entorno compartido.
+* *Continuidad con el proyecto intermodular.* Los tres hitos del primer trimestre generan evidencias que se reutilizan en el proyecto.
+* *Diseño Universal para el Aprendizaje.* La información se presenta en varios formatos (web, PDF y AsciiDoc) y las vías de expresión son diversas: práctica, informe, diagrama y defensa oral. El Plan B ofrece una vía alternativa sin depender del servidor.
+
+=== Estrategias didácticas
+
+. *Teoría inicial breve* con esquemas y demostraciones en el proyector.
+. *Práctica A guiada* en el entorno asignado, con la docente como apoyo permanente.
+. *Plan B* cuando no hay acceso al servidor. Avanza en comprensión y diseño; las operaciones reales se comprueban cuando vuelve la conexión.
+. *Comprueba lo que sabes* al cerrar la unidad, de forma oral o escrita.
+. *Resolución de incidencias* en casos reales y simulados.
+. *Trabajo en parejas* para las pruebas cruzadas entre sistemas.
+
+=== Papel del profesorado y del alumnado
+
+La docente organiza el entorno de laboratorio, asigna recursos (máquinas virtuales, puertos y cuentas), plantea los casos, acompaña durante la práctica y evalúa con instrumentos conocidos de antemano.
+
+El alumnado es protagonista: prepara cada sesión con el manual, trabaja de forma autónoma, documenta y defiende su trabajo, y pide ayuda formulando el problema con evidencias. La autonomía se fomenta de forma explícita porque es una capacidad muy demandada en el sector.
+
+== Recursos
+
+=== Recursos didácticos
+
+* *Manual de aula de ASO.* Web generada desde AsciiDoc, con teoría, prácticas, Plan B, PDF descargables y fuentes editables.
+* *Aules* (Moodle de la Conselleria) para entregas, calificaciones y comunicaciones.
+* *Material del CEED* (Álvaro Maceda, Enrique Osca y otros, licencia CC BY-NC-SA): teoría, prácticas y presentaciones de scripting, directorio, procesos, información del sistema, automatización, administración remota e impresión.
+* *Software:* distribuciones Linux de servidor, Windows Server (versión de evaluación), Docker y Docker Compose, OpenLDAP, Samba, NFS, CUPS, OpenSSH, PowerShell, LAM y Apache Directory Studio.
+
+=== Bibliografía y referencias
+
+* González, A. _Docker. Guía práctica_. RC Libros. ISBN 8494465082.
+* Morejón Espinosa, M. _Érase una vez Kubernetes_ (ampliación). ISBN 8409212765.
+* Plunk, T.; Petty, J.; Leonhardt, T. y otros. _Learn PowerShell in a Month of Lunches_, 4.ª ed. Manning.
+* Bertram, A. _PowerShell for Sysadmins_. No Starch Press.
+* Documentación oficial: https://www.gnu.org/software/bash/manual/[Manual de GNU Bash], https://learn.microsoft.com/powershell/[PowerShell], https://learn.microsoft.com/windows-server/identity/ad-ds/[Active Directory Domain Services], https://www.openldap.org/doc/admin26/[OpenLDAP Administrator's Guide], https://docs.docker.com/[Docker], https://www.samba.org/samba/docs/[Samba] y https://openprinting.github.io/cups/[CUPS].
+
+== Uso de espacios y equipamientos
+
+* *Aula de informática* con proyector, red cableada y wifi. Los equipos LliureX actúan como clientes: en ellos no se instala software de prácticas ni se modifica su configuración de red.
+* *Servidor del departamento* con hipervisor. Cada estudiante dispone de una cuota de máquinas virtuales (Linux y Windows Server), puertos y cuentas. Nadie administra el hipervisor ni las máquinas de otras personas.
+* *Red de laboratorio* aislada para los servicios de directorio, impresión y recursos compartidos.
+* *Organización del espacio:* trabajo individual por defecto. En UP10 se forman parejas con un cliente Windows y otro Linux.
+
+== Medidas de atención a la diversidad
+
+Se aplica lo establecido en el PCCF y en la normativa de inclusión del apartado 2.2. En FP las medidas no modifican los resultados de aprendizaje: todo el alumnado debe alcanzar los RA y los CE mínimos, pero puede variar cómo se aprende y cómo se demuestra.
+
+=== Medidas ordinarias
+
+* Evaluación inicial y ajuste del ritmo según sus resultados.
+* Materiales en varios formatos (web, PDF y texto editable) compatibles con lectores de pantalla.
+* Plan B como vía alternativa de trabajo.
+* Entrega de tareas por partes, con revisión intermedia antes de añadir nuevas tareas.
+* Actividades de refuerzo para alumnado de otros itinerarios: Linux básico y redes.
+
+=== Medidas específicas
+
+Se aplican en coordinación con el departamento de orientación y según el informe correspondiente:
+
+* *Adaptaciones de acceso:* ubicación en el aula, ampliación de fuente, mobiliario adaptado y apoyos técnicos.
+* *Ajustes en las pruebas:* hasta un 25 % más de tiempo, enunciados segmentados, comprobación oral de la comprensión y formato de presentación adaptado.
+* *Seguimiento individual* del alumnado con dificultades emocionales, sociales o de aprendizaje.
+
+=== Alumnado con altas capacidades o ritmo avanzado
+
+Se proponen actividades de ampliación que profundizan en los mismos RA:
+
+* Orquestación con Kubernetes (Kind, `kubectl`, Helm).
+* Integración continua con GitLab CI.
+* Monitorización con Prometheus y Grafana o con la pila Elastic.
+* Automatización con Ansible.
+* Identidad en la nube con Microsoft Entra ID.
+* Participación en Skills (Administración de sistemas en red).
+
+== Evaluación del aprendizaje
+
+=== Principios de la evaluación
+
+La evaluación es *continua, formativa e integradora*, y se basa en los RA y sus CE (Orden 8/2025). Se realizan:
+
+* *Evaluación inicial,* antes de que termine el segundo mes, sin calificación.
+* *Dos evaluaciones parciales,* al final del primer y del segundo trimestre. Tienen carácter informativo: cada RA se califica con las evidencias reunidas hasta ese momento.
+* *Evaluación ordinaria,* al finalizar el tercer trimestre.
+* *Evaluación extraordinaria,* posterior a la ordinaria.
+
+El alumnado dispone de dos convocatorias en el curso académico y de un máximo de cuatro por módulo. Los criterios y los instrumentos se dan a conocer al alumnado al inicio del curso y se publican en Aules.
+
+=== Instrumentos de evaluación
+
+[cols="1,2,4",options="header"]
+|===
+|Código |Instrumento |Uso
+|PR |Práctica A con rúbrica |Operaciones realizadas en el entorno asignado y su comprobación. Es el instrumento principal.
+|PB |Caso escrito / Plan B |Comprensión, diseño y diagnóstico. Evidencia los CE descriptivos; no sustituye a la ejecución real de los CE operativos.
+|PO |Prueba individual |Prueba práctica en máquina y preguntas de razonamiento. Se realiza al final de cada trimestre y en la recuperación. Como el resto de tareas evaluables, se realiza una sola vez (apartado 10.4).
+|OD |Observación y defensa oral |Lista de cotejo en clase y defensa de las prácticas. Sirve para verificar la autoría y el trabajo en equipo.
+|DT |Documentación técnica |Calidad, exactitud y reproducibilidad de la documentación de cada servicio.
+|===
+
+=== Distribución de la evaluación por RA
+
+La nota de un RA es la media ponderada de sus CE. Cada CE se califica de 0 a 10 con el instrumento indicado. Cuando aparecen dos instrumentos, se califica con el que mejor evidencia el CE o con su media si se usan ambos.
+
+[cols="1,1,6,1,1",options="header"]
+|===
+|RA |%RA |Criterio de evaluación |%CE/RA |Instrum.
+
+.10+|RA1 .10+|20 %
+|a) Se han identificado la función, los elementos y las estructuras lógicas del servicio de directorio. |10 |PO
+|b) Se ha determinado y creado el esquema del servicio de directorio. |10 |PR
+|c) Se ha realizado la instalación del servicio de directorio en el servidor. |10 |PR
+|d) Se ha realizado la configuración y personalización del servicio de directorio. |10 |PR
+|e) Se ha integrado el servicio de directorio con otros servicios. |10 |PR
+|f) Se han aplicado filtros de búsqueda en el servicio de directorio. |10 |PR, PO
+|g) Se ha utilizado el servicio de directorio como mecanismo de acreditación centralizada de los usuarios en una red. |15 |PR, OD
+|h) Se ha realizado la configuración del cliente para su integración en el servicio de directorio. |10 |PR
+|i) Se han utilizado herramientas gráficas y comandos para la administración del servicio de directorio. |10 |PO
+|j) Se ha documentado la estructura e implantación del servicio de directorio. |5 |DT
+
+.8+|RA2 .8+|15 %
+|a) Se ha descrito el concepto de proceso del sistema, tipos, estados y ciclo de vida. |10 |PO
+|b) Se han utilizado interrupciones y excepciones para describir los eventos internos del procesador. |10 |PO
+|c) Se ha diferenciado entre proceso, hilo y trabajo, y se han realizado tareas de creación, manipulación y terminación de procesos. |15 |PR
+|d) Se ha utilizado el sistema de archivos como medio lógico para el registro e identificación de los procesos del sistema. |10 |PR
+|e) Se han utilizado herramientas gráficas y comandos para el control y seguimiento de los procesos del sistema. |20 |PR, PO
+|f) Se ha comprobado la secuencia de arranque del sistema, los procesos implicados y la relación entre ellos. |15 |PR
+|g) Se han tomado medidas de seguridad ante la aparición de procesos no identificados. |10 |PB
+|h) Se han documentado los procesos habituales del sistema, su función y relación entre ellos. |10 |DT
+
+.8+|RA3 .8+|15 %
+|a) Se han descrito las ventajas de la automatización de las tareas repetitivas en el sistema. |5 |PO
+|b) Se han utilizado los comandos del sistema para la planificación de tareas. |20 |PR, PO
+|c) Se han establecido restricciones de seguridad. |10 |PR
+|d) Se han realizado planificaciones de tareas repetitivas o puntuales relacionadas con la administración del sistema. |20 |PR
+|e) Se ha automatizado la administración de cuentas. |15 |PR
+|f) Se han instalado y configurado herramientas gráficas para la planificación de tareas. |10 |PR
+|g) Se han utilizado herramientas gráficas para la planificación de tareas. |10 |PR
+|h) Se han documentado los procesos programados como tareas automáticas. |10 |DT
+
+.9+|RA4 .9+|12 %
+|a) Se han descrito métodos de acceso y administración remota de sistemas. |10 |PO
+|b) Se ha diferenciado entre los servicios orientados a sesión y los no orientados a sesión. |5 |PO
+|c) Se han utilizado herramientas de administración remota suministradas por el propio sistema operativo. |15 |PR
+|d) Se han instalado servicios de acceso y administración remota. |15 |PR
+|e) Se han utilizado servicios de acceso y administración remota. |15 |PR
+|f) Se han creado cuentas de usuario para el acceso remoto. |10 |PR
+|g) Se han realizado pruebas de acceso y administración remota entre sistemas heterogéneos. |10 |PR
+|h) Se han utilizado mecanismos de encriptación de la información transferida. |10 |PR, OD
+|i) Se han documentado los procesos y servicios del sistema administrados de forma remota. |10 |DT
+
+.8+|RA5 .8+|8 %
+|a) Se ha descrito la funcionalidad de los sistemas y servidores de impresión, y se han identificado los puertos y los protocolos utilizados. |10 |PO
+|b) Se han utilizado las herramientas para la gestión de impresoras integradas en el sistema operativo. |15 |PR
+|c) Se ha instalado y configurado un servidor de impresión en entorno web. |15 |PR
+|d) Se han creado y clasificado impresoras lógicas. |15 |PR
+|e) Se han creado grupos de impresión. |10 |PR
+|f) Se han gestionado impresoras y colas de trabajos mediante comandos y herramientas gráficas. |15 |PR, PO
+|g) Se han compartido impresoras en red entre sistemas operativos diferentes. |10 |PR
+|h) Se ha documentado la configuración del servidor de impresión y de las impresoras creadas. |10 |DT
+
+.8+|RA6 .8+|12 %
+|a) Se ha identificado la necesidad de compartir recursos en red entre diferentes sistemas operativos. |5 |PB
+|b) Se han establecido niveles de seguridad para controlar el acceso del cliente a los recursos compartidos en red. |15 |PR
+|c) Se ha comprobado la conectividad de la red en un escenario heterogéneo. |10 |PR
+|d) Se ha descrito la funcionalidad de los servicios que permiten compartir recursos en red. |10 |PO
+|e) Se han instalado y configurado servicios para compartir recursos en red. |20 |PR
+|f) Se ha comprobado el funcionamiento de los servicios instalados. |15 |PR, OD
+|g) Se ha trabajado en grupo para acceder a sistemas de archivos e impresoras en red desde equipos con diferentes sistemas operativos. |15 |OD
+|h) Se ha documentado la configuración de los servicios instalados. |10 |DT
+
+.9+|RA7 .9+|18 %
+|a) Se han utilizado y combinado las estructuras del lenguaje para crear guiones. |20 |PO
+|b) Se han utilizado herramientas para depurar errores sintácticos y de ejecución. |10 |PR
+|c) Se han interpretado guiones de configuración del sistema operativo. |10 |PB
+|d) Se han realizado cambios y adaptaciones de guiones del sistema. |10 |PR
+|e) Se han creado y probado guiones de administración de servicios. |15 |PR
+|f) Se han creado y probado guiones de automatización de tareas. |15 |PR
+|g) Se han implantado guiones en sistemas libres y propietarios. |10 |PR
+|h) Se han consultado y utilizado librerías de funciones. |5 |PR
+|i) Se han documentado los guiones creados. |5 |DT
+|===
+
+=== Criterios de calificación
+
+[.regla]
+.Evaluación mediante proyectos y tareas evaluables
+****
+* La evaluación se realiza a través de *proyectos y tareas evaluables*.
+* Cada tarea evaluable se realiza *una sola vez*. Su calificación hace media con la del resto de tareas, según los porcentajes establecidos.
+* *Excepción:* si suspende más del 75 % del grupo, la tarea podrá repetirse. En la repetición, la calificación máxima será un 5.
+****
+
+* La *nota de cada RA* es la media ponderada de sus CE, con dos decimales.
+* Para superar el módulo hay que obtener *al menos un 5 en cada RA*.
+* La *nota del módulo* es la media ponderada de los RA según la tabla anterior, expresada como número entero de 1 a 10 (Orden 8/2025). Si algún RA no llega al 5, la nota del módulo será como máximo un 4.
+* Las *evaluaciones parciales* informan del progreso con los RA trabajados hasta esa fecha. No eliminan materia: la nota final se calcula con la última evidencia válida de cada CE.
+* *Autoría:* la docente puede pedir en cualquier momento que se defienda un trabajo. Si la defensa muestra que no es propio, el CE se evalúa con una prueba individual.
+* *Copia o plagio:* la actividad se califica con 0 para todas las personas implicadas y los CE afectados se evalúan con una prueba individual. La reiteración se comunica a jefatura de estudios y se aplica el reglamento de régimen interior.
+* *Pérdida de la evaluación continua:* se produce al superar el 15 % de faltas de asistencia en el módulo (unas 10 sesiones). El centro avisa al llegar al 10 %. En ese caso, el alumnado realiza en la convocatoria ordinaria una prueba final de todos los RA y entrega las prácticas obligatorias del curso.
+
+=== Recuperación
+
+* Durante el curso no se repiten las tareas evaluables, salvo en el caso previsto en el apartado 10.4 (más del 75 % de suspensos, con una calificación máxima de 5). Cada RA pendiente cuenta con un *plan de recuperación individual* que se aplica al final de curso.
+* En el periodo del 18 de mayo al 15 de junio se realizan las *pruebas de recuperación por RA*. Solo se recuperan los RA no superados.
+
+=== Evaluación extraordinaria
+
+El alumnado que no supere el módulo en la convocatoria ordinaria recibe un *plan de recuperación* con las prácticas que debe entregar y los RA que se evaluarán. La prueba extraordinaria se limita a los RA no superados y se conservan las notas de los RA aprobados. Se aplican la misma ponderación y los mismos criterios.
+
+=== Formación en empresa
+
+Los RA de ASO se imparten y evalúan en el centro. Si el plan de formación de un estudiante incluye actividades relacionadas con el módulo (por ejemplo, administración remota, automatización o gestión de cuentas), la valoración del tutor o tutora de empresa (RA superado o no superado) se tiene en cuenta como evidencia de esos CE. La calificación numérica corresponde a la docente.
+
+=== Proyecto intermodular
+
+El proyecto intermodular se califica de forma independiente. Su nota se pondera entre los dos cursos. ASO contribuye con tres hitos:
+
+[cols="1,2,3",options="header"]
+|===
+|Fecha |Hito |Evidencia
+|08/10/2026 |Instalar un sistema |Ficha de instalación reproducible de la VM del proyecto.
+|21/12/2026 |Desplegar un servicio |Servicio en contenedor accesible desde el cliente, con su ficha de despliegue.
+|22/01/2027 |Gestionar contenedores |Servicio descrito con Compose, con diagnóstico y copia restaurada.
+|===
+
+Las evidencias de estos hitos pueden utilizarse también para calificar los CE de ASO correspondientes (UP1, UP5 y UP6) sin repetir el trabajo.
+
+== Actividades complementarias y extraescolares
+
+Las actividades están sujetas a aprobación del departamento y del consejo escolar y a la disponibilidad de las entidades. Se informará de ellas con antelación.
+
+[cols="2,3,2,2",options="header"]
+|===
+|Actividad |Objetivo |Organización |Fecha prevista
+|Charla técnica de una empresa del sector (sistemas, cloud o ciberseguridad) |Conocer cómo se administran identidades, servicios y automatización en un entorno real (RA1, RA3, RA4). |En el centro, 2 horas, todo el grupo. |Segundo trimestre
+|Visita a un centro de datos o a una empresa de servicios TIC |Relacionar virtualización, alta disponibilidad y administración remota con la práctica profesional. |Salida de media jornada, acompañada por dos docentes. |Segundo o tercer trimestre
+|Skills / competiciones técnicas |Ampliar competencias en administración de sistemas en red. |Participación voluntaria con preparación previa. |Según convocatoria
+|===
+
+Se fomentará además la investigación personal sobre los temas del curso y la asistencia a jornadas técnicas y ferias del sector.
+
+== Criterios y procedimientos para la evaluación del desarrollo de la programación y de la práctica docente
+
+=== Indicadores de logro de la programación didáctica
+
+El seguimiento se hace al final de cada UP y en cada sesión de evaluación. Las desviaciones se anotan en el apartado 1.
+
+[cols="3,1,2",options="header"]
+|===
+|Indicador |Objetivo |Momento
+|Porcentaje del alumnado que supera cada RA |≥ 75 % |Evaluaciones parciales y ordinaria
+|Prácticas A entregadas en plazo |≥ 80 % |Final de cada UP
+|Desviación respecto a la temporización |≤ 1 semana por trimestre |Final de cada trimestre
+|Sesiones resueltas con Plan B por falta de acceso |Registro informativo |Continuo
+|Valoración del alumnado de la utilidad de los materiales |≥ 3,5 sobre 5 |Encuesta de final de trimestre
+|===
+
+=== Evaluación de la práctica docente
+
+* Encuesta anónima al alumnado al final de cada trimestre sobre la metodología, los materiales y la evaluación.
+* Autoevaluación de la docente después de cada UP: ajuste del tiempo, claridad de los enunciados y funcionamiento del entorno.
+* Revisión en la reunión de departamento al final de cada trimestre y propuestas de mejora para la siguiente versión.
+
+== Cualquier otro apartado considerado relevante por el equipo educativo en el PCCF
+
+=== Normas del laboratorio
+
+* Solo se actúa sobre los recursos asignados. No se interrumpen servicios compartidos y no se ejecutan órdenes sobre PID, puertos o máquinas de otras personas.
+* No se instala software de prácticas en los equipos LliureX ni se modifica su red.
+* Ninguna entrega incluye contraseñas, claves privadas ni tokens.
+
+=== Uso de herramientas de inteligencia artificial
+
+Se permite usar asistentes de IA como apoyo para consultar o depurar, siempre que se indique en la entrega para qué se han utilizado. Ninguna orden generada se ejecuta sin entenderla y sin comprobar su efecto. La autoría se verifica mediante la defensa oral.
+
+=== Publicación de los materiales
+
+Los materiales del alumnado se mantienen como fuentes AsciiDoc y se publican en GitHub Pages. Las adaptaciones propias se ofrecen bajo licencia https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es[CC BY-NC-SA 4.0]. Se conservan los créditos de los materiales del CEED y de otras fuentes.

@@ -1,0 +1,891 @@
+= Programación didáctica · Taller de Relaciones Digitales Responsables
+:description: Programación didáctica de Taller de Relaciones Digitales Responsables (1.º ESO). IES Font de Sant Lluís. Curso 2026-2027.
+:lang: es
+:orden: 3
+:titulo-corto: Taller de Relaciones Digitales Responsables
+:etapa: ESO · 1.º
+:resumen: Materia de 1.º de ESO.
+:borrador:
+:toc: left
+:toc-title: Sumario
+:toclevels: 2
+:sectnums:
+:sectnumlevels: 2
+:sectanchors:
+:idprefix:
+:idseparator: -
+:note-caption: Nota
+:important-caption: Importante
+:tip-caption: Consejo
+:warning-caption: Atención
+:caution-caption: Precaución
+:centro: IES Font de Sant Lluís (València)
+:departamento: Departamento de Informática
+:modulo: Taller de Relaciones Digitales Responsables
+:curso: 2026-2027
+:docente: María Bañuls Ribes
+:grupo-propio: grupo desdoblado de 18 alumnos y alumnas
+// Quita la línea «:borrador:» cuando la programación esté terminada.
+
+[.portada]
+****
+{departamento} +
+*1.º ESO*
+
+Programación didáctica de +
+*{modulo}*
+
+Curso {curso} · Docente: {docente}
+****
+
+== Introducción
+
+____
+El Instituto de Educación Secundaria Fuente de San Luis situado en la calle Hermanos Maristas n.º 25, fue creado en 1978 y renovado e inaugurado oficialmente el 18 de julio de 2005, siendo uno de los centros más modernos de la Comunidad Valenciana. Se encuentra entre dos zonas significativamente diferenciadas. La zona colindante por el este es una de las zonas más modernas y de mayor desarrollo urbano y de servicios de la ciudad de Valencia cercana a la Ciudad de las Artes y las Ciencias. El resto de las zonas que abarca el IES son muy heterogéneas, donde conviven familias de diferentes etnias y clases sociales muy diversas.
+
+Debido a la cercanía de los *conservatorios de música municipal y superior y de la ciudad deportiva* de la Font de Sant Lluís, se llevan a cabo convenios de colaboración con dichas entidades para recibir alumnado deportista de élite y alumnado de conservatorio, aplicándose una *coordinación horaria* para facilitar el desarrollo de sus actividades.
+
+Esto da lugar a un alumnado heterogéneo, lo cual es muy enriquecedor para todo el centro, que se ve envuelto en un *ambiente cultural rico* y donde la cultura del esfuerzo es parte de su día a día.
+
+Desde el centro se trabaja por el proceso de *adaptación y aprendizaje de todos* los alumnos. Para ello se aplican recursos para garantizar la respuesta a las distintas necesidades educativas con personal especializado en Pedagogía Terapéutica.
+
+Además, se emplean técnicas de aprendizaje basado en *proyectos y ámbitos.*
+
+Además de la ESO y Bachillerato, en el IES Font de Sant Lluís se imparten también enseñanzas de Formación Profesional. Concretamente, las familias de informática e imagen y sonido. Intentamos mejorar día a día la calidad de la formación que impartimos, contando con profesores especialistas y cursos adicionales de especialización en la rama de informática, como, por ejemplo, Linux Essentials, Cisco Networking o Amazon Web Services.
+____
+
+== Justificación de la programación didáctica
+
+____
+El departamento de informática aboga por una programación didáctica diversa y flexible donde se proponen metodologías y situaciones de aprendizaje con las que poder trabajar las competencias clave y específicas, que marcarán el perfil de salida del alumnado y lo preparan para ejercer una ciudadanía responsable, de una forma inclusiva y comprometida con el entorno social y medioambiental.
+
+Todas las programaciones del departamento de informática se ajustan a los currículos oficiales.
+
+Desde todos los organismos se aboga por una formación que prepare al alumno para la vida y su futuro laboral, es por ello por lo que desde el departamento se da un enfoque a las situaciones de aprendizaje que despierten su pensamiento, con el objetivo que adquieran las competencias digitales necesarias para desenvolverse a nivel educativo y a nivel social.
+____
+
+== Objetivos de la etapa de Secundaria
+
+____
+_*Objetivos:* logros que se espera que el alumnado haya conseguido al finalizar la etapa y cuya consecución está vinculada a la adquisición de las competencias clave._
+____
+
+[width="100%",cols="100%",]
+|===
+|*OBJETIVOS ETAPA SECUNDARIA*
+|*Obj.1.* Asumir responsablemente sus *deberes,* conocer y ejercer sus *derechos* en el respeto a los otros, practicar la tolerancia, la cooperación y la solidaridad entre las personas y grupos, ejercitarse en el diálogo afianzando los derechos humanos como valores comunes de una sociedad plural y prepararse para el ejercicio de la ciudadanía democrática.
+|*Obj.2. Desarrollar* y consolidar *hábitos de disciplina, estudio y trabajo individual y en equipo* como condición necesaria para una realización eficaz de las tareas del aprendizaje y como medio de desarrollo personal.
+|*Obj.3.* Valorar y respetar las diferencias de géneros y *la igualdad* de derechos y oportunidades entre ellos. Rechazar los estereotipos que suponen discriminación entre hombres y mujeres.
+|*Obj.4.* Fortalecer sus capacidades afectivas en todos los ámbitos de la personalidad y en sus relaciones con los otros, así como rechazar la violencia, los prejuicios de cualquier tipo, los comportamientos sexistas y resolver pacíficamente los conflictos.
+|*Obj.5*. Desarrollar destrezas básicas en la utilización de las fuentes de información para, con sentido crítico, adquirir nuevos conocimientos. Desarrollar las *competencias tecnológicas* básicas y avanzar en una reflexión ética sobre su funcionamiento y utilización.
+|*Obj.6.* Concebir el *conocimiento científico* como un saber integrado, que se estructura en diferentes disciplinas, así como conocer y aplicar los métodos para identificar los problemas en los diversos campos del conocimiento y de la experiencia.
+|*Obj.7.* Desarrollar el espíritu emprendedor y la confianza en sí mismo, la participación, el sentido crítico, la iniciativa personal y la *capacidad para aprender a aprender, planificar, tomar decisiones y asumir responsabilidades.*
+|*Obj.8.* *Comprender y expresar* con corrección, oralmente y por escrito, en las *lenguas* oficiales, el valenciano como lengua propia y el castellano como lengua cooficial, textos y mensajes complejos, e iniciarse en el conocimiento, *la lectura* y el estudio de la literatura.
+|*Obj.9*. Comprender y expresarse en una o más l**enguas extranjeras** de manera apropiada.
+|*Obj.10.* Conocer, valorar y respetar los aspectos básicos de la cultura y la historia propias y de los demás, incluyendo las lenguas familiares, así como el patrimonio artístico y cultural, como muestra del multilingüismo y de la *multiculturalidad* del mundo, que también se tiene que valorar y respetar.
+|*Obj.11*. Conocer y aceptar el funcionamiento del propio cuerpo y el de los demás, respetar las diferencias, afianzar los hábitos de atención y *salud* corporales e incorporar la *educación física y la práctica del deporte* para favorecer el desarrollo personal y social. Conocer y valorar la dimensión humana de la sexualidad en toda su diversidad.
+|*Obj.12*. Valorar críticamente los *hábitos sociales* relacionados con la salud, el *consumo, el cuidado, la empatía y el respeto* hacia los seres vivos, especialmente *los animales, y el medio ambiente*, y contribuir así a su conservación y mejora.
+|*Obj.13.* Apreciar la *creación artística* y comprender el lenguaje de las diferentes manifestaciones artísticas, utilizando varios medios de expresión y representación.
+|*Obj.14.* Tomar conciencia de las *problemáticas* que tiene planteadas la humanidad y que se concretan en los *Objetivos de Desarrollo Sostenible*.
+|===
+
+== Competencias clave de la etapa
+
+____
+_*Competencias clave*: desempeños que se consideran imprescindibles para que el alumnado pueda progresar con garantías de éxito en su itinerario formativo, y afrontar los principales retos y desafíos globales y locales._
+____
+
+[width="100%",cols="100%",]
+|===
+a|
+____
+*COMPETENCIAS CLAVES*
+____
+
+|*CCL* Competencia en comunicación lingüística.
+|*CP* Competencia plurilingüe.
+|*CMCT* Competencia matemática y competencia en ciencia, tecnología e ingeniería.
+|*CD* Competencia digital.
+|*CPSAA* Competencia personal, social y de aprender a aprender.
+|*CC* Competencia ciudadana.
+|*CE* Competencia emprendedora.
+|*CCE* Competencia en conciencia y expresión culturales
+|===
+
+*[.underline]#Porcentajes de las competencias clave por nivel educativo#*
+
+[width="100%",cols="16%,12%,12%,12%,12%,12%,12%,12%",options="header",]
+|===
+|*DEPARTAMENTO: INFORMÁTICA* | | | | | | |
+|*NIVEL: 1ESO* | | | | | | |
+|*CCL* |*CP* |*CMCT* |*CD* |*CPSAA* |*CC* |*CE* |*CCE*
+|5 % |5 % |20 % |45 % |15 % |5 % |0 % |5 %
+|===
+
+== Descriptores operativos de las competencias clave. Perfil de salida
+
+____
+_*Perfil de salida*: fija las competencias clave que el alumnado tiene que haber logrado y desarrollado al finalizar la educación básica._
+
+Trabajaremos las competencias clave en cada situación de aprendizaje con el pensamiento crítico, la resolución de problemas, el trabajo en equipo, las capacidades de comunicación y negociación, las capacidades analíticas, la creatividad y las capacidades interculturales, para aproximarse a situaciones, cuestiones y problemas de la vida cotidianas.
+____
+
+[width="100%",cols="21%,79%",]
+|===
+|*COMPETENCIA CLAVE* |*DESCRIPTORES*
+|*CCL* Competencia en comunicación lingüística. a|
+*CCL1*. Se expresa de forma oral, escrita, signada o multimodal con coherencia, corrección y adecuación a los diferentes contextos sociales, y participa en interacciones comunicativas con actitud cooperativa y respetuosa tanto para intercambiar información, crear conocimiento y transmitir opiniones, como para construir vínculos personales.
+
+*CCL2*. Comprende, interpreta y valora con actitud crítica textos orales, escritos, signados o multimodales de los ámbitos personal, social, educativo y profesional para participar en diferentes contextos de manera activa e informada y para construir conocimiento
+
+*CCL3*. Localiza, selecciona y contrasta de manera progresivamente autónoma información procedente de diferentes fuentes, evaluando su fiabilidad y pertinencia en función de los objetivos de lectura y evitando los riesgos de manipulación y desinformación, y la integra y transforma en conocimiento para comunicarla adoptando un punto de vista creativo, crítico y personal a la par que respetuoso con la propiedad intelectual.
+
+*CCL4*. Lee con autonomía obras diversas adecuadas a su edad, seleccionando las que mejor se ajustan a sus gustos e intereses; aprecia el patrimonio literario como cauce privilegiado de la experiencia individual y colectiva; y moviliza su propia experiencia biográfica y sus conocimientos literarios y culturales para construir y compartir su interpretación de las obras y para crear textos de intención literaria de progresiva complejidad.
+
+*CCL5*. Pone sus prácticas comunicativas al servicio de la convivencia democrática, la resolución dialogada de los conflictos y la igualdad de derechos de todas las personas, evitando los usos discriminatorios, así como los abusos de poder, para favorecer la utilización no solo eficaz sino también ética de los diferentes sistemas de comunicación.
+
+|*CP* Competencia plurilingüe. a|
+*CP1*. Usa eficazmente una o más lenguas, además de la lengua o lenguas familiares, para responder a sus necesidades comunicativas, de manera apropiada y adecuada tanto a su desarrollo e intereses como a diferentes situaciones y contextos de los ámbitos personal, social, educativo y profesional.
+
+*CP2*. A partir de sus experiencias, realiza transferencias entre distintas lenguas como estrategia para comunicarse y ampliar su repertorio lingüístico individual.
+
+*CP3*. Conoce, valora y respeta la diversidad lingüística y cultural presente en la sociedad, integrándola en su desarrollo personal como actor de diálogo, para fomentar la cohesión social.
+
+|*CMCT* Competencia matemática y competencia en ciencia, tecnología e ingeniería. a|
+*STEM1*. Utiliza métodos inductivos y deductivos propios del razonamiento matemático en situaciones conocidas, y selecciona y emplea diferentes estrategias para resolver problemas analizando críticamente las soluciones y reformulando el procedimiento, si fuera necesario.
+
+*STEM2*. Utiliza el pensamiento científico para entender y explicar los fenómenos que ocurren a su alrededor, confiando en el conocimiento como motor de desarrollo, planteándose preguntas y comprobando hipótesis mediante la experimentación y la indagación, utilizando herramientas e instrumentos adecuados, apreciando la importancia de la precisión y la veracidad y mostrando una actitud crítica acerca del alcance y las limitaciones de la ciencia.
+
+*STEM3*. Plantea y desarrolla proyectos diseñando, fabricando y evaluando diferentes prototipos o modelos para generar o utilizar
+
+productos que den solución a una necesidad o problema de forma creativa y en equipo, procurando la participación de todo el grupo, resolviendo pacíficamente los conflictos que puedan surgir, adaptándose ante la incertidumbre y valorando la importancia de la sostenibilidad.
+
+*STEM4*. Interpreta y transmite los elementos más relevantes de procesos, razonamientos, demostraciones, métodos y resultados científicos, matemáticos y tecnológicos de forma clara y precisa y en diferentes formatos (gráficos, tablas, diagramas, fórmulas, esquemas, símbolos...), aprovechando de forma crítica la cultura digital e incluyendo el lenguaje matemático formal con ética y responsabilidad, para compartir y construir nuevos conocimientos.
+
+*STEM5*. Emprende acciones fundamentadas científicamente para promover la salud física, mental y social, y preservar el medio ambiente y los seres vivos; y aplica principios de ética y seguridad en la realización de proyectos para transformar su entorno próximo de forma sostenible, valorando su impacto global y practicando el consumo responsable.
+
+|*CD* Competencia digital. a|
+*CD1*. Realiza búsquedas en internet atendiendo a criterios de validez dez, calidad, actualidad y fiabilidad, seleccionando los resultados de manera crítica y archivándolos, para recuperarlos, referenciarlos y reutilizarlos, respetando la propiedad intelectual
+
+*CD2*. Gestiona y utiliza su entorno personal digital de aprendizaje para construir conocimiento y crear contenidos digitales, mediante estrategias de tratamiento de la información y el uso de diferentes herramientas digitales, seleccionando y configurando la más adecuada en función de la tarea y de sus necesidades de aprendizaje permanente.
+
+*CD3*. Se comunica, participa, colabora e interactúa compartiendo contenidos, datos e información mediante herramientas o plataformas virtuales, y gestiona de manera responsable sus acciones, presencia y visibilidad en la red, para ejercer una ciudadanía digital activa, cívica y reflexiva.
+
+*CD4*. Identifica riesgos y adopta medidas preventivas al usar las tecnologías digitales para proteger los dispositivos, los datos personales, la salud y el medioambiente, y para tomar conciencia de la importancia y necesidad de hacer un uso crítico, legal, seguro, saludable y sostenible de dichas tecnologías.
+
+*CD5*. Desarrolla aplicaciones informáticas sencillas y soluciones tecnológicas creativas y sostenibles para resolver problemas concretos o responder a retos propuestos, mostrando interés y curiosidad por la evolución de las tecnologías digitales y por su desarrollo sostenible y uso ético.
+
+|*CPSAA* Competencia personal, social y de aprender a aprender. a|
+*CPSAA1*. Regula y expresa sus emociones, fortaleciendo el optimismo, la resiliencia, la autoeficacia y la búsqueda de propósito y motivación hacia el aprendizaje, para gestionar los retos y cambios y armonizarlos con sus propios objetivos.
+
+*CPSAA2*. Comprende los riesgos para la salud relacionados con factores sociales, consolida estilos de vida saludable a nivel físico y mental, reconoce conductas contrarias a la convivencia y aplica estrategias para abordarlas.
+
+*CPSAA3*. Comprende proactivamente las perspectivas y las experiencias de las demás personas y las incorpora a su aprendizaje, para participar en el trabajo en grupo, distribuyendo y aceptando tareas y responsabilidades de manera equitativa y empleando estrategias cooperativas
+
+*CPSAA4*. Realiza autoevaluaciones sobre su proceso de aprendizaje, buscando fuentes fiables para validar, sustentar y contrastar la información y para obtener conclusiones relevantes
+
+*CPSAA5*. Planea objetivos a medio plazo y desarrolla procesos metacognitivos de retroalimentación para aprender de sus errores en el proceso de
+
+|*CC* Competencia ciudadana. a|
+*CC1*. Analiza y comprende ideas relativas a la dimensión social y ciudadana de su propia identidad, así como a los hechos culturales, históricos y normativos que la determinan, demostrando respeto por las normas, empatía, equidad y espíritu constructivo en la interacción con los demás en cualquier contexto.
+
+*CC2*. Analiza y asume fundadamente los principios y valores que emanan del proceso de integración europea, la Constitución española y los derechos humanos y de la infancia, participando en actividades comunitarias, como la toma de decisiones o la resolución de conflictos, con actitud democrática, respeto por la diversidad, y compromiso con la igualdad de género, la cohesión social, el desarrollo sostenible y el logro de la ciudadanía mundial.
+
+*CC3*. Comprende y analiza problemas éticos fundamentales y de actualidad, considerando críticamente los valores propios y ajenos, y desarrollando juicios propios para afrontar la controversia moral con actitud dialogante, argumentativa, respetuosa y opuesta a cualquier tipo de discriminación o violencia.
+
+*CC4*. Comprende las relaciones sistémicas de interdependencia, eco dependencia e interconexión entre actuaciones locales y globales, y adopta, de forma consciente y motivada, un estilo de vida sostenible y eco socialmente responsable.
+
+|*CE* Competencia emprendedora. a|
+*CE1*. Analiza necesidades y oportunidades y afronta retos con sentido crítico, haciendo balance de su sostenibilidad, valorando el impacto que puedan suponer en el entorno, para presentar ideas y soluciones innovadoras, éticas y sostenibles, dirigidas a crear valor en el ámbito personal, social, educativo y profesional.
+
+*CE2*. Evalúa las fortalezas y debilidades propias, haciendo uso de estrategias de autoconocimiento y autoeficacia, y comprende los elementos fundamentales de la economía y las finanzas, aplicando conocimientos económicos y financieros a actividades y situaciones concretas, utilizando destrezas que favorezcan el trabajo colaborativo y en equipo, para reunir y optimizar los recursos necesarios que lleven a la acción una experiencia emprendedora que genere valor.
+
+*CE3*. Desarrolla el proceso de creación de ideas y soluciones valiosas y toma decisiones, de manera razonada, utilizando estrategias ágiles de planificación y gestión, y reflexiona sobre el proceso realizado y el resultado obtenido, para llevar a término el proceso de creación de prototipos innovadores y de valor, considerando la experiencia como una oportunidad para aprender.
+
+|*CCE* Competencia en conciencia y expresión culturales a|
+*CCEC1*. Conoce, aprecia críticamente y respeta el patrimonio cultural y artístico, implicándose en su conservación y valorando el enriquecimiento inherente a la diversidad cultural y artística
+
+*CCEC2*. Disfruta, reconoce y analiza con autonomía las especificidades e intencionalidades de las manifestaciones artísticas y culturales más destacadas del patrimonio, distinguiendo los medios y soportes, así como los lenguajes y elementos técnicos que las caracterizan.
+
+*CCEC3*. Expresa ideas, opiniones, sentimientos y emociones por medio de producciones culturales y artísticas, integrando su propio cuerpo y desarrollando la autoestima, la creatividad y el sentido del lugar que ocupa en la sociedad, con una actitud empática, abierta y colaborativa.
+
+*CCEC4*. Conoce, selecciona y utiliza con creatividad diversos medios y soportes, así como técnicas plásticas, visuales, audiovisuales, sonoras o corporales, para la creación de productos artísticos y culturales, tanto de forma individual como colaborativa, identificando oportunidades de desarrollo personal, social y laboral, así como de emprendimiento.
+
+|===
+
+== Competencias específicas
+
+____
+_*Competencias específicas:* desempeños que el alumnado debe poder desplegar en actividades o en situaciones cuyo abordaje requiere de los saberes básicos de cada materia o ámbito. Su desarrollo se tiene que producir mediante las situaciones de aprendizaje contextualizadas en las que cada alumno o alumna tendrá que resolver._
+____
+
+[width="100%",cols="100%",]
+|===
+a|
+*COMPETENCIAS ESPECÍCAS 1.º ESO*
+
+*TALLER DE RELACIONES DIGITALES RESPONSABLES*
+
+|*CE1-Competencia específica 1.* Utilizar dispositivos digitales de uso personal en el entorno doméstico y educativo de manera saludable, segura y sostenible.
+|*CE2-Competencia específica 2*. Buscar y seleccionar críticamente información digital de distintas fuentes, interpretarla, organizarla en el entorno personal de aprendizaje y crear contenidos digitales.
+|*CE3-Competencia específica 3.* Construir una identidad digital adecuada y aplicar estrategias básicas para cuidarla y protegerla
+|*CE4-Competencia específica 4* Mostrar hábitos básicos que fomenten el bienestar en las relaciones a través de entornos digitales
+|===
+
+*Relación entre las competencias clave y las competencias específicas por nivel.*
+
+[width="100%",cols="12%,11%,11%,11%,11%,11%,11%,11%,11%",options="header",]
+|===
+|*1.º ESO* |CCL |CP |CMCT |CD |CPSAA |CC |CE |CCEC
+|CE1 | | |X |X | | | |
+|CE2 |X |X | |X |X | | |X
+|CE3 | | | |X |X |X | |
+|CE4 | | | |X |X |X | |
+|===
+
+== Criterios de evaluación por competencia específica
+
+____
+_*Criterios de evaluación:* referentes que indican los niveles de desempeño esperados en el alumnado en las situaciones o actividades de aprendizaje que requieren el despliegue de las competencias específicas de cada materia o ámbito en un momento determinado de su proceso de aprendizaje._
+____
+
+[width="100%",cols="22%,78%",]
+|===
+|COMPETENCIAS ESPECÍFICAS a|
+*CRITERIOS DE EVALUACIÓN 1.º ESO*
+
+*TALLER DE RELACIONES DIGITALES RESPONSABLES*
+
+|*CE1* a|
+1.1. Identificar características básicas de los dispositivos digitales de uso personal en el entorno doméstico y educativo.
+
+1.2. Determinar qué dispositivo y modo de acceso a Internet es el más adecuado a las necesidades.
+
+1.3. Conectar dispositivos digitales a Internet de manera segura.
+
+1.4. Reconocer las implicaciones del uso y consumo de tecnología sobre la salud y el medio ambiente.
+
+1.5. Mostrar hábitos básicos de seguridad para proteger los dispositivos.
+
+|CE2 a|
+2.1. Buscar, seleccionar e interpretar información en función de las necesidades a partir de diversas fuentes con sentido crítico, contrastando su veracidad.
+
+2.2. Reconocer la importancia de las noticias falsas en la desinformación de la sociedad.
+
+2.3. Detectar los discursos de odio y reconocer sus implicaciones en el desarrollo de la sociedad.
+
+2.4. Identificar y describir las estrategias subyacentes a la difusión y al consumo de contenido en línea.
+
+2.5. Organizar y gestionar el entorno personal de aprendizaje mediante la integración de recursos digitales.
+
+2.6. Crear, integrar y editar contenidos digitales con sentido estético de manera creativa y respetando los derechos de autoría
+
+|*CE3* a|
+3.1. Identificar y valorar diferentes formas de representar la identidad en Internet y la huella digital que dejan.
+
+3.2. Gestionar adecuadamente el autoconcepto y la percepción externa a través de la imagen personal en entornos digitales.
+
+3.3. Reconocer las implicaciones de la publicación de datos personales en la red.
+
+3.4. Adoptar conductas básicas que protejan la identidad digital y los datos personales.
+
+|*CE4* a|
+4.1. Analizar el funcionamiento de plataformas de interacción social y juego en red. 4.2. Adoptar conductas básicas que fomenten relaciones personales respetuosas y enriquecedoras.
+
+4.3. Comprender y aprovechar las ventajas de las interacciones en entorno digital. 4.4. Identificar y saber reaccionar de manera básica ante situaciones que representen comportamientos abusivos o amenazas a través de dispositivos digitales valorando el bienestar personal y colectivo.
+
+4.5. Tomar medidas básicas de prevención ante el uso continuado de dispositivos digitales.
+
+4.6. Mostrar empatía hacia los miembros del grupo reconociendo sus aportaciones y estableciendo un diálogo igualitario e inclusivo para resolver conflictos y discrepancias.
+
+|===
+
+== Saberes básicos. Contenidos
+
+____
+_Saberes básicos: conocimientos, destrezas y actitudes que constituyen los *contenidos* propios de una materia o un ámbito cuyo aprendizaje es necesario para adquirir las competencias específicas._
+____
+
+[width="100%",cols="100%",]
+|===
+|*1.º ESO SABERES BÁSICOS-CONTENIDOS*
+a|
+*Bloque 1: Dispositivos digitales e Internet*
+
+* Ordenador personal, dispositivos móviles y otros dispositivos de uso doméstico y educativo.
+* Funcionamiento básico y características más importantes de los dispositivos digitales.
+* Sistemas operativos comunes y aplicaciones.
+* Redes de dispositivos. Fundamentos y modos de acceso a Internet.
+* La brecha digital.
+* Hábitos básicos de seguridad para proteger los dispositivos.
+* Implicaciones del uso de los dispositivos digitales para la salud, la sostenibilidad y el medio ambiente. Obsolescencia.
+
+a|
+*Bloque 2: Búsqueda, selección, organización y creación de contenidos digitales*
+
+* Tipos de buscadores web y sus herramientas de filtrado.
+* Selección de información en medios digitales a través de buscadores web contrastando su veracidad.
+* Lectura e interpretación de información de medios digitales.
+* Propiedad intelectual y derechos de autoría.
+* Detección de noticias falsas, bulos y discursos de odio. Implicaciones sociales.
+* Organización de la información. Operaciones básicas con archivos y carpetas.
+* Personalización del entorno de trabajo.
+* Creación básica de contenidos con herramientas digitales.
+* Estética y lenguaje audiovisual.
+
+a|
+*Bloque 3: Identidad digital*
+
+* La identidad personal en Internet. Alias y avatares.
+* Autoconcepto y percepción externa de la identidad digital.
+* Referencias socioculturales en la construcción de la identidad digital. Personas influyentes.
+* Exposición personal en la red. La huella digital.
+* Conductas y hábitos para cuidar la identidad digital.
+* La privacidad en la red. La protección de los datos de carácter personal. Información y consentimiento.
+
+a|
+*Bloque 4: Relaciones en entorno digital*
+
+* Amistad virtual y física.
+* Entornos digitales de intercambio social y juegos en línea.
+* Estrategias para una ciberconvivencia igualitaria, segura y saludable. Etiqueta digital.
+* Ventajas y beneficios de las interacciones en entorno digital
+* Riesgos y amenazas del uso de dispositivos y relaciones en red: ciberacoso y fraudes.
+* Adicciones: tecnoadicción, nomofobia y ludopatía en línea.
+
+|===
+
+== Evaluación y criterios de evaluación
+
+____
+Se evaluarán tanto los aprendizajes del alumnado como los procesos de enseñanza y su propia práctica docente, para lo que establecerán los indicadores de logro en las programaciones docentes.
+
+Se describe cómo se va a llevar a cabo la evaluación del alumnado atendiendo a los criterios de evaluación, que permiten medir el grado de desarrollo de las competencias específicas y de las competencias clave, teniendo en cuenta los acuerdos sobre la evaluación y calificación de las áreas/materias/ámbitos. Además, se explicitarán qué sistemas de evaluación alternativa se van a utilizar para el alumnado al que no se le puede aplicar la evaluación continua. De forma general se indican, de forma genérica, los instrumentos de evaluación que evidenciarán la adquisición de los aprendizajes.
+
+La evaluación del proceso de enseñanza y la propia práctica docente se realizará mediante las memorias de final de curso y las encuestas realizadas al alumnado, según los indicadores de logro establecidos.
+
+Son referentes que indican los niveles de desempeño esperados en el alumnado en las situaciones o actividades de aprendizaje que requieren el despliegue de las competencias específicas de cada materia o ámbito en un momento determinado de su proceso de aprendizaje.
+
+En cada programación de aula se puede variar levemente los criterios de calificación. Ver programaciones de aula.
+
+Los instrumentos de evaluación son fundamentales para evaluar el aprendizaje del alumnado. Debido al *carácter teórico-práctico* de la materia de informática, los instrumentos de evaluación son muy variados según la unidad y el nivel.
+
+Las unidades más prácticas requieren en su mayoría de la elaboración de una tarea o proyecto final en ordenador y para ello se requieren instrumentos de evaluación como la *rúbrica*. Las *pruebas objetivas* se recomiendan cuando se pretendan evaluar procesos de bajo nivel como la identificación, la descripción, etc. o, en general, en aquellos casos donde se quiera diversificar las estrategias de evaluación; las *escalas de observación-valoración* en los criterios de evaluación del bloque transversal; las *listas de control* para aquellas actividades que supongan ejecuciones sencillas; y los criterios que no estén redactados en términos de procesos cognitivos (como por ejemplo adoptar o participar) pueden ser evaluados mediante el empleo de *escalas de actitudes*.
+____
+
+*_[.underline]#AULES# COMO INSTRUMENTO DE EVALUACIÓN_*
+
+Muchos de estos instrumentos los encontramos en la plataforma educativa Aules que permite realizar actividades con rúbrica, cuestiones con escalas de valoración y también nos proporciona actividades grupales donde se valoran entre ellos. Realmente Aules es un instrumento rico para la evaluación.
+
+[width="100%",cols="51%,49%",]
+|===
+|*Instrumentos Para La Evaluación Del Proceso De Aprendizaje* |
+|*INSTRUMENTOS* |*Capacidades*
+a|
+[arabic]
+. *Evaluación cero:* realizada a principio de curso, se emplea como un indicador de los conocimientos iniciales del alumno en la evaluación inicial
+
+|
+a|
+[arabic, start=2]
+. *Las escalas de valoración*[.underline]#.# Contienen un listado de rasgos en los que se gradúa el nivel de consecución del aspecto observado a través de una serie de valoraciones progresivas (de nunca siempre; de poco a mucho de nada a todo; etc.)
+. *Las listas de control.* es un instrumento que permite registrar el desempeño del alumnado, evaluado a través de la observación. Combina la evaluación de procesos y la evaluación de productos finales. (se elabora una lista de habilidades al realizar la tarea y los productos que deben obtenerse y se validará con un “Sí” / “No” según lo ha realizado.
+
+|-Actitud ante el trabajo
+a|
+[arabic, start=4]
+. *Rúbrica -Matriz de Valoración:* es una herramienta de evaluación que permite establecer parámetros graduales de desempeño, y que favorece la autoevaluación en los alumnos. Como instrumento, facilita la valoración del desempeño del alumno en materias y temas complejos; asimismo, permite observar cómo va aprendiendo el alumnado (y esto favorece al autoanálisis de su propio aprendizaje y el de sus compañeros). Si el profesor emplea de manera frecuente este instrumento, facilita la coevaluación y retroalimentación en el grupo
+
+|Todas las capacidades
+a|
+[arabic, start=5]
+. *Cuaderno diario de alumno-profesor:* para la recogida de información muy útil para la evaluación continua, pues refleja el trabajo diario que realiza el alumno.
+
+|-Todas las capacidades (Comprensión, expresión, razonamiento y actitud).
+a|
+[arabic, start=6]
+. *Exámenes tradicionales, en todas sus variantes, tanto orales como escritos o informáticos.*
+
+* Pruebas de ensayo y composición
+* Preguntas de respuesta corta
+* Preguntas de texto incompleto
+* Preguntas de correspondencia o emparejamiento.
+* Preguntas de opción múltiple
+* Preguntas de verdadero – falso(justificadas)
+* Preguntas de analogías/diferencias
+* Preguntas de interpretación y/ de gráficos, mapas, estadísticas, etc**.**
+
+|-Comprensión, expresión y razonamiento, +
+además de la actitud para las pruebas orales
+a|
+[arabic, start=7]
+. *Cuestionarios*
+
+|– Todas las capacidades
+a|
+[arabic, start=8]
+. *Mapa conceptual*
+
+|– Comprensión y razonamiento
+a|
+[arabic, start=9]
+. *Resolución de problemas* explicitando los pasos seguidos para verificar que el alumno ha comprendido y razonado la situación problemática y su solución. Resaltar, que la importancia de este instrumento reside en la justificación de los pasos seguidos para la obtención de un resultado.
+
+|-Comprensión y razonamiento
+a|
+[arabic, start=10]
+. *Trabajos monográficos, pequeñas investigaciones, etc.* +
+Este tipo de tareas tiene como finalidad profundizar en algún conocimiento específico, favorecer la adquisición de determinados procedimientos y desarrollar actitudes relacionadas con el rigor, el gusto por el orden y la presentación correcta, tanto del resultado, como del proceso de elaboración del trabajo.
+
+|– Todas las capacidades
+|===
+
+== Medidas de respuesta educativa para la inclusión
+
+____
+Las programaciones de aula tendrán en cuenta lo que se dispone en el Decreto 104/2018 y en la Orden 20/2019, en relación con la adecuación personalizada de estas programaciones, con el fin de que todo el alumnado pueda participar en las actividades de su grupo clase y lograr los objetivos y las competencias clave de la etapa, de forma que se dé respuesta a los diferentes ritmos, estilos y capacidades de aprendizaje.
+
+Dependiendo del grupo, se tomarán las medidas consensuadas con el departamento de orientación.
+
+De forma general se tomarán las siguientes medidas:
+____
+
+*Realizar una evaluación inicial de los mismos.*
+
+[loweralpha]
+. Buscar sus capacidades más desarrolladas para llegar a otra.
+. Hacer más flexible la selección y secuenciación de los contenidos.
+. Alternar actividades individuales con el trabajo en grupos flexibles en realización.
+. Proponer actividades de refuerzo más flexibles.
+
+____
+*Alumnos/as con dificultades con altas capacidades de aprendizaje*
+____
+
+[loweralpha]
+. Proponer nuevas prácticas y trabajos que estimulen su creatividad y su necesidad de aprender.
+. Aumentar los contenidos de cada unidad o tratar de profundizar o dar mayor complejidad a los mismos.
+. Proponer trabajos en equipo con otros compañeros de nivel similar o de ayuda a otros compañeros de menor nivel.
+
+____
+*Alumnos/as repetidores o con evaluación baja en el módulo anterior*
+____
+
+[loweralpha]
+. Hacer pruebas para determinar las capacidades mínimas que adquirió
+. Proponer actividades de refuerzo
+. Tratar de dividir los bloqueos de aprendizaje, si los hubiera, explicando los conocimientos base para alcanzar las capacidades terminales.
+. Durante la exposición de una unidad, hacer especial hincapié en aquellos conocimientos que no adquirieron en el curso anterior
+. Proponer actividades que permitan asentar los conocimientos básicos
+
+____
+*Medida de respuesta nivel III: Medida de aprendizaje:*
+____
+
+[loweralpha]
+. Metodología: adecuación personalizada de las programaciones didácticas con ajustes metodológicos para una evaluación del aprendizaje.
+. Adecuación personalizada de las unidades didácticas de la programación común.
+. Adaptación de la programación didáctica a los principios DUA.
+. Aumento del tiempo en los exámenes proporcional a un cuarto del normal.
+. Asegurarse que ha entendido el que se le ha explicado con preguntas orales.
+. Darle pocos ejercicios para hacer y después de verificarlos, darle más.
+. Adecuar la evaluación, en su forma y forma de presentarla.
+
+== Estrategias para el refuerzo y planes de recuperación
+
+En este apartado se describirán los mecanismos para la recuperación de los aprendizajes no adquiridos y se especificarán las medidas de apoyo y orientación pertinentes que han de aplicarse al alumnado que haya presentado dificultades en el aprendizaje.
+
+Para aquellos alumnos que no hayan adquirido los aprendizajes básicos por motivos de dificultades de aprendizaje se les reforzará con actividades más básicas sin modificar los contenidos propuestos.
+
+Los planes de recuperación consistirán en temporalizar las actividades para que tengan más tiempo para la entrega.
+
+Para los alumnos que por sus capacidades realizan más rápido del que se espera las tareas asignadas o que demuestren altas capacidades, se les propondrán actividades de investigación relacionadas con los contenidos del proyecto en curso. Del mismo modo, a aquellos alumnos que manifiestan carencias en la adquisición de contenidos tratados se los propondrá actividades encaminadas a comprender, aprender y saber hacer las actividades del proyecto.
+
+== Autoevaluación de la práctica docente
+
+La autoevaluación de la práctica docente es un proceso continuo y reflexivo. Es importante adaptar las estrategias y enfoques a las necesidades específicas de cada contexto. Para realizarla contaremos con formularios de control para realizar dicha reflexión e identificaremos metas y áreas de mejora.
+
+[width="99%",cols="63%,13%,10%,14%",options="header",]
+|===
+|*Criterios* |*Conseguido* |*En Proceso* |*NO Conseguido*
+|Antes de presentar una unidad, expongo y propongo un plan de trabajo, explicando su finalidad. | | |
+|Mantengo el interés del alumnado partiendo de sus experiencias, con un lenguaje claro y adaptado | | |
+|Informo de los progresos conseguidos, así como de las dificultades encontradas | | |
+|Distribuyo el tiempo adecuadamente: tiempo de exposición y el resto de este para las actividades que el alumnado realiza en la clase | | |
+|Utilizo recursos didácticos variados tanto para la presentación de los contenidos como para la práctica del alumnado, favoreciendo el uso autónomo por parte de los mismos | | |
+|Compruebo, que el alumnado ha comprendido la tarea que tienen que realizar: haciendo preguntas, haciendo que verbalicen el proceso... | | |
+|Facilito estrategias de aprendizaje: cómo solicitar ayuda, buscar fuentes de información. | | |
+|Me aseguro la participación de todos | | |
+|===
+
+== Programación de aula · 1.º ESO
+
+*1.º ESO*
+
+[width="100%",cols="100%",options="header",]
+|===
+a|
+*Programación de aula de la asignatura*
+
+*TALLER DE RELACIONES +
+DIGITALES RESPONSABLES*
+
+|*Departamento de informática.*
+|*Curso 2026-2027*
+|===
+
+*Profesora:* {docente}
+
+=== Contextualización del grupo
+
+En 1.º ESO los grupos se desdoblan. Esta programación corresponde al grupo que imparte {docente}: un {grupo-propio}. La temporización, las situaciones de aprendizaje y los instrumentos de evaluación se coordinan con el otro grupo desdoblado del nivel.
+
+[cols="1,1,2",options="header"]
+|===
+|Grupo |Alumnado |Características
+|1.º ESO · desdoble |18 |Alumnado heterogéneo. Se concretará tras la evaluación inicial.
+|===
+
+=== Metodología de aula
+
+El taller es eminentemente práctico: el objetivo es que el alumnado *sepa hacer*, no que memorice listas de conceptos. Cada sesión sigue estos pasos:
+
+. Breve introducción de la actividad del día y de los conceptos esenciales.
+. Explicación y materiales en el equipo de *Teams* de la materia.
+. Realización de la actividad, individual o en grupo, a partir de casos y situaciones cercanas al alumnado.
+. Supervisión y retroalimentación de la docente durante la sesión.
+. Registro del trabajo en la *libreta OneNote* (bloc de notas de clase de Teams), que el alumnado lleva al día.
+
+Se trabaja con situaciones ficticias siempre que se tratan datos personales, identidad digital o convivencia en la red. *Nunca se introducen contraseñas reales* en las actividades y *no se investigan perfiles reales* de compañeros o compañeras.
+
+Hay dos sesiones semanales. La distribución de las unidades a lo largo del curso figura en la tabla de temporización del apartado de unidades didácticas.
+
+=== Evaluación y criterios de calificación
+
+____
+*3.1 Objetivos de la evaluación*
+____
+
+La evaluación es el motor del aprendizaje puesto que de ella depende tanto qué y cómo se enseña como el qué y cómo se aprende.
+
+Los objetivos de la evaluación son:
+
+. {blank}
++
+____
+Detectar la situación de partida general para empezar un proceso de enseñanza-aprendizaje.
+____
+. {blank}
++
+____
+Regular el proceso de aprendizaje reforzando los elementos positivos y eliminando los elementos negativos.
+____
+. {blank}
++
+____
+Identificar las dificultades del alumnado.
+____
+. {blank}
++
+____
+Favorecer el aprendizaje del alumnado.
+____
+. {blank}
++
+____
+Valorar la consecución de los objetivos y las competencias establecidos.
+____
+. {blank}
++
+____
+Reflexionar sobre la metodología, recursos y estrategias de aprendizaje.
+____
+. {blank}
++
+____
+Mejorar la práctica docente.
+____
+
+____
+*3.2 Instrumentos de evaluación*
+____
+
+No se califica individualmente cada ejercicio. Todo el trabajo realizado durante el trimestre forma parte de una *única evidencia*: la libreta OneNote del alumno o alumna en Teams.
+
+[cols="3,1",options="header"]
+|===
+|Instrumento |Puntos
+|*Libreta OneNote* (bloc de notas de clase de Teams) |9
+|*Actitud:* hábitos de trabajo y responsabilidad |1
+|*Total* |*10*
+|===
+
+.¿Cómo se valora la libreta OneNote?
+[cols="2,4,1",options="header"]
+|===
+|Apartado |Qué se observa |Puntos
+|*Completa* |Está al día durante todo el trimestre y recoge todas las actividades, siguiendo rigurosamente las indicaciones dadas en clase. |4
+|*Correcta y demuestra comprensión* |Las actividades están bien resueltas y muestran que se han entendido los conceptos. |3
+|*Organizada y clara* |Está aseada, ordenada y es legible. |1
+|*Revisa y mejora* |Incorpora las correcciones y mejora el trabajo a partir de las indicaciones. |1
+|===
+
+.¿Cómo se valora el punto de actitud?
+[cols="2,4,1",options="header"]
+|===
+|Apartado |Qué se observa |Puntos
+|*Cuida el material* |Utiliza correctamente el equipo, respeta los archivos ajenos y deja el puesto recogido. |hasta 0,25
+|*Respeta a las personas* |Se dirige con respeto, escucha y permite trabajar sin interrupciones ni burlas. |hasta 0,25
+|*Trabaja durante la clase* |Comienza la actividad, dedica el tiempo a las tareas y solicita ayuda cuando la necesita. |hasta 0,25
+|*Revisa y mejora* |Comprueba sus resultados, atiende las indicaciones e intenta corregir sus errores. |hasta 0,25
+|===
+
+Cada apartado de actitud se valora con *0,25 puntos* si se demuestra habitualmente, *0,125 puntos* si se demuestra de forma irregular y necesita recordatorios, o *0 puntos* si todavía no se demuestra pese a las oportunidades y apoyos.
+
+Se tiene en cuenta el seguimiento durante toda la evaluación. Pedir ayuda, trabajar a un ritmo diferente o necesitar adaptaciones no reduce la puntuación.
+
+____
+*3.3 Criterios de Calificación*
+
+La evaluación de las actividades se realizará de la siguiente manera:
+____
+
+[width="100%",cols="17%,83%",]
+|===
+a|
+NOTA POR EVALUACIÓN
+
+(numérica)
+
+a|
+Cada evaluación tendrá una nota, resultado de aplicar los porcentajes establecidos en los instrumentos de evaluación: libreta OneNote (9 puntos) y actitud (1 punto). La nota será una proyección del esfuerzo y consecución del trabajo de esa evaluación.
+
+a|
+NOTA FINAL
+
+(numérica)
+
+a|
+Se realiza una media de evaluaciones, por lo que para la nota final se evaluarán las evaluaciones realizadas comprobando si ha adquirido las competencias clave y específicas.
+
+*NOTA FINAL= MEDIA ARITMÉTICA (1A EV + 2A EV + 3A EV)*
+
+|===
+
+La relación de cada unidad con su evaluación, sus sesiones y sus competencias específicas figura en la tabla de temporización de las unidades didácticas.
+
+=== Medidas de respuesta educativa para la inclusión
+
+____
+En la evaluación inicial se detectarán conocimientos, habilidades, intereses y necesidades específicas del alumnado. El alumnado con deficiencias o problemas de algún tipo dispondrá de una adaptación en coordinación con el departamento de orientación mediante alguno o todos los puntos siguientes:
+
+- Actividades de refuerzo con diferentes niveles de dificultad.
+
+- Metodología, agrupamientos, recursos y materiales diversos y flexibles.
+
+- Adecuación del formato y/o nivel de las pruebas utilizadas.
+
+- Ampliación del tiempo para llevar a cabo las tareas.
+
+El alumnado que muestre altas capacidades o tenga un elevado nivel de asimilación de las competencias específicas dispondrá de material de ampliación motivador y relacionado con los saberes básicos.
+____
+
+[arabic, start=2]
+=== Estrategias para el refuerzo y planes de recuperación
+
+____
+*Refuerzo:*
+
+En cuanto a medidas para el refuerzo ver apartado anterior.
+
+*Planes de recuperación:*
+
+En este proyecto no hay repetidores por ser una materia de primer curso de la ESO.
+____
+
+=== Unidades didácticas y situaciones de aprendizaje
+
+El curso se organiza en once unidades didácticas y una actividad especial de programación vinculada a la visita a la UPV. Cada unidad parte de situaciones cercanas al alumnado y termina con su registro en la libreta OneNote, que se convierte en la evidencia de todo el trimestre.
+
+==== Temporización
+
+[cols="2,4,2,1,2",options="header"]
+|===
+|Evaluación |Unidad |Periodo |Sesiones |Competencias específicas
+
+.5+|Primera
+|UD1 · Mi ordenador y mis archivos |Final de septiembre – octubre |4-5 |CE1, CE2
+|UD2 · Internet y la Web |Octubre |5 |CE1
+|UD3 · Seguridad digital |Noviembre |6 |CE1, CE3, CE4
+|UD4 · Buscar información |Final de noviembre – diciembre |4 |CE2
+|Especial · Programación y visita a la UPV |Diciembre |2 + visita |CE2
+
+.3+|Segunda: _Aprendo a manejar la información digital_
+|UD5 · Buscar bien en Internet |Enero |5-6 |CE2
+|UD6 · ¿Verdad o mentira? |Final de enero – febrero |6-7 |CE2
+|UD7 · Crear contenidos digitales |Febrero – marzo |6 |CE2
+
+.4+|Tercera: _Yo y los demás en Internet_
+|UD8 · Mi identidad y mi huella digital |Abril |5-6 |CE3
+|UD9 · Redes sociales y convivencia digital |Final de abril – mayo |6-7 |CE4
+|UD10 · Bienestar digital |Mayo |4 |CE1, CE4
+|UD11 · Mi vida digital |Junio |4 |CE1, CE2, CE3, CE4
+|===
+
+==== Primera evaluación
+
+===== UD1 · Mi ordenador y mis archivos
+
+[cols="1h,4"]
+|===
+|Temporización |Final de septiembre – octubre · 4-5 sesiones
+|Criterios de evaluación |1.1 · 2.5
+|Saberes básicos |Bloque 1: dispositivos, sistemas operativos y aplicaciones. Bloque 2: organización de la información; operaciones básicas con archivos y carpetas.
+|Conceptos esenciales |Hardware, software, periféricos, sistema operativo, archivo, carpeta, extensión, almacenamiento local y en la nube.
+|Actividades |Clasificar hardware y software. Identificar periféricos de entrada y de salida. Crear una estructura de carpetas. Renombrar archivos. Reconocer extensiones comunes. Descargar, localizar y mover un archivo. Diferenciar dónde está guardado un documento.
+|Práctica clave |«He descargado un archivo. ¿Dónde está?»
+|Orientaciones |Interesa que el alumnado sepa hacerlo, no que memorice una lista de componentes.
+|===
+
+===== UD2 · Internet y la Web
+
+[cols="1h,4"]
+|===
+|Temporización |Octubre · 5 sesiones
+|Criterios de evaluación |1.1 · 1.2 · 1.3
+|Saberes básicos |Bloque 1: redes de dispositivos; fundamentos y modos de acceso a Internet; la brecha digital.
+|Conceptos esenciales |Red, Internet, wifi, router, web, navegador, buscador, URL, enlace, nube.
+|Actividades |Distinguir navegador y buscador. Interpretar una URL. Identificar enlaces. Localizar información en una web. Comparar resultados de búsqueda. Elaborar el esquema «¿Qué ocurre cuando entro en una web?».
+|Orientaciones |Se presta especial atención a tres distinciones: Internet no es la Web; Google no es Internet; Google no es un navegador.
+|===
+
+===== UD3 · Seguridad digital
+
+[cols="1h,4"]
+|===
+|Temporización |Noviembre · 6 sesiones
+|Criterios de evaluación |1.5 · 3.3 · 3.4 · 4.4
+|Saberes básicos |Bloque 1: hábitos básicos de seguridad para proteger los dispositivos. Bloque 3: privacidad y protección de los datos personales. Bloque 4: riesgos y amenazas, fraudes.
+|Conceptos esenciales |Contraseña y contraseña segura, verificación en dos pasos, malware, virus, phishing, actualizaciones, copia de seguridad, datos personales.
+|Actividades |Detectar contraseñas débiles. Crear ejemplos de contraseñas robustas. Detectar mensajes de phishing. Analizar situaciones de riesgo. Decidir qué datos se pueden compartir y cuáles no. Responder a «¿Qué harías si…?».
+|Práctica clave |Detectives del phishing.
+|Orientaciones |Es una de las unidades centrales del curso. En ninguna actividad se introducen contraseñas reales.
+|===
+
+===== UD4 · Buscar información
+
+[cols="1h,4"]
+|===
+|Temporización |Final de noviembre – diciembre · 4 sesiones
+|Criterios de evaluación |2.1
+|Saberes básicos |Bloque 2: tipos de buscadores y herramientas de filtrado; selección de información; propiedad intelectual.
+|Conceptos esenciales |Buscador, palabras clave, fuente, resultado patrocinado, información fiable.
+|Actividades |Mejorar búsquedas. Buscar una información concreta. Comparar resultados. Identificar quién publica una información. Copiar correctamente una dirección o un enlace. Buscar una imagen de forma responsable.
+|Orientaciones |Prepara la unidad sobre noticias falsas de la segunda evaluación.
+|===
+
+===== Especial · Programación y visita a la UPV
+
+[cols="1h,4"]
+|===
+|Temporización |Diciembre · 2 sesiones y la visita
+|Criterios de evaluación |2.6
+|Saberes básicos |Bloque 2: creación básica de contenidos con herramientas digitales.
+|Conceptos mínimos |Programa, programar, algoritmo, instrucción, Scratch, programación mediante bloques.
+|Sesión 1 · ¿Qué es programar? |Actividad «Programa a tu profesora»: el alumnado escribe instrucciones para que la docente realice una acción sencilla. La docente las interpreta literalmente, de modo que el grupo descubre la necesidad de dar instrucciones precisas.
+|Sesión 2 · Primer contacto con Scratch |Objetivo mínimo: personaje → bloques → movimiento → mensaje.
+|Visita a la UPV |Taller de iniciación a Scratch.
+|Producto |Página de OneNote «Mi visita a la UPV»: qué hicimos, qué aprendí, qué me resultó sencillo o difícil y qué me gustaría programar.
+|Orientaciones |No es una unidad curricular extensa. Antes de la salida no se imparte programación formal.
+|===
+
+==== Segunda evaluación · Aprendo a manejar la información digital
+
+===== UD5 · Buscar bien en Internet
+
+[cols="1h,4"]
+|===
+|Temporización |Enero · 5-6 sesiones
+|Criterios de evaluación |2.1 · 2.4
+|Saberes básicos |Bloque 2: selección de información contrastando su veracidad; lectura e interpretación de información de medios digitales.
+|Conceptos esenciales |Estrategia de búsqueda, palabras clave, fuente primaria y secundaria (a nivel muy básico), autor, fecha, contrastar información.
+|Actividades |Competición de búsquedas. Encontrar un dato concreto. Llegar al mismo resultado con búsquedas distintas. Comparar páginas. Decidir qué fuente utilizarían y justificarlo.
+|Orientaciones |Avanza respecto a la UD4.
+|===
+
+===== UD6 · ¿Verdad o mentira?
+
+[cols="1h,4"]
+|===
+|Temporización |Final de enero – febrero · 6-7 sesiones
+|Criterios de evaluación |2.1 · 2.2 · 2.3 · 2.4
+|Saberes básicos |Bloque 2: detección de noticias falsas, bulos y discursos de odio; implicaciones sociales.
+|Conceptos esenciales |Desinformación, bulo, fake news, clickbait, manipulación, fuente, verificación.
+|Preguntas guía |¿Quién lo publica? ¿Cuándo? ¿Dónde aparece? ¿Hay otras fuentes que digan lo mismo? ¿La imagen corresponde realmente a la noticia?
+|Actividades |Distinguir titulares reales y falsos. Detectar clickbait. Comparar noticias. Buscar la fuente original. Analizar imágenes fuera de contexto. Crear deliberadamente un titular clickbait y explicar por qué lo es.
+|Orientaciones |Es otra de las unidades fundamentales del curso.
+|===
+
+===== UD7 · Crear contenidos digitales
+
+[cols="1h,4"]
+|===
+|Temporización |Febrero – marzo · 6 sesiones
+|Criterios de evaluación |2.5 · 2.6
+|Saberes básicos |Bloque 2: propiedad intelectual y derechos de autoría; creación básica de contenidos; estética y lenguaje audiovisual.
+|Conceptos |Documento digital, formato, imagen, presentación, derechos de autor, licencia, autoría, plagio.
+|Competencias prácticas |Títulos y subtítulos, listas, tablas, imágenes, enlaces y presentación clara de la información.
+|Producto |Pequeña creación digital integrada en la libreta OneNote, con las herramientas de Microsoft 365.
+|Orientaciones |Se evita la «decoración por decorar»: el formato sirve para comunicar mejor.
+|===
+
+==== Tercera evaluación · Yo y los demás en Internet
+
+===== UD8 · Mi identidad y mi huella digital
+
+[cols="1h,4"]
+|===
+|Temporización |Abril · 5-6 sesiones
+|Criterios de evaluación |3.1 · 3.2 · 3.3 · 3.4
+|Saberes básicos |Bloque 3: identidad personal en Internet, huella digital, conductas para cuidar la identidad digital, privacidad y protección de datos.
+|Conceptos esenciales |Identidad digital, huella digital, datos personales, privacidad, reputación digital.
+|Idea central |Lo que hacemos en Internet puede dejar huella.
+|Actividades |¿Dato personal o no? Qué compartirías y qué no. Casos ficticios. Análisis de perfiles inventados. «¿Qué sabe Internet sobre este personaje?». Consecuencias futuras de una publicación.
+|Orientaciones |Se trabaja solo con perfiles inventados: no se investigan perfiles reales de compañeros o compañeras.
+|===
+
+===== UD9 · Redes sociales y convivencia digital
+
+[cols="1h,4"]
+|===
+|Temporización |Final de abril – mayo · 6-7 sesiones
+|Criterios de evaluación |4.1 · 4.2 · 4.3 · 4.4 · 4.6
+|Saberes básicos |Bloque 4: entornos digitales de intercambio social, ciberconvivencia y etiqueta digital, ventajas de las interacciones en red, riesgos (ciberacoso y fraudes).
+|Conceptos |Red social, perfil, privacidad, algoritmo de recomendación (de forma muy básica), netiqueta, ciberacoso, bloqueo, denuncia.
+|Actividades |Análisis de situaciones ficticias. Ejemplo: un compañero publica una fotografía de otra persona sin preguntarle y varios alumnos comienzan a hacer comentarios. ¿Qué problemas encuentras? ¿Qué debería hacer cada persona?
+|Orientaciones |Se trabaja principalmente mediante situaciones ficticias, más útiles que dictar definiciones.
+|===
+
+===== UD10 · Bienestar digital
+
+[cols="1h,4"]
+|===
+|Temporización |Mayo · 4 sesiones
+|Criterios de evaluación |1.4 · 4.5
+|Saberes básicos |Bloque 1: implicaciones del uso de los dispositivos para la salud. Bloque 4: adicciones (tecnoadicción, nomofobia).
+|Conceptos esenciales |Tiempo de pantalla, ergonomía, descanso, notificaciones, uso equilibrado, hábitos digitales.
+|Pregunta guía |¿Estoy controlando yo la tecnología o está controlando mi atención?
+|Actividades |Analizar hábitos ficticios. Detectar hábitos saludables y no saludables. Ergonomía frente al ordenador. Diseñar una rutina digital equilibrada.
+|Orientaciones |Se evita moralizar con planteamientos de «móvil bueno / móvil malo».
+|===
+
+===== UD11 · Mi vida digital
+
+[cols="1h,4"]
+|===
+|Temporización |Junio · 4 sesiones
+|Criterios de evaluación |Integra criterios de CE1, CE2, CE3 y CE4.
+|Finalidad |Cierre de la libreta. Prácticamente no se introduce teoría nueva. El alumnado repasa el recorrido del curso: Teams y OneNote → ordenador → Internet → seguridad → información → contenidos → identidad → convivencia → bienestar.
+|Situación integradora |«Un día en la vida digital de Alex»: durante un día, Alex descarga un archivo, recibe un mensaje sospechoso, busca información para un trabajo, publica una foto, recibe un comentario desagradable… El alumnado detecta los problemas y toma decisiones.
+|Producto final |*Mi decálogo digital*: cada alumno o alumna redacta sus diez reglas para utilizar la tecnología de manera segura, responsable y saludable.
+|===

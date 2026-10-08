@@ -1,0 +1,49 @@
+= Programación didáctica · NOMBRE DE LA MATERIA
+// Copia esta carpeta como programaciones/<nombre-corto>/ (por ejemplo, programaciones/tec-1eso/)
+// y rellena los atributos. La portada de la web se construye con :orden:, :titulo-corto:, :etapa: y :resumen:.
+:description: Programación didáctica de NOMBRE DE LA MATERIA. Curso 2026-2027.
+:lang: es
+:orden: 2
+:titulo-corto: NOMBRE DE LA MATERIA
+:etapa: ESO · 1.º
+:resumen: Una frase que describa la materia y el grupo.
+:toc: left
+:toc-title: Sumario
+:toclevels: 2
+:sectnums:
+:sectnumlevels: 2
+:sectanchors:
+:idprefix:
+:idseparator: -
+:note-caption: Nota
+:important-caption: Importante
+:tip-caption: Consejo
+:warning-caption: Atención
+:caution-caption: Precaución
+:centro: IES Font de Sant Lluís (València)
+:departamento: Departamento de Informática
+:modulo: NOMBRE DE LA MATERIA
+:curso: 2026-2027
+:docente: María Bañuls Ribes
+
+[.portada]
+****
+{departamento} +
+Programación didáctica de *{modulo}*
+
+Curso {curso} · Docente: {docente}
+****
+
+// Sustituye estos apartados por los de la plantilla del departamento.
+
+== Introducción
+
+Texto.
+
+== Evaluación
+
+[cols="1,3,1",options="header"]
+|===
+|Código |Criterio |Peso
+|1.1 |Ejemplo de criterio. |10 %
+|===

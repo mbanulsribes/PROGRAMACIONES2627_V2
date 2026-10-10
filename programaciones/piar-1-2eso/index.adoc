@@ -549,7 +549,7 @@ La metodología en el aula se basará básicamente en el desarrollo de la práct
 * Localización en Aules de los videos y apuntes necesarios para realizar la actividad.
 * Realización por parte del alumno de la actividad.
 * Supervisión por parte del profesor.
-* En caso de actividades que se precise material como AppInventor o robótica (Mbots) se realizará una introducción sobre el uso del material.
+* En las actividades de robótica (micro:bit y robot Maqueen) se realizará una introducción sobre el uso y el cuidado del material.
 
 ____
 *Temporalización de las Sesiones- metodología:*
@@ -771,7 +771,7 @@ a|
 ____
 *SA 3*
 
-*Robótica*
+*Robótica: micro:bit y Maqueen*
 ____
 
 a|
@@ -1144,7 +1144,7 @@ a|
 
 *N.º 3*
 
-|_[.underline]#Título:#_ Introducción a la robótica |_[.underline]#Contexto:#_ a|
+|_[.underline]#Título:#_ Introducción a la robótica con micro:bit y Maqueen |_[.underline]#Contexto:#_ a|
 Personal
 
 ☐
@@ -1167,25 +1167,23 @@ Profesional
 | a|
 En esta situación de aprendizaje, el alumnado aprenderá a montar sistemas robóticos sencillos, analizando las respuestas que proporcionan en su interacción con el entorno y valorando la eficacia de estas frente a los retos planteados. 
 
-Se utilizará la plataforma IDE.MBLOCK.CC 
+Se trabaja con la placa *micro:bit* y el robot *Maqueen*, programados por bloques con *Microsoft MakeCode* y la extensión de Maqueen. 
 
 *Objetivos:*
 
-- Montar robots sencillos siguiendo una guía, empleando los sensores, actuadores y otros operadores que se indiquen. 
+- Identificar las entradas (botones, sensores de luz, temperatura y movimiento) y las salidas (matriz de LED y sonido) de la micro:bit.
 
-- Conectar, transferir y ejecutar el programa de control seleccionado al robot. 
+- Programar la micro:bit con eventos, variables y condiciones, y probar el programa primero en el simulador y después en la placa.
 
-- Analizar y validar el programa de control del robot que permite que interactúe con el entorno. 
+- Montar y poner en marcha el robot Maqueen siguiendo una guía y cuidando el material.
 
-- Programar instrucciones sencillas de forma guiada para controlar un robot programable. 
+- Controlar los motores del robot para realizar recorridos fijados, comparando lo previsto con lo que ocurre.
 
-- Participar activamente en equipos de trabajo para desarrollar soluciones digitales y tecnológicas demostrando empatía y respetando los roles asignados y las aportaciones del resto. 
+- Utilizar el sensor de distancia y los sensores de línea para que el robot reaccione a su entorno.
 
-- Analizar críticamente las implicaciones que la programación y las tecnologías tienen en la transformación de la sociedad valorando las repercusiones éticas y ecosociales. 
+- Comprobar, ajustar y documentar el comportamiento del robot con tablas de pruebas.
 
-- Describir y valorar la adecuación de las tecnologías, entornos de desarrollo, dispositivos y componentes para resolver los retos planteados, analizando sus características y especificaciones. 
-
-- Resolver problemas técnicos sencillos surgidos en el análisis, desarrollo y uso de software, módulos de inteligencia artificial y robótica reformulando el procedimiento utilizado en caso necesario. 
+- Trabajar en pareja con el robot compartido respetando los turnos y entregando cada uno su propio trabajo.
 
 a|
 _[.underline]#Relación con los retos del s. XXI y los ODS:#_
@@ -1231,10 +1229,11 @@ _[.underline]#Competencias clave:#_
 | | | | | | |
 | |_[.underline]#Criterios de evaluación vinculados:#_ 3.1, 3.2, 3.3, 3.4, 3.5, 4.1, 4.2, 4.3, 4.4  | | | | | | | |
 |*Saberes básicos* a|
-* Conocer tipos, grados de libertad y características técnicas básicas de los robots 
-* Realizar el montaje de los robots 
-* Conocer los sensores, actuadores y controladores 
-* Conocer la carga y ejecución de los algoritmos de los robots. 
+* Robots: tipos y características técnicas básicas. La micro:bit como controlador y el Maqueen como robot móvil.
+* Montaje del robot: conexión de la micro:bit, alimentación y puesta en marcha.
+* Sensores (botones, luz, temperatura, acelerómetro, distancia por ultrasonidos, sensores de línea), actuadores (motores, LED, zumbador) y controlador.
+* Control de sistemas robotizados: eventos, bucles, variables y decisiones aplicados al robot.
+* Carga y ejecución de los programas: simulador de MakeCode, descarga del archivo .hex y prueba en el robot.
 
 | | | | | | | |
 |*Organización* a|
@@ -1267,9 +1266,13 @@ _[.underline]#Recursos y materiales:#_
 
 -MS Office 365.
 
--LMS Aules.
+-Placas micro:bit, cable USB y portapilas.
 
--Recursos en línea y apps.
+-Robots Maqueen (uno por pareja) y circuito con línea negra.
+
+-Microsoft MakeCode para micro:bit con la extensión de Maqueen.
+
+-Teams y bloc de notas de clase.
 
 | a|
 _[.underline]#Medidas de respuesta educativa para la inclusión:#_
@@ -1288,4 +1291,45 @@ Referidas en el apartado 10 de la presente programación.
 
 | | | | | | | |
 |===
+
+==== Desarrollo de la robótica: micro:bit y Maqueen
+
+La robótica corresponde a los temas 10 y 11 del libro del alumnado. Se trabaja con la placa *micro:bit* y el robot *Maqueen*, programados por bloques con *Microsoft MakeCode*. Cada pareja comparte un robot, pero los ejercicios evaluables son individuales: cada alumno o alumna entrega su propio programa y su tabla de pruebas.
+
+Se sigue el mismo método que en el resto del libro: explicación, ejemplo resuelto, prácticas sin nota y ejercicio evaluable. Antes de cargar un programa en la placa o en el robot, se prueba en el simulador de MakeCode y se anota qué se espera que ocurra.
+
+[cols="1,3,3",options="header"]
+|===
+|Tema |Contenidos |Prácticas y ejercicio evaluable
+
+|*Tema 10 · micro:bit*
+a|
+* La micro:bit como controlador: entradas (botones A y B, sensores de luz y temperatura, acelerómetro) y salidas (matriz de 5 × 5 LED y sonido).
+* MakeCode: bloques, simulador, descarga del archivo `.hex` y carga en la placa.
+* Eventos: al pulsar un botón, al agitar la placa.
+* Variables y contadores.
+* Leer un sensor y decidir: rangos y casos límite.
+a|
+*Prácticas:* mostrar un icono al pulsar A y otro al pulsar B; contador que suma con A y se reinicia con B; mostrar la temperatura; detectar cuándo se agita la placa.
+
+*E12 Evaluable · Un indicador con sensores.* La micro:bit muestra un icono distinto según el nivel de luz (tres rangos fijados). El botón A muestra la temperatura y el botón B reinicia el programa. Se entrega el archivo `.hex` y una tabla con los valores probados y el resultado esperado y obtenido.
+
+|*Tema 11 · Robot Maqueen*
+a|
+* Montaje y puesta en marcha: conexión de la micro:bit, pilas, interruptor y extensión de Maqueen en MakeCode. Cuidado del material.
+* Motores: avanzar, retroceder, girar y parar. Velocidad y tiempo.
+* Recorridos: relación con los bucles y giros del tema 4.
+* Sensor de distancia por ultrasonidos: medir y reaccionar ante un obstáculo.
+* Sensores de línea: detectar y seguir una línea negra.
+* LED y zumbador como avisos del estado del robot.
+a|
+*Prácticas:* avanzar y parar; girar 90 grados ajustando el tiempo; mostrar la distancia medida en la matriz de LED; encender los LED cuando el robot detecta la línea.
+
+*E13 Evaluable · Un recorrido programado.* El robot recorre un cuadrado con un bucle. Se compara la posición prevista con la real y se explica qué ajuste se ha hecho en tiempos o velocidades.
+
+*E14 Evaluable · El robot que reacciona.* El robot avanza y se detiene, avisa o cambia de dirección cuando detecta un obstáculo a una distancia fijada, o sigue un tramo de línea negra. Se entrega el archivo `.hex`, la tabla de pruebas y una explicación breve de cómo se ha comprobado.
+|===
+
+Cada ejercicio evaluable se valora sobre 10 con los apartados indicados en su enunciado, como en el resto del libro: funcionamiento del programa, uso correcto de eventos, bucles y decisiones, pruebas realizadas y archivo entregado. Se aplican las normas de evaluación de la materia: los ejercicios evaluables se realizan una sola vez, son individuales y hacen media con los demás.
+
 

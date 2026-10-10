@@ -365,72 +365,10 @@ Los instrumentos de evaluación son fundamentales para evaluar el aprendizaje de
 Las unidades más prácticas requieren en su mayoría de la elaboración de una tarea o proyecto final en ordenador y para ello se requieren instrumentos de evaluación como la *rúbrica*. Las *pruebas objetivas* se recomiendan cuando se pretendan evaluar procesos de bajo nivel como la identificación, la descripción, etc. o, en general, en aquellos casos donde se quiera diversificar las estrategias de evaluación; las *escalas de observación-valoración* en los criterios de evaluación del bloque transversal; las *listas de control* para aquellas actividades que supongan ejecuciones sencillas; y los criterios que no estén redactados en términos de procesos cognitivos (como por ejemplo adoptar o participar) pueden ser evaluados mediante el empleo de *escalas de actitudes*.
 ____
 
-*_[.underline]#AULES# COMO INSTRUMENTO DE EVALUACIÓN_*
+*_[.underline]#TEAMS Y ONENOTE# COMO INSTRUMENTOS DE EVALUACIÓN_*
 
-Muchos de estos instrumentos los encontramos en la plataforma educativa Aules que permite realizar actividades con rúbrica, cuestiones con escalas de valoración y también nos proporciona actividades grupales donde se valoran entre ellos. Realmente Aules es un instrumento rico para la evaluación.
+En 1.º ESO el trabajo y la evaluación se organizan en *Microsoft Teams* y en el *bloc de notas de clase de OneNote*. Cada alumno o alumna lleva al día su libreta OneNote, que recoge todo el trabajo del trimestre y es la evidencia de evaluación. La docente revisa la libreta, deja sus indicaciones y comprueba que el alumnado revisa y mejora su trabajo. Los criterios de calificación se detallan en la programación de aula.
 
-[width="100%",cols="51%,49%",]
-|===
-|*Instrumentos Para La Evaluación Del Proceso De Aprendizaje* |
-|*INSTRUMENTOS* |*Capacidades*
-a|
-[arabic]
-. *Evaluación cero:* realizada a principio de curso, se emplea como un indicador de los conocimientos iniciales del alumno en la evaluación inicial
-
-|
-a|
-[arabic, start=2]
-. *Las escalas de valoración*[.underline]#.# Contienen un listado de rasgos en los que se gradúa el nivel de consecución del aspecto observado a través de una serie de valoraciones progresivas (de nunca siempre; de poco a mucho de nada a todo; etc.)
-. *Las listas de control.* es un instrumento que permite registrar el desempeño del alumnado, evaluado a través de la observación. Combina la evaluación de procesos y la evaluación de productos finales. (se elabora una lista de habilidades al realizar la tarea y los productos que deben obtenerse y se validará con un “Sí” / “No” según lo ha realizado.
-
-|-Actitud ante el trabajo
-a|
-[arabic, start=4]
-. *Rúbrica -Matriz de Valoración:* es una herramienta de evaluación que permite establecer parámetros graduales de desempeño, y que favorece la autoevaluación en los alumnos. Como instrumento, facilita la valoración del desempeño del alumno en materias y temas complejos; asimismo, permite observar cómo va aprendiendo el alumnado (y esto favorece al autoanálisis de su propio aprendizaje y el de sus compañeros). Si el profesor emplea de manera frecuente este instrumento, facilita la coevaluación y retroalimentación en el grupo
-
-|Todas las capacidades
-a|
-[arabic, start=5]
-. *Cuaderno diario de alumno-profesor:* para la recogida de información muy útil para la evaluación continua, pues refleja el trabajo diario que realiza el alumno.
-
-|-Todas las capacidades (Comprensión, expresión, razonamiento y actitud).
-a|
-[arabic, start=6]
-. *Exámenes tradicionales, en todas sus variantes, tanto orales como escritos o informáticos.*
-
-* Pruebas de ensayo y composición
-* Preguntas de respuesta corta
-* Preguntas de texto incompleto
-* Preguntas de correspondencia o emparejamiento.
-* Preguntas de opción múltiple
-* Preguntas de verdadero – falso(justificadas)
-* Preguntas de analogías/diferencias
-* Preguntas de interpretación y/ de gráficos, mapas, estadísticas, etc**.**
-
-|-Comprensión, expresión y razonamiento, +
-además de la actitud para las pruebas orales
-a|
-[arabic, start=7]
-. *Cuestionarios*
-
-|– Todas las capacidades
-a|
-[arabic, start=8]
-. *Mapa conceptual*
-
-|– Comprensión y razonamiento
-a|
-[arabic, start=9]
-. *Resolución de problemas* explicitando los pasos seguidos para verificar que el alumno ha comprendido y razonado la situación problemática y su solución. Resaltar, que la importancia de este instrumento reside en la justificación de los pasos seguidos para la obtención de un resultado.
-
-|-Comprensión y razonamiento
-a|
-[arabic, start=10]
-. *Trabajos monográficos, pequeñas investigaciones, etc.* +
-Este tipo de tareas tiene como finalidad profundizar en algún conocimiento específico, favorecer la adquisición de determinados procedimientos y desarrollar actitudes relacionadas con el rigor, el gusto por el orden y la presentación correcta, tanto del resultado, como del proceso de elaboración del trabajo.
-
-|– Todas las capacidades
-|===
 
 == Medidas de respuesta educativa para la inclusión
 

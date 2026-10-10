@@ -7,7 +7,6 @@
 :titulo-corto: Taller de Relaciones Digitales Responsables
 :etapa: ESO · 1.º
 :resumen: Materia de 1.º de ESO.
-:borrador:
 :toc: left
 :toc-title: Sumario
 :toclevels: 2
@@ -27,7 +26,6 @@
 :curso: 2026-2027
 :docente: María Bañuls Ribes
 :grupo-propio: grupo desdoblado de 18 alumnos y alumnas
-// Quita la línea «:borrador:» cuando la programación esté terminada.
 
 
 == Introducción

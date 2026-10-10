@@ -66,7 +66,7 @@ Se recogen los cambios respecto a la programación del curso 2025-2026 y la fech
 |Evaluación mediante proyectos y tareas evaluables que se realizan una sola vez y hacen media. Solo se repiten si suspende más del 75 % del grupo, con una calificación máxima de 5.
 
 |08/10/2026
-|Cada práctica incluye un *Plan B*, que puede resolverse sin acceso al servidor del departamento. Los materiales del alumnado se publican como web generada desde AsciiDoc.
+|Cada práctica incluye un *Plan B*, que puede resolverse sin acceso a los servidores del aula. Los materiales del alumnado se publican como web generada desde AsciiDoc.
 |===
 
 == Datos identificativos, marco normativo y contextualización del módulo
@@ -124,10 +124,10 @@ El marco común del ciclo se recoge en el PCCF. Aquí se relacionan las normas q
 La contextualización del centro, del entorno productivo y del alumnado figura en el PCCF. En el módulo se tienen en cuenta estas condiciones:
 
 * El grupo procede principalmente de SMR, de otros ciclos de la familia y de Bachillerato; algunas personas tienen estudios universitarios. La evaluación inicial de septiembre y la primera unidad permiten ajustar el punto de partida.
-* El trabajo se realiza en el aula de informática, con equipos LliureX que actúan como clientes. Las máquinas virtuales de prácticas se alojan en el servidor del departamento. En los equipos del aula no se instala software de prácticas.
-* El acceso al servidor puede fallar por cortes de red o mantenimiento. Por eso cada práctica dispone de un Plan B equivalente en comprensión y diseño (apartado 6).
+* El trabajo se realiza en el aula de informática, con equipos LliureX que actúan como clientes. Las máquinas virtuales de prácticas se alojan en una *red de servidores que ha montado el propio alumnado en el aula*. Hay un servidor por cada grupo del proyecto intermodular: unos cuatro servidores, cada uno compartido por 4 o 5 alumnos. Montar y mantener esa infraestructura forma parte del aprendizaje del ciclo.
+* El acceso a los servidores del aula puede fallar por cortes de red, averías o mantenimiento. Por eso cada práctica dispone de un Plan B equivalente en comprensión y diseño (apartado 6).
 * En segundo curso, la formación en empresa puede desarrollarse a lo largo de los tres trimestres (Resolución de 16 de julio de 2026). La temporización del apartado 5 deberá ajustarse al plan de formación en empresa que apruebe el equipo educativo.
-* El módulo se conecta con el *proyecto intermodular* mediante tres hitos: el 8 de octubre (instalar un sistema), el 21 de diciembre (desplegar un servicio) y el 22 de enero (gestionar contenedores).
+* El módulo se conecta con el *proyecto intermodular* mediante tres hitos: el 8 de octubre (instalar un sistema; RA2), el 21 de diciembre (desplegar un servicio; RA2 y RA4) y el 22 de enero (gestionar contenedores; RA2, RA3 y RA7). Al proyecto van RA2, RA3, RA4 y RA7 (apartado 10.8).
 
 == Relación entre los estándares de competencia y los módulos del ciclo formativo
 
@@ -293,29 +293,27 @@ Con el horario del grupo (lunes y martes) resultan *70 sesiones de dos horas, 14
 
 .Evaluaciones e hitos
 * *Evaluación inicial:* antes del 9 de noviembre, sin calificación.
-* *Hito 1 del proyecto intermodular (8 de octubre):* sistema instalado y documentado.
-* *Primera evaluación parcial:* final del primer trimestre (UP1-UP5). *Hito 2 (21 de diciembre):* servicio desplegado.
-* *Hito 3 (22 de enero):* servicio administrado y recuperable (UP6).
+* *Hito 1 del proyecto intermodular (8 de octubre):* sistema instalado y documentado. RA2.
+* *Primera evaluación parcial:* final del primer trimestre (UP1-UP5). *Hito 2 (21 de diciembre):* servicio desplegado. RA2 y RA4.
+* *Hito 3 (22 de enero):* servicio administrado y recuperable (UP6). RA2, RA3 y RA7.
 * *Segunda evaluación parcial:* final del segundo trimestre (UP6-UP7 y parte de UP8).
 * *Evaluación ordinaria:* al finalizar el tercer trimestre. La extraordinaria, en las fechas que fije jefatura de estudios.
 
-IMPORTANT: Si el plan de formación en empresa sitúa estancias en horario de ASO, se reordenarán las UP 8-10 manteniendo el peso de cada RA. Los cambios se anotarán en el apartado 1.
 
 === Unidades de programación
 
-Cada UP sigue la misma estructura que el manual del alumnado: *teoría inicial*, *Práctica A* en el entorno asignado, *Plan B* sin acceso al servidor y preguntas *Comprueba lo que sabes*. Los pesos de los criterios de evaluación (CE) se detallan en el apartado 10.3.
 
 ==== UP1 · Instalación y virtualización
 
 [cols="1h,4"]
 |===
-|Temporización |16 h · 8 sesiones · 14/09 – 06/10/2026 · Hito 1 del proyecto intermodular (8 de octubre)
+|Temporización |16 h · 8 sesiones · 14/09 – 06/10/2026 · Hito 1 del proyecto intermodular (8 de octubre): RA2
 |RA y CE |Preparación del laboratorio. Aporta evidencias a RA2.f (secuencia de arranque) y sirve como evaluación inicial.
 |CPPE · OG |a), q) · a), b)
 |Objetivos didácticos |Distinguir equipo físico, hipervisor, máquina virtual y sistema operativo. Asignar recursos dentro de una cuota. Instalar un servidor de forma reproducible y documentar su configuración inicial.
 |Contenidos |Laboratorio con máquinas virtuales: CPU, memoria, disco, red e ISO. Fases de la instalación. Comprobaciones posteriores (`hostname`, `ip address`, `df -h`, `free -h`). Instantáneas frente a copias de seguridad.
 |Actividades |Práctica A: _Tu primer servidor_ (ficha de recursos, instalación, comprobaciones, reinicio y documentación de una incidencia). Plan B: _Diseñar y revisar una instalación_. Cuestionario de evaluación inicial.
-|Recursos |Servidor del departamento, ISO de Linux y de Windows Server (evaluación). Vídeos de instalación del material CEED.
+|Recursos |Red de servidores del aula montada por el alumnado, ISO de Linux y de Windows Server (evaluación). Vídeos de instalación del material CEED.
 ifdef::web-aso[]
 link:{web-aso}01-instalacion.html[Unidad 01 del manual]
 endif::[]
@@ -377,13 +375,13 @@ endif::[]
 
 [cols="1h,4"]
 |===
-|Temporización |10 h · 5 sesiones · 01/12 – 21/12/2026 · Hito 2 del proyecto intermodular (21 de diciembre)
+|Temporización |10 h · 5 sesiones · 01/12 – 21/12/2026 · Hito 2 del proyecto intermodular (21 de diciembre): RA2 y RA4
 |RA y CE |RA2.c, RA2.e · RA4.a, RA4.e
 |CPPE · OG |a), m), o) · a), b), ñ)
 |Objetivos didácticos |Diferenciar imagen y contenedor. Seguir el recorrido de una petición desde el cliente hasta la aplicación. Publicar un servicio con un puerto asignado y decidir qué datos necesitan persistencia.
 |Contenidos |Imágenes, etiquetas, registros y contenedores. Aislamiento de procesos. Publicación de puertos. Variables de entorno y secretos. Volúmenes. Dockerfile: construir frente a ejecutar. Registros del contenedor.
 |Actividades |Práctica A: _Publicar un servicio web_ en el puerto asignado. Plan B: _Seguir la petición web_.
-|Recursos |Docker en el entorno del departamento. Documentación oficial de Docker.
+|Recursos |Docker en los servidores del aula. Documentación oficial de Docker.
 ifdef::web-aso[]
 link:{web-aso}05-docker.html[Unidad 05 del manual]
 endif::[]
@@ -394,7 +392,7 @@ endif::[]
 
 [cols="1h,4"]
 |===
-|Temporización |8 h · 4 sesiones · 11/01 – 19/01/2027 · Hito 3 del proyecto intermodular (22 de enero)
+|Temporización |8 h · 4 sesiones · 11/01 – 19/01/2027 · Hito 3 del proyecto intermodular (22 de enero): RA2, RA3 y RA7
 |RA y CE |RA2.e, RA2.g · RA3.d, RA3.h · RA7.e
 |CPPE · OG |a), m), n) · ñ), o)
 |Objetivos didácticos |Mantener un servicio después del despliegue. Describirlo con Compose. Diagnosticar de forma ordenada. Preparar, restaurar y verificar una copia de datos.
@@ -487,21 +485,21 @@ endif::[]
 
 === Enfoque metodológico
 
-El módulo tiene un enfoque procedimental: se aprende administrando sistemas reales en un entorno controlado. Cada unidad sigue el ciclo *aprender, comprobar, explicar*. Una práctica no se considera terminada cuando la orden se ejecuta, sino cuando el alumno o la alumna puede demostrar el resultado y explicar por qué es correcto.
+El módulo tiene un enfoque procedimental: se aprende administrando sistemas reales en un entorno controlado. Cada unidad sigue el ciclo *aprender, comprobar, explicar*. Una práctica no se considera terminada cuando la orden se ejecuta, sino cuando el alumnado puede demostrar el resultado y explicar por qué es correcto.
 
 === Principios metodológicos
 
 * *Aprendizaje basado en evidencias.* Toda entrega incluye objetivo, entorno, procedimiento, comprobación e incidencias. Una captura necesita explicación. Una salida copiada del enunciado no se presenta como resultado propio.
 * *Observar antes de intervenir.* Se diagnostica con hechos, hipótesis y una sola modificación cada vez.
 * *Seguridad desde el principio.* No se publican contraseñas ni claves privadas. Solo se actúa sobre los recursos asignados y se respeta el entorno compartido.
-* *Continuidad con el proyecto intermodular.* Los tres hitos del primer trimestre generan evidencias que se reutilizan en el proyecto.
+* *Continuidad con el proyecto intermodular.* Los tres hitos del primer trimestre (RA2, RA3, RA4 y RA7) generan evidencias que se reutilizan en el proyecto.
 * *Diseño Universal para el Aprendizaje.* La información se presenta en varios formatos (web, PDF y AsciiDoc) y las vías de expresión son diversas: práctica, informe, diagrama y defensa oral. El Plan B ofrece una vía alternativa sin depender del servidor.
 
 === Estrategias didácticas
 
 . *Teoría inicial breve* con esquemas y demostraciones en el proyector.
 . *Práctica A guiada* en el entorno asignado, con la docente como apoyo permanente.
-. *Plan B* cuando no hay acceso al servidor. Avanza en comprensión y diseño; las operaciones reales se comprueban cuando vuelve la conexión.
+. *Plan B* cuando no hay acceso a los servidores del aula. Avanza en comprensión y diseño; las operaciones reales se comprueban cuando vuelve la conexión.
 . *Comprueba lo que sabes* al cerrar la unidad, de forma oral o escrita.
 . *Resolución de incidencias* en casos reales y simulados.
 . *Trabajo en parejas* para las pruebas cruzadas entre sistemas.
@@ -532,9 +530,9 @@ El alumnado es protagonista: prepara cada sesión con el manual, trabaja de form
 == Uso de espacios y equipamientos
 
 * *Aula de informática* con proyector, red cableada y wifi. Los equipos LliureX actúan como clientes: en ellos no se instala software de prácticas ni se modifica su configuración de red.
-* *Servidor del departamento* con hipervisor. Cada estudiante dispone de una cuota de máquinas virtuales (Linux y Windows Server), puertos y cuentas. Nadie administra el hipervisor ni las máquinas de otras personas.
+* *Red de servidores del aula*, montada por el alumnado, donde se alojan las máquinas virtuales. Hay un servidor por grupo del proyecto intermodular (unos cuatro servidores, uno por cada 4 o 5 estudiantes). Dentro del servidor de su grupo, cada estudiante dispone de sus máquinas virtuales (Linux y Windows Server), puertos y cuentas, y no modifica las máquinas ni los servicios de otras personas.
 * *Red de laboratorio* aislada para los servicios de directorio, impresión y recursos compartidos.
-* *Organización del espacio:* trabajo individual por defecto. En UP10 se forman parejas con un cliente Windows y otro Linux.
+* *Organización del espacio:* el alumnado se organiza por grupos del proyecto intermodular, cada uno con su servidor. Las prácticas evaluables son individuales. En UP10 se forman parejas con un cliente Windows y otro Linux.
 
 == Medidas de atención a la diversidad
 
@@ -708,17 +706,19 @@ Los RA de ASO se imparten y evalúan en el centro. Si el plan de formación de u
 
 === Proyecto intermodular
 
-El proyecto intermodular se califica de forma independiente. Su nota se pondera entre los dos cursos. ASO contribuye con tres hitos:
+El proyecto intermodular se califica de forma independiente. Su nota se pondera entre los dos cursos. ASO contribuye con tres hitos, vinculados a estos resultados de aprendizaje:
 
-[cols="1,2,3",options="header"]
+[cols="1,2,3,2",options="header"]
 |===
-|Fecha |Hito |Evidencia
-|08/10/2026 |Instalar un sistema |Ficha de instalación reproducible de la VM del proyecto.
-|21/12/2026 |Desplegar un servicio |Servicio en contenedor accesible desde el cliente, con su ficha de despliegue.
-|22/01/2027 |Gestionar contenedores |Servicio descrito con Compose, con diagnóstico y copia restaurada.
+|Fecha |Hito |Evidencia |RA de ASO
+|08/10/2026 |Instalar un sistema (UP1) |Ficha de instalación reproducible de la VM del proyecto. |RA2
+|21/12/2026 |Desplegar un servicio (UP5) |Servicio en contenedor accesible desde el cliente, con su ficha de despliegue. |RA2, RA4
+|22/01/2027 |Gestionar contenedores (UP6) |Servicio descrito con Compose, con diagnóstico y copia restaurada. |RA2, RA3, RA7
 |===
 
-Las evidencias de estos hitos pueden utilizarse también para calificar los CE de ASO correspondientes (UP1, UP5 y UP6) sin repetir el trabajo.
+Por tanto, los RA de ASO que se trabajan en el proyecto intermodular son *RA2* (procesos), *RA3* (automatización), *RA4* (administración remota) y *RA7* (guiones). RA1 (directorio), RA5 (impresión) y RA6 (integración) se trabajan después del 22 de enero solo en el módulo.
+
+Las evidencias de estos hitos pueden utilizarse también para calificar los RA de ASO correspondientes sin repetir el trabajo.
 
 == Actividades complementarias y extraescolares
 

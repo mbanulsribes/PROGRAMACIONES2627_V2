@@ -360,14 +360,11 @@ Son referentes que indican los niveles de desempeño esperados en el alumnado en
 
 En cada programación de aula se puede variar levemente los criterios de calificación. Ver programaciones de aula.
 
-Los instrumentos de evaluación son fundamentales para evaluar el aprendizaje del alumnado. Debido al *carácter teórico-práctico* de la materia de informática, los instrumentos de evaluación son muy variados según la unidad y el nivel.
-
-Las unidades más prácticas requieren en su mayoría de la elaboración de una tarea o proyecto final en ordenador y para ello se requieren instrumentos de evaluación como la *rúbrica*. Las *pruebas objetivas* se recomiendan cuando se pretendan evaluar procesos de bajo nivel como la identificación, la descripción, etc. o, en general, en aquellos casos donde se quiera diversificar las estrategias de evaluación; las *escalas de observación-valoración* en los criterios de evaluación del bloque transversal; las *listas de control* para aquellas actividades que supongan ejecuciones sencillas; y los criterios que no estén redactados en términos de procesos cognitivos (como por ejemplo adoptar o participar) pueden ser evaluados mediante el empleo de *escalas de actitudes*.
 ____
 
 *_[.underline]#TEAMS Y ONENOTE# COMO INSTRUMENTOS DE EVALUACIÓN_*
 
-En 1.º ESO el trabajo y la evaluación se organizan en *Microsoft Teams* y en el *bloc de notas de clase de OneNote*. Cada alumno o alumna lleva al día su libreta OneNote, que recoge todo el trabajo del trimestre y es la evidencia de evaluación. La docente revisa la libreta, deja sus indicaciones y comprueba que el alumnado revisa y mejora su trabajo. Los criterios de calificación se detallan en la programación de aula.
+En 1.º ESO el trabajo y la evaluación se organizan en *Microsoft Teams* y en el *bloc de notas de clase de OneNote*. Cada alumno o alumna lleva al día su libreta OneNote, que recoge todo el trabajo del trimestre y es la evidencia de evaluación. La docente revisa la libreta, deja sus indicaciones y comprueba que el alumnado revisa y mejora su trabajo. La libreta digital es el *único instrumento de evaluación*, también para la recuperación, y es *imprescindible tenerla para aprobar*. Los criterios de calificación se detallan en la programación de aula.
 
 
 == Medidas de respuesta educativa para la inclusión
@@ -427,7 +424,7 @@ En este apartado se describirán los mecanismos para la recuperación de los apr
 
 Para aquellos alumnos que no hayan adquirido los aprendizajes básicos por motivos de dificultades de aprendizaje se les reforzará con actividades más básicas sin modificar los contenidos propuestos.
 
-Los planes de recuperación consistirán en temporalizar las actividades para que tengan más tiempo para la entrega.
+La recuperación se realiza mediante la *libreta digital*: el alumnado que no supere una evaluación completa y corrige su libreta OneNote siguiendo las indicaciones de la docente. Para aprobar es imprescindible tener la libreta digital.
 
 Para los alumnos que por sus capacidades realizan más rápido del que se espera las tareas asignadas o que demuestren altas capacidades, se les propondrán actividades de investigación relacionadas con los contenidos del proyecto en curso. Del mismo modo, a aquellos alumnos que manifiestan carencias en la adquisición de contenidos tratados se los propondrá actividades encaminadas a comprender, aprender y saber hacer las actividades del proyecto.
 
@@ -540,7 +537,7 @@ ____
 *3.2 Instrumentos de evaluación*
 ____
 
-No se califica individualmente cada ejercicio. Todo el trabajo realizado durante el trimestre forma parte de una *única evidencia*: la libreta OneNote del alumno o alumna en Teams.
+No se califica individualmente cada ejercicio. Todo el trabajo realizado durante el trimestre forma parte de una *única evidencia*: la libreta OneNote del alumno o alumna en Teams. Es imprescindible tener la libreta para aprobar.
 
 [cols="3,1",options="header"]
 |===
@@ -630,7 +627,7 @@ En cuanto a medidas para el refuerzo ver apartado anterior.
 
 *Planes de recuperación:*
 
-En este proyecto no hay repetidores por ser una materia de primer curso de la ESO.
+La recuperación se realiza mediante la libreta digital. El alumnado que no supere una evaluación completa y corrige su libreta OneNote siguiendo las indicaciones de la docente, y se vuelve a valorar con los mismos apartados. Para aprobar es imprescindible tener la libreta digital.
 ____
 
 === Unidades didácticas y situaciones de aprendizaje

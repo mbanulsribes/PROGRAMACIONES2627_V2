@@ -286,7 +286,7 @@ Con el horario del grupo (lunes y martes) resultan *70 sesiones de dos horas, 14
 |8 |Administración remota |15/03 – 12/04/2027 |6 |12 |RA4 (y RA3)
 |9 |Servidores de impresión |13/04 – 26/04/2027 |4 |8 |RA5
 |10 |Redes heterogéneas |27/04 – 17/05/2027 |6 |12 |RA6
-|— |Integración final y pruebas |18/05 – 01/06/2027 |5 |10 |Todos
+|— |Integración final |18/05 – 01/06/2027 |5 |10 |Todos
 |— |Recuperación y cierre |07/06 – 15/06/2027 |4 |8 |RA pendientes
 3+|*Total* |*70* |*140* |
 |===
@@ -334,7 +334,7 @@ endif::[]
 ifdef::web-aso[]
 link:{web-aso}02-linux.html[Unidad 02 del manual]
 endif::[]
-|Evaluación |Práctica A con rúbrica (PR). Preguntas de comprobación.
+|Evaluación |Práctica A con rúbrica (PR) y actividad evaluable de final de unidad (AE).
 |===
 
 ==== UP3 · Procesos y servicios
@@ -351,7 +351,7 @@ endif::[]
 ifdef::web-aso[]
 link:{web-aso}03-procesos.html[Unidad 03 del manual]
 endif::[]
-|Evaluación |PR, Plan B (PB) y prueba individual (PO) de la primera evaluación.
+|Evaluación |PR, Plan B (PB) y actividad evaluable de final de unidad (AE).
 |===
 
 ==== UP4 · Scripting y automatización
@@ -368,7 +368,7 @@ endif::[]
 ifdef::web-aso[]
 link:{web-aso}04-scripting.html[Unidad 04 del manual]
 endif::[]
-|Evaluación |PR con código comentado y tabla de pruebas. PO de guiones en la primera evaluación.
+|Evaluación |PR con código comentado y tabla de pruebas. Actividad evaluable de final de unidad (AE) con guiones.
 |===
 
 ==== UP5 · Docker y despliegue
@@ -385,7 +385,7 @@ endif::[]
 ifdef::web-aso[]
 link:{web-aso}05-docker.html[Unidad 05 del manual]
 endif::[]
-|Evaluación |PR con ficha de despliegue y comprobación desde el cliente. Evidencia del hito 2.
+|Evaluación |PR con ficha de despliegue y comprobación desde el cliente. Actividad evaluable de final de unidad (AE). Evidencia del hito 2.
 |===
 
 ==== UP6 · Gestión de contenedores
@@ -402,7 +402,7 @@ endif::[]
 ifdef::web-aso[]
 link:{web-aso}06-contenedores.html[Unidad 06 del manual]
 endif::[]
-|Evaluación |PR con evidencia de recuperación. Evidencia del hito 3.
+|Evaluación |PR con evidencia de recuperación. Actividad evaluable de final de unidad (AE). Evidencia del hito 3.
 |===
 
 ==== UP7 · Servicios de directorio
@@ -419,7 +419,7 @@ endif::[]
 ifdef::web-aso[]
 link:{web-aso}07-directorio.html[Unidad 07 del manual]
 endif::[]
-|Evaluación |PR (AD y OpenLDAP), guion de altas (PR), PO de la segunda evaluación y documentación (DT).
+|Evaluación |PR (AD y OpenLDAP), guion de altas (PR), actividad evaluable de final de unidad (AE) y documentación (DT).
 |===
 
 ==== UP8 · Administración remota
@@ -436,7 +436,7 @@ endif::[]
 ifdef::web-aso[]
 link:{web-aso}08-remota.html[Unidad 08 del manual]
 endif::[]
-|Evaluación |PR con ficha de conexión e informe. Observación y defensa del diagnóstico (OD).
+|Evaluación |PR con ficha de conexión e informe. Observación y defensa del diagnóstico (OD). Actividad evaluable de final de unidad (AE).
 |===
 
 ==== UP9 · Servidores de impresión
@@ -453,7 +453,7 @@ endif::[]
 ifdef::web-aso[]
 link:{web-aso}09-impresion.html[Unidad 09 del manual]
 endif::[]
-|Evaluación |PR con seguimiento de un trabajo y prueba final. Preguntas de la PO de cierre.
+|Evaluación |PR con seguimiento de un trabajo y comprobación de la salida. Actividad evaluable de final de unidad (AE).
 |===
 
 ==== UP10 · Redes heterogéneas
@@ -470,15 +470,15 @@ endif::[]
 ifdef::web-aso[]
 link:{web-aso}10-integracion.html[Unidad 10 del manual]
 endif::[]
-|Evaluación |PR con mapa, matriz y pruebas. OD del trabajo en equipo.
+|Evaluación |PR con mapa, matriz y pruebas. OD del trabajo en equipo. Actividad evaluable de final de unidad (AE).
 |===
 
-==== Integración final, pruebas y recuperación
+==== Integración final y recuperación
 
 [cols="1h,4"]
 |===
 |Temporización |10 h (18/05 – 01/06/2027) y 8 h (07/06 – 15/06/2027)
-|Finalidad |Integrar directorio, recursos compartidos, impresión y acceso remoto en un escenario único. Realizar las pruebas individuales pendientes. Recuperar los RA no superados (apartado 10.5).
+|Finalidad |Integrar directorio, recursos compartidos, impresión y acceso remoto en un escenario único. Recuperar los RA no superados (apartado 10.5).
 |===
 
 == Metodología del proceso de enseñanza-aprendizaje
@@ -585,7 +585,8 @@ El alumnado dispone de dos convocatorias en el curso académico y de un máximo 
 |Código |Instrumento |Uso
 |PR |Práctica A con rúbrica |Operaciones realizadas en el entorno asignado y su comprobación. Es el instrumento principal.
 |PB |Caso escrito / Plan B |Comprensión, diseño y diagnóstico. Evidencia los CE descriptivos; no sustituye a la ejecución real de los CE operativos.
-|PO |Prueba individual |Prueba práctica en máquina y preguntas de razonamiento. Se realiza al final de cada trimestre y en la recuperación. Como el resto de tareas evaluables, se realiza una sola vez (apartado 10.4).
+|AE |Actividad evaluable de final de unidad |Actividad práctica individual en máquina, al final de cada unidad de programación, sobre los RA y CE de esa unidad. Como el resto de tareas evaluables, se realiza una sola vez (apartado 10.4).
+|PO |Prueba individual |Solo se realiza si se detecta copia o un uso indebido de la IA, o si el alumnado no ha comprendido el temario en general. Sustituye a la evidencia afectada.
 |OD |Observación y defensa oral |Lista de cotejo en clase y defensa de las prácticas. Sirve para verificar la autoría y el trabajo en equipo.
 |DT |Documentación técnica |Calidad, exactitud y reproducibilidad de la documentación de cada servicio.
 |===
@@ -599,30 +600,30 @@ La nota de un RA es la media ponderada de sus CE. Cada CE se califica de 0 a 10 
 |RA |%RA |Criterio de evaluación |%CE/RA |Instrum.
 
 .10+|RA1 .10+|20 %
-|a) Se han identificado la función, los elementos y las estructuras lógicas del servicio de directorio. |10 |PO
+|a) Se han identificado la función, los elementos y las estructuras lógicas del servicio de directorio. |10 |AE
 |b) Se ha determinado y creado el esquema del servicio de directorio. |10 |PR
 |c) Se ha realizado la instalación del servicio de directorio en el servidor. |10 |PR
 |d) Se ha realizado la configuración y personalización del servicio de directorio. |10 |PR
 |e) Se ha integrado el servicio de directorio con otros servicios. |10 |PR
-|f) Se han aplicado filtros de búsqueda en el servicio de directorio. |10 |PR, PO
+|f) Se han aplicado filtros de búsqueda en el servicio de directorio. |10 |PR, AE
 |g) Se ha utilizado el servicio de directorio como mecanismo de acreditación centralizada de los usuarios en una red. |15 |PR, OD
 |h) Se ha realizado la configuración del cliente para su integración en el servicio de directorio. |10 |PR
-|i) Se han utilizado herramientas gráficas y comandos para la administración del servicio de directorio. |10 |PO
+|i) Se han utilizado herramientas gráficas y comandos para la administración del servicio de directorio. |10 |AE
 |j) Se ha documentado la estructura e implantación del servicio de directorio. |5 |DT
 
 .8+|RA2 .8+|15 %
-|a) Se ha descrito el concepto de proceso del sistema, tipos, estados y ciclo de vida. |10 |PO
-|b) Se han utilizado interrupciones y excepciones para describir los eventos internos del procesador. |10 |PO
+|a) Se ha descrito el concepto de proceso del sistema, tipos, estados y ciclo de vida. |10 |AE
+|b) Se han utilizado interrupciones y excepciones para describir los eventos internos del procesador. |10 |AE
 |c) Se ha diferenciado entre proceso, hilo y trabajo, y se han realizado tareas de creación, manipulación y terminación de procesos. |15 |PR
 |d) Se ha utilizado el sistema de archivos como medio lógico para el registro e identificación de los procesos del sistema. |10 |PR
-|e) Se han utilizado herramientas gráficas y comandos para el control y seguimiento de los procesos del sistema. |20 |PR, PO
+|e) Se han utilizado herramientas gráficas y comandos para el control y seguimiento de los procesos del sistema. |20 |PR, AE
 |f) Se ha comprobado la secuencia de arranque del sistema, los procesos implicados y la relación entre ellos. |15 |PR
 |g) Se han tomado medidas de seguridad ante la aparición de procesos no identificados. |10 |PB
 |h) Se han documentado los procesos habituales del sistema, su función y relación entre ellos. |10 |DT
 
 .8+|RA3 .8+|15 %
-|a) Se han descrito las ventajas de la automatización de las tareas repetitivas en el sistema. |5 |PO
-|b) Se han utilizado los comandos del sistema para la planificación de tareas. |20 |PR, PO
+|a) Se han descrito las ventajas de la automatización de las tareas repetitivas en el sistema. |5 |AE
+|b) Se han utilizado los comandos del sistema para la planificación de tareas. |20 |PR, AE
 |c) Se han establecido restricciones de seguridad. |10 |PR
 |d) Se han realizado planificaciones de tareas repetitivas o puntuales relacionadas con la administración del sistema. |20 |PR
 |e) Se ha automatizado la administración de cuentas. |15 |PR
@@ -631,8 +632,8 @@ La nota de un RA es la media ponderada de sus CE. Cada CE se califica de 0 a 10 
 |h) Se han documentado los procesos programados como tareas automáticas. |10 |DT
 
 .9+|RA4 .9+|12 %
-|a) Se han descrito métodos de acceso y administración remota de sistemas. |10 |PO
-|b) Se ha diferenciado entre los servicios orientados a sesión y los no orientados a sesión. |5 |PO
+|a) Se han descrito métodos de acceso y administración remota de sistemas. |10 |AE
+|b) Se ha diferenciado entre los servicios orientados a sesión y los no orientados a sesión. |5 |AE
 |c) Se han utilizado herramientas de administración remota suministradas por el propio sistema operativo. |15 |PR
 |d) Se han instalado servicios de acceso y administración remota. |15 |PR
 |e) Se han utilizado servicios de acceso y administración remota. |15 |PR
@@ -642,12 +643,12 @@ La nota de un RA es la media ponderada de sus CE. Cada CE se califica de 0 a 10 
 |i) Se han documentado los procesos y servicios del sistema administrados de forma remota. |10 |DT
 
 .8+|RA5 .8+|8 %
-|a) Se ha descrito la funcionalidad de los sistemas y servidores de impresión, y se han identificado los puertos y los protocolos utilizados. |10 |PO
+|a) Se ha descrito la funcionalidad de los sistemas y servidores de impresión, y se han identificado los puertos y los protocolos utilizados. |10 |AE
 |b) Se han utilizado las herramientas para la gestión de impresoras integradas en el sistema operativo. |15 |PR
 |c) Se ha instalado y configurado un servidor de impresión en entorno web. |15 |PR
 |d) Se han creado y clasificado impresoras lógicas. |15 |PR
 |e) Se han creado grupos de impresión. |10 |PR
-|f) Se han gestionado impresoras y colas de trabajos mediante comandos y herramientas gráficas. |15 |PR, PO
+|f) Se han gestionado impresoras y colas de trabajos mediante comandos y herramientas gráficas. |15 |PR, AE
 |g) Se han compartido impresoras en red entre sistemas operativos diferentes. |10 |PR
 |h) Se ha documentado la configuración del servidor de impresión y de las impresoras creadas. |10 |DT
 
@@ -655,14 +656,14 @@ La nota de un RA es la media ponderada de sus CE. Cada CE se califica de 0 a 10 
 |a) Se ha identificado la necesidad de compartir recursos en red entre diferentes sistemas operativos. |5 |PB
 |b) Se han establecido niveles de seguridad para controlar el acceso del cliente a los recursos compartidos en red. |15 |PR
 |c) Se ha comprobado la conectividad de la red en un escenario heterogéneo. |10 |PR
-|d) Se ha descrito la funcionalidad de los servicios que permiten compartir recursos en red. |10 |PO
+|d) Se ha descrito la funcionalidad de los servicios que permiten compartir recursos en red. |10 |AE
 |e) Se han instalado y configurado servicios para compartir recursos en red. |20 |PR
 |f) Se ha comprobado el funcionamiento de los servicios instalados. |15 |PR, OD
 |g) Se ha trabajado en grupo para acceder a sistemas de archivos e impresoras en red desde equipos con diferentes sistemas operativos. |15 |OD
 |h) Se ha documentado la configuración de los servicios instalados. |10 |DT
 
 .9+|RA7 .9+|18 %
-|a) Se han utilizado y combinado las estructuras del lenguaje para crear guiones. |20 |PO
+|a) Se han utilizado y combinado las estructuras del lenguaje para crear guiones. |20 |AE
 |b) Se han utilizado herramientas para depurar errores sintácticos y de ejecución. |10 |PR
 |c) Se han interpretado guiones de configuración del sistema operativo. |10 |PB
 |d) Se han realizado cambios y adaptaciones de guiones del sistema. |10 |PR
@@ -688,7 +689,7 @@ La nota de un RA es la media ponderada de sus CE. Cada CE se califica de 0 a 10 
 * La *nota del módulo* es la media ponderada de los RA según la tabla anterior, expresada como número entero de 1 a 10 (Orden 8/2025). Si algún RA no llega al 5, la nota del módulo será como máximo un 4.
 * Las *evaluaciones parciales* informan del progreso con los RA trabajados hasta esa fecha. No eliminan materia: la nota final se calcula con la última evidencia válida de cada CE.
 * *Autoría:* la docente puede pedir en cualquier momento que se defienda un trabajo. Si la defensa muestra que no es propio, el CE se evalúa con una prueba individual.
-* *Copia o plagio:* la actividad se califica con 0 para todas las personas implicadas y los CE afectados se evalúan con una prueba individual. La reiteración se comunica a jefatura de estudios y se aplica el reglamento de régimen interior.
+* *Copia, plagio o uso indebido de la IA:* la actividad se califica con 0 para todas las personas implicadas y los CE afectados se evalúan con una prueba individual. La reiteración se comunica a jefatura de estudios y se aplica el reglamento de régimen interior.
 * *Pérdida de la evaluación continua:* se produce al superar el 15 % de faltas de asistencia en el módulo (unas 10 sesiones). El centro avisa al llegar al 10 %. En ese caso, el alumnado realiza en la convocatoria ordinaria una prueba final de todos los RA y entrega las prácticas obligatorias del curso.
 
 === Recuperación
@@ -766,7 +767,7 @@ El seguimiento se hace al final de cada UP y en cada sesión de evaluación. Las
 
 === Uso de herramientas de inteligencia artificial
 
-Se permite usar asistentes de IA como apoyo para consultar o depurar, siempre que se indique en la entrega para qué se han utilizado. Ninguna orden generada se ejecuta sin entenderla y sin comprobar su efecto. La autoría se verifica mediante la defensa oral.
+Se permite usar asistentes de IA como apoyo para consultar o depurar, siempre que se indique en la entrega para qué se han utilizado. Ninguna orden generada se ejecuta sin entenderla y sin comprobar su efecto. La autoría se verifica mediante la defensa oral y, si se detecta un uso indebido, con una prueba individual.
 
 === Publicación de los materiales
 

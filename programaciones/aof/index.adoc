@@ -9,7 +9,6 @@
 :titulo-corto: Aplicaciones Ofimáticas (AOF)
 :etapa: FP · 1.º SMR
 :resumen: Módulo 0223 del ciclo de grado medio de Sistemas Microinformáticos y Redes.
-:borrador:
 :toc: left
 :toclevels: 2
 :sectnums:
@@ -34,7 +33,6 @@
 :horas-fe: 24
 :horas-semana: 7
 :version: 1.0 · 10/10/2026
-// Quita la línea «:borrador:» cuando la programación esté terminada.
 
 
 == Propuestas de mejora y modificaciones respecto a la versión anterior
@@ -591,8 +589,6 @@ La evaluación es *continua, formativa e integradora*, y se basa en los RA y sus
 * *Dos evaluaciones parciales,* al final del primer y del segundo trimestre. Informan del progreso: cada RA se califica con las evidencias reunidas hasta ese momento.
 * *Evaluación ordinaria,* al finalizar el tercer trimestre.
 * *Evaluación extraordinaria,* posterior a la ordinaria.
-
-Además de la heteroevaluación, se usan la autoevaluación y la coevaluación como parte de la evaluación formativa. Los criterios y los instrumentos se dan a conocer al alumnado al inicio del curso y se publican en Aules.
 
 === Instrumentos de evaluación
 

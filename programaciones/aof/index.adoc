@@ -1,5 +1,5 @@
-= Programación didáctica · 0228 Aplicaciones Ofimáticas
-:description: Programación didáctica de 0228 Aplicaciones Ofimáticas (CFGM Sistemas Microinformáticos y Redes (SMR) · 1.º curso). IES Font de Sant Lluís. Curso 2026-2027.
+= Programación didáctica · 0223 Aplicaciones Ofimáticas
+:description: Programación del módulo 0223 Aplicaciones Ofimáticas (AOF), 1.º SMR, IES Font de Sant Lluís. Curso 2026-2027.
 :lang: es
 :plantilla: fp
 :ciclo-tipo: Ciclo Formativo de Grado Medio
@@ -8,10 +8,9 @@
 :orden: 2
 :titulo-corto: Aplicaciones Ofimáticas (AOF)
 :etapa: FP · 1.º SMR
-:resumen: Módulo 0228 del ciclo de grado medio de Sistemas Microinformáticos y Redes.
+:resumen: Módulo 0223 del ciclo de grado medio de Sistemas Microinformáticos y Redes.
 :borrador:
 :toc: left
-:toc-title: Sumario
 :toclevels: 2
 :sectnums:
 :sectnumlevels: 2
@@ -23,51 +22,679 @@
 :tip-caption: Consejo
 :warning-caption: Atención
 :caution-caption: Precaución
+:toc-title: Sumario
+:table-caption: Tabla
 :centro: IES Font de Sant Lluís (València)
 :departamento: Departamento de Informática
-:modulo: 0228 Aplicaciones Ofimáticas (AOF)
+:ciclo: CFGM Sistemas Microinformáticos y Redes (SMR)
+:modulo: 0223 Aplicaciones Ofimáticas (AOF)
 :curso: 2026-2027
 :docente: María Bañuls Ribes
+:horas-curriculo: 233
+:horas-fe: 24
+:horas-semana: 7
+:version: 1.0 · 10/10/2026
 // Quita la línea «:borrador:» cuando la programación esté terminada.
 
 
 == Propuestas de mejora y modificaciones respecto a la versión anterior
 
-_Pendiente de redactar._
+La propuesta de mejora del curso 2025-2026 era introducir cada contenido con prácticas guiadas, que intercalan explicación y ejemplos resueltos en común antes de la práctica individual. Este curso esa propuesta se convierte en la estructura de todos los temas (apartado 6).
+
+[cols="1,5",options="header"]
+|===
+|Fecha |Modificación
+
+|27/10/2025
+|Adaptación al nuevo modelo de programación didáctica del departamento.
+
+|10/10/2026
+|Adaptación al *Decreto 114/2025* y a la *Orden 8/2025* de evaluación, modificada por la Orden 5/2026. El documento sigue la plantilla de departamento del curso 2026-2027.
+
+|10/10/2026
+|Se corrigen los datos identificativos y los enunciados de RA de las UP1 y UP2, que en la versión anterior procedían de otro módulo.
+
+|10/10/2026
+|Nuevo hilo conductor: el *rescate digital de CAOS, S.L.*, una empresa ficticia cuyos problemas se resuelven tema a tema. Las nueve unidades organizadas por aplicación pasan a ser *once temas* acumulativos: los datos de un tema se reutilizan en los siguientes.
+
+|10/10/2026
+|Nueva secuencia: presentaciones y correo pasan al tercer trimestre para reutilizar documentos, datos, imágenes y vídeos ya elaborados. El curso termina con el *Incidente crítico* (T11), que integra todo el módulo y el RA9.
+
+|10/10/2026
+|Evaluación mediante casos evaluables que se realizan una sola vez y hacen media. Solo se repiten si suspende más del 75 % del grupo, con una calificación máxima de 5. La ponderación por instrumentos (60 % / 30 % / 10 %) se sustituye por la ponderación por RA y criterios de evaluación (apartado 10).
+
+|10/10/2026
+|Se incorporan el vídeo breve de pantalla como evidencia y unas normas de uso de la inteligencia artificial (apartado 13).
+|===
 
 == Datos identificativos, marco normativo y contextualización del módulo
 
-_Pendiente de redactar._
+=== Datos identificativos
+
+[cols="1,3"]
+|===
+|Centro |{centro}
+|Departamento |{departamento}
+|Familia profesional |Informática y Comunicaciones
+|Ciclo formativo |{ciclo}. Ciclo formativo de grado medio, grado D del sistema de Formación Profesional. Duración del ciclo: 2000 horas.
+|Módulo profesional |{modulo}
+|Curso |Primer curso. Curso académico {curso}.
+|Duración |{horas-curriculo} horas, de las que {horas-fe} se desarrollan en la formación en empresa (RA9 dualizado)
+|Horario del grupo |{horas-semana} horas semanales: martes 2 h, jueves 3 h y viernes 2 h
+|Régimen |Presencial
+|Docente |{docente}
+|===
+
+=== Marco normativo
+
+El marco común del ciclo se recoge en el PCCF. Aquí se relacionan las normas que afectan directamente al módulo.
+
+[cols="1,3",options="header"]
+|===
+|Ámbito |Norma
+
+|Ley de FP
+|Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional.
+
+|Ordenación estatal
+|Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional. Real Decreto 278/2023, de 11 de abril, que establece el calendario de implantación.
+
+|Título
+|Real Decreto 1691/2007, de 14 de diciembre, por el que se establece el título de Técnico en Sistemas Microinformáticos y Redes. Modificado por el Real Decreto 499/2024, de 21 de mayo.
+
+|Currículo en la Comunitat Valenciana
+|Decreto 114/2025, de 29 de julio, del Consell, por el que se establecen los currículos de los ciclos formativos de grado medio y de grado superior de Formación Profesional (DOGV de 4 de agosto de 2025).
+
+|Evaluación
+|Orden 8/2025, de 22 de abril, de evaluación del proceso de enseñanza-aprendizaje en ciclos formativos y cursos de especialización, modificada por la Orden 5/2026, de 1 de abril.
+
+|Instrucciones de inicio de curso
+|Resolución de 16 de julio de 2026, de la Secretaría Autonómica de Educación, por la que se dictan instrucciones para los centros que imparten los grados D y E de Formación Profesional durante el curso 2026-2027 (DOGV núm. 10408, de 20 de julio de 2026).
+
+|Calendario escolar
+|Resolución de 15 de junio de 2026, de la Dirección General de Centros Docentes, por la que se fija el calendario escolar del curso 2026-2027.
+
+|Inclusión y convivencia
+|Decreto 104/2018, de 27 de julio, de equidad e inclusión en el sistema educativo valenciano. Orden 20/2019, de 30 de abril, que regula la organización de la respuesta educativa para la inclusión. Decreto 195/2022, de 11 de noviembre, de igualdad y convivencia en el sistema educativo valenciano.
+|===
+
+=== Contextualización del módulo
+
+La contextualización del centro, del entorno productivo y del alumnado figura en el PCCF. En el módulo se tienen en cuenta estas condiciones:
+
+* Es un módulo de primer curso. El alumnado llega con niveles muy distintos de manejo del ordenador, así que el primer tema (_SOS digital_) sirve también de evaluación inicial.
+* Se trabaja en el aula de primer curso de SMR con equipos *LliureX 23*. La suite principal es *LibreOffice* (Writer, Calc, Base e Impress); el vídeo se edita con *Kdenlive*. Cuando conviene, se comparan los procedimientos con Microsoft 365.
+* Todo el curso sigue un mismo hilo conductor: *CAOS, S.L.*, una empresa ficticia con archivos desordenados, documentos incoherentes, cuentas que no cuadran, clientes duplicados, imágenes defectuosas y 243 correos sin leer. Cada tema rescata un departamento. El trabajo es acumulativo: los clientes de un documento acaban en una hoja de cálculo, luego en una base de datos y, por último, en la presentación final.
+* La teoría, los ejemplos y los archivos de práctica se publican en la web de materiales del módulo. Los enunciados, plazos y entregas de las actividades evaluables están en *Aules*.
+* *Relación con otros módulos.* Con Sistemas operativos monopuesto, porque las aplicaciones se instalan y configuran de forma distinta en cada sistema. Con Montaje y mantenimiento de equipos, donde se elaboran documentación y vídeos del montaje. En segundo curso, con Aplicaciones web, ya que las suites ofimáticas tienen versión web. El buen uso de las herramientas ofimáticas también apoya los RA de Digitalización aplicada a los sectores productivos.
+* El RA9 se dualiza: una parte se trabaja en la *formación en empresa*, con {horas-fe} horas (apartado 10.7).
 
 == Relación entre los estándares de competencia y los módulos del ciclo formativo
 
-_Pendiente de redactar._
+=== Estándares de competencia relacionados
+
+El módulo se relaciona con estos estándares de competencia del Catálogo Nacional:
+
+[cols="1,3,2",options="header"]
+|===
+|Estándar |Denominación |Relación con el módulo
+|ECP0221_2 |Gestionar aplicaciones en sistemas microinformáticos. |RA1-RA8
+|ECP0222_2 |Dar soporte al usuario de equipos microinformáticos. |RA9, y también RA2.f (manuales) y RA6.e (videotutoriales)
+|===
+
+=== Contribución del módulo a los objetivos generales (OG)
+
+La formación del módulo contribuye a los siguientes objetivos generales del ciclo.
+
+[cols="1,4,2",options="header"]
+|===
+|OG |Objetivo general |RA del módulo que lo trabajan
+
+|a)
+|Organizar los componentes físicos y lógicos que forman un sistema microinformático, interpretando su documentación técnica, para aplicar los medios y métodos adecuados a su instalación, montaje y mantenimiento.
+|RA1
+
+|c)
+|Reconocer y ejecutar los procedimientos de instalación de sistemas operativos y programas de aplicación, aplicando protocolos de calidad, para instalar y configurar sistemas microinformáticos.
+|RA1-RA8
+
+|g)
+|Localizar y reparar averías y disfunciones en los componentes físicos y lógicos para mantener sistemas microinformáticos y redes locales.
+|RA1, RA9
+
+|h)
+|Sustituir y ajustar componentes físicos y lógicos para mantener sistemas microinformáticos y redes locales.
+|RA1, RA9
+
+|i)
+|Interpretar y seleccionar información para elaborar documentación técnica y administrativa.
+|RA2, RA3, RA4, RA9
+
+|k)
+|Reconocer características y posibilidades de los componentes físicos y lógicos, para asesorar y asistir a clientes.
+|RA1, RA9
+
+|l)
+|Detectar y analizar cambios tecnológicos para elegir nuevas alternativas y mantenerse actualizado dentro del sector.
+|RA1, RA5, RA6
+
+|m)
+|Reconocer y valorar incidencias, determinando sus causas y describiendo las acciones correctoras para resolverlas.
+|RA9
+
+|n)
+|Analizar y describir procedimientos de calidad, prevención de riesgos laborales y medioambientales, señalando las acciones a realizar en los casos definidos para actuar de acuerdo con las normas estandarizadas.
+|Transversal
+
+|o)
+|Identificar y valorar las oportunidades de aprendizaje y empleo, analizando las ofertas y demandas del mercado laboral para gestionar su carrera profesional.
+|Transversal
+|===
 
 == Contribución de los RA a las competencias generales
 
-_Pendiente de redactar._
+=== Competencia general (CG) y resultados de aprendizaje (RA)
+
+La competencia general del título consiste en *instalar, configurar y mantener sistemas microinformáticos, aislados o en red, así como redes locales en pequeños entornos, asegurando su funcionalidad y aplicando los protocolos de calidad, seguridad y respeto al medio ambiente*.
+
+El módulo contribuye a ella con nueve resultados de aprendizaje. Su peso se corresponde con el tiempo que se dedica a cada uno; los criterios de evaluación y su peso figuran en el apartado 10.3.
+
+[cols="1,6,1",options="header"]
+|===
+|RA |Resultado de aprendizaje |Peso
+|RA1 |Instala y actualiza aplicaciones ofimáticas, interpretando especificaciones y describiendo los pasos a seguir en el proceso. |5 %
+|RA2 |Elabora documentos y plantillas, describiendo y aplicando las opciones avanzadas de procesadores de textos. |22 %
+|RA3 |Elabora documentos y plantillas de cálculo, describiendo y aplicando opciones avanzadas de hojas de cálculo. |20 %
+|RA4 |Elabora documentos con bases de datos ofimáticas, describiendo y aplicando operaciones de manipulación de datos. |20 %
+|RA5 |Manipula imágenes digitales, analizando las posibilidades de distintos programas y aplicando técnicas de captura y edición básicas. |8 %
+|RA6 |Manipula secuencias de vídeo, analizando las posibilidades de distintos programas y aplicando técnicas de captura y edición básicas. |8 %
+|RA7 |Elabora presentaciones multimedia, describiendo y aplicando normas básicas de composición y diseño. |8 %
+|RA8 |Realiza operaciones de gestión del correo y la agenda electrónica, relacionando necesidades de uso con su configuración. |5 %
+|RA9 |Aplica técnicas de soporte en el uso de aplicaciones, identificando y resolviendo incidencias. |4 %
+|===
+
+=== Competencias profesionales y para la empleabilidad (CPPE)
+
+El Real Decreto 499/2024 renombra las competencias profesionales, personales y sociales como competencias profesionales y para la empleabilidad. El módulo contribuye a las siguientes:
+
+[cols="1,4,2",options="header"]
+|===
+|CPPE |Competencia |RA
+
+|a)
+|Determinar la logística asociada a las operaciones de instalación, configuración y mantenimiento de sistemas microinformáticos, interpretando la documentación técnica asociada y organizando los recursos necesarios.
+|RA1, RA8, RA9
+
+|c)
+|Instalar y configurar software básico y de aplicación, asegurando su funcionamiento en condiciones de calidad y seguridad.
+|RA1-RA7, RA9
+
+|f)
+|Instalar, configurar y mantener servicios multiusuario, aplicaciones y dispositivos compartidos en un entorno de red local, atendiendo a las necesidades y requerimientos especificados.
+|RA2-RA8
+
+|g)
+|Realizar las pruebas funcionales en sistemas microinformáticos y redes locales, localizando y diagnosticando disfunciones, para comprobar y ajustar su funcionamiento.
+|RA1, RA9
+
+|h)
+|Mantener sistemas microinformáticos y redes locales, sustituyendo, actualizando y ajustando sus componentes, para asegurar el rendimiento del sistema en condiciones de calidad y seguridad.
+|RA2, RA8, RA9
+
+|j)
+|Elaborar documentación técnica y administrativa del sistema, cumpliendo las normas y reglamentación del sector, para su mantenimiento y la asistencia al cliente.
+|RA2-RA9
+
+|k)
+|Elaborar presupuestos de sistemas a medida cumpliendo los requerimientos del cliente.
+|RA2, RA3, RA4, RA8
+
+|l)
+|Asesorar y asistir al cliente, canalizando a un nivel superior los supuestos que lo requieran, para encontrar soluciones adecuadas a las necesidades de este.
+|RA8, RA9
+
+|m)
+|Organizar y desarrollar el trabajo asignado manteniendo unas relaciones profesionales adecuadas en el entorno de trabajo.
+|RA2-RA9
+
+|n)
+|Mantener un espíritu constante de innovación y actualización en el ámbito del sector informático.
+|RA1-RA9
+
+|ñ)
+|Utilizar los medios de consulta disponibles, seleccionando el más adecuado en cada caso, para resolver en tiempo razonable supuestos no conocidos y dudas profesionales.
+|RA1-RA4, RA8, RA9
+
+|p)
+|Cumplir con los objetivos de la producción, colaborando con el equipo de trabajo y actuando conforme a los principios de responsabilidad y tolerancia.
+|RA1-RA9
+
+|r)
+|Resolver problemas y tomar decisiones individuales siguiendo las normas y procedimientos establecidos definidos dentro del ámbito de su competencia.
+|RA1-RA9
+|===
+
+=== Competencias transversales (CT)
+
+Las competencias transversales en sentido estricto se adquieren con los módulos transversales del ciclo. AOF no las califica, pero las refuerza en su práctica habitual:
+
+* *Comunicación profesional.* Redactar tickets de incidencia, correos y documentos claros, y explicar con palabras propias lo que se ha hecho.
+* *Inglés técnico.* Consultar ayudas, tutoriales y mensajes de error en inglés.
+* *Digitalización y seguridad.* Organizar archivos y versiones, respetar licencias y derechos de autoría, y detectar el phishing. Usar la IA generativa con criterio (apartado 13).
+* *Sostenibilidad.* Optimizar el tamaño de imágenes y vídeos, y preferir la documentación digital a la impresión.
+* *Igualdad.* Usar un lenguaje inclusivo e imágenes no estereotipadas en los materiales que se elaboran.
 
 == Esquema general y secuenciación de las unidades de programación
 
-_Pendiente de redactar._
+=== Contenidos básicos
+
+Los contenidos básicos del currículo son el punto de partida de los temas, que funcionan como unidades de programación.
+
+. *Instalación de aplicaciones.* Tipos de aplicaciones ofimáticas. Tipos de licencias de software. Necesidades de los entornos de explotación. Procedimientos de instalación y configuración.
+. *Elaboración de documentos y plantillas mediante procesadores de texto.* Estilos. Creación y uso de plantillas. Importación y exportación de documentos. Diseño y creación de macros. Elaboración de distintos tipos de documentos (manuales, partes de incidencias, entre otros).
+. *Elaboración de documentos y plantillas mediante hojas de cálculo.* Estilos. Fórmulas y funciones. Tablas y gráficos dinámicos. Plantillas y asistentes. Elaboración de distintos tipos de documentos (presupuestos, facturas, inventarios, entre otros). Diseño y creación de macros.
+. *Utilización de bases de datos ofimáticas.* Elementos de las bases de datos relacionales. Creación de bases de datos. Manejo de asistentes.
+. *Manipulación de imágenes.* Formatos y resolución de imágenes. Retoque fotográfico, ajustes de imagen y de color. Importación y exportación de imágenes.
+. *Manipulación de vídeos.* Formatos de vídeo. Importación y exportación de vídeos.
+. *Elaboración de presentaciones.* Diseño y edición de diapositivas. Formato de diapositivas, textos y objetos. Importación y exportación de presentaciones. Plantillas, asistentes y patrones de diapositivas.
+. *Gestión de correo y agenda electrónica.* Entorno de trabajo: configuración y personalización. Plantillas y firmas corporativas. Foros de noticias. La libreta de direcciones. Gestión de correos. Gestión de la agenda.
+. *Aplicación de técnicas de soporte.* Elaboración de guías y manuales de uso de aplicaciones. Formación al usuario.
+
+=== Secuenciación y temporización
+
+El calendario escolar fija las clases entre el 9 de septiembre de 2026 y el 18 de junio de 2027. Excluye los festivos del 9 de octubre, el 8 de diciembre y el 19 de marzo, y las vacaciones del 22 de diciembre al 6 de enero y del 25 de marzo al 5 de abril.
+
+Con el horario del grupo resultan *251 horas lectivas* en el centro. El currículo asigna {horas-curriculo} horas al módulo, {horas-fe} de ellas en la formación en empresa. La diferencia se reserva para contingencias (sesiones del 16 y 18 de marzo, por Fallas) y para la recuperación y el cierre del curso. Si el plan de formación en empresa que apruebe el equipo educativo coincide con horas de clase, la temporización se ajustará a ese plan.
+
+[cols="1,4,3,1,2,1",options="header"]
+|===
+|Tema |Título |Fechas |Horas |RA principal |Ev.
+
+|T1 |SOS: supervivencia en el caos digital |10/09 – 18/09/2026 |12 |RA1, RA9 |1.ª
+|T2 |Documento_FINAL_definitivo_ahora_si |22/09 – 16/10/2026 |26 |RA2 |1.ª
+|T3 |Documentos que trabajan solos |20/10 – 06/11/2026 |21 |RA2 |1.ª
+|T4 |#¡VALOR!: las cuentas no cuadran |10/11 – 11/12/2026 |33 |RA3 |1.ª
+|T5 |Tenemos datos, pero nadie sabe qué significan |15/12/2026 – 22/01/2027 |26 |RA3 |2.ª
+|T6 |Tenemos 847 clientes y cuatro se llaman igual |26/01 – 19/02/2027 |28 |RA4 |2.ª
+|T7 |Marketing ha vuelto a hacerlo |23/02 – 12/03/2027 |21 |RA5 |2.ª
+|— |Contingencia (Fallas) |16/03 y 18/03/2027 |5 |— |2.ª
+|T8 |Necesitamos un vídeo para ayer |23/03 – 30/04/2027 |30 |RA6 |3.ª
+|T9 |Mañana viene dirección |04/05 – 14/05/2027 |14 |RA7 |3.ª
+|T10 |243 correos sin leer |18/05 – 28/05/2027 |14 |RA8 |3.ª
+|T11 |INCIDENTE CRÍTICO |01/06 – 11/06/2027 |14 |RA9 (integra todos) |3.ª
+|— |Recuperación y cierre |15/06 – 18/06/2027 |7 |RA pendientes |3.ª
+3+|*Total* |*251* 2+|
+|===
+
+.Evaluaciones
+* *Evaluación inicial:* durante el T1, sin calificación.
+* *Primera evaluación parcial:* final del primer trimestre (T1-T4).
+* *Segunda evaluación parcial:* final del segundo trimestre (T5-T7).
+* *Evaluación ordinaria:* al finalizar el tercer trimestre (T8-T11). La extraordinaria, en las fechas que fije jefatura de estudios.
+
+=== Unidades de programación
+
+Cada tema parte de una incidencia de CAOS, S.L. y termina con un caso evaluable individual (apartado 6).
+
+==== T1 · SOS: supervivencia en el caos digital
+
+[cols="1h,4"]
+|===
+|Temporización |12 h · 10/09 – 18/09/2026
+|RA y CE |RA1.a – RA1.i · RA9.b, RA9.e
+|CPPE · OG |a), c), g), ñ), r) · a), c), g), k)
+|Incidencia |Archivos desordenados, software mal gestionado y correos imposibles.
+|Objetivos didácticos |Distinguir tipos de software y licencias. Instalar, configurar, actualizar y desinstalar aplicaciones ofimáticas. Organizar archivos con nombres y extensiones correctos. Describir una incidencia con evidencias en un ticket.
+|Contenidos |Ofimática, tipos de aplicaciones y suites. Software libre y propietario; licencias. Requisitos de hardware y software. Instalación, desinstalación y actualización. Archivos, carpetas y extensiones. PDF, compresión y capturas. Imagen básica (tamaño, resolución y formato). Correo básico: asunto, CC/CCO y adjuntos.
+|Actividades |Diagnóstico inicial. Reorganización de la estructura de archivos de la empresa. Instalación y configuración guiada. Ticket de incidencia: problema, evidencias, solución y comunicación profesional.
+|Evaluación |Caso evaluable breve de supervivencia digital (AE). Sirve también de evaluación inicial.
+|===
+
+==== T2 · Documento_FINAL_definitivo_ahora_si
+
+[cols="1h,4"]
+|===
+|Temporización |26 h · 22/09 – 16/10/2026
+|RA y CE |RA2.a, RA2.c, RA2.d
+|CPPE · OG |c), f), j), m) · c), i)
+|Incidencia |Administración tiene documentos incoherentes y mal formateados.
+|Objetivos didácticos |Personalizar el entorno del procesador de textos. Dar formato a caracteres, párrafos y páginas con criterio. Componer documentos profesionales con tablas e imágenes. Revisar y exportar a PDF.
+|Contenidos |Interfaz; crear, abrir y guardar; selección y edición. Formato de carácter y de párrafo: fuente, alineación, interlineado, espaciado, sangrías y listas. Tabulaciones y listas multinivel. Configuración de página, saltos y secciones. Encabezados, pies y numeración. Tablas. Imágenes, formas y ajuste de texto. Revisión, ortografía, buscar y reemplazar, impresión y exportación.
+|Actividades |Reparación de un documento corto. Normalización de un documento administrativo de varias páginas. Caso completo guiado de rescate documental.
+|Evaluación |Caso evaluable individual: documento profesional completo a partir de un archivo defectuoso (AE).
+|===
+
+==== T3 · Documentos que trabajan solos
+
+[cols="1h,4"]
+|===
+|Temporización |21 h · 20/10 – 06/11/2026
+|RA y CE |RA2.b, RA2.d, RA2.e, RA2.f
+|CPPE · OG |c), f), j), k) · c), i)
+|Incidencia |La empresa repite a mano cientos de documentos.
+|Objetivos didácticos |Estructurar documentos largos con estilos e índices automáticos. Diseñar plantillas y formularios corporativos. Generar documentación masiva con combinación de correspondencia. Conocer el uso responsable de las macros.
+|Contenidos |Estilos y jerarquía. Documentos largos: secciones, esquema, navegación y tabla de contenidos. Plantillas. Campos, controles y formularios. Combinación de correspondencia: documento principal, fuente de datos, campos, filtros. Etiquetas y sobres. Importación y exportación. Macros.
+|Actividades |Reestructuración de un documento largo. Plantilla corporativa para CAOS, S.L. Cartas y etiquetas combinadas. Elaboración de un manual breve.
+|Evaluación |Caso evaluable: documentación masiva y reutilizable a partir de datos individuales (AE).
+|===
+
+==== T4 · #¡VALOR!: las cuentas no cuadran
+
+[cols="1h,4"]
+|===
+|Temporización |33 h · 10/11 – 11/12/2026
+|RA y CE |RA3.a, RA3.b, RA3.c, RA3.h
+|CPPE · OG |c), f), j), k) · c), i)
+|Incidencia |Ventas, impuestos, descuentos y gastos dan resultados incorrectos.
+|Objetivos didácticos |Manejar libros, hojas, celdas y tipos de datos. Construir fórmulas con referencias relativas, absolutas y mixtas. Aplicar funciones matemáticas, estadísticas, de texto, lógicas y de fecha. Detectar y corregir errores de cálculo.
+|Contenidos |Interfaz; libro, hoja y celda; tipos de datos. Fórmulas, operadores y prioridad. Referencias relativas, absolutas y mixtas. Funciones matemáticas y estadísticas. Funciones de texto. Funciones lógicas (SI, Y, O). Fecha y hora. Formato condicional. Errores frecuentes.
+|Actividades |Reconstrucción de cálculos de ventas y gastos. Incidencias de IVA, descuentos y tarifas. Control mensual. Clasificación de operaciones con lógica. Caso completo de contabilidad.
+|Evaluación |Caso evaluable individual de hoja de cálculo básica e intermedia (AE).
+|===
+
+==== T5 · Tenemos datos, pero nadie sabe qué significan
+
+[cols="1h,4"]
+|===
+|Temporización |26 h · 15/12/2026 – 22/01/2027
+|RA y CE |RA3.c, RA3.d, RA3.e, RA3.f, RA3.g
+|CPPE · OG |c), f), j), k) · c), i)
+|Incidencia |Dirección tiene muchos datos y ninguna información útil.
+|Objetivos didácticos |Cruzar información con funciones de búsqueda. Usar la hoja como base de datos: ordenar, filtrar, validar y proteger. Elegir y crear el gráfico adecuado. Resumir datos con subtotales y tablas dinámicas.
+|Contenidos |Funciones lógicas combinadas y tratamiento de errores. Funciones de búsqueda y referencia. Ordenación y filtros. Validación y listas. Subtotales y agrupación. Funciones financieras seleccionadas. Gráficos. Importación y exportación. Plantillas. Tablas dinámicas. Macros.
+|Actividades |Limpieza y filtrado de un conjunto de datos. Control de gastos y presupuesto. Informe con gráficos para dirección.
+|Evaluación |Caso evaluable: convertir datos brutos en información útil para dirección (AE).
+|===
+
+==== T6 · Tenemos 847 clientes y cuatro se llaman igual
+
+[cols="1h,4"]
+|===
+|Temporización |28 h · 26/01 – 19/02/2027
+|RA y CE |RA4.a – RA4.h
+|CPPE · OG |c), f), j), k) · c), i)
+|Incidencia |Los datos de clientes están duplicados y repartidos en varios archivos.
+|Objetivos didácticos |Diferenciar hoja de cálculo y base de datos. Diseñar tablas con claves y relaciones. Importar y depurar datos. Responder preguntas de negocio con consultas. Crear formularios e informes.
+|Contenidos |Tabla, campo y registro. Tipos de datos y claves primarias. Modelo relacional, relaciones e integridad. Importación de datos. Consultas de selección, con criterios, parámetros, multitabla, campos calculados y agregación. Formularios. Informes. Macros.
+|Actividades |Diseño de una base de datos a partir de requisitos. Depuración e importación de clientes y proveedores. Consultas para preguntas de negocio.
+|Evaluación |Caso evaluable individual de diseño, consultas y explotación de una base de datos ofimática (AE).
+|===
+
+==== T7 · Marketing ha vuelto a hacerlo
+
+[cols="1h,4"]
+|===
+|Temporización |21 h · 23/02 – 12/03/2027, más 5 h de contingencia (16 y 18 de marzo)
+|RA y CE |RA5.a – RA5.e
+|CPPE · OG |c), f), j), n) · c), l)
+|Incidencia |Imágenes pixeladas, enormes, deformadas o en formatos incorrectos.
+|Objetivos didácticos |Elegir formato y resolución según el destino. Capturar imágenes con periféricos. Editar con recorte, capas, selecciones y ajustes de color. Exportar optimizando el tamaño y respetando las licencias.
+|Contenidos |Mapa de bits y vectorial; píxel, dimensiones y resolución. Formatos, compresión, transparencia y profundidad de color. Recorte, redimensionado y transformaciones. Selecciones, capas, texto y fondos. Brillo, contraste y color. Exportación y licencias de recursos.
+|Actividades |Diagnóstico y optimización de un lote de imágenes. Reparación de piezas de marketing. Campaña gráfica de CAOS, S.L. con varios formatos de salida.
+|Evaluación |Caso evaluable individual de edición y optimización de imágenes (AE).
+|===
+
+==== T8 · Necesitamos un vídeo para ayer
+
+[cols="1h,4"]
+|===
+|Temporización |30 h · 23/03 – 30/04/2027
+|RA y CE |RA6.a – RA6.e · RA9.a (videotutorial)
+|CPPE · OG |a), f), j), n) · c), l)
+|Incidencia |Hay material audiovisual disperso y dirección necesita un vídeo urgente.
+|Objetivos didácticos |Reconocer los elementos de una secuencia y los formatos y códecs habituales. Montar en la línea de tiempo con vídeo, audio y títulos. Exportar con la calidad y el peso adecuados. Grabar un videotutorial.
+|Contenidos |Vídeo digital: resolución, relación de aspecto, FPS, formatos y códecs. Kdenlive: proyecto, recursos e importación. Línea de tiempo, pistas y cortes. Audio. Títulos y rótulos. Transiciones. Efectos y animación. Renderizado y exportación.
+|Actividades |Montaje básico con recursos comunes. Secuencia con vídeo, audio y títulos. Pieza audiovisual de CAOS, S.L. Videotutorial.
+|Evaluación |Caso evaluable individual de montaje y exportación de vídeo (AE).
+|===
+
+==== T9 · Mañana viene dirección
+
+[cols="1h,4"]
+|===
+|Temporización |14 h · 04/05 – 14/05/2027
+|RA y CE |RA7.a – RA7.f
+|CPPE · OG |c), f), j), m) · c), i)
+|Incidencia |Hay que presentar resultados sin una presentación infumable.
+|Objetivos didácticos |Estructurar una presentación según su objetivo y su audiencia. Aplicar normas de composición, tipografía y color. Reutilizar datos y gráficos de temas anteriores. Diseñar patrones y exponer con los periféricos adecuados.
+|Contenidos |Objetivo, audiencia y estructura narrativa. Vistas. Composición, tipografía, color, contraste e imágenes. Tablas, gráficos y diagramas. Patrones y plantillas. Multimedia, transiciones, animaciones, hipervínculos, notas y configuración de la presentación.
+|Actividades |Rediseño de una presentación deficiente. Presentación con datos de la hoja de cálculo y de la base de datos.
+|Evaluación |Caso evaluable: presentación ejecutiva con datos del proyecto CAOS, S.L. (AE).
+|===
+
+==== T10 · 243 correos sin leer
+
+[cols="1h,4"]
+|===
+|Temporización |14 h · 18/05 – 28/05/2027
+|RA y CE |RA8.a – RA8.g
+|CPPE · OG |a), h), l), m) · c), i)
+|Incidencia |La comunicación interna está fuera de control.
+|Objetivos didácticos |Explicar cómo funciona el correo y sus protocolos. Configurar cuentas, firmas y contactos. Organizar la bandeja con carpetas, filtros y reglas, y detectar el phishing. Gestionar calendario, reuniones y tareas, y sincronizarlos con el móvil.
+|Contenidos |Dirección, servidores, webmail y cliente; SMTP, IMAP y POP. Configuración de cuentas. CC/CCO, adjuntos, firmas y plantillas. Libreta de direcciones. Carpetas, categorías, búsqueda, filtros y reglas. Spam, phishing y seguridad. Calendario, citas, reuniones, invitaciones, tareas y recordatorios. Sincronización.
+|Actividades |Bandeja de entrada simulada: responder, reenviar, organizar y comunicar. Agenda de un departamento.
+|Evaluación |Caso evaluable de gestión integral de comunicación y agenda (AE).
+|===
+
+==== T11 · INCIDENTE CRÍTICO
+
+[cols="1h,4"]
+|===
+|Temporización |14 h · 01/06 – 11/06/2027
+|RA y CE |RA9.a – RA9.h · RA1.i · RA2.f
+|CPPE · OG |a), c), g), j), l), r) · g), i), k), m)
+|Incidencia |Varios departamentos fallan a la vez y nadie dice qué programa utilizar.
+|Objetivos didácticos |Diagnosticar y priorizar incidencias. Elegir la herramienta adecuada sin instrucciones previas. Resolver con documentos, datos y comunicación. Elaborar material de soporte (manual, guía, FAQ o videotutorial) y cerrar las incidencias.
+|Contenidos |Técnicas de soporte. Informes de incidencias. Guías y manuales de uso. Formación al usuario. Salvaguarda y recuperación de la información. Recursos de ayuda.
+|Actividades |Lanzamiento de la crisis. Trabajo autónomo con seguimiento individual. Entrega parcial. Integración multimedia y documentación de soporte. Registro y cierre de incidencias.
+|Evaluación |Proyecto integrador con entrega parcial y entrega final, y comprobación individual (IC).
+|===
+
+==== Recuperación y cierre
+
+[cols="1h,4"]
+|===
+|Temporización |7 h · 15/06 – 18/06/2027
+|Finalidad |Recuperar los RA no superados (apartado 10.5), revisar el portfolio de CAOS, S.L., hacer la devolución y cerrar el módulo.
+|===
 
 == Metodología del proceso de enseñanza-aprendizaje
 
-_Pendiente de redactar._
+=== Enfoque metodológico
+
+El módulo se aprende resolviendo problemas. Cada tema empieza con una incidencia de CAOS, S.L. y termina cuando el alumnado es capaz de resolver una incidencia nueva por su cuenta. Todos los temas siguen la misma secuencia:
+
+. *Incidencia inicial.* Qué ha pasado en la empresa y qué hay que arreglar.
+. *Rescate guiado.* Ejemplo resuelto en común, paso a paso.
+. *Lo que necesitas saber.* Teoría organizada y breve.
+. *Ahora tú.* Ejercicio autónomo con archivos de práctica.
+. *Nueva incidencia.* Reto que obliga a transferir lo aprendido.
+. *Ticket cerrado.* Caso evaluable individual.
+
+El horario semanal se organiza igual: el martes se presenta el problema y se explica de forma guiada; el jueves es el bloque principal de práctica; el viernes se dedica a consolidar, resolver un reto, corregir o realizar el caso evaluable.
+
+=== Principios metodológicos
+
+* *Aprendizaje progresivo y significativo.* Se parte de los conocimientos previos y se avanza de lo básico a lo avanzado.
+* *Aprendizaje acumulativo.* Lo que se hace en un tema reaparece después: el proyecto CAOS, S.L. da continuidad al curso y refuerza lo aprendido.
+* *Trabajo profesional.* Nombres de archivo, formatos, versiones y evidencias se cuidan desde el primer día.
+* *Diseño Universal para el Aprendizaje.* La información se presenta en varios formatos (web, ejemplos, vídeos y archivos de práctica) y las evidencias pueden ser archivos, vídeos breves de pantalla o explicaciones orales.
+* *Clima cooperativo e inclusivo.* El error forma parte del aprendizaje; se resuelven dudas en común y se valora la ayuda entre compañeros.
+
+=== Estrategias didácticas
+
+* *Prácticas guiadas* que intercalan explicación y ejemplos resueltos antes del trabajo individual.
+* *Aprendizaje basado en problemas:* cada incidencia es un problema real de una oficina.
+* *Retos* que plantean una situación nueva con los mismos procedimientos.
+* *Vídeo breve de pantalla* (3-5 minutos) en algunos evaluables: se muestra una operación importante, se explica por qué se ha elegido ese procedimiento, se comprueba el resultado y se comentan los errores encontrados. Se valora el procedimiento, no la edición del vídeo.
+* *Proyecto integrador final* (T11), sin instrucciones sobre qué herramienta usar.
+
+=== Papel del profesorado y del alumnado
+
+La docente plantea las incidencias, guía los ejemplos, acompaña la práctica y evalúa con instrumentos que el alumnado conoce de antemano. Puede pedir en cualquier momento que se repita una operación o se explique una parte de una entrega.
+
+El alumnado es protagonista: conserva y organiza sus prácticas, intenta resolver antes de pedir ayuda, comprueba sus resultados y explica con sus palabras lo que ha hecho.
 
 == Recursos
 
-_Pendiente de redactar._
+=== Recursos didácticos
+
+* *Web de materiales del módulo*, generada desde AsciiDoc: teoría, ejemplos guiados, ejercicios y archivos de práctica de CAOS, S.L.
+* *Aules* (Moodle de la Conselleria): enunciados, plazos y entregas de las actividades evaluables, y calificaciones.
+* *Software:* LliureX 23, LibreOffice (Writer, Calc, Base e Impress), editor de imagen de mapa de bits, Kdenlive, cliente de correo y webmail. Microsoft 365 como referencia comparativa.
+* *Canales de vídeo:* https://www.youtube.com/c/Opofimatica[Opofimática], https://www.youtube.com/@gallardoyoney[Yoney Gallardo] y https://www.youtube.com/@EbmInformatica[EBM Informática].
+
+=== Bibliografía y referencias
+
+* Equipo de documentación de LibreOffice. https://documentation.libreoffice.org/es/documentacion-en-espanol/[Guías de LibreOffice en español].
+* Documentación de Kdenlive: https://docs.kdenlive.org/es/[Manual de Kdenlive].
+* Documentación de Microsoft 365: https://learn.microsoft.com/es-es/microsoft-365/[Microsoft Learn].
 
 == Uso de espacios y equipamientos
 
-_Pendiente de redactar._
+* *Aula de primer curso de SMR,* con un ordenador LliureX por estudiante, proyector y ordenador de la docente.
+* Conexión a Internet para acceder a la web de materiales y a Aules.
+* Periféricos para la captura de imagen y vídeo (cámara, micrófono, escáner o el móvil del alumnado cuando se indique).
+* Otros espacios del centro, si hace falta, para talleres o grabaciones.
 
 == Medidas de atención a la diversidad
 
-_Pendiente de redactar._
+Se aplica lo establecido en el PCCF y en la normativa de inclusión del apartado 2.2. En FP las medidas no modifican los resultados de aprendizaje: todo el alumnado debe alcanzar los RA, pero puede variar cómo se aprende y cómo se demuestra.
+
+=== Medidas ordinarias
+
+* Evaluación inicial en el T1 y ajuste del ritmo según sus resultados.
+* Materiales en varios formatos y archivos de práctica con distintos niveles de dificultad.
+* Agrupación flexible para resolver dudas en parejas.
+* Rúbricas que acompañan la retroalimentación personalizada.
+* Actividades de refuerzo para consolidar y de ampliación para quien avanza más rápido.
+
+=== Medidas específicas
+
+Se aplican en coordinación con el departamento de orientación y según el informe correspondiente:
+
+* *Adaptaciones de acceso:* ubicación en el aula, ampliación de fuente, mobiliario adaptado y apoyos técnicos.
+* *Ajustes en los evaluables:* más tiempo, enunciados segmentados, comprobación oral y formato de entrega adaptado.
+* *Seguimiento individual* del alumnado con dificultades emocionales, sociales o de aprendizaje, junto con la tutoría.
+
+=== Alumnado con ritmo avanzado
+
+Se proponen actividades de ampliación sobre los mismos RA: macros más elaboradas, tablas dinámicas avanzadas, consultas de acción en bases de datos, edición vectorial, efectos avanzados de vídeo y participación en Skills.
 
 == Evaluación del aprendizaje
+
+=== Principios de la evaluación
+
+La evaluación es *continua, formativa e integradora*, y se basa en los RA y sus CE (Real Decreto 659/2023, artículo 107, y Orden 8/2025). Se realizan:
+
+* *Evaluación inicial,* durante el T1, sin calificación.
+* *Dos evaluaciones parciales,* al final del primer y del segundo trimestre. Informan del progreso: cada RA se califica con las evidencias reunidas hasta ese momento.
+* *Evaluación ordinaria,* al finalizar el tercer trimestre.
+* *Evaluación extraordinaria,* posterior a la ordinaria.
+
+Además de la heteroevaluación, se usan la autoevaluación y la coevaluación como parte de la evaluación formativa. Los criterios y los instrumentos se dan a conocer al alumnado al inicio del curso y se publican en Aules.
+
+=== Instrumentos de evaluación
+
+[cols="1,2,4",options="header"]
+|===
+|Código |Instrumento |Uso
+|AE |Caso evaluable de final de tema («Ticket cerrado») |Actividad individual que resuelve una nueva incidencia de CAOS, S.L. Los datos o errores pueden variar entre estudiantes. Puede incluir un vídeo breve de pantalla o una justificación escrita. Es el instrumento principal.
+|IC |Incidente crítico |Proyecto integrador del T11, con entrega parcial, entrega final y comprobación individual.
+|FE |Valoración de la formación en empresa |Informe del tutor o tutora de empresa sobre las actividades del RA9 dualizado.
+|PO |Prueba individual |Solo se realiza si se detecta copia o un uso indebido de la IA, o si el alumnado no ha comprendido el temario en general. Sustituye a la evidencia afectada.
+|===
+
+=== Distribución de la evaluación por RA
+
+La nota de un RA es la media ponderada de sus CE. Cada CE se califica de 0 a 10 con el instrumento indicado. Cuando aparecen dos instrumentos o dos temas, se califica con la media de ambos.
+
+[cols="1,1,6,1,1,1",options="header"]
+|===
+|RA |%RA |Criterio de evaluación |%CE/RA |Tema |Instrum.
+
+.9+|RA1 .9+|5 %
+|a) Se han identificado y establecido las fases del proceso de instalación. |11 |T1 |AE
+|b) Se han respetado las especificaciones técnicas del proceso de instalación. |11 |T1 |AE
+|c) Se han configurado las aplicaciones según los criterios establecidos. |11 |T1 |AE
+|d) Se han documentado las incidencias. |11 |T1 |AE
+|e) Se han solucionado problemas en la instalación o integración con el sistema informático. |11 |T1 |AE
+|f) Se han eliminado y/o añadido componentes de la instalación en el equipo. |11 |T1 |AE
+|g) Se han actualizado las aplicaciones. |11 |T1 |AE
+|h) Se han respetado las licencias software. |11 |T1 |AE
+|i) Se han propuesto soluciones software para entornos de aplicación. |12 |T1, T11 |AE, IC
+
+.6+|RA2 .6+|22 %
+|a) Se han personalizado las opciones de software y barra de herramientas. |20 |T2 |AE
+|b) Se han diseñado plantillas. |20 |T3 |AE
+|c) Se han utilizado aplicaciones y periféricos para introducir textos e imágenes. |19 |T2 |AE
+|d) Se han importado y exportado documentos creados con otras aplicaciones y en otros formatos. |19 |T2, T3 |AE
+|e) Se han creado y utilizado macros en la realización de documentos. |2 |T3 |AE
+|f) Se han elaborado manuales específicos. |20 |T3, T11 |AE, IC
+
+.8+|RA3 .8+|20 %
+|a) Se han personalizado las opciones de software y barra de herramientas. |10 |T4 |AE
+|b) Se han utilizado los diversos tipos de datos y referencia para celdas, rangos, hojas y libros. |24 |T4 |AE
+|c) Se han aplicado fórmulas y funciones. |24 |T4, T5 |AE
+|d) Se han generado y modificado gráficos de diferentes tipos. |10 |T5 |AE
+|e) Se han empleado macros para la realización de documentos y plantillas. |2 |T5 |AE
+|f) Se han importado y exportado hojas de cálculo creadas con otras aplicaciones y en otros formatos. |10 |T5 |AE
+|g) Se ha utilizado la hoja de cálculo como base de datos: formularios, creación de listas, filtrado, protección y ordenación de datos. |10 |T5 |AE
+|h) Se han utilizado aplicaciones y periféricos para introducir textos, números, códigos e imágenes. |10 |T4 |AE
+
+.8+|RA4 .8+|20 %
+|a) Se han identificado los elementos de las bases de datos relacionales. |14 |T6 |AE
+|b) Se han creado bases de datos ofimáticas. |14 |T6 |AE
+|c) Se han utilizado las tablas de la base de datos (insertar, modificar y eliminar registros). |14 |T6 |AE
+|d) Se han utilizado asistentes en la creación de consultas. |14 |T6 |AE
+|e) Se han utilizado asistentes en la creación de formularios. |14 |T6 |AE
+|f) Se han utilizado asistentes en la creación de informes. |14 |T6 |AE
+|g) Se ha realizado búsqueda y filtrado sobre la información almacenada. |14 |T6 |AE
+|h) Se han creado y utilizado macros. |2 |T6 |AE
+
+.5+|RA5 .5+|8 %
+|a) Se han analizado los distintos formatos de imágenes. |20 |T7 |AE
+|b) Se ha realizado la adquisición de imágenes con periféricos. |20 |T7 |AE
+|c) Se ha trabajado con imágenes a diferentes resoluciones, según su finalidad. |20 |T7 |AE
+|d) Se han empleado herramientas para la edición de imagen digital. |20 |T7 |AE
+|e) Se han importado y exportado imágenes en diversos formatos. |20 |T7 |AE
+
+.5+|RA6 .5+|8 %
+|a) Se han reconocido los elementos que componen una secuencia de vídeo. |20 |T8 |AE
+|b) Se han estudiado los tipos de formatos y códecs más empleados. |20 |T8 |AE
+|c) Se han importado y exportado secuencias de vídeo. |20 |T8 |AE
+|d) Se han capturado secuencias de vídeo con recursos adecuados. |20 |T8 |AE
+|e) Se han elaborado vídeo tutoriales. |20 |T8 |AE
+
+.6+|RA7 .6+|8 %
+|a) Se han identificado las opciones básicas de las aplicaciones de presentaciones. |16 |T9 |AE
+|b) Se han reconocido los distintos tipos de vista asociados a una presentación. |16 |T9 |AE
+|c) Se han aplicado y reconocido las distintas tipografías y normas básicas de composición, diseño y utilización del color. |17 |T9 |AE
+|d) Se han diseñado plantillas de presentaciones. |17 |T9 |AE
+|e) Se han creado presentaciones. |17 |T9 |AE
+|f) Se han utilizado periféricos para ejecutar presentaciones. |17 |T9 |AE
+
+.7+|RA8 .7+|5 %
+|a) Se han descrito los elementos que componen un correo electrónico. |14 |T10 |AE
+|b) Se han analizado las necesidades básicas de gestión de correo y agenda electrónica. |14 |T10 |AE
+|c) Se han configurado distintos tipos de cuentas de correo electrónico. |14 |T10 |AE
+|d) Se han conectado y sincronizado agendas del equipo informático con dispositivos móviles. |14 |T10 |AE
+|e) Se ha operado con la libreta de direcciones. |14 |T10 |AE
+|f) Se ha trabajado con todas las opciones de gestión de correo electrónico (etiquetas, filtros, carpetas, entre otros). |15 |T10 |AE
+|g) Se han utilizado opciones de agenda electrónica. |15 |T10 |AE
+
+.8+|RA9 .8+|4 %
+|a) Se han elaborado guías visuales con los conceptos básicos de uso de una aplicación. |12,5 |T8, T11 |AE, IC
+|b) Se han identificado problemas relacionados con el uso de aplicaciones ofimáticas. |12,5 |T1, T11 |AE, IC
+|c) Se han utilizado manuales de usuario para instruir en el uso de aplicaciones. |12,5 |T11 |IC
+|d) Se han aplicado técnicas de asesoramiento en el uso de aplicaciones. |12,5 |T11, FE |IC, FE
+|e) Se han realizado informes de incidencias. |12,5 |T1, T11 |AE, IC
+|f) Se han aplicado los procedimientos necesarios para salvaguardar la información y su recuperación. |12,5 |T11 |IC
+|g) Se han utilizado los recursos disponibles (documentación técnica, ayudas en línea, soporte técnico, entre otros) para solventar incidencias. |12,5 |T11, FE |IC, FE
+|h) Se han solventado las incidencias en el tiempo adecuado y con el nivel de calidad esperado. |12,5 |T11, FE |IC, FE
+|===
+
+=== Criterios de calificación
 
 [.regla]
 .Evaluación mediante proyectos y tareas evaluables
@@ -77,17 +704,81 @@ _Pendiente de redactar._
 * *Excepción:* si suspende más del 75 % del grupo, la tarea podrá repetirse. En la repetición, la calificación máxima será un 5.
 ****
 
-_Resto del apartado pendiente de redactar._
+* La *nota de cada RA* es la media ponderada de sus CE.
+* Para superar el módulo hay que obtener *al menos un 5 en cada RA*.
+* La *nota del módulo* es la media ponderada de los RA, expresada como número entero de 1 a 10 (Orden 8/2025):
++
+_Nota = 0,05 · RA1 + 0,22 · RA2 + 0,20 · RA3 + 0,20 · RA4 + 0,08 · RA5 + 0,08 · RA6 + 0,08 · RA7 + 0,05 · RA8 + 0,04 · RA9_
++
+Si algún RA no llega al 5, la nota del módulo será como máximo un 4.
+* Las *evaluaciones parciales* informan del progreso con los RA trabajados hasta esa fecha: primera (RA1, RA2 y RA3 en curso), segunda (RA3, RA4 y RA5) y ordinaria (todos).
+* *Entregas fuera de plazo:* se califican con un 0, salvo ausencia justificada documentalmente.
+* *Autoría:* la docente puede pedir en cualquier momento que se repita una operación o se explique una entrega. Si se comprueba que el trabajo no es propio, el CE se evalúa con una prueba individual.
+* *Copia, plagio o uso indebido de la IA:* la actividad se califica con 0 para todas las personas implicadas y los CE afectados se evalúan con una prueba individual. La reiteración se comunica a jefatura de estudios y se aplica el reglamento de régimen interior.
+* *Pérdida de la evaluación continua:* se produce al superar el 15 % de faltas de asistencia en el módulo (unas 38 horas). El centro avisa al llegar al 10 %. En ese caso, el alumnado realiza en la convocatoria ordinaria una prueba final de todos los RA y entrega los casos evaluables del curso.
+
+=== Recuperación
+
+* Durante el curso no se repiten los casos evaluables, salvo en el caso previsto en el apartado 10.4 (más del 75 % de suspensos, con una calificación máxima de 5). Cada RA pendiente cuenta con un *plan de recuperación individual*.
+* Del 15 al 18 de junio se realizan las *actividades y pruebas de recuperación por RA*. Solo se recuperan los RA no superados.
+
+=== Evaluación extraordinaria
+
+El alumnado que no supere el módulo en la convocatoria ordinaria recibe un *plan de recuperación* con las actividades que debe entregar y los RA que se evaluarán. La prueba extraordinaria, teórico-práctica, se limita a los RA no superados y se conservan las notas de los RA aprobados. Se aplican la misma ponderación y los mismos criterios.
+
+=== Formación en empresa
+
+El módulo dedica {horas-fe} horas a la formación en empresa, donde se dualiza el *RA9: Aplica técnicas de soporte en el uso de aplicaciones, identificando y resolviendo incidencias*. Se espera que el alumnado aplique lo aprendido en los módulos de primer curso para resolver y gestionar incidencias en los sistemas de la organización, en especial la instalación y configuración de aplicaciones ofimáticas.
+
+La valoración del tutor o tutora de empresa (RA superado o no superado) se tiene en cuenta como evidencia de los CE RA9.d, RA9.g y RA9.h. La calificación numérica corresponde a la docente. Si la valoración de la formación en empresa es desfavorable, el RA9 no se considera superado.
 
 == Actividades complementarias y extraescolares
 
-_Pendiente de redactar._
+Las actividades están sujetas a aprobación del departamento y del consejo escolar. Se informará de ellas con antelación.
 
-== Criterios y procedimientos para la evaluación del desarrollo de la programación y de la práctica docente, así como los criterios de calificación
+[cols="2,3,2,2",options="header"]
+|===
+|Actividad |Objetivo |Organización |Fecha prevista
+|Edición de vídeos para la actividad temática del centro |Aplicar la edición de vídeo a un encargo real (RA6). |Durante las sesiones del T8. |Según el calendario del centro
+|Otras actividades acordadas por el departamento |Relacionar el módulo con el entorno profesional. |Según cada actividad. |Durante el curso
+|===
 
-_Pendiente de redactar._
+== Criterios y procedimientos para la evaluación del desarrollo de la programación y de la práctica docente
+
+=== Indicadores de logro de la programación didáctica
+
+El seguimiento se hace al final de cada tema y en cada sesión de evaluación. Las desviaciones se anotan en el apartado 1.
+
+[cols="3,1,2",options="header"]
+|===
+|Indicador |Objetivo |Momento
+|Porcentaje del alumnado que supera cada RA |≥ 75 % |Evaluaciones parciales y ordinaria
+|Casos evaluables entregados en plazo |≥ 80 % |Final de cada tema
+|Desviación respecto a la temporización |≤ 1 semana por trimestre |Final de cada trimestre
+|Valoración del alumnado de la utilidad de los materiales |≥ 3,5 sobre 5 |Encuesta de final de trimestre
+|===
+
+=== Evaluación de la práctica docente
+
+* Encuesta anónima al alumnado al final de cada trimestre sobre la metodología, los materiales y la evaluación.
+* Autoevaluación de la docente al final de cada tema: ajuste del tiempo, claridad de los enunciados y adecuación de los casos.
+* Valoración de si los RA alcanzados preparan al alumnado para la formación en empresa.
+* Revisión en la reunión de departamento al final de cada trimestre y propuestas de mejora para la siguiente versión.
 
 == Cualquier otro apartado considerado relevante por el equipo educativo en el PCCF
 
-_Pendiente de redactar._
+=== Organización del trabajo y de los archivos
 
+* Cada estudiante conserva todas sus prácticas, organizadas por tema, para revisarlas en clase y reutilizarlas en temas posteriores.
+* Los archivos se nombran de forma clara y se entregan en el formato que pida el enunciado.
+* Las entregas no incluyen datos personales reales: se trabaja con los datos ficticios de CAOS, S.L.
+
+=== Uso de herramientas de inteligencia artificial
+
+La IA se aprende a usar como herramienta de apoyo, una vez adquirida la base que permite entender sus propuestas y comprobarlas. En las prácticas indicadas puede usarse para aclarar un concepto, pedir una pista tras intentarlo, revisar una solución propia o comparar procedimientos.
+
+Cada evaluable indica *si se permite la IA y en qué partes*; algunos se hacen sin IA para comprobar la autonomía. Cuando se use, hay que explicar brevemente para qué y cómo se ha comprobado su respuesta. No se presenta como propio un trabajo que no se entiende: hay que poder explicarlo y reproducirlo.
+
+=== Publicación de los materiales
+
+Los materiales del alumnado se mantienen como fuentes AsciiDoc y se publican como web. Las adaptaciones propias se ofrecen bajo licencia https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es[CC BY-NC-SA 4.0], conservando los créditos de las fuentes utilizadas.

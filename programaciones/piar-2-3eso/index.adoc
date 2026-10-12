@@ -544,74 +544,19 @@ En 3.º ESO los grupos se desdoblan. Esta programación corresponde al grupo que
 
 === Metodología de aula
 
-La metodología en el aula se basará básicamente en el desarrollo de la práctica mediante actividades y consiste en los siguientes pasos:
+El trabajo sigue el cuaderno de la materia publicado en el *Libro de Aules*. Primero hay ayuda detallada; después el alumnado resuelve una actividad parecida tomando sus propias decisiones. La rutina de cada sesión es:
 
-* Una breve introducción sobre las actividades a tratar ese día.
-* Explicación más extensa de la actividad colgada en la plataforma Aules.
-* Localización en Aules de los videos y apuntes necesarios para realizar la actividad.
-* Realización por parte del alumno de la actividad.
-* Supervisión por parte del profesor.
-* En caso de actividades que se precise material como AppInventor o robótica (Mbots) se realizará una introducción sobre el uso del material.
+. Abrir en el Libro la unidad indicada y leer la teoría, explicando qué representa el dibujo de la unidad.
+. Abrir la tarea *Mi libreta · U…* y la aplicación que se va a utilizar.
+. Hacer un ejercicio guiado completo, sin copiar todos los programas del curso de una vez.
+. Copiar en la libreta el recuadro «Copia y rellena» del ejercicio, completar los campos, insertar las capturas pedidas y adjuntar el programa. Una imagen del programa no sustituye al archivo.
+. Comprobar antes de cerrar que la captura se ve y que el archivo tiene el nombre correcto, y anotar qué se hará en la próxima sesión.
 
-____
-*Temporalización de las Sesiones- metodología:*
+La *actividad evaluable* de cada unidad usa lo practicado, pero cambia la necesidad, los datos o una condición. Se puede consultar la teoría y los ejercicios propios; el plan, las decisiones y la adaptación son individuales y no hay un programa resuelto para copiar. Se entrega en la tarea *Evaluable · U…*, separada de la libreta.
 
-Durante las dos sesiones semanales se intentará seguir la metodología arriba explicada.
-____
+Cuando el alumnado se atasca, se le pide que lea el resultado esperado, compare su código con el ejemplo, cambie una sola cosa y vuelva a probar, y que describa el problema así: «Estoy en el paso…, esperaba…, aparece…; he probado…». Pedir apoyo no es un fallo.
 
-[width="100%",cols="10%,14%,57%,19%",]
-|===
-| |*X (x2)* |*Distribución temporal de las sesiones* a|
-____
-*Evaluac.*
-____
-
-|*Sept* |*10* |*Presentación* |*1ª*
-| |*17* |Situación de Aprendizaje 1 |
-| |*24* |Situación de Aprendizaje 1 |
-|*Oct* |*1* |Situación de Aprendizaje 1 |
-| |*8* |Situación de Aprendizaje 1 |
-| |*15* |Situación de Aprendizaje 1 |
-| |*22* |Situación de Aprendizaje 1 |
-| |*29* |Situación de Aprendizaje 1 |
-|*Nov* |*5* |Situación de Aprendizaje 1 |
-| |*12* |Situación de Aprendizaje 1 |
-| |*19* |Situación de Aprendizaje 1 |
-| |*26* |Situación de Aprendizaje 1 |
-|*Dic* |*3* |Situación de Aprendizaje 1 |
-| |*10* |Situación de Aprendizaje 1 |
-| |*17* |Situación de Aprendizaje 2 |*2 ª*
-| |*24* | |
-|*Ene* |*31* | |
-| |*7* |Situación de Aprendizaje 2 |
-| |*14* |Situación de Aprendizaje 2 |
-| |*21* |Situación de Aprendizaje 2 |
-| |*28* |Situación de Aprendizaje 2 |
-|*Feb* |*4* |Situación de Aprendizaje 2 |
-| |*11* |Situación de Aprendizaje 2 |
-| |*18* |Situación de Aprendizaje 2 |
-| |*25* |Situación de Aprendizaje 2 |
-|*Mar* |*4* |Situación de Aprendizaje 2 |
-| |*11* |Situación de Aprendizaje 2 |
-| |*18* | |
-| |*25* |Situación de Aprendizaje 3 a|
-____
-*3 ª*
-____
-
-|*Abr* |*1* |Situación de Aprendizaje 3 |
-| |*8* | |
-| |*15* |Situación de Aprendizaje 3 |
-| |*22* |Situación de Aprendizaje 3 |
-| |*29* |Situación de Aprendizaje 3 |
-|*May* |*6* |Situación de Aprendizaje 3 |
-| |*13* |Situación de Aprendizaje 3 |
-| |*20* |Situación de Aprendizaje 3 |
-| |*27* |Situación de Aprendizaje 3 |
-|*Jun* |*3* |Situación de Aprendizaje 3 |
-| |*10* |Situación de Aprendizaje 3 |
-| |*17* |Situación de Aprendizaje 3 |
-|===
+Los entornos se usan en los equipos del aula sin instalar nada ni crear cuentas externas: Scratch, Python 3 con Thonny, un editor de texto con el navegador, MakeCode para micro:bit y Open Roberta. En la U8 se usan las placas micro:bit y los robots Maqueen del aula, uno por pareja. Los datos de los ejercicios son ficticios y no incluyen información personal.
 
 === Instrumentos de evaluación
 
@@ -678,115 +623,7 @@ Se realiza una media de evaluaciones, por lo que para la nota final se evaluará
 
 |===
 
-=== Evaluación y criterios de calificación
-
-____
-La evaluación de
-
-las actividades se realizará de la siguiente manera:
-____
-
-[role="t-sa",width="100%",cols="24%,6%,22%,13%,15%,11%,9%",options="header",]
-|===
-|*SITUACIONES DE APRENDIZAJE POR EVALUACIÓN* | | | | | |
-|*Situaciones de aprendizaje* |*Eval.* |*Instrumentos de evaluación* |*Competencias clave* |*Competencias específicas* |*Porcentaje* |*Nº Sesion.*
-a|
-____
-SA N.º 1 INTELIGENCIA ARTIFICIAL
-____
-
-a|
-____
-1
-____
-
-a|
-____
-Rúbricas de Aules
-
-Observación
-____
-
-a|
-____
-CCL, CPCMCT, CD
-
-CPSAA, CC, CE
-____
-
-a|
-____
-CE1, CE2, CE4
-____
-
-|33 % |26
-a|
-____
-SA N.º 2 PROGRAMACIÓN
-____
-
-a|
-____
-2
-____
-
-a|
-____
-Rúbricas de Aules
-
-Observación
-____
-
-a|
-____
-CCL,
-
-CMCT,CD
-
-CPSAA
-____
-
-a|
-____
-CE2, CE3
-____
-
-|33 % |22
-a|
-____
-SA N.º 3 ROBÓTICA
-____
-
-a|
-____
-3
-____
-
-a|
-____
-Rúbricas de Aules
-
-Observación
-____
-
-a|
-____
-CCL,
-
-CMCT,CD
-
-CPSAA,CCCE
-____
-
-a|
-____
-CE2, CE3
-
-CE4
-____
-
-|33 % |24
-|===
+La relación de cada unidad con su evaluación, su entorno de trabajo y sus criterios figura en la tabla de organización de las unidades didácticas. Cada actividad evaluable se valora sobre 10 con los apartados de su enunciado.
 
 === Medidas de respuesta educativa para la inclusión
 
@@ -802,510 +639,148 @@ ____
 Se atenderá al plan de refuerzo desarrollado para cada alumno al finalizar el curso anterior.
 ____
 
-=== Situaciones de aprendizaje
+=== Unidades didácticas y situaciones de aprendizaje
 
-____
-Uno de los objetivos de las situaciones de aprendizaje es conseguir que el alumnado pueda aprender, articular y movilizar los saberes que requieren la adquisición y desarrollo de las competencias específicas, para lo cual deben sustentarse en retos presentes o cercanos a su entorno cotidiano. Con este planteamiento, los desafíos globales deben partir de situaciones locales que permitan comprender mejor cuál es la problemática en el entorno más próximo para que de esta forma el alumnado sea capaz de aportar su solución y generalizarla. Las temáticas que se proponen deben fundamentarse en la práctica y en retos que la materia de *Programación, inteligencia artificial y robótica II* pueda resolver. Las problemáticas versarán sobre desafíos de la sociedad del siglo XXI tales como la sostenibilidad, la sociedad digital crítica e inclusiva o la sociedad del bienestar personal y global. Las situaciones de aprendizaje deben dar lugar a experiencias auténticas y motivadoras que ayuden a conectar las competencias y los saberes básicos, favoreciendo la realización de nuevos aprendizajes y planteando nuevas perspectivas. Estas temáticas se pueden implementar mediante la interconexión de todos los bloques de saberes o incluso con proyectos multidisciplinares. En las situaciones de aprendizaje el alumnado tiene que ser capaz de gestionar la incertidumbre que genera cualquier actividad o trabajo, y lo debe hacer respetando las opiniones de los demás componentes del grupo, reconociendo que las diferencias pueden ser una oportunidad y desde la crítica, el razonamiento, la igualdad y el diálogo. Al igual que en el resto de las materias de la Educación Secundaria Obligatoria, se aplican los principios del Diseño Universal de Aprendizaje en las situaciones de aprendizaje, teniendo en cuenta la presencia, participación y aprendizaje de todo el alumnado. Asimismo, debe fomentarse la ruptura de estereotipos e ideas preconcebidas sobre las materias científico-tecnológicas asociadas a cuestiones individuales, como por ejemplo las de género, con una actitud de resiliencia y proactividad ante nuevos retos tecnológicos. El papel del alumnado es muy importante en todo el proceso de enseñanza y aprendizaje, por lo que se ha de utilizar metodologías activas, pudiendo trabajar los contenidos individualmente o en equipos de trabajo. Siempre que la organización escogida sea por grupos, se tienen que respetar los roles asignados y fomentar la empatía y el consenso a la hora de conseguir acuerdos entre sus miembros. El profesorado asume la responsabilidad de diseñar los retos con los que se movilizan los saberes, especificando detalladamente los objetivos y las tareas que debe realizar el alumnado, así como los pasos. En un primer momento, el profesorado adoptará el papel de guía y progresivamente irá asumiendo el papel de observador, que en ocasiones puntuales y justificadas podrá revertir para hacer aportaciones que sirvan para mejorar o reconducir el trabajo del alumnado o del equipo. Esta retroalimentación tiene como finalidad corregir errores, mejorar el desempeño del alumnado y afianzar los procedimientos y sus respuestas correctas para que este conozca su rendimiento, identifique cómo puede mejorarlo y aprenda a autorregularse en la ejecución de las tareas de aprendizaje. Es conveniente incluir en la práctica docente actividades de naturaleza metacognitiva, facilitando así que el alumnado reflexione sobre qué ha aprendido y cómo lo ha hecho, y promoviendo la adquisición de las estrategias, procedimientos, recursos o técnicas que le ayudarán a saber qué ha hecho bien y porqué, así como qué debe mejorar y de qué manera. También se deben promover diversos modos de expresarse y representar el conocimiento, con el fin de que el alumnado valore y reconozca lo que aprende fuera del aula y del centro escolar
+El curso sigue el *cuaderno de Programación, Inteligencia Artificial y Robótica II* publicado en el Libro de Aules. Avanza desde los programas por bloques que el alumnado ya conoce hacia listas, funciones, programación escrita, aplicaciones web para móvil, modelos de IA, control y simulación, y virtualización. Cada unidad tiene teoría, dos ejercicios guiados y una actividad evaluable que usa lo practicado pero cambia la necesidad, los datos o una condición.
 
-Las actividades desarrolladas en la presente programación cumplen con las situaciones de aprendizaje propuestas en este curso.
-____
+==== Organización por evaluaciones
 
-[role="t-sa",width="100%",cols="22%,39%,8%,1%,6%,4%,4%,6%,2%,8%",options="header",]
+[cols="2,4,3,2",options="header"]
 |===
-|Curso académico: 2026-2027 |Materia: PROGRAMACIÓN, INTELIGENCIA ARTIFICIAL Y ROBÓTICA II |Nivel: 3.º ESO | | | |Grupo: desdoble de 18 | | |
-a|
-*Situación de aprendizaje*
+|Evaluación |Unidad |Entorno |Criterios del evaluable
 
-*N.º 1*
+.3+|Primera
+|U1 · Elegir condiciones y comprobar límites |Scratch |2.1, 2.3, 2.4, 4.4
+|U2 · Listas, bucles y funciones reutilizables |Scratch |2.1, 2.2, 2.3, 2.4, 4.4
+|U3 · Del bloque al texto: Python |Python 3 (Thonny) |2.1, 2.2, 2.3, 2.4, 4.4
 
-|_[.underline]#Título:#_ Inteligencia Artificial |_[.underline]#Contexto:#_ a|
-Personal
+.3+|Segunda
+|U4 · Una aplicación web para ordenador y móvil |Editor de texto y navegador (HTML, CSS y JavaScript) |2.1–2.4, 4.3, 4.5
+|U5 · Entrenar y utilizar un modelo de IA |Python 3 |1.1, 1.3, 1.4, 2.2–2.4, 4.5
+|U6 · Investigar la IA y examinar sus efectos |Fuentes de consulta y clasificador de U5 |1.2, 1.3, 4.2, 4.3, 4.5
 
-☐
-
-| a|
-Educativo
-
-☑
-
-| a|
-Social
-
-☐
-
-| a|
-Profesional
-
-☐
-
-| a|
-En esta situación de aprendizaje, el alumnado aprenderá a Identificar, investigar y emplear técnicas de inteligencia artificial y virtualización de la realidad en el abordaje y la búsqueda de soluciones a problemas básicos de la sociedad valorando los principios éticos e inclusivos aplicados. 
-
-Se utilizarán las plataformas Machine Learning For Kids y Scratch. 
-
-*Objetivos:*
-
-* *
-
-- Identificar los fundamentos y el funcionamiento de las técnicas básicas de IA. 
-
-- Investigar situaciones donde se aplican técnicas básicas de IA. 
-
-- Valorar las implicaciones éticas y sociales de las técnicas básicas de IA. 
-
-- Emplear funciones de IA en aplicaciones sencillas de forma guiada para 
-
-- Participar activamente en equipos de trabajo para desarrollar soluciones digitales y tecnológicas demostrando empatía y respetando los roles asignados y las aportaciones del resto de personas integrantes. 
-
-- Analizar críticamente las implicaciones que la programación y las tecnologías tienen en la transformación de la sociedad valorando las repercusiones éticas y ecosociales. 
-
-- Describir y valorar la adecuación de las tecnologías, entornos de desarrollo, dispositivos y componentes para resolver los retos planteados, analizando sus características y especificaciones. 
-
-- Resolver problemas técnicos sencillos surgidos en el análisis, desarrollo y uso de software, módulos de inteligencia artificial y robótica reformulando el procedimiento utilizado en caso necesario. 
-
-a|
-_[.underline]#Relación con los retos del s. XXI y los ODS:#_
-
-Los principales retos del s. XXI vinculados a la situación de aprendizaje, a través de los Objetivos de Desarrollo Sostenible, son: 
-
-* {blank}
-+
-____
-ODS 4: Educación de calidad. Desarrolla pensamiento crítico y habilidades para una ciudadanía digital responsable. 
-____
-* {blank}
-+
-____
-ODS 9: Industria, innovación e infraestructura. Introduce la base tecnológica para el desarrollo e innovación digital.
-____
-
-____
- 
-____
-
-* {blank}
-+
-____
-ODS 10: Reducción de las desigualdades. Favorece el acceso equitativo al conocimiento tecnológico. 
-____
-* {blank}
-+
-____
-ODS 11: Ciudades y comunidades sostenibles. Promueve la diversidad cultural y el acceso digital a contenidos creativos. 
-____
-
-| | | | | | |
-|*Competencias específicas y criterios de evaluación vinculados* |_[.underline]#Competencias específicas:#_ CE1 y CE4  a|
-_[.underline]#Competencias clave:#_
-
-- Competencia en Comunicación Lingüística (CCL1 – CCL3). 
-
-- Competencia Plurilíngüe (CP2). 
-
-- Competencia Matemática, científica y tecnológica (CMCT1 – CMCT2 – CMCT3 – CMCT5). 
-
-- Competencia digital (CD1 - CD2 - CD3- CD4- CD5). 
-
-- Competencia Personal, Social y de Aprender a Aprender (CPSAA3 – CPSAA4 – CPSAA5). 
-
-| | | | | | |
-| |_[.underline]#Criterios de evaluación vinculados:#_ 1.1, 1.2, 1.3, 1.4, 4.1, 4.2, 4.3, 4.4  | | | | | | | |
-|*Saberes básicos* a|
-- El aprendizaje en sistemas biológicos. Decisiones y libre albedrío. 
-
-- Fundamentos de la IA. Árboles de decisión. Big data, redes neuronales. 
-
-- Técnicas iniciales de IA: sistemas expertos, redes neuronales y aprendizaje automático. 
-
-- Procesamiento automático de la información. 
-
-- Equidad e inclusión en sistemas de IA. Sesgos en IA. 
-
-- Implicaciones sociales y éticas de la inteligencia artificial. 
-
-| | | | | | | |
-|*Organización* a|
-El profesor introduce los saber básicos a trabajar en la actividad mediante una explicación al inicio de la actividad con el apoyo de material (presentación, vídeo, etc.).
-
-Posteriormente se realiza un breve debate oral para comprobar que los contenidos han sido entendidos y asimilados.
-
-Después explica al alumnado el trabajo a realizar.
-
-Los alumnos realizan la tarea mientras el profesor supervisa y atiende a las dudas que pudieran surgir.
-
-Actividad final en el que se trabajarán todos los saberes básicos de la situación de aprendizaje.
-
-a|
-_[.underline]#Organización de los espacios:#_
-
-Aula con recursos TIC.
-
-| a|
-_[.underline]#Distribución del tiempo:#_
-
-26 SESIONES
-
-| a|
-_[.underline]#Recursos y materiales:#_
-
--Proyector.
-
--Equipos en LAN.
-
--MS Office 365.
-
--LMS Aules.
-
--Recursos en línea y apps.
-
-| a|
-_[.underline]#Medidas de respuesta educativa para la inclusión:#_
-
-Referidas en el apartado 10 de la presente programación.
-
-|
-|*Instrumentos de recogida de información para la valoración del progreso del alumnado* a|
-- Cuestionarios.
-
-- Rúbricas de evaluación y autoevaluación para las actividades prácticas y pruebas objetivas y de coevaluación para las actividades en pareja o en grupo.
-
-- Registro de actitud.
-
-- Observación directa.
-
-| | | | | | | |
+.4+|Tercera
+|U7 · Control y simulación: tarjetas y robot virtual |MakeCode para micro:bit y Open Roberta |2.1–2.4, 3.4, 3.5, 4.3, 4.4
+|U8 · Del simulador al robot: micro:bit y Maqueen |MakeCode para micro:bit con la extensión de Maqueen |3.1, 3.2, 3.4, 3.5, 3.6, 4.4
+|U9 · Virtualizar un espacio y probar recorridos |Editor de texto y navegador |1.5, 2.2, 2.3, 4.3, 4.5
+|U10 · Mantener, documentar y mejorar una aplicación |Editor de texto y navegador |2.2, 2.3, 2.5, 4.4, 4.5
 |===
 
-[role="t-sa",width="100%",cols="22%,39%,8%,1%,6%,4%,4%,6%,2%,8%",options="header",]
+==== Primera evaluación
+
+===== U1 · Elegir condiciones y comprobar límites
+
+[cols="1h,4"]
 |===
-|Curso académico: 2026-2027 |Materia: PROGRAMACIÓN, INTELIGENCIA ARTIFICIAL Y ROBÓTICA II |Nivel: 3.º ESO | | | |Grupo: desdoble de 18 | | |
-a|
-*Situación de aprendizaje*
-
-*N.º 2*
-
-|_[.underline]#Título:#_ Programación |_[.underline]#Contexto:#_ a|
-Personal
-
-☐
-
-| a|
-Educativo
-
-☑
-
-| a|
-Social
-
-☐
-
-| a|
-Profesional
-
-☐
-
-| a|
-En esta situación de aprendizaje, el alumnado aprenderá a aplicar el pensamiento computacional en el análisis y resolución de problemas básicos significativos mediante el desarrollo de software.
-
-También afrontará retos tecnológicos sencillos y propondrá soluciones mediante la programación analizando las posibilidades y valorando críticamente las implicaciones éticas y ecosociales.
-
-Se utilizará la plataforma IDE.MBLOCK.CC 
-
-*Objetivos: *
-
-- Analizar problemas elementales significativos para el alumnado, mediante la abstracción y modelización de la realidad. 
-
-- Analizar y validar aplicaciones informáticas existentes. 
-
-- Resolver de forma guiada problemas elementales utilizando los algoritmos y las estructuras de datos necesarias. 
-
-- Programar aplicaciones sencillas de forma guiada para resolver problemas elementales. 
-
-- Describir y valorar los derechos de autoría y licencias de derechos y explotación. 
-
-- Participar activamente en equipos de trabajo para desarrollar soluciones digitales y tecnológicas demostrando empatía y respetando los roles asignados y las aportaciones del resto de personas integrantes. 
-
-- Analizar críticamente las implicaciones que la programación y las tecnologías tienen en la transformación de la sociedad valorando las repercusiones éticas y ecosociales. 
-
-- Describir y valorar la adecuación de las tecnologías, entornos de desarrollo, dispositivos y componentes para resolver los retos planteados, analizando sus características y especificaciones. 
-
-- Resolver problemas técnicos sencillos surgidos en el análisis, desarrollo y uso de software, módulos de inteligencia artificial y robótica reformulando el procedimiento utilizado en caso necesario. 
-
-a|
-_[.underline]#Relación con los retos del s. XXI y los ODS:#_
-
-Los principales retos del s. XXI vinculados a la situación de aprendizaje, a través de los Objetivos de Desarrollo Sostenible, son: 
-
-* {blank}
-+
-____
-ODS 4: Educación de calidad. Desarrolla pensamiento crítico y habilidades para una ciudadanía digital responsable. 
-____
-* {blank}
-+
-____
-ODS 9: Industria, innovación e infraestructura. Introduce la base tecnológica para el desarrollo e innovación digital.
-____
-
-____
- 
-____
-
-* {blank}
-+
-____
-ODS 10: Reducción de las desigualdades. Favorece el acceso equitativo al conocimiento tecnológico. 
-____
-* {blank}
-+
-____
-ODS 11: Ciudades y comunidades sostenibles. Promueve la diversidad cultural y el acceso digital a contenidos creativos. 
-____
-
-| | | | | | |
-|*Competencias específicas y criterios de evaluación vinculados* |_[.underline]#Competencias específicas:#_ CE2 y CE4  a|
-_[.underline]#Competencias clave:#_
-
-- Competencia en Comunicación Lingüística (CCL1). 
-
-- Competencia Matemática, científica y tecnológica (CMCT1 – CMCT2 – CMCT3 – CMCT5). 
-
-- Competencia digital (CD2 - CD3- CD4- CD5). 
-
-- Competencia Personal, Social y de Aprender a Aprender (CPSAA1 – CPSAA4 – CPSAA5). 
-
-- Competencia en Conciencia y Expresión Culturales (CCEC4). 
-
-| | | | | | |
-| |_[.underline]#Criterios de evaluación vinculados:#_ 2.1, 2.2, 2.3, 2.4, 2.5, 4.1, 4.2, 4.3, 4.4  | | | | | | | |
-|*Saberes básicos* a|
-- Habilidades del pensamiento computacional. 
-
-- Interpretación de la realidad mediante modelado de problemas. 
-
-- Abstracción, secuenciación, algorítmica y su representación con lenguaje natural y diagramas de flujo. 
-
-- Estructures de control del flujo del programa. 
-
-- Variables, constantes, condiciones y operadores. 
-
-- Programación por bloques: composición de las estructuras básicas y encaje de bloques.  
-
-- Análisis y validación de software. 
-
-- Licencias de software. El software libre y el software propietario. 
-
-- Iniciativa, autoconfianza y metacognición en el proceso de aprendizaje del desarrollo de software. 
-
-| | | | | | | |
-|*Organización* a|
-El profesor introduce los saber básicos a trabajar en la actividad mediante una explicación al inicio de la actividad con el apoyo de material (presentación, vídeo, etc.).
-
-Posteriormente se realiza un breve debate oral para comprobar que los contenidos han sido entendidos y asimilados.
-
-Después explica al alumnado el trabajo a realizar.
-
-Los alumnos realizan la tarea mientras el profesor supervisa y atiende a las dudas que pudieran surgir.
-
-Actividad final en el que se trabajarán todos los saberes básicos de la situación de aprendizaje.
-
-a|
-_[.underline]#Organización de los espacios:#_
-
-Aula con recursos TIC.
-
-| a|
-_[.underline]#Distribución del tiempo:#_
-
-22 SESIONES
-
-| a|
-_[.underline]#Recursos y materiales:#_
-
--Proyector.
-
--Equipos en LAN.
-
--MS Office 365.
-
--LMS Aules.
-
--Recursos en línea y apps.
-
-| a|
-_[.underline]#Medidas de respuesta educativa para la inclusión:#_
-
-Referidas en el apartado 10 de la presente programación.
-
-|
-|*Instrumentos de recogida de información para la valoración del progreso del alumnado* a|
-- Cuestionarios.
-
-- Rúbricas de evaluación y autoevaluación para las actividades prácticas y pruebas objetivas y de coevaluación para las actividades en pareja o en grupo.
-
-- Registro de actitud.
-
-- Observación directa.
-
-| | | | | | | |
+|Saberes básicos |Bloque 2: variables, constantes, condiciones y operadores; estructuras de control del flujo; abstracción y algorítmica.
+|Contenidos |Entradas y salidas. Variables y condiciones. Condicionales `si / si no` y condicionales anidados para tres situaciones. Orden de las comprobaciones: primero la entrada imposible. Pruebas de frontera (19, 20 y 21 para un límite de 20). Especificación previa por escrito.
+|Ejercicios guiados |G1 · Aviso de aforo con tres respuestas. G2 · Reutilizar una capacidad y corregir un límite.
+|Evaluable |*Control de préstamo individual.* Una biblioteca permite hasta 4 libros, incluidos los 4: avisar si la entrada es negativa, aceptar de 0 a 4 y avisar si se excede. El límite se cambia en un solo lugar. Plan propio de 4-6 pasos, pruebas con −1, 0, 3, 4 y 5, y cambio del límite a 6.
+|Valoración (sobre 10) |Plan y elección de condiciones, 3; funcionamiento y cambio del límite, 4; pruebas, 2; explicación, 1.
 |===
 
-[role="t-sa",width="100%",cols="22%,39%,8%,1%,6%,4%,4%,6%,2%,8%",options="header",]
+===== U2 · Listas, bucles y funciones reutilizables
+
+[cols="1h,4"]
 |===
-|Curso académico: 2026-2027 |Materia: PROGRAMACIÓN, INTELIGENCIA ARTIFICIAL Y ROBÓTICA II |Nivel: 3.º ESO | | | |Grupo: desdoble de 18 | | |
-a|
-*Situación de aprendizaje*
-
-*N.º 3*
-
-|_[.underline]#Título:#_ Robótica |_[.underline]#Contexto:#_ a|
-Personal
-
-☐
-
-| a|
-Educativo
-
-☑
-
-| a|
-Social
-
-☐
-
-| a|
-Profesional
-
-☐
-
-| a|
-En esta situación de aprendizaje, el alumnado aprenderá a montar sistemas robóticos sencillos, analizando las respuestas que proporcionan en su interacción con el entorno y valorando la eficacia de estas frente a los retos planteados. 
-
-Se utilizará la plataforma IDE.MBLOCK.CC 
-
-*Objetivos:*
-
-* *
-
-- Montar robots sencillos siguiendo una guía, empleando los sensores, actuadores y otros operadores que se indiquen. 
-
-- Conectar, transferir y ejecutar el programa de control seleccionado al robot. 
-
-- Resolver desafíos modificando un robot disponible. 
-
-- Analizar y validar el programa de control del robot que permite que interactúe con el entorno. 
-
-- Programar instrucciones sencillas de forma guiada para controlar un robot programable. 
-
-- Participar activamente en equipos de trabajo para desarrollar soluciones digitales y tecnológicas demostrando empatía y respetando los roles asignados y las aportaciones del resto de personas integrantes. 
-
-- Analizar críticamente las implicaciones que la programación y las tecnologías tienen en la transformación de la sociedad valorando las repercusiones éticas y ecosociales. 
-
-- Describir y valorar la adecuación de las tecnologías, entornos de desarrollo, dispositivos y componentes para resolver los retos planteados, analizando sus características y especificaciones. 
-
-- Resolver problemas técnicos sencillos surgidos en el análisis, desarrollo y uso de software, módulos de inteligencia artificial y robótica reformulando el procedimiento utilizado en caso necesario. 
-
-a|
-_[.underline]#Relación con los retos del s. XXI y los ODS:#_
-
-Los principales retos del s. XXI vinculados a la situación de aprendizaje, a través de los Objetivos de Desarrollo Sostenible, son: 
-
-* {blank}
-+
-____
-ODS 4: Educación de calidad. Desarrolla pensamiento crítico y habilidades para una ciudadanía digital responsable. 
-____
-* {blank}
-+
-____
-ODS 9: Industria, innovación e infraestructura. Introduce la base tecnológica para el desarrollo e innovación digital.
-____
-
-____
- 
-____
-
-* {blank}
-+
-____
-ODS 10: Reducción de las desigualdades. Favorece el acceso equitativo al conocimiento tecnológico. 
-____
-* {blank}
-+
-____
-ODS 11: Ciudades y comunidades sostenibles. Promueve la diversidad cultural y el acceso digital a contenidos creativos. 
-____
-
-| | | | | | |
-|*Competencias específicas y criterios de evaluación vinculados* |_[.underline]#Competencias específicas:#_ CE3 y CE4  a|
-_[.underline]#Competencias clave:#_
-
-- Competencia Matemática, científica y tecnológica (CMCT1 – CMCT2 – CMCT3 – CMCT5). 
-
-- Competencia digital (CD1 - CD2 - CD3- CD4- CD5). 
-
-- Competencia Personal, Social y de Aprender a Aprender (CPSAA1 – CPSAA2 - CPSAA3 – CPSAA4 – 
-
-CPSAA5). 
-
-| | | | | | |
-| |_[.underline]#Criterios de evaluación vinculados:#_ 3.1, 3.2, 3.3, 3.4, 3.5, 4.1, 4.2, 4.3, 4.4  | | | | | | | |
-|*Saberes básicos* a|
-* Conocer tipos, grados de libertad y características técnicas básicas de los robots 
-* Realizar el montaje de los robots 
-* Conocer los sensores, actuadores y controladores 
-* Conocer la carga y ejecución de los algoritmos de los robots. 
-
-| | | | | | | |
-|*Organización* a|
-El profesor introduce los saber básicos a trabajar en la actividad mediante una explicación al inicio de la actividad con el apoyo de material (presentación, vídeo, etc.).
-
-Posteriormente se realiza un breve debate oral para comprobar que los contenidos han sido entendidos y asimilados.
-
-Después explica al alumnado el trabajo a realizar.
-
-Los alumnos realizan la tarea mientras el profesor supervisa y atiende a las dudas que pudieran surgir.
-
-Actividad final en el que se trabajarán todos los saberes básicos de la situación de aprendizaje.
-
-a|
-_[.underline]#Organización de los espacios:#_
-
-Aula con recursos TIC.
-
-| a|
-_[.underline]#Distribución del tiempo:#_
-
-24 SESIONES
-
-| a|
-_[.underline]#Recursos y materiales:#_
-
--Proyector.
-
--Equipos en LAN.
-
--MS Office 365.
-
--LMS Aules.
-
--Recursos en línea y apps.
-
-| a|
-_[.underline]#Medidas de respuesta educativa para la inclusión:#_
-
-Referidas en el apartado 10 de la presente programación.
-
-|
-|*Instrumentos de recogida de información para la valoración del progreso del alumnado* a|
-- Cuestionarios.
-
-- Rúbricas de evaluación y autoevaluación para las actividades prácticas y pruebas objetivas y de coevaluación para las actividades en pareja o en grupo.
-
-- Registro de actitud.
-
-- Observación directa.
-
-| | | | | | | |
+|Saberes básicos |Bloque 2: detección y reutilización de patrones; generalización; estructuras de control.
+|Contenidos |Listas y posiciones. Variable índice. Acumuladores y contadores, y su reinicio. Bloques propios con parámetros: definición y llamada como paso previo a las funciones.
+|Ejercicios guiados |G1 · Sumar una lista de material. G2 · Convertir una acción en un bloque propio.
+|Evaluable |*Preparar paquetes.* Recorrer la lista de paquetes por mesa (2, 4, 1 y 3, con 6 tarjetas por paquete) y calcular el total con un bloque propio. Añadir una quinta mesa sin rehacer el bucle. Traza del total tras cada mesa y pruebas con cuatro y cinco mesas.
+|Valoración (sobre 10) |Planificación y estructura de datos, 2; bucle y bloque propio, 4; pruebas, 3; explicación, 1.
 |===
 
+===== U3 · Del bloque al texto: Python
+
+[cols="1h,4"]
+|===
+|Saberes básicos |Bloque 2: introducción a la programación en lenguajes de alto nivel; tipos de lenguajes; sintaxis y semántica.
+|Contenidos |Lenguajes visuales y escritos. Sintaxis y semántica; errores de sintaxis y errores de cálculo. Asignación (`=`) y comparación (`==`). Sangría y dos puntos. Textos, variables y listas. `for`, `def`, `return` y llamada a una función. Comentarios.
+|Ejercicios guiados |G1 · Rehacer el acumulador en Python. G2 · Función con una decisión.
+|Evaluable |*Función de préstamo en Python.* Función que recibe la cantidad de libros y el máximo permitido y distingue negativos, cantidades aceptadas (incluida la igualdad) y exceso. Bucle de pruebas con −1, 0, 4 y 5 para máximo 4, y con 6 y 7 para máximo 6. Comparación con la solución de Scratch.
+|Valoración (sobre 10) |Plan, 2; función y condiciones, 4; pruebas, 3; comparación, 1.
+|===
+
+==== Segunda evaluación
+
+===== U4 · Una aplicación web para ordenador y móvil
+
+[cols="1h,4"]
+|===
+|Saberes básicos |Bloque 2: programación de aplicaciones para dispositivos móviles; sostenibilidad e inclusión como requisitos del diseño del software.
+|Contenidos |HTML (estructura), CSS (aspecto) y JavaScript (comportamiento). Web adaptable: `viewport` y ancho flexible. Botones con nombre claro y uso con teclado. Validación de entradas: campo vacío, negativos y decimales. Aplicación web utilizable en móviles frente a aplicación nativa. Documentar en qué dispositivos se ha probado.
+|Ejercicios guiados |G1 · Crear un comprobador de cantidades. G2 · Adaptar y probar la interfaz.
+|Evaluable |*Una aplicación de préstamo adaptable.* Admitir entre 0 y 6 libros; rechazar vacío, negativos y no enteros; título, etiqueta y mensajes adecuados; uso con teclado; avisos en texto; ajuste a pantalla pequeña. Plan de cambios, tabla con seis casos (incluidos vacío, 6 y 7) y pruebas en pantalla amplia y pequeña.
+|Valoración (sobre 10) |Plan y adaptación autónoma, 2; comportamiento, 4; accesibilidad y presentación adaptable, 2; pruebas justificadas, 2.
+|===
+
+===== U5 · Entrenar y utilizar un modelo de IA
+
+[cols="1h,4"]
+|===
+|Saberes básicos |Bloque 1: técnicas iniciales de IA (sistemas expertos, redes neuronales y aprendizaje automático); procesado automático de la información; sensores.
+|Contenidos |Aprendizaje supervisado: ejemplos etiquetados, entrenar, predecir y evaluar. Clasificador por prototipos (media de cada clase y distancia). Diferencias entre sistema experto, red neuronal y árbol de decisión. Conjuntos separados de entrenamiento y prueba. Empates y límites de una tasa de acierto. Datos ficticios de luminosidad, sin imágenes ni datos personales.
+|Ejercicios guiados |G1 · Construir un clasificador por medias. G2 · Evaluar con casos separados.
+|Evaluable |*Modelo con una respuesta responsable.* Entrenar con oscuras [12, 18, 24] y claras [72, 78, 84]; clasificar una lista de datos indicando que la salida es orientativa; responder «revisar» en caso de empate y rechazar medidas fuera de 0-100. Pruebas con 15, 35, 65 y 85, y por separado con 48, −1 y 101. Un uso adecuado y otro inadecuado de la aplicación.
+|Valoración (sobre 10) |Modelo, 2; integración y validación, 3; pruebas, 3; límites y uso responsable, 2.
+|===
+
+===== U6 · Investigar la IA y examinar sus efectos
+
+[cols="1h,4"]
+|===
+|Saberes básicos |Bloque 1: equidad e inclusión en sistemas de IA; sesgos; implicaciones sociales y éticas de la inteligencia artificial.
+|Contenidos |Investigar con fuentes: quién publica, cuándo, qué afirma y con qué pruebas; fuentes independientes; «no consta». Impacto de la IA: beneficios, fallos y recursos. Minimización de datos. Sesgo en entrenamiento, etiquetas, medida o uso. Resultados globales frente a resultados por grupos.
+|Ejercicios guiados |G1 · Leer dos fuentes sin atribuirles más de lo que dicen. G2 · Un resultado global puede ocultar fallos.
+|Evaluable |*Informe individual sobre el uso de una IA.* Caso ficticio: un sistema que clasifica libros acierta 18/20 en ciencias y 8/20 en literatura. Calcular resultados por grupo y global, explicar qué se perdería anunciando solo el global, proponer dos causas y una prueba, y decidir qué revisión exigir. Relacionar con la consulta de fuentes de G1 e incluir una ventaja, un cambio en el trabajo y una medida de privacidad o accesibilidad.
+|Valoración (sobre 10) |Cálculos y lectura crítica, 3; investigación y distinción de fuentes, 2; pruebas propuestas, 2; consecuencias y medidas concretas, 3.
+|Organización |Trabajo individual. No se pide exposición ni proyecto en grupo.
+|===
+
+==== Tercera evaluación
+
+===== U7 · Control y simulación: tarjetas y robot virtual
+
+[cols="1h,4"]
+|===
+|Saberes básicos |Bloque 2: simuladores de tarjetas controladoras. Bloque 3: control de sistemas robotizados; sensores, actuadores y controladores.
+|Contenidos |Sensor, controlador y actuador. Lazo abierto y control con realimentación. Simulación: qué simplifica y qué no demuestra. Coincidencia de entorno y puertos. Esperas, velocidad y frecuencia de lectura. Unidades (100 ms = 0,1 s). No hay montaje físico en esta unidad.
+|Ejercicios guiados |G1 · Una tarjeta simulada que responde a la luz (MakeCode para micro:bit). G2 · Detener un robot virtual y evaluar la parada (Open Roberta).
+|Evaluable |*Dos controles relacionados.* Una tarjeta virtual que muestre BAJA si la luz es menor que 80 y ALTA en los demás casos, y un robot virtual que avance y se detenga a menos de 25 cm de un obstáculo, con una velocidad moderada justificada. Pruebas alrededor de 80 y desde tres posiciones. Comparación de entrada, salida, condición y repetición en los dos programas.
+|Valoración (sobre 10) |Planificación, 2; controles, 4; pruebas, 3; comparación y límites, 1.
+|===
+
+===== U8 · Del simulador al robot: micro:bit y Maqueen
+
+[cols="1h,4"]
+|===
+|Saberes básicos |Bloque 3: montaje de robots; control de sistemas robotizados; carga y ejecución de los algoritmos en robots; sistemas robotizados en la experimentación con prototipos.
+|Contenidos |Montaje y puesta en marcha del Maqueen: conexión de la micro:bit, pilas, interruptor y extensión de Maqueen en MakeCode. Cuidado del material. Motores: avanzar, girar, parar; velocidad y tiempo. Sensor de distancia por ultrasonidos y sensores de línea. LED y zumbador como avisos. Transferir el archivo `.hex` y validar en el robot lo probado en U7. Diferencias entre simulación y realidad: rozamiento, batería, superficie y lecturas con ruido. Control por el usuario en tiempo real con los botones o por radio desde una segunda micro:bit.
+|Ejercicios guiados |G1 · Montar el robot y repetir en real la parada a 25 cm de U7, anotando dónde se detiene de verdad. G2 · Seguir un tramo de línea negra y avisar con los LED.
+|Evaluable |*Un robot que se adapta al entorno.* El robot avanza a velocidad moderada; se detiene y avisa al detectar un obstáculo a menos de 25 cm; después gira y continúa. Con el botón A se pone en marcha y con el B se detiene en cualquier momento. Tabla con cinco pruebas reales (distancia prevista, distancia medida y ajuste realizado) y explicación de una diferencia entre el simulador de U7 y el robot.
+|Valoración (sobre 10) |Planificación y montaje, 2; funcionamiento del control, 4; pruebas reales y ajustes, 3; comparación con la simulación, 1.
+|Organización |Cada pareja comparte un robot y respeta los turnos; el programa, la tabla de pruebas y la explicación son individuales.
+|===
+
+===== U9 · Virtualizar un espacio y probar recorridos
+
+[cols="1h,4"]
+|===
+|Saberes básicos |Bloque 1: técnicas de virtualización de la realidad. Bloque 2: interpretación de la realidad mediante modelado de problemas.
+|Contenidos |Virtualizar una realidad: representación digital interactiva. Modelo 2D frente a realidad virtual inmersiva y realidad aumentada. Qué incluye y qué deja fuera un modelo. Coordenadas, obstáculos, reglas de colisión y límites del plano. Comparar alternativas modificando el escenario.
+|Ejercicios guiados |G1 · Explorar un modelo interactivo. G2 · Modificar el espacio representado.
+|Evaluable |*Comparar dos distribuciones.* En una cuadrícula de seis por cuatro, con inicio (0,0) y meta (5,3), diseñar dos distribuciones con al menos cuatro obstáculos cada una, sin bloquear el inicio ni la meta y con al menos un recorrido posible. Tres comprobaciones: límite exterior, colisión y llegada. Explicar qué distribución se prefiere y qué medidas reales faltarían.
+|Valoración (sobre 10) |Planificación y modelado, 3; modificación funcional, 3; comprobaciones, 2; comparación y límites, 2.
+|===
+
+===== U10 · Mantener, documentar y mejorar una aplicación
+
+[cols="1h,4"]
+|===
+|Saberes básicos |Bloque 2: evaluación y mantenimiento de software; licencias de software, software libre y propietario; sostenibilidad e inclusión como requisitos del diseño.
+|Contenidos |Mantenimiento: corregir, adaptar y conservar lo que funcionaba. Versiones, pruebas de regresión y registro de cambios. Licencias: cumplir sus condiciones (licencia MIT de los archivos de apoyo). Accesibilidad como parte del funcionamiento. Decisiones sostenibles sin inventar ahorros no medidos.
+|Ejercicios guiados |G1 · Cambio de requisito y pruebas de regresión. G2 · Mejora accesible, licencia y revisión por parejas.
+|Evaluable |*Actualización individual verificable.* A partir de la aplicación de U4, nuevo máximo de 8 libros, conservando el rechazo de vacío, negativos y decimales, el uso con teclado y mensajes que indiquen cómo corregir. Conservar la versión anterior, respetar la licencia y justificar una mejora de accesibilidad o de uso de recursos. Pruebas antiguas y nuevas, incluidas 6, 7, 8 y 9.
+|Valoración (sobre 10) |Planificación y mantenimiento, 3; funcionamiento, 3; pruebas de regresión, 2; licencia y mejora justificada, 2.
+|Organización |La revisión por parejas de G2 sirve de preparación; la entrega y sus decisiones son individuales.
+|===

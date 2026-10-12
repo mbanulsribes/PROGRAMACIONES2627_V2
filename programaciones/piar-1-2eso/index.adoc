@@ -556,49 +556,19 @@ Se trabaja con los equipos del aula: LibreOffice Writer, Scratch, la herramienta
 
 Las sesiones son dos a la semana, los lunes y los martes. La temporización es orientativa: si el grupo necesita más tiempo en un tema, se ajusta con las sesiones de repaso de marzo y de cierre de junio.
 
-[width="100%",cols="11%,6%,6%,65%,12%",]
+[width="100%",cols="15%,70%,15%",options="header"]
 |===
-| |*L* |*M* |*Distribución temporal de las sesiones* |*Eval.*
-|*Sept* |*14* |*15* |Presentación y evaluación inicial / Tema 1 · Archivos y documentos de trabajo |*1.ª*
-| |*21* |*22* |Tema 1 · Archivos y documentos de trabajo |
-| |*28* |*29* |Tema 2 · Problemas y algoritmos |
-|*Oct* |*5* |*6* |Tema 2 · Problemas y algoritmos |
-| |– |*13* |Tema 2 · Problemas y algoritmos (lunes 12, festivo) |
-| |*19* |*20* |Tema 3 · Primeros programas con Scratch |
-| |*26* |*27* |Tema 3 · Primeros programas con Scratch |
-|*Nov* |*2* |*3* |Tema 3 · Primeros programas con Scratch / Tema 4 · Repeticiones y movimientos |
-| |*9* |*10* |Tema 4 · Repeticiones y movimientos |
-| |*16* |*17* |Tema 4 · Repeticiones y movimientos |
-| |*23* |*24* |Tema 4 · Repeticiones y movimientos / Tema 5 · Variables y decisiones |
-| |*30* |*1* |Tema 5 · Variables y decisiones |
-|*Dic* |*7* |– |Tema 5 · Variables y decisiones (martes 8, festivo) |
-| |*14* |*15* |Tema 5 · Variables y decisiones |
-| |*21* |– |Tema 5 · Variables y decisiones |
-| |– |– |Vacaciones de Navidad |
-|*Ene* |– |– |Vacaciones de Navidad |
-| |*11* |*12* |Tema 6 · Comprobar y mejorar programas |*2.ª*
-| |*18* |*19* |Tema 6 · Comprobar y mejorar programas |
-| |*25* |*26* |Tema 7 · Qué es la inteligencia artificial |
-|*Feb* |*1* |*2* |Tema 7 · Qué es la inteligencia artificial |
-| |*8* |*9* |Tema 8 · Aprender con datos |
-| |*15* |*16* |Tema 8 · Aprender con datos |
-| |*22* |*23* |Tema 8 · Aprender con datos |
-|*Mar* |*1* |*2* |Tema 8 · Aprender con datos |
-| |*8* |*9* |Tema 9 · Tecnología y decisiones responsables |
-| |*15* |*16* |Tema 9 · Tecnología y decisiones responsables |
-| |*22* |*23* |Repaso y entregas pendientes |
-| |– |– |Vacaciones de Pascua |
-|*Abr* |– |*6* |Tema 10 · micro:bit |*3.ª*
-| |*12* |*13* |Tema 10 · micro:bit |
-| |*19* |*20* |Tema 10 · micro:bit |
-| |*26* |*27* |Tema 10 · micro:bit |
-|*Mayo* |*3* |*4* |Tema 10 · micro:bit |
-| |*10* |*11* |Tema 11 · Robot Maqueen |
-| |*17* |*18* |Tema 11 · Robot Maqueen |
-| |*24* |*25* |Tema 11 · Robot Maqueen |
-| |*31* |*1* |Tema 11 · Robot Maqueen |
-|*Junio* |*7* |*8* |Tema 11 · Robot Maqueen |
-| |*14* |*15* |Cierre del curso |
+|Mes |Temas que se trabajan |Evaluación
+|*Sept* |Presentación y evaluación inicial; Tema 1 · Archivos y documentos de trabajo; Tema 2 · Problemas y algoritmos |1.ª
+|*Oct* |Tema 2 · Problemas y algoritmos; Tema 3 · Primeros programas con Scratch |1.ª
+|*Nov* |Tema 3 · Primeros programas con Scratch; Tema 4 · Repeticiones y movimientos; Tema 5 · Variables y decisiones |1.ª
+|*Dic* |Tema 5 · Variables y decisiones |1.ª
+|*Ene* |Tema 6 · Comprobar y mejorar programas; Tema 7 · Qué es la inteligencia artificial |2.ª
+|*Feb* |Tema 7 · Qué es la inteligencia artificial; Tema 8 · Aprender con datos |2.ª
+|*Mar* |Tema 8 · Aprender con datos; Tema 9 · Tecnología y decisiones responsables; Repaso y entregas pendientes |2.ª
+|*Abr* |Tema 10 · micro:bit |3.ª
+|*Mayo* |Tema 10 · micro:bit; Tema 11 · Robot Maqueen |3.ª
+|*Junio* |Tema 11 · Robot Maqueen; Cierre del curso |3.ª
 |===
 
 NOTE: El calendario sigue la Resolución de 15 de junio de 2026 (clases del 9 de septiembre al 18 de junio). Los días no lectivos locales de València, todavía por confirmar, se absorben con las sesiones de repaso del 22 y 23 de marzo.
@@ -793,476 +763,194 @@ Uno de los objetivos de las situaciones de aprendizaje es conseguir que el alumn
 Las actividades desarrolladas en la presente programación cumplen con las situaciones de aprendizaje propuestas en este curso.
 ____
 
-[role="t-sa",width="100%",cols="22%,39%,8%,1%,6%,4%,4%,6%,2%,8%",options="header",]
+[role="t-sa-ficha",cols="24%,76%",options="header"]
 |===
-|Curso académico: 2026-2027 |Materia: PROGRAMACIÓN, INTELIGENCIA ARTIFICIAL Y ROBÓTICA I |Nivel: 2.º ESO | | | |Grupo: desdoble de 18 | | |
-a|
-*Situación de aprendizaje*
-
-*N.º 1*
-
-|_[.underline]#Título:#_ Programación por bloques con Scratch (temas 1 a 6) |_[.underline]#Contexto:#_ a|
-Personal
-
-☐
-
-| a|
-Educativo
-
-☑
-
-| a|
-Social
-
-☐
-
-| a|
-Profesional
-
-☐
-
-| a|
+2+|Situación de aprendizaje n.º 1 · Programación por bloques con Scratch (temas 1 a 6)
+|Curso, materia y grupo |2026-2027 · Programación, Inteligencia Artificial y Robótica I · 2.º ESO · desdoble de 18
+|Contexto |Educativo
+a|Descripción y objetivos a|
 En esta situación de aprendizaje, el alumnado aprenderá a aplicar el pensamiento computacional en el análisis y resolución de problemas básicos significativos mediante el desarrollo de software.
 
 También afrontará retos tecnológicos sencillos y propondrá soluciones mediante la programación analizando las posibilidades y valorando críticamente las implicaciones éticas y ecosociales.
 
 *Objetivos:*
 
-- Analizar problemas elementales significativos para el alumnado, mediante la abstracción y modelización de la realidad.
-
-- Analizar y validar aplicaciones informáticas existentes.
-
-- Resolver de forma guiada problemas elementales utilizando los algoritmos y las estructuras de datos necesarias.
-
-- Programar aplicaciones sencillas de forma guiada para resolver problemas elementales.
-
-- Describir y valorar los derechos de autoría y licencias de derechos y explotación.
-
-- Participar activamente en equipos de trabajo para desarrollar soluciones digitales y tecnológicas demostrando empatía y respetando los roles asignados y las aportaciones del resto de personas integrantes.
-
-- Analizar críticamente las implicaciones que la programación y las tecnologías tienen en la transformación de la sociedad valorando las repercusiones éticas y ecosociales.
-
-- Describir y valorar la adecuación de las tecnologías, entornos de desarrollo, dispositivos y componentes para resolver los retos planteados, analizando sus características y especificaciones.
-
-- Resolver problemas técnicos sencillos surgidos en el análisis, desarrollo y uso de software, módulos de inteligencia artificial y robótica reformulando el procedimiento utilizado en caso necesario.
-
-a|
-_[.underline]#Relación con los retos del s. XXI y los ODS:#_
-
+* Analizar problemas elementales significativos para el alumnado, mediante la abstracción y modelización de la realidad.
+* Analizar y validar aplicaciones informáticas existentes.
+* Resolver de forma guiada problemas elementales utilizando los algoritmos y las estructuras de datos necesarias.
+* Programar aplicaciones sencillas de forma guiada para resolver problemas elementales.
+* Describir y valorar los derechos de autoría y licencias de derechos y explotación.
+* Participar activamente en equipos de trabajo para desarrollar soluciones digitales y tecnológicas demostrando empatía y respetando los roles asignados y las aportaciones del resto de personas integrantes.
+* Analizar críticamente las implicaciones que la programación y las tecnologías tienen en la transformación de la sociedad valorando las repercusiones éticas y ecosociales.
+* Describir y valorar la adecuación de las tecnologías, entornos de desarrollo, dispositivos y componentes para resolver los retos planteados, analizando sus características y especificaciones.
+* Resolver problemas técnicos sencillos surgidos en el análisis, desarrollo y uso de software, módulos de inteligencia artificial y robótica reformulando el procedimiento utilizado en caso necesario.
+a|Retos del s. XXI y ODS a|
 Los principales retos del s. XXI vinculados a la situación de aprendizaje, a través de los Objetivos de Desarrollo Sostenible, son:
 
-* {blank}
-+
-____
-ODS 4: Educación de calidad. Desarrolla pensamiento crítico y habilidades para una ciudadanía digital responsable.
-____
-* {blank}
-+
-____
-ODS 9: Industria, innovación e infraestructura. Introduce la base tecnológica para el desarrollo e innovación digital.
-____
-
-____
-
-____
-
-* {blank}
-+
-____
-ODS 10: Reducción de las desigualdades. Favorece el acceso equitativo al conocimiento tecnológico.
-____
-* {blank}
-+
-____
-ODS 11: Ciudades y comunidades sostenibles. Promueve la diversidad cultural y el acceso digital a contenidos creativos.
-____
-
-| | | | | | |
-|*Competencias específicas y criterios de evaluación vinculados* |_[.underline]#Competencias específicas:#_ CE2 y CE4  a|
-_[.underline]#Competencias clave:#_
-
-- Competencia en Comunicación Lingüística (CCL1).
-
-- Competencia Matemática, científica y tecnológica (CMCT1 – CMCT2 – CMCT3 – CMCT5).
-
-- Competencia digital (CD2 - CD3- CD4- CD5).
-
-- Competencia Personal, Social y de Aprender a Aprender (CPSAA1 – CPSAA4 – CPSAA5).
-
-- Competencia en Conciencia y Expresión Culturales (CCEC4).
-
-| | | | | | |
-| |_[.underline]#Criterios de evaluación vinculados:#_ 2.1, 2.2, 2.3, 2.4, 2.5, 4.4  | | | | | | | |
-|*Saberes básicos* a|
-- Habilidades del pensamiento computacional.
-
-- Interpretación de la realidad mediante modelado de problemas.
-
-- Abstracción, secuenciación, algorítmica y su representación con lenguaje natural y diagramas de flujo.
-
-- Estructures de control del flujo del programa.
-
-- Variables, constantes, condiciones y operadores.
-
-- Programación por bloques: composición de las estructuras básicas y encaje de bloques.
-
-- Análisis y validación de software.
-
-- Licencias de software. El software libre y el software propietario.
-
-- Iniciativa, autoconfianza y metacognición en el proceso de aprendizaje del desarrollo de software.
-
-| | | | | | | |
-|*Organización* a|
+* ODS 4: Educación de calidad. Desarrolla pensamiento crítico y habilidades para una ciudadanía digital responsable.
+* ODS 9: Industria, innovación e infraestructura. Introduce la base tecnológica para el desarrollo e innovación digital.
+* ODS 10: Reducción de las desigualdades. Favorece el acceso equitativo al conocimiento tecnológico.
+* ODS 11: Ciudades y comunidades sostenibles. Promueve la diversidad cultural y el acceso digital a contenidos creativos.
+|Competencias específicas |CE2 y CE4
+a|Competencias clave a|
+* Competencia en Comunicación Lingüística (CCL1).
+* Competencia Matemática, científica y tecnológica (CMCT1 – CMCT2 – CMCT3 – CMCT5).
+* Competencia digital (CD2 - CD3- CD4- CD5).
+* Competencia Personal, Social y de Aprender a Aprender (CPSAA1 – CPSAA4 – CPSAA5).
+* Competencia en Conciencia y Expresión Culturales (CCEC4).
+|Criterios de evaluación |2.1, 2.2, 2.3, 2.4, 2.5, 4.4
+a|Saberes básicos a|
+* Habilidades del pensamiento computacional.
+* Interpretación de la realidad mediante modelado de problemas.
+* Abstracción, secuenciación, algorítmica y su representación con lenguaje natural y diagramas de flujo.
+* Estructures de control del flujo del programa.
+* Variables, constantes, condiciones y operadores.
+* Programación por bloques: composición de las estructuras básicas y encaje de bloques.
+* Análisis y validación de software.
+* Licencias de software. El software libre y el software propietario.
+* Iniciativa, autoconfianza y metacognición en el proceso de aprendizaje del desarrollo de software.
+a|Organización a|
 Cada tema del libro sigue la misma secuencia: explicación, ejemplo resuelto, prácticas sin nota y ejercicio evaluable.
 
 La profesora presenta el tema y resuelve el ejemplo con el grupo. El alumnado reproduce el ejemplo, cambia un dato y hace las prácticas mientras la profesora atiende las dudas.
 
 El ejercicio evaluable se realiza en clase, de forma individual y con el libro disponible.
-
-a|
-_[.underline]#Organización de los espacios:#_
-
-Aula con recursos TIC.
-
-| a|
-_[.underline]#Distribución del tiempo:#_
-
-31 SESIONES
-
-| a|
-_[.underline]#Recursos y materiales:#_
-
--Proyector.
-
--Equipos en LAN.
-
--LibreOffice Writer.
-
--Scratch 3.
-
--LMS Aules (Libro de Aules).
-
-| a|
-_[.underline]#Medidas de respuesta educativa para la inclusión:#_
-
-Referidas en el apartado 10 de la presente programación.
-
-|
-|*Instrumentos de recogida de información para la valoración del progreso del alumnado* a|
-- Ejercicios evaluables individuales, valorados sobre 10 con los apartados de su enunciado.
-
-- Comprobaciones anotadas antes de cada entrega.
-
-- Registro de hábitos de trabajo y responsabilidad.
-
-| | | | | | | |
+|Espacios |Aula con recursos TIC.
+|Tiempo |31 sesiones
+a|Recursos y materiales a|
+* Proyector.
+* Equipos en LAN.
+* LibreOffice Writer.
+* Scratch 3.
+* LMS Aules (Libro de Aules).
+|Medidas de inclusión |Referidas en el apartado 10 de la presente programación.
+a|Instrumentos de evaluación a|
+* Ejercicios evaluables individuales, valorados sobre 10 con los apartados de su enunciado.
+* Comprobaciones anotadas antes de cada entrega.
+* Registro de hábitos de trabajo y responsabilidad.
 |===
 
-[role="t-sa",width="100%",cols="22%,39%,8%,1%,6%,4%,4%,6%,2%,8%",options="header",]
+[role="t-sa-ficha",cols="24%,76%",options="header"]
 |===
-|Curso académico: 2026-2027 |Materia: PROGRAMACIÓN, INTELIGENCIA ARTIFICIAL Y ROBÓTICA I |Nivel: 2.º ESO | | | |Grupo: desdoble de 18 | | |
-a|
-*Situación de aprendizaje*
-
-*N.º 2*
-
-|_[.underline]#Título:#_ Inteligencia artificial: datos, modelos y decisiones responsables (temas 7 a 9) |_[.underline]#Contexto:#_ a|
-Personal
-
-☐
-
-| a|
-Educativo
-
-☑
-
-| a|
-Social
-
-☐
-
-| a|
-Profesional
-
-☐
-
-| a|
-En esta situación de aprendizaje, el alumnado aprenderá a Identificar, investigar y emplear técnicas de inteligencia artificial y virtualización de la realidad en el abordaje y la búsqueda de soluciones a problemas básicos de la sociedad valorando los principios éticos e inclusivos aplicados.
+2+|Situación de aprendizaje n.º 2 · Inteligencia artificial: datos, modelos y decisiones responsables (temas 7 a 9)
+|Curso, materia y grupo |2026-2027 · Programación, Inteligencia Artificial y Robótica I · 2.º ESO · desdoble de 18
+|Contexto |Educativo
+a|Descripción y objetivos a|
+En esta situación de aprendizaje, el alumnado aprenderá a identificar, investigar y emplear técnicas de inteligencia artificial y virtualización de la realidad en el abordaje y la búsqueda de soluciones a problemas básicos de la sociedad valorando los principios éticos e inclusivos aplicados.
 
 Se utilizará la plataforma Machine Learning For Kids.
 
 *Objetivos:*
 
-- Identificar los fundamentos y el funcionamiento de las técnicas básicas de IA.
-
-- Investigar situaciones donde se aplican técnicas básicas de IA.
-
-- Valorar las implicaciones éticas y sociales de las técnicas básicas de IA.
-
-- Emplear funciones de IA en aplicaciones sencillas de forma guiada para resolver problemas básicos.
-
-- Participar activamente en equipos de trabajo para desarrollar soluciones digitales y tecnológicas demostrando empatía y respetando los roles asignados y las aportaciones del resto de personas integrantes.
-
-- Analizar críticamente las implicaciones que la programación y las tecnologías tienen en la transformación de la sociedad valorando las repercusiones éticas y ecosociales.
-
-- Describir y valorar la adecuación de las tecnologías, entornos de desarrollo, dispositivos y componentes para resolver los retos planteados, analizando sus características y especificaciones.
-
-- Resolver problemas técnicos sencillos surgidos en el análisis, desarrollo y uso de software, módulos de inteligencia artificial y robótica reformulando el procedimiento utilizado en caso necesario.
-
-a|
-_[.underline]#Relación con los retos del s. XXI y los ODS:#_
-
+* Identificar los fundamentos y el funcionamiento de las técnicas básicas de IA.
+* Investigar situaciones donde se aplican técnicas básicas de IA.
+* Valorar las implicaciones éticas y sociales de las técnicas básicas de IA.
+* Emplear funciones de IA en aplicaciones sencillas de forma guiada para resolver problemas básicos.
+* Participar activamente en equipos de trabajo para desarrollar soluciones digitales y tecnológicas demostrando empatía y respetando los roles asignados y las aportaciones del resto de personas integrantes.
+* Analizar críticamente las implicaciones que la programación y las tecnologías tienen en la transformación de la sociedad valorando las repercusiones éticas y ecosociales.
+* Describir y valorar la adecuación de las tecnologías, entornos de desarrollo, dispositivos y componentes para resolver los retos planteados, analizando sus características y especificaciones.
+* Resolver problemas técnicos sencillos surgidos en el análisis, desarrollo y uso de software, módulos de inteligencia artificial y robótica reformulando el procedimiento utilizado en caso necesario.
+a|Retos del s. XXI y ODS a|
 Los principales retos del s. XXI vinculados a la situación de aprendizaje, a través de los Objetivos de Desarrollo Sostenible, son:
 
-* {blank}
-+
-____
-ODS 4: Educación de calidad. Desarrolla pensamiento crítico y habilidades para una ciudadanía digital responsable.
-____
-* {blank}
-+
-____
-ODS 9: Industria, innovación e infraestructura. Introduce la base tecnológica para el desarrollo e innovación digital.
-____
-
-____
-
-____
-
-* {blank}
-+
-____
-ODS 10: Reducción de las desigualdades. Favorece el acceso equitativo al conocimiento tecnológico.
-____
-* {blank}
-+
-____
-ODS 11: Ciudades y comunidades sostenibles. Promueve la diversidad cultural y el acceso digital a contenidos creativos.
-____
-
-| | | | | | |
-|*Competencias específicas y criterios de evaluación vinculados* |_[.underline]#Competencias específicas:#_ CE1 y CE4  a|
-_[.underline]#Competencias clave:#_
-
-- Competencia en Comunicación Lingüística (CCL1 – CCL3).
-
-- Competencia Plurilíngüe (CP2).
-
-- Competencia Matemática, científica y tecnológica (CMCT1 – CMCT2 – CMCT3 – CMCT5).
-
-- Competencia digital (CD1 - CD2 - CD3- CD4- CD5).
-
-- Competencia Personal, Social y de Aprender a Aprender (CPSAA3 – CPSAA4 – CPSAA5).
-
-| | | | | | |
-| |_[.underline]#Criterios de evaluación vinculados:#_ 1.1, 1.2, 1.3, 1.4, 4.2, 4.3, 4.5  | | | | | | | |
-|*Saberes básicos* a|
-- El aprendizaje en sistemas biológicos. Decisiones y libre albedrío.
-
-- Fundamentos de la IA. Árboles de decisión. Big data, redes neuronales.
-
-- Técnicas iniciales de IA: sistemas expertos, redes neuronales y aprendizaje automático.
-
-- Procesamiento automático de la información.
-
-- Equidad e inclusión en sistemas de IA. Sesgos en IA.
-
-- Implicaciones sociales y éticas de la inteligencia artificial.
-
-| | | | | | | |
-|*Organización* a|
+* ODS 4: Educación de calidad. Desarrolla pensamiento crítico y habilidades para una ciudadanía digital responsable.
+* ODS 9: Industria, innovación e infraestructura. Introduce la base tecnológica para el desarrollo e innovación digital.
+* ODS 10: Reducción de las desigualdades. Favorece el acceso equitativo al conocimiento tecnológico.
+* ODS 11: Ciudades y comunidades sostenibles. Promueve la diversidad cultural y el acceso digital a contenidos creativos.
+|Competencias específicas |CE1 y CE4
+a|Competencias clave a|
+* Competencia en Comunicación Lingüística (CCL1 – CCL3).
+* Competencia Plurilíngüe (CP2).
+* Competencia Matemática, científica y tecnológica (CMCT1 – CMCT2 – CMCT3 – CMCT5).
+* Competencia digital (CD1 - CD2 - CD3- CD4- CD5).
+* Competencia Personal, Social y de Aprender a Aprender (CPSAA3 – CPSAA4 – CPSAA5).
+|Criterios de evaluación |1.1, 1.2, 1.3, 1.4, 4.2, 4.3, 4.5
+a|Saberes básicos a|
+* El aprendizaje en sistemas biológicos. Decisiones y libre albedrío.
+* Fundamentos de la IA. Árboles de decisión. Big data, redes neuronales.
+* Técnicas iniciales de IA: sistemas expertos, redes neuronales y aprendizaje automático.
+* Procesamiento automático de la información.
+* Equidad e inclusión en sistemas de IA. Sesgos en IA.
+* Implicaciones sociales y éticas de la inteligencia artificial.
+a|Organización a|
 Cada tema del libro sigue la misma secuencia: explicación, ejemplo resuelto, prácticas sin nota y ejercicio evaluable.
 
 La profesora presenta el tema y resuelve el ejemplo con el grupo. El alumnado reproduce el ejemplo, cambia un dato y hace las prácticas mientras la profesora atiende las dudas.
 
 El ejercicio evaluable se realiza en clase, de forma individual y con el libro disponible.
-
-a|
-_[.underline]#Organización de los espacios:#_
-
-Aula con recursos TIC.
-
-| a|
-_[.underline]#Distribución del tiempo:#_
-
-18 SESIONES
-
-| a|
-_[.underline]#Recursos y materiales:#_
-
--Proyector.
-
--Equipos en LAN.
-
--LibreOffice Writer.
-
--Machine Learning for Kids (la herramienta que indique la profesora).
-
--LMS Aules (Libro de Aules).
-
-| a|
-_[.underline]#Medidas de respuesta educativa para la inclusión:#_
-
-Referidas en el apartado 10 de la presente programación.
-
-|
-|*Instrumentos de recogida de información para la valoración del progreso del alumnado* a|
-- Ejercicios evaluables individuales, valorados sobre 10 con los apartados de su enunciado.
-
-- Comprobaciones anotadas antes de cada entrega.
-
-- Registro de hábitos de trabajo y responsabilidad.
-
-| | | | | | | |
+|Espacios |Aula con recursos TIC.
+|Tiempo |18 sesiones
+a|Recursos y materiales a|
+* Proyector.
+* Equipos en LAN.
+* LibreOffice Writer.
+* Machine Learning for Kids (la herramienta que indique la profesora).
+* LMS Aules (Libro de Aules).
+|Medidas de inclusión |Referidas en el apartado 10 de la presente programación.
+a|Instrumentos de evaluación a|
+* Ejercicios evaluables individuales, valorados sobre 10 con los apartados de su enunciado.
+* Comprobaciones anotadas antes de cada entrega.
+* Registro de hábitos de trabajo y responsabilidad.
 |===
 
-[role="t-sa",width="100%",cols="22%,39%,8%,1%,6%,4%,4%,6%,2%,8%",options="header",]
+[role="t-sa-ficha",cols="24%,76%",options="header"]
 |===
-|Curso académico: 2026-2027 |Materia: PROGRAMACIÓN, INTELIGENCIA ARTIFICIAL Y ROBÓTICA I |Nivel: 2.º ESO | | | |Grupo: desdoble de 18 | | |
-a|
-*Situación de aprendizaje*
-
-*N.º 3*
-
-|_[.underline]#Título:#_ Robótica con micro:bit y Maqueen (temas 10 y 11) |_[.underline]#Contexto:#_ a|
-Personal
-
-☐
-
-| a|
-Educativo
-
-☑
-
-| a|
-Social
-
-☐
-
-| a|
-Profesional
-
-☐
-
-| a|
+2+|Situación de aprendizaje n.º 3 · Robótica con micro:bit y Maqueen (temas 10 y 11)
+|Curso, materia y grupo |2026-2027 · Programación, Inteligencia Artificial y Robótica I · 2.º ESO · desdoble de 18
+|Contexto |Educativo
+a|Descripción y objetivos a|
 En esta situación de aprendizaje, el alumnado aprenderá a montar sistemas robóticos sencillos, analizando las respuestas que proporcionan en su interacción con el entorno y valorando la eficacia de estas frente a los retos planteados.
 
 Se trabaja con la placa *micro:bit* y el robot *Maqueen*, programados por bloques con *Microsoft MakeCode* y la extensión de Maqueen.
 
 *Objetivos:*
 
-- Identificar las entradas (botones, sensores de luz, temperatura y movimiento) y las salidas (matriz de LED y sonido) de la micro:bit.
-
-- Programar la micro:bit con eventos, variables y condiciones, y probar el programa primero en el simulador y después en la placa.
-
-- Montar y poner en marcha el robot Maqueen siguiendo una guía y cuidando el material.
-
-- Controlar los motores del robot para realizar recorridos fijados, comparando lo previsto con lo que ocurre.
-
-- Utilizar el sensor de distancia y los sensores de línea para que el robot reaccione a su entorno.
-
-- Comprobar, ajustar y documentar el comportamiento del robot con tablas de pruebas.
-
-- Trabajar en pareja con el robot compartido respetando los turnos y entregando cada uno su propio trabajo.
-
-a|
-_[.underline]#Relación con los retos del s. XXI y los ODS:#_
-
+* Identificar las entradas (botones, sensores de luz, temperatura y movimiento) y las salidas (matriz de LED y sonido) de la micro:bit.
+* Programar la micro:bit con eventos, variables y condiciones, y probar el programa primero en el simulador y después en la placa.
+* Montar y poner en marcha el robot Maqueen siguiendo una guía y cuidando el material.
+* Controlar los motores del robot para realizar recorridos fijados, comparando lo previsto con lo que ocurre.
+* Utilizar el sensor de distancia y los sensores de línea para que el robot reaccione a su entorno.
+* Comprobar, ajustar y documentar el comportamiento del robot con tablas de pruebas.
+* Trabajar en pareja con el robot compartido respetando los turnos y entregando cada uno su propio trabajo.
+a|Retos del s. XXI y ODS a|
 Los principales retos del s. XXI vinculados a la situación de aprendizaje, a través de los Objetivos de Desarrollo Sostenible, son:
 
-* {blank}
-+
-____
-ODS 4: Educación de calidad. Desarrolla pensamiento crítico y habilidades para una ciudadanía digital responsable.
-____
-* {blank}
-+
-____
-ODS 9: Industria, innovación e infraestructura. Introduce la base tecnológica para el desarrollo e innovación digital.
-____
-
-____
-
-____
-
-* {blank}
-+
-____
-ODS 10: Reducción de las desigualdades. Favorece el acceso equitativo al conocimiento tecnológico.
-____
-* {blank}
-+
-____
-ODS 11: Ciudades y comunidades sostenibles. Promueve la diversidad cultural y el acceso digital a contenidos creativos.
-____
-
-| | | | | | |
-|*Competencias específicas y criterios de evaluación vinculados* |_[.underline]#Competencias específicas:#_ CE3 y CE4  a|
-_[.underline]#Competencias clave:#_
-
-- Competencia Matemática, científica y tecnológica (CMCT1 – CMCT2 – CMCT3 – CMCT5).
-
-- Competencia digital (CD1 - CD2 - CD3- CD4- CD5).
-
-- Competencia Personal, Social y de Aprender a Aprender (CPSAA1 – CPSAA2 - CPSAA3 – CPSAA4 – CPSAA5).
-
-| | | | | | |
-| |_[.underline]#Criterios de evaluación vinculados:#_ 3.1, 3.2, 3.3, 3.4, 3.5, 4.4  | | | | | | | |
-|*Saberes básicos* a|
+* ODS 4: Educación de calidad. Desarrolla pensamiento crítico y habilidades para una ciudadanía digital responsable.
+* ODS 9: Industria, innovación e infraestructura. Introduce la base tecnológica para el desarrollo e innovación digital.
+* ODS 10: Reducción de las desigualdades. Favorece el acceso equitativo al conocimiento tecnológico.
+* ODS 11: Ciudades y comunidades sostenibles. Promueve la diversidad cultural y el acceso digital a contenidos creativos.
+|Competencias específicas |CE3 y CE4
+a|Competencias clave a|
+* Competencia Matemática, científica y tecnológica (CMCT1 – CMCT2 – CMCT3 – CMCT5).
+* Competencia digital (CD1 - CD2 - CD3- CD4- CD5).
+* Competencia Personal, Social y de Aprender a Aprender (CPSAA1 – CPSAA2 - CPSAA3 – CPSAA4 – CPSAA5).
+|Criterios de evaluación |3.1, 3.2, 3.3, 3.4, 3.5, 4.4
+a|Saberes básicos a|
 * Robots: tipos y características técnicas básicas. La micro:bit como controlador y el Maqueen como robot móvil.
 * Montaje del robot: conexión de la micro:bit, alimentación y puesta en marcha.
 * Sensores (botones, luz, temperatura, acelerómetro, distancia por ultrasonidos, sensores de línea), actuadores (motores, LED, zumbador) y controlador.
 * Control de sistemas robotizados: eventos, bucles, variables y decisiones aplicados al robot.
 * Carga y ejecución de los programas: simulador de MakeCode, descarga del archivo .hex y prueba en el robot.
-
-| | | | | | | |
-|*Organización* a|
+a|Organización a|
 Cada tema del libro sigue la misma secuencia: explicación, ejemplo resuelto, prácticas sin nota y ejercicio evaluable.
 
 La profesora presenta el tema y resuelve el ejemplo con el grupo. El alumnado reproduce el ejemplo, cambia un dato y hace las prácticas mientras la profesora atiende las dudas.
 
 El ejercicio evaluable se realiza en clase, de forma individual y con el libro disponible.
-
-a|
-_[.underline]#Organización de los espacios:#_
-
-Aula con recursos TIC.
-
-| a|
-_[.underline]#Distribución del tiempo:#_
-
-21 SESIONES
-
-| a|
-_[.underline]#Recursos y materiales:#_
-
--Proyector.
-
--Equipos en LAN.
-
--Placas micro:bit, cable USB y portapilas.
-
--Robots Maqueen (uno por pareja) y circuito con línea negra.
-
--Microsoft MakeCode para micro:bit con la extensión de Maqueen.
-
--LMS Aules (Libro de Aules).
-
-| a|
-_[.underline]#Medidas de respuesta educativa para la inclusión:#_
-
-Referidas en el apartado 10 de la presente programación.
-
-|
-|*Instrumentos de recogida de información para la valoración del progreso del alumnado* a|
-- Ejercicios evaluables individuales, valorados sobre 10 con los apartados de su enunciado.
-
-- Comprobaciones anotadas antes de cada entrega.
-
-- Registro de hábitos de trabajo y responsabilidad.
-
-| | | | | | | |
+|Espacios |Aula con recursos TIC.
+|Tiempo |21 sesiones
+a|Recursos y materiales a|
+* Proyector.
+* Equipos en LAN.
+* Placas micro:bit, cable USB y portapilas.
+* Robots Maqueen (uno por pareja) y circuito con línea negra.
+* Microsoft MakeCode para micro:bit con la extensión de Maqueen.
+* LMS Aules (Libro de Aules).
+|Medidas de inclusión |Referidas en el apartado 10 de la presente programación.
+a|Instrumentos de evaluación a|
+* Ejercicios evaluables individuales, valorados sobre 10 con los apartados de su enunciado.
+* Comprobaciones anotadas antes de cada entrega.
+* Registro de hábitos de trabajo y responsabilidad.
 |===
 
 ==== Unidades didácticas

@@ -148,6 +148,9 @@ body.eso table.t-aula p{font:700 14pt/1.4 var(--serif);text-align:center}
 body.eso table.t-sa tr:first-child>*{background:#E5DFEC}
 body.eso table.t-sa tr:not(:first-child)>:first-child{background:#8064A2;color:#fff;font-weight:700}
 body.eso table.t-sa tr:not(:first-child)>:first-child *{color:#fff}
+body.eso table.t-sa-ficha tr:first-child>*{background:#8064A2;color:#fff;font-weight:700;text-align:left}
+body.eso table.t-sa-ficha tr:not(:first-child)>:first-child{background:#E5DFEC;font-weight:700}
+body.eso table.t-sa-ficha td p,body.eso table.t-sa-ficha td li{text-align:left}
 
 /* ---------- Impresión / PDF A4 ---------- */
 @page{
@@ -175,6 +178,7 @@ body.eso table.t-sa tr:not(:first-child)>:first-child *{color:#fff}
   #content{padding:0;box-shadow:none}
   .sect1>h2,.sect2>h3,.sect3>h4,.title{break-after:avoid}
   tr,.admonitionblock,.sidebarblock{break-inside:avoid}
+  table.t-sa-ficha{break-before:page}
   thead{display:table-header-group}
   a{color:inherit;text-decoration:none}
   table.t-sa{page:apaisado;break-before:page}

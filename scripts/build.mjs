@@ -48,26 +48,29 @@ for (const slug of slugs) {
 <div class="caja"><p>Programación Didáctica del Módulo:</p><p class="modulo">${a('modulo')}</p><p class="curso">(Curso ${esc(curso)})</p></div>
 <p class="profesor">Profesora: ${a('docente')}</p>
 </section>`
-    : `<section class="portada-doc eso">
-<div class="logos"><img src="../assets/img/gva-ocupacio.png" alt="Generalitat Valenciana"><img src="../assets/img/ies-font.png" alt="IES Font de Sant Lluís"></div>
+    : `<section class="portada-doc fp">
+<div class="logos"><img src="../assets/img/gva-cultura.png" alt="Generalitat Valenciana"><div class="instituto"><img src="../assets/img/ies-font-f.png" alt=""><span>INSTITUT D’EDUCACIÓ SECUNDÀRIA<b>IES FONT DE SANT LLUÍS</b></span></div></div>
 <p class="dep">${a('departamento') || 'Departamento de Informática'}</p>
-<div class="caja"><p>PROGRAMACIÓN DIDÁCTICA</p><p>${a('nivel')}</p><p class="materia">${a('modulo').toUpperCase()}</p><p class="curso">(Curso ${esc(curso)})</p></div>
+<p class="ciclo-tipo">Educación Secundaria Obligatoria:</p>
+<p class="ciclo-nombre">${a('nivel')}</p>
+<div class="caja"><p>Programación Didáctica de la materia:</p><p class="modulo">${a('modulo')}</p><p class="curso">(Curso ${esc(curso)})</p></div>
 <p class="profesor">Profesora: ${a('docente')}</p>
 </section>`;
 
   // Cabecera de página de la plantilla (impresión y PDF)
-  const cabecera = plantilla === 'fp'
-    ? `@top-left{content:"${(doc.getAttribute('cabecera') || '').replace(/"/g, '')}";font:10pt Arial,sans-serif;color:#EE0000}
-       @top-right{content:"Curso: ${cursoBarra}";font:10pt Arial,sans-serif;color:#000}`
-    : `@top-left{content:"Propuesta didáctica departamento Informática";font:italic 10pt Arial,sans-serif;color:#000}
-       @top-right{content:"Curso: ${cursoBarra}";font:italic 10pt Arial,sans-serif;color:#000}`;
+  // Todas las programaciones usan la cabecera de la plantilla de FP
+  const textoCabecera = plantilla === 'fp'
+    ? (doc.getAttribute('cabecera') || '')
+    : `${doc.getAttribute('nivel') || ''}: ${doc.getAttribute('titulo-corto') || doc.getAttribute('modulo') || ''}`;
+  const cabecera = `@top-left{content:"${textoCabecera.replace(/"/g, '')}";font:10pt Arial,sans-serif;color:#EE0000}
+       @top-right{content:"Curso: ${cursoBarra}";font:10pt Arial,sans-serif;color:#000}`;
   const estilo = `<style>@page{${cabecera}}@page:first{@top-left{content:none}@top-right{content:none}}</style>`;
 
   const barra = `<nav class="barra"><a href="../index.html">← Todas las programaciones</a>${borrador ? '<span class="sello">En preparación</span>' : ''}<span class="hueco"></span><a href="${pdf}" download>Descargar PDF</a><button type="button" onclick="window.print()">Imprimir</button></nav>`;
   const pie = `<footer class="pie"><span>${esc(doc.getAttribute('modulo') || doc.getDocumentTitle())} · Curso ${esc(curso)}</span><a href="index.adoc" download>Fuente AsciiDoc</a></footer>`;
   const html = doc.convert()
     .replace('</head>', `${estilo}\n</head>`)
-    .replace(/<body class="([^"]*)">/, (m, c) => `<body class="${c} ${plantilla}">\n${barra}\n${portada}`)
+    .replace(/<body class="([^"]*)">/, (m, c) => `<body class="${c} fp">\n${barra}\n${portada}`)
     .replace('</body>', `${pie}\n</body>`);
   const target = path.join(out, slug);
   fs.mkdirSync(target, {recursive: true});

@@ -1,5 +1,6 @@
 /* Programaciones didácticas · IES Font de Sant Lluís
-   Reproduce las plantillas del departamento: FP (plantilla 2026-2027) y ESO.
+   Reproduce la plantilla del departamento de FP (2026-2027), que se aplica
+   también a las programaciones de ESO.
    La web muestra el documento como páginas sobre fondo gris; la impresión
    genera A4 con la cabecera y el pie de la plantilla. */
 
@@ -69,14 +70,6 @@ p{margin:0 0 8pt}
 .portada-doc .caja .modulo{font-size:22pt;color:var(--rojo);margin:.6cm 0 1.5cm}
 .portada-doc .caja .curso{font-size:13pt}
 .portada-doc .profesor{font:700 13pt/1.3 var(--sans);text-align:right;margin:auto 0 0;padding-top:3cm}
-/* Variante ESO */
-.portada-doc.eso .logos{justify-content:flex-start;gap:1.2cm;margin-bottom:1.2cm}
-.portada-doc.eso .logos img{height:2.3cm}
-.portada-doc.eso .dep{margin-bottom:1.6cm}
-.portada-doc.eso .caja{padding:1.1cm 1cm}
-.portada-doc.eso .caja p{font-size:19pt;line-height:1.25}
-.portada-doc.eso .caja .materia{font-size:17pt;margin:.5cm 0}
-.portada-doc.eso .caja .curso{font-size:13pt;margin-top:.6cm}
 
 /* ---------- Sumario ---------- */
 #toctitle{font:700 13pt/1.3 var(--sans);text-transform:uppercase;margin:0 0 14pt}
@@ -124,33 +117,19 @@ table.tableblock>caption{font:700 10.5pt var(--sans);text-align:left;padding-bot
 .quoteblock{margin:6pt 0 10pt 1cm;padding:0;border:0}
 .quoteblock blockquote{margin:0}
 
-/* ---------- Plantilla ESO ---------- */
-body.eso{font-size:10.5pt}
-body.eso .sect1>h2{font-size:11pt;text-transform:uppercase;padding-left:.7cm;text-indent:-.7cm}
-body.eso .sect2>h3{font-size:11pt;text-transform:uppercase}
-body.eso .sectionbody>.paragraph p,body.eso .sect2>.paragraph p,body.eso .sect3>.paragraph p{text-align:justify;line-height:1.75}
-body.eso .quoteblock{margin-left:.8cm}
-body.eso .quoteblock p{font-style:italic;color:#4F6F9F;font-size:9.5pt;line-height:1.6;text-align:justify}
-body.eso table.tableblock{font-size:9pt}
-body.eso table.tableblock thead th{background:#DBE5F1}
-/* Colores de las tablas de la plantilla ESO */
-body.eso table.t-ce tr:first-child>*{background:#31849B;color:#fff;text-align:center}
-body.eso table.t-crit tr:first-child>*{background:#8064A2;color:#fff;text-align:center}
-body.eso table.t-crit tr:not(:first-child)>:first-child{background:#E5DFEC;font-weight:700;text-align:center;vertical-align:middle;width:18%}
-body.eso table.t-cc tr:first-child>*,body.eso table.t-desc tr:first-child>*,body.eso table.t-sab tr:first-child>*,body.eso table.t-obj tr:first-child>*{background:#C0504D;color:#fff;text-align:center}
-body.eso table.t-desc tr:not(:first-child)>:first-child{background:#F2DBDB;font-weight:700;width:18%}
-body.eso table.t-pct tr:nth-child(-n+2)>*{background:#B8CCE4;text-align:center}
-body.eso table.t-pct td{text-align:center}
-body.eso table.t-rel tr:first-child>*{background:#B8CCE4}
-body.eso table.t-rel td{text-align:center}
-body.eso table.t-aula,body.eso table.t-aula th,body.eso table.t-aula td{border:0;background:#D6E3BC;text-align:center}
-body.eso table.t-aula p{font:700 14pt/1.4 var(--serif);text-align:center}
-body.eso table.t-sa tr:first-child>*{background:#E5DFEC}
-body.eso table.t-sa tr:not(:first-child)>:first-child{background:#8064A2;color:#fff;font-weight:700}
-body.eso table.t-sa tr:not(:first-child)>:first-child *{color:#fff}
-body.eso table.t-sa-ficha tr:first-child>*{background:#8064A2;color:#fff;font-weight:700;text-align:left}
-body.eso table.t-sa-ficha tr:not(:first-child)>:first-child{background:#E5DFEC;font-weight:700}
-body.eso table.t-sa-ficha td p,body.eso table.t-sa-ficha td li{text-align:left}
+/* ---------- Programaciones de ESO con el estilo de la plantilla FP ----------
+   Las tablas que proceden de la plantilla ESO (roles t-*) usan los mismos
+   colores que las de FP: fila de títulos azul y primera columna gris. */
+table.t-ce tbody tr:first-child>*,table.t-crit tbody tr:first-child>*,table.t-cc tbody tr:first-child>*,
+table.t-desc tbody tr:first-child>*,table.t-sab tbody tr:first-child>*,table.t-obj tbody tr:first-child>*,
+table.t-pct tbody tr:first-child>*,table.t-sa tbody tr:first-child>*{background:var(--azul-tabla);font-weight:700}
+table.t-crit tbody tr:nth-child(n+2)>:first-child,table.t-desc tbody tr:nth-child(n+2)>:first-child,
+table.t-sa tbody tr:nth-child(n+2)>:first-child,table.t-sa-ficha tbody tr>:first-child{background:#F2F2F2;font-weight:700}
+table.t-crit tbody tr:nth-child(n+2)>:first-child{width:18%}
+table.t-pct td,table.t-rel td{text-align:center}
+table.tableblock.t-aula{background:var(--gris-caja);border:1px solid #000}
+table.tableblock.t-aula th,table.tableblock.t-aula td,table.tableblock.t-aula thead th{background:var(--gris-caja);border:0;text-align:center}
+table.t-aula p{font:700 14pt/1.35 var(--serif);text-align:center}
 
 /* ---------- Impresión / PDF A4 ---------- */
 @page{
@@ -165,8 +144,6 @@ body.eso table.t-sa-ficha td p,body.eso table.t-sa-ficha td li{text-align:left}
   @bottom-left{content:none}
   @bottom-right{content:none}
 }
-/* Situaciones de aprendizaje en horizontal, como en la plantilla ESO */
-@page apaisado{size:A4 landscape;margin:2cm}
 
 @media print{
   html,body,body.article{background:#fff}
@@ -181,7 +158,6 @@ body.eso table.t-sa-ficha td p,body.eso table.t-sa-ficha td li{text-align:left}
   table.t-sa-ficha{break-before:page}
   thead{display:table-header-group}
   a{color:inherit;text-decoration:none}
-  table.t-sa{page:apaisado;break-before:page}
 }
 
 /* ---------- Portada de la web con todas las programaciones ---------- */
@@ -206,5 +182,4 @@ body.portada-web{font-family:"Segoe UI",system-ui,Arial,sans-serif;color:#172a42
 /* Ajustes: bloques de cita dentro de tablas (conversión desde Word) */
 table.tableblock .quoteblock{margin:0}
 table.tableblock .quoteblock p{font-style:normal;color:inherit;font-size:inherit;line-height:inherit;text-align:inherit}
-body.eso table.tableblock tr:first-child .quoteblock p{color:inherit}
 table.t-aula{break-inside:avoid}

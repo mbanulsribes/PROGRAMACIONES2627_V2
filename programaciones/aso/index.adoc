@@ -717,7 +717,7 @@ El proyecto intermodular se califica de forma independiente. Su nota se pondera 
 |22/01/2027 |Gestionar contenedores (UP6) |Servicio descrito con Compose, con diagnóstico y copia restaurada. |RA2, RA3, RA7
 |===
 
-Por tanto, los RA de ASO que se trabajan en el proyecto intermodular son *RA2* (procesos), *RA3* (automatización), *RA4* (administración remota) y *RA7* (guiones). RA1 (directorio), RA5 (impresión) y RA6 (integración) se trabajan después del 22 de enero solo en el módulo.
+Por tanto, los RA de ASO que se trabajan en el proyecto intermodular son *RA2* (procesos), *RA3* (automatización), *RA4* (administración remota) y *RA7* (guiones).
 
 Las evidencias de estos hitos pueden utilizarse también para calificar los RA de ASO correspondientes sin repetir el trabajo.
 

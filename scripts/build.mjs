@@ -111,6 +111,13 @@ fs.writeFileSync(path.join(out, 'index.html'), portada);
 fs.writeFileSync(path.join(out, '.nojekyll'), '');
 
 const messages = logger.getMessages();
-for (const m of messages) console.warn(`[${m.getSeverity()}] ${m.getText()}`);
+for (const m of messages) {
+  const sev = m.getSeverity();
+  let where = '';
+  try { const loc = m.getSourceLocation(); if (loc) where = `${loc.getPath ? loc.getPath() : loc.getFile()}:${loc.getLineNumber()}`; } catch (e) {}
+  console.warn(`[${sev}] ${where} ${m.getText()}`);
+  // Anotación visible en GitHub (pestaña Actions)
+  console.log(`::${['ERROR', 'FATAL'].includes(sev) ? 'error' : 'warning'}::${where} ${m.getText()}`);
+}
 if (messages.some(m => ['ERROR', 'FATAL'].includes(m.getSeverity()))) process.exit(1);
 console.log(`Generadas ${items.length} programaciones: ${items.map(i => i.slug).join(', ')}.`);

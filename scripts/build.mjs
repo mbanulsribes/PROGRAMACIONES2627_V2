@@ -56,15 +56,15 @@ for (const slug of slugs) {
 <p class="dep">${a('departamento') || 'Departamento de Informática'}</p>
 <p class="ciclo-tipo">Educación Secundaria Obligatoria:</p>
 <p class="ciclo-nombre">${a('nivel')}</p>
-<div class="caja"><p>Programación Didáctica de la materia:</p><p class="modulo">${a('modulo')}</p><p class="curso">(Curso ${esc(curso)})</p></div>
-<p class="profesor">Profesora: ${a('docente')}</p>
+<div class="caja"><p>${a('portada-caja') || 'Programación Didáctica de la materia:'}</p><p class="modulo">${a('modulo')}</p><p class="curso">(Curso ${esc(curso)})</p></div>
+${doc.hasAttribute('portada-sin-profesor') ? '' : `<p class="profesor">Profesora: ${a('docente')}</p>`}
 </section>`;
 
   // Cabecera de página de la plantilla (impresión y PDF)
   // Todas las programaciones usan la cabecera de la plantilla de FP
   const textoCabecera = plantilla === 'fp'
     ? (doc.getAttribute('cabecera') || '')
-    : `${doc.getAttribute('nivel') || ''}: ${doc.getAttribute('titulo-corto') || doc.getAttribute('modulo') || ''}`;
+    : (doc.getAttribute('cabecera') || `${doc.getAttribute('nivel') || ''}: ${doc.getAttribute('titulo-corto') || doc.getAttribute('modulo') || ''}`);
   const cabecera = `@top-left{content:"${textoCabecera.replace(/"/g, '')}";font:10pt Arial,sans-serif;color:#EE0000}
        @top-right{content:"Curso: ${cursoBarra}";font:10pt Arial,sans-serif;color:#000}`;
   const estilo = `<style>@page{${cabecera}}@page:first{@top-left{content:none}@top-right{content:none}}</style>`;
@@ -104,7 +104,6 @@ const portada = `<!doctype html>
 <p class="entradilla">Cada programación puede consultarse en la web, descargarse en PDF o imprimirse.</p>
 <ul class="tarjetas">
 ${tarjetas}
-<li class="tarjeta"><span class="etapa">ESO · Documento compartido</span><h2><a href="documentos/Programacion_ESO_26_27.docx" download>Programación didáctica de ESO</a></h2><p>Documento del departamento con las programaciones de aula de 1.º, 2.º, 3.º y 4.º de ESO.</p><p class="acciones"><a href="documentos/Programacion_ESO_26_27.docx" download>Descargar Word</a></p></li>
 </ul>
 <footer class="pie"><span>Profesora: María Bañuls Ribes</span></footer>
 </main></body></html>`;

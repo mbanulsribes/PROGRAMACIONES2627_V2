@@ -2443,7 +2443,7 @@ La calificación final responderá a la suma ponderada de las calificaciones de 
 
 *Nota final* = 40 % x EV1 + 40 % x EV2 + 20 % x EV3 =
 
-= 0,15 SA~1~ + 0,15 SA~2~ + 0,1 x SA~3~ + 0,1 x SA~4~ + 0,1 x SA~5~ + 0,15 x SA~6~ + 0,1 x SA~7~ + 0,05 x SA~8~ + 0,05 x SA~9~
+{empty}= 0,15 SA~1~ + 0,15 SA~2~ + 0,1 x SA~3~ + 0,1 x SA~4~ + 0,1 x SA~5~ + 0,15 x SA~6~ + 0,1 x SA~7~ + 0,05 x SA~8~ + 0,05 x SA~9~
 
 ===== Instrumentos de evaluación
 

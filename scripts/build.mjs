@@ -15,6 +15,9 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt
 fs.rmSync(out, {recursive: true, force: true});
 fs.mkdirSync(out, {recursive: true});
 fs.cpSync(path.join(root, 'assets'), path.join(out, 'assets'), {recursive: true});
+// Documentos descargables (por ejemplo, la programación compartida de ESO en Word)
+const docsDir = path.join(root, 'documentos');
+if (fs.existsSync(docsDir)) fs.cpSync(docsDir, path.join(out, 'documentos'), {recursive: true});
 
 const slugs = fs.readdirSync(src, {withFileTypes: true})
   .filter(d => d.isDirectory() && fs.existsSync(path.join(src, d.name, 'index.adoc')))
@@ -101,6 +104,7 @@ const portada = `<!doctype html>
 <p class="entradilla">Cada programación puede consultarse en la web, descargarse en PDF o imprimirse.</p>
 <ul class="tarjetas">
 ${tarjetas}
+<li class="tarjeta"><span class="etapa">ESO · Documento compartido</span><h2><a href="documentos/Programacion_ESO_26_27.docx" download>Programación didáctica de ESO</a></h2><p>Documento del departamento con las programaciones de aula de 1.º, 2.º, 3.º y 4.º de ESO.</p><p class="acciones"><a href="documentos/Programacion_ESO_26_27.docx" download>Descargar Word</a></p></li>
 </ul>
 <footer class="pie"><span>Profesora: María Bañuls Ribes</span></footer>
 </main></body></html>`;
